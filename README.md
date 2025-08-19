@@ -2,7 +2,7 @@
 
 NeoNephos Website
 
-You can view the deployment on [https://probable-adventure-7j6w3yw.pages.github.io/](https://probable-adventure-7j6w3yw.pages.github.io/). Ongoing development, not all of VitePress' best practices are implemented yet.
+Ongoing development, not all of VitePress' best practices are implemented yet.
 
 ## How to add content
 
