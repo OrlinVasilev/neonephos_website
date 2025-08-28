@@ -38,10 +38,7 @@ jobs:
         working-directory: src
 
       - name: Build VitePress site
-        run: |
-          export REPO_NAME=$(basename ${{ github.repository }})
-          export BASE="/${REPO_NAME}/"
-          npm run docs:build
+        run: npm run docs:build
         working-directory: src
 
       - name: Upload build artifact
