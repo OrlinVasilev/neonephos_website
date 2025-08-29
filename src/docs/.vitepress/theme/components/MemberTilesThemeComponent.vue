@@ -37,8 +37,8 @@ defineProps({
 }
 
 .vp-member-feature {
-  width: 100px;
-  height: 100px; /* Ensures square shape */
+  width: 200px;
+  height: 200px; /* Ensures square shape */
   background-color: var(--vp-c-bg-soft);
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
