@@ -63,7 +63,7 @@ projects:
 tilesHeading: Learn more!
 tiles:
   - title: Proposal Process
-    details: Learn how expectations, requirements and the process to propose a new project at NeoNephos.
+    details: Learn expectations, requirements and the process to propose a new project at NeoNephos.
     linkText: Explore Proposal Process
     linkUrl: /new_project
 ---
