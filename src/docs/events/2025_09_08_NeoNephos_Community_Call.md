@@ -1,5 +1,5 @@
 ---
-title: "September Community Call"
+title: "October Community Call"
 date: "2025-10-8"
 banner: "assets/events/20251008_neonephos_community_call_banner.jpg"
 bannerMobile: "assets/events/20251008_neonephos_community_call_banner_mobile.jpg"
@@ -8,7 +8,7 @@ tags: ["neonephos","community-call"]
 published: true
 ---
 
-# September Community Call
+# October Community Call
 
 Learn more about NeoNephos by joining our upcoming community call on October 8th at 4:00 pm CEST. The exact content of this call is to be determined.
 
