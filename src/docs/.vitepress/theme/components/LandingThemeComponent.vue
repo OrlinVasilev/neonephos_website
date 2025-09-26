@@ -50,7 +50,7 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
     <span class="section-divider__line"></span>
   </section>
 
-  <EventsTilesThemeComponent />
+  <EventsTilesThemeComponent :key="Date.now()" />
 
     <section class="section-divider">
     <span class="section-divider__line"></span>
