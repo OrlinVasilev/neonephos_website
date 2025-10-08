@@ -10,7 +10,15 @@ published: true
 
 # NeoNephos at the LFEU Roadshow in Ghent
 
-Engage with and learn about NeoNephos by participating in our sessions at the upcoming [Linux Foundation Europe Roadshow in Ghent](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/). The exact schedule is to be announced.
+Engage with and learn about NeoNephos by participating in our sessions at the upcoming [Linux Foundation Europe Roadshow in Ghent](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/).
+
+---
+
+**Headline**: [LF Project Update: NeoNephos](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/program/schedule/?ajs_aid=44a2c1d4-fbf4-4860-afeb-6f8ba89e89c8)
+
+**Speakers**: Peter Giese, SAP 
+
+🗓 **Date**: October 29th, 2025 at 10:30 CEST.
 
 👉 Don't miss out by securing your ticket [here](https://events.linuxfoundation.org/lf-europe-roadshow-regulation/register/)!
 
