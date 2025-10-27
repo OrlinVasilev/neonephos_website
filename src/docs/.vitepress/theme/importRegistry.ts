@@ -10,6 +10,7 @@ import NoSidebarThemeComponent from './components/no_sidebar_theme_component.vue
 import BlogThemeComponent from './components/BlogThemeComponent.vue'
 import BlogEntryThemeComponent from './components/BlogEntryThemeComponent.vue'
 import EventsThemeComponent from './components/EventsThemeComponent.vue'
+import PastEventsThemeComponent from './components/PastEventsThemeComponent.vue'
 import LandingTilesThemeComponent from './components/LandingTilesThemeComponent.vue'
 import SubscriptionThemeComponent from './components/subscription_theme_component.vue'
 import EventsTilesThemeComponent from './components/EventsTilesThemeComponent.vue'
@@ -34,6 +35,7 @@ export const layoutMap = {
   BlogThemeComponent,
   BlogEntryThemeComponent,
   EventsThemeComponent,
+  PastEventsThemeComponent,
   LandingTilesThemeComponent,
   SubscriptionThemeComponent,
   EventsTilesThemeComponent,
