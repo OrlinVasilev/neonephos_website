@@ -60,6 +60,7 @@ export default defineConfig({
         { text: 'Events', link: '/events'},
         { text: 'Blog', link: '/blog'},
         { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
+        { text: 'YouTube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
        { text: 'Contact', link: '/contact'},
         ]
       }
@@ -96,6 +97,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/neonephos' },
+      { icon: 'youtube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
     ],
 
     logo: {
