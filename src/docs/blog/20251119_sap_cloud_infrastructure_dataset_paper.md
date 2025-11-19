@@ -1,5 +1,5 @@
 ---
-title: "New ACM IMC Research Paper"
+title: "New Research Paper"
 date: "2025-10-27"
 banner: "assets/blog/20251027_sap_cloud_infrastructure_dataset_paper_banner.jpg"
 authors:
@@ -11,7 +11,7 @@ tags:
     - "dataset"
 published: true
 ---
-# New ACM IMC Research Paper
+# New Research Paper
 
 Efficient scheduling of virtual machines, their associated workloads and the underlying infrastructure itself is an active research topic of fundamental importance for infrastructure providers.
 Because the workload characteristics (and their temporal evolution) are distinct to each datacenter and may involve multiple coprocessors, efficient provisioning is difficult and subject to one's unique constraints.
