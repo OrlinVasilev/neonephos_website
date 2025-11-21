@@ -75,7 +75,7 @@ members:
     role: "TSC Chairperson Open Managed Control Plane"
     details: ""
     link: "https://github.com/maximilianbraun"
-  - name: "To be determined"
+  - name: "Roberto Querio"
     imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
     role: "TSC Chairperson Katalis"
     details: ""
