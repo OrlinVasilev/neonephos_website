@@ -3,7 +3,7 @@ title: "Upcoming Webinar: Efficient Microservices Delivery with Konfidence"
 date: "2025-12-04"
 banner: "assets/events/20251204_open_source_series_project_konfidence_banner.jpg"
 bannerMobile: "assets/events/20251204_open_source_series_project_konfidence_banner_mobile.jpg"
-bannerSmall: "assets/events/20251204_open_source_series_project_konfidence_banner_small_mobile.jpg"
+bannerSmall: "assets/events/20251204_open_source_series_project_konfidence_banner_small.jpg"
 backgroundhex: "#FFF0B2"
 tags: ["neonephos", "webinar"]
 published: true
