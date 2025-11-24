@@ -61,6 +61,7 @@ export default defineConfig({
         { text: 'Blog', link: '/blog'},
         { text: 'Mailing Lists', link: 'https://lists.neonephos.org/g/main/subgroups' },
         { text: 'YouTube', link: 'https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw' },
+        { text: 'Artwork', link: 'https://artwork.neonephos.org/' },
        { text: 'Contact', link: '/contact'},
         ]
       }
