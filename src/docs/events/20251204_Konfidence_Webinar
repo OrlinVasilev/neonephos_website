@@ -1,0 +1,20 @@
+---
+title: "Upcoming Webinar: Efficient Microservices Delivery with Konfidence"
+date: "2025-12-04"
+banner: "assets/events/20251204_konfidence_webinar_banner.jpg"
+bannerMobile: "assets/events/20251204_konfidence_webinar_banner_mobile.jpg"
+bannerSmall: "assets/events/20251204_konfidence_webinar_banner_small_mobile.jpg"
+backgroundhex: "#128256ff"
+tags: ["neonephos", "webinar"]
+published: false
+---
+
+# Upcoming Webinar: Efficient Microservices Delivery with Konfidence
+
+Konfidence, a prospective NeoNephos project, hosts a public webinar on **December 4th** at 3:00 pm CET.
+Sarah Müller and Timon Schüle, both engineering manager SAP, dive into how Konfidence fits into the the NeoNephos project stack through its relation to the Apeiro Reference Architecture. You'll learn how it streamlines software releases, reduces infrastructure complexity, and supports modern deployment strategies like ring deployments and feature toggle management, all while following CNCF best practices.
+
+-   **Speakers**: Sarah Müller, and Timon Schüle, Engineering Managers, SAP
+-   **Host**: SAP Open Source Program Office
+
+**Registration (external):** [link to registration](https://events.sap.com/efficient-microservices-delivery-with-project-konfidence-december/en_us/home.html=
