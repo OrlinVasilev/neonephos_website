@@ -38,7 +38,7 @@ projects:
     link: "https://cloudoperators.github.io/greenhouse/"
     githubLink: "https://github.com/cloudoperators/greenhouse"
   - name: "Open Managed Control Planes"
-    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/open-managed-control-planes/horizontal/open-managed-control-planes-stacked-color.png"
+    imgsrc: "https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/projects/open-managed-control-planes/stacked/open-managed-control-planes-stacked-color.png"
     details: "The Open Managed Control Plane (openMCP) enables extensible Infrastructure- and Configuration-as-Data capabilities as a Service."
     githubLink: "https://github.com/openmcp-project"
   - name: "Open Component Model"
