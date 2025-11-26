@@ -21,6 +21,7 @@ import NeoNephosIntroductionThemeComponent from './components/NeoNephosIntroduct
 import MemberThemeComponent from './components/MemberThemeComponent.vue'
 import ProposeProjectThemeComponent from './components/ProposeProjectThemeComponent.vue'
 import EventEntryThemeComponent from './components/EventEntryThemeComponent.vue'
+import BrandingGuidelinesThemeComponent from './components/BrandingGuidelinesThemeComponent.vue'
 import LinuxHeader from './components/LinuxHeaderThemeComponent.vue'
 
 export const layoutMap = {
@@ -46,5 +47,6 @@ export const layoutMap = {
   MemberThemeComponent,
   ProposeProjectThemeComponent,
   EventEntryThemeComponent,
+  BrandingGuidelinesThemeComponent,
   LinuxHeader
 }
