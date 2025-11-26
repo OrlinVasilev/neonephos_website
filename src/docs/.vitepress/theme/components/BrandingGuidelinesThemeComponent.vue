@@ -89,28 +89,34 @@ const { frontmatter } = useData();
             </p>
           </div>
           <div class="logo-image variations-grid">
-            <img
-              :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/color/neonephos-foundation-horizontal-color.svg')"
-              alt="NeoNephos Color Logo"
-              class="logo-img"
-            />
-            <img
-              :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/black/neonephos-foundation-horizontal-black.svg')"
-              alt="NeoNephos Black Logo"
-              class="logo-img"
-            />
-            <img
-              :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/alternate_color/neonephos-foundation-horizontal-alternate_color.svg')"
-              alt="NeoNephos Alternate Color Logo"
-              class="logo-img"
-              style="background-color:black"
-            />
-            <img
-              :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/white/neonephos-foundation-horizontal-white.svg')"
-              alt="NeoNephos White Logo"
-              class="logo-img"
-              style="background-color:black"
-            />
+
+  <img
+    :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/color/neonephos-foundation-horizontal-color.svg')"
+    alt="NeoNephos Color Logo"
+    class="logo-img"
+  />
+
+  <img
+    :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/black/neonephos-foundation-horizontal-black.svg')"
+    alt="NeoNephos Black Logo"
+    class="logo-img"
+  />
+
+  <img
+    :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/alternate_color/neonephos-foundation-horizontal-alternate_color.svg')"
+    alt="NeoNephos Alternate Color Logo"
+    class="logo-img"
+    style= "background-color: black;"
+  />
+
+  <img
+    :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/white/neonephos-foundation-horizontal-white.svg')"
+    alt="NeoNephos White Logo"
+    class="logo-img"
+    style= "background-color: black;"
+  />
+
+
           </div>
         </div>
       </section>
@@ -322,7 +328,17 @@ const { frontmatter } = useData();
   height: auto;
   margin: 0 auto;
   display: block;
+  padding: 2%;
 }
+
+.logo-container {
+  background-color: black;   /* black background behind each logo */
+  display: inline-block;     /* shrink-wrap around the image */
+  padding: 2%;              /* extend boundaries by 10% */
+
+}
+
+
 
 /* Variations Grid */
 .variations-grid {
@@ -372,6 +388,14 @@ const { frontmatter } = useData();
   background: #f9fafb;
   display: inline-block;
   white-space: pre-line;
+}
+
+@font-face {
+  font-family: 'Aptos';
+  src: url('/assets/Aptos.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; /* ensures text is visible while font loads */
 }
 
 .aptos-sample {
