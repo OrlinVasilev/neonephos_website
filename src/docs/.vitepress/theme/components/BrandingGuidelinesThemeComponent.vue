@@ -37,7 +37,7 @@ const { frontmatter } = useData();
           Please review the <a href="https://www.linuxfoundation.org/hubfs/lfeu_policies_exhibitb_051024b.pdf?hsLang=en">Trademark Policy of Linux Foundation Europe</a> for further information regarding the usage of our assets.
         </p>
       </section>
-
+      <br>
       <!-- Logo Section -->
       <section id="logo" class="brand-section">
         <h2>Logo</h2>
@@ -103,11 +103,18 @@ const { frontmatter } = useData();
               :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/alternate_color/neonephos-foundation-horizontal-alternate_color.svg')"
               alt="NeoNephos Alternate Color Logo"
               class="logo-img"
+              style="background-color:black"
+            />
+            <img
+              :src="resolveSrc('https://raw.githubusercontent.com/neonephos/artwork/refs/heads/main/other/neonephos-foundation/horizontal/white/neonephos-foundation-horizontal-white.svg')"
+              alt="NeoNephos White Logo"
+              class="logo-img"
+              style="background-color:black"
             />
           </div>
         </div>
       </section>
-
+    <br>
  <!-- Typography Section -->
 <section id="typography" class="brand-section">
   <h2>Typography</h2>
@@ -132,7 +139,7 @@ const { frontmatter } = useData();
     </div>
   </div>
 </section>
-
+    <br>
 <!-- Colors Section -->
 <section id="colors" class="brand-section">
   <h2>Colors</h2>
@@ -210,7 +217,7 @@ const { frontmatter } = useData();
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #6b7280;
+  color: var(--vp-c-text-1);
 }
 
 .brand-sidebar ul {
@@ -225,13 +232,13 @@ const { frontmatter } = useData();
 
 .brand-sidebar a {
   text-decoration: none;
-  color: #374151;
+  color: var(--vp-c-text-1);
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .brand-sidebar a:hover {
-  color: #0366d6;
+  color: var(--vp-neonephos-blue);
 }
 
 /* Main Content */
@@ -248,26 +255,34 @@ const { frontmatter } = useData();
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #111827;
+  color: var(--vp-c-text-1);
 }
 
 .brand-section p {
   font-size: 1.05rem;
   line-height: 1.6;
-  color: #374151;
+  color: var(--vp-c-text-1);
 }
 
 /* Trademark Section */
 .lead-text {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #374151;
+  color: var(--vp-c-text-1);
   margin-bottom: 2rem;
   background: #f9fafb;
   padding: 1.5rem 1.75rem;
-  border-left: 4px solid #0366d6;
+  border-left: 4px solid var(vp-neonephos-blue);
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.lead-text a {
+  color: var(--vp-neonephos-blue);
+}
+
+.lead-text a:hover {
+  color: var(--vp-neonephos-blue);
 }
 
 /* Logo Rows (two-column layout) */
@@ -288,13 +303,13 @@ const { frontmatter } = useData();
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  color: #1f2937;
+  color: var(--vp-c-text-1);
 }
 
 .logo-text p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #4b5563;
+  color: var(--vp-c-text-1);
 }
 
 .logo-image {
