@@ -1,3 +1,20 @@
+---
+layout: ElectionPolicyThemeComponent
+title: "Election Policy"
+sidebar: false
+aside: false
+hero:
+  name: "Election Policy"
+  subtitle: "The policy governing our committee elections."
+tilesHeading: More Policies!
+tiles:
+  - title: NeoNephos Charter
+    details: Learn about our committees from our charter.
+    linkText: Our Charter
+    linkUrl: https://cdn.platform.linuxfoundation.org/agreements/neonephos-foundation.pdf?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1755169332458.1755604645613.29&__hssc=81619592.2.1755604645613&__hsfp=1879682750
+---
+
+
 # Election Process and Policy for NeoNephos Foundation
 
 NeoNephos Foundation seeks to hold open, fair, transparent, and efficient elections for various roles within the NeoNephos Foundation. See the chart before for the elections and role timelines for NeoNephos Foundation.
