@@ -10,7 +10,7 @@ published: true
 
 # December Community Call
 
-Learn more about NeoNephos by joining our upcoming community call on December 10th at 4:00 pm CET for our last Community Call this year! The agenda is to be announced.
+Learn more about NeoNephos by joining our upcoming community call on December 10th at 4:00 pm CET for our last Community Call this year! Our project Open Resource Discovery will hold a presentation. Additionally, Platform Mesh will provide an update.
 
 **Zoom Session Link**
 
