@@ -1,8 +1,8 @@
 ---
 title: "January Community Call"
 date: "2026-01-14"
-banner: "assets/events/20250114neonephos_community_call_banner.jpg"
-bannerMobile: "assets/events/20250114_neonephos_community_call_banner_mobile.jpg"
+banner: "assets/events/20260114neonephos_community_call_banner.svg"
+bannerMobile: "assets/events/20260114_neonephos_community_call_banner_mobile.svg"
 backgroundhex: "#3d73f2ff"
 tags: ["neonephos","community-call"]
 published: true
