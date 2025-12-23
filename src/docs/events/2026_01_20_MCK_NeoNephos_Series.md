@@ -11,7 +11,7 @@ published: true
 
 # NeoNephos Meeting Series
 
-The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the **2th of January from 10:00-11:30 am CET**. 
+The next IPCEI-CIS Workstream 2 Multi Cluster Kubernetes (MCK) meeting session will be held on the **20th of January from 10:00-11:30 am CET**. 
 
 Agenda:
 
