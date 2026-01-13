@@ -80,6 +80,12 @@ members:
     role: "TSC Chairperson Katalis"
     details: ""
     link: ""
+  - name: "Philipp Pracht"
+    imgsrc: "/assets/technical_advisory_council/ppracht.jpg"
+    role: "TSC Chairperson Luigi"
+    details: ""
+    email: "philipp.pracht@sap.com"
+    link: "https://github.com/hardl"
 
 tilesHeading: Learn more!
 tiles:
