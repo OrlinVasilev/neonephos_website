@@ -9,7 +9,7 @@ tags: ["neonephos", "community-call"]
 published: true
 ---
 
-# NeoNephos at the Open Source Summit in Prague
+# NeoNephos February Community Call
 
 On February 11th we again bring together the NeoNephos community in our Community Call! Project Konfidence will hold a presentation about who they are, what they do and why they are a great fit for NeoNephos.
 Konfidence, while not a project of NeoNephos today, is soon being presented in the TAC for potential addition to our foudnation.
