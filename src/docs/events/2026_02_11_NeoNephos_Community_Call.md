@@ -1,9 +1,9 @@
 ---
 title: "NeoNephos Community Call"
 date: "2026-02-11"
-banner: "assets/events/20260211_open_source_summit_banner.svg"
-bannerMobile: "assets/events/20260211_open_source_summit_banner_mobile.svg"
-bannerSmall: "assets/events/20260211_open_source_summit_banner_small.svg"
+banner: "assets/events/20260211_community_call_banner.svg"
+bannerMobile: "assets/events/20260211_community_call_banner_mobile.svg"
+bannerSmall: "assets/events/20260211_community_call_banner_small.svg"
 backgroundhex: "#889aa4ff"
 tags: ["neonephos", "community-call"]
 published: true
