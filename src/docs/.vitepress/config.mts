@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import path from 'path'
 import fs from 'fs'
+import { createMarkdownRenderer } from 'vitepress'
+
 
 const base = process.env.BASE || '/'
 
@@ -37,12 +39,11 @@ export default defineConfig({
   // ⭐ FIXED: Import the loader *inside* buildEnd
   async buildEnd(siteConfig) {
     //const { default: posts } = await import('./data/blog.data.mts')
+    const md = await createMarkdownRenderer( siteConfig.srcDir, siteConfig.markdown, siteConfig.site.base );
     const loader = (await import('./data/blog.data.mts')).default
     const posts = await loader.load()
     const outDir = siteConfig.outDir
-    const rss = generateRSS(posts)
-    console.log("WRITING POSTS NOW");
-    console.log(posts);
+    const rss = generateRSS(posts, md)
     const docsDir = path.resolve(process.cwd(), 'docs');
     fs.writeFileSync(path.join(outDir, 'rss.xml'), rss);
 
@@ -150,12 +151,15 @@ function getViteConfig() {
   }
 }
 
-function generateRSS(posts) {
+function generateRSS(posts, md) {
   const siteUrl = 'https://neonephos.org'
-  console.log(posts);
+
   const items = posts
     .map(post => {
       const link = siteUrl + post.url
+
+      // Convert Markdown → HTML using VitePress’s own renderer
+      const html = md.render(post.full)
 
       return `
   <item>
@@ -163,7 +167,7 @@ function generateRSS(posts) {
     <link>${link}</link>
     <guid>${link}</guid>
     <pubDate>${new Date(post.date).toUTCString()}</pubDate>
-    <description><![CDATA[${post.full}]]></description>
+    <description><![CDATA[${html}]]></description>
   </item>`
     })
     .join('')
