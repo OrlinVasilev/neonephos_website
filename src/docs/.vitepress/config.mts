@@ -45,7 +45,10 @@ export default defineConfig({
     const outDir = siteConfig.outDir
     const rss = generateRSS(posts, md)
     const docsDir = path.resolve(process.cwd(), 'docs');
-    fs.writeFileSync(path.join(outDir, '/feeds/blog/rss.xml'), rss);
+    const feedPath = path.join(outDir, 'feeds', 'blog', 'rss.xml')
+    fs.mkdirSync(path.dirname(feedPath), { recursive: true })
+    fs.writeFileSync(feedPath, rss)
+
 
 
   },
