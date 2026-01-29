@@ -161,8 +161,11 @@ function generateRSS(posts, md) {
     .map(post => {
       const link = siteUrl + post.url
 
-      // Convert Markdown → HTML using VitePress’s own renderer
-      const html = md.render(post.full)
+      const bannerHtml = post.banner
+        ? `<p><img src="${siteUrl}${post.banner}" alt="${post.title} banner" /></p>`
+        : ''
+
+      const html = bannerHtml + md.render(post.full)
 
       return `
   <item>
