@@ -80,7 +80,7 @@ def markdown_to_html(md: str) -> str:
         if p.startswith(("<h", "<ul>")):
             html_blocks.append(p)
         else:
-            html_blocks.append(f"<p>{p.replace('\n','<br>')}</p>")
+            html_blocks.append("<p>" + p.replace("\n", "<br>") + "</p>")
 
     return "\n".join(html_blocks)
 
