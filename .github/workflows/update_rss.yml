@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add src/docs/public/feed/project/releases.xml
+          git add src/docs/public/feeds/project/releases.xml
           git commit -m "Update project releases RSS feed" || echo "No changes"
           git push
 
