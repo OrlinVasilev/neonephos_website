@@ -163,6 +163,9 @@ def fetch_latest_release_or_tag(org: str, repo: str, token: str):
                   date
                 }
               }
+              ... on Commit {
+                committedDate
+              }
             }
           }
         }
@@ -181,9 +184,25 @@ def fetch_latest_release_or_tag(org: str, repo: str, token: str):
     # Fallback to tags
     if repo_data["refs"]["nodes"]:
         t = repo_data["refs"]["nodes"][0]
-        return t["name"], t["target"]["tagger"]["date"], ""
+        tag_name = t["name"]
+        target = t.get("target") or {}
+
+        # Annotated tag → use tagger.date
+        if "tagger" in target and target["tagger"] and "date" in target["tagger"]:
+            tag_date = target["tagger"]["date"]
+            return tag_name, tag_date, ""
+
+        # Lightweight tag → use commit timestamp
+        if "committedDate" in target:
+            tag_date = target["committedDate"]
+            return tag_name, tag_date, ""
+
+        # Fallback (should rarely happen)
+        tag_date = datetime.utcnow().isoformat() + "Z"
+        return tag_name, tag_date, ""
 
     return None
+
 
 
 def fetch_releases_for_orgs(org_list: List[str], github_token: str) -> List[GitHubReleaseItem]:
