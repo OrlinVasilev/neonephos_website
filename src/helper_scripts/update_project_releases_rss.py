@@ -223,8 +223,9 @@ if not github_token:
 res = fetch_releases_for_orgs(org_list,github_token)
 print(res)
 
-output_path = "dist/feed/project/releases.xml"
+output_path = "src/docs/public/feed/project/releases.xml"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 write_rss_feed(res, output_path)
+
 
 print("RSS feed written to:", output_path)
