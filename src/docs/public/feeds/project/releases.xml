@@ -4,16 +4,25 @@
     <title>GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest GitHub releases</description>
-    <lastBuildDate>Sat, 31 Jan 2026 03:46:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 03:59:01 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.138</title>
+            <title>platform-mesh/extension-manager-operator - v0.4.144</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.138</guid>
-            <pubDate>Sat, 31 Jan 2026 01:15:46 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.144</guid>
+            <pubDate>Sun, 01 Feb 2026 01:47:40 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.137 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/454</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.137...v0.4.138</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.143 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/460</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.143...v0.4.144</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.16.180</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.16.180</guid>
+            <pubDate>Sun, 01 Feb 2026 01:36:24 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update dependency @platform-mesh/portal-server-lib to v0.6.14 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/343</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.179...v0.16.180</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-dracut - dracut_109-9gl0</title>
@@ -53,15 +62,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to e55cd86 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/340</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.47.6...v0.47.7</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.16.179</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.16.179</guid>
-            <pubDate>Fri, 30 Jan 2026 13:30:22 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update dependency @platform-mesh/portal-ui-lib to ^0.30.0 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/342</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.178...v0.16.179</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/iam-service - v0.12.52</title>
