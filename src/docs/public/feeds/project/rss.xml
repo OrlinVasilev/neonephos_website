@@ -4,9 +4,25 @@
     <title>GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest GitHub releases</description>
-    <lastBuildDate>Mon, 02 Feb 2026 09:52:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 12:07:55 +0000</lastBuildDate>
 
     <item>
+            <title>open-component-model/ocm - latest ocm-cli</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
+            <pubDate>Mon, 02 Feb 2026 11:30:11 +0000</pubDate>
+            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.151</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.151</guid>
+            <pubDate>Mon, 02 Feb 2026 09:58:30 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.150 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/467</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.150...v0.4.151</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/security-operator - v0.19.1</title>
             <link>https://github.com/platform-mesh/security-operator</link>
             <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.19.1</guid>
@@ -23,15 +39,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.9.2 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/162</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.2.144...v0.2.145</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.4.150</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.150</guid>
-            <pubDate>Mon, 02 Feb 2026 08:14:14 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.149 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/466</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.149...v0.4.150</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-linux - linux_6.18.8-3gl0</title>
@@ -215,13 +222,6 @@
 <h2>Helm Charts</h2>
 <ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1264.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1264.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1264.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1264.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1264.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1264.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1264.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1264.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>cloudoperators/opentelemetry-collector-contrib - exporter/kafkaexporter/v0.144.1</title>
-            <link>https://github.com/cloudoperators/opentelemetry-collector-contrib</link>
-            <guid>https://github.com/cloudoperators/opentelemetry-collector-contrib/releases/tag/exporter/kafkaexporter/v0.144.1</guid>
-            <pubDate>Fri, 30 Jan 2026 10:56:18 +0000</pubDate>
-            <description><![CDATA[]]></description>
         </item>
 <item>
             <title>platform-mesh/kubernetes-graphql-gateway - v0.8.0</title>
@@ -695,13 +695,6 @@
 
 #### [DEVELOPER]
 <ul><li>Fixed a bug in the <code>ShortenToXCharacters</code> function which could lead to invalid k8s names. <strong>(#207, @Diaphteiros)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Tue, 27 Jan 2026 13:45:07 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/bp-package-util-linux - util-linux_2.41-4gl0+bp1877</title>
@@ -3246,6 +3239,13 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.10
         &lt;span&gt;Raluca Gruber&lt;/span&gt;
       &lt;/a&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
+        </item>
+<item>
+            <title>cloudoperators/opentelemetry-collector-contrib - receiver/auditdreceiver/v0.143.0</title>
+            <link>https://github.com/cloudoperators/opentelemetry-collector-contrib</link>
+            <guid>https://github.com/cloudoperators/opentelemetry-collector-contrib/releases/tag/receiver/auditdreceiver/v0.143.0</guid>
+            <pubDate>Thu, 08 Jan 2026 13:50:09 +0000</pubDate>
+            <description><![CDATA[]]></description>
         </item>
 <item>
             <title>openmcp-project/ui-frontend - v0.5.4</title>
