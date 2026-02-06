@@ -4,16 +4,40 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Fri, 06 Feb 2026 08:32:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 12:09:29 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.176</title>
+            <title>gardenlinux/package-runc - runc_1.4.0-1gl0</title>
+            <link>https://github.com/gardenlinux/package-runc</link>
+            <guid>https://github.com/gardenlinux/package-runc/releases/tag/runc_1.4.0-1gl0</guid>
+            <pubDate>Fri, 06 Feb 2026 11:34:30 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-runc/actions/runs/21749105099">21749105099</a></p>
+<p>Files in this release:<br>``<code><br>501b4f471dae9a2e9832bd3c2a18efa013a24c44e81279749c27dc3b70d2f0f7  ./runc-dbgsym_1.4.0-1gl0_arm64.deb<br>9e380ff50cce141a1c92ed724b5a71c8f720f58501d10ac25851b979f08fceec  ./runc_1.4.0-1gl0.dsc<br>0294aefd742fe69701b70872bed3dfac2757b2161808a226c77092cbdddc9c95  ./runc_1.4.0-1gl0_arm64.deb<br>250e8650f4d47b4c2a9657d000f9e2fdd55ded5c75c278ccbe62681c9750552c  ./runc_1.4.0-1gl0_arm64.changes<br>c1fb67f48194a99de20fb1e24d70bcea1f78610411a21297b73f04ac37247a56  ./runc-dbgsym_1.4.0-1gl0_amd64.deb<br>f3acac466e974a465f8ef0d0bf3075d9c25b1e110e68a5231255c1b63b851a14  ./runc_1.4.0-1gl0.debian.tar.xz<br>0f6fb1f324923fe4207b66fe262d518a14567949190615ff6b6ddf3c276c8dc9  ./runc_1.4.0-1gl0_amd64.changes<br>a181645bfeaa01e5ef6b8bc61c0ea71ff163daf018199cbbe764cd40e38fa2da  ./runc_1.4.0-1gl0_amd64.deb<br>ac07a9d4735f10c56634f970b6b79d4044e4525f49164b6afa0221c49d45df65  ./runc_1.4.0.orig.tar.xz<br>ba359e7be0b144ccb70bd98e63c4f3b0bfb894dfa34eaeda5bb6acdb10a70696  ./runc_1.4.0-1gl0_amd64.buildinfo<br>a70547a4ad7969ae6afc13f5b12f33e1144fa56309b4fd55a230bd42fb0e7809  ./runc_1.4.0-1gl0_arm64.buildinfo<br>bf496f78d7f2ba559eea15a61bff9d104d945bdfb8567472ff44bfcf0c17d8af  ./golang-github-opencontainers-runc-dev_1.4.0-1gl0_all.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>ironcore-dev/ironcore-image - v0.3.0</title>
+            <link>https://github.com/ironcore-dev/ironcore-image</link>
+            <guid>https://github.com/ironcore-dev/ironcore-image/releases/tag/v0.3.0</guid>
+            <pubDate>Fri, 06 Feb 2026 10:25:18 +0000</pubDate>
+            <description><![CDATA[<h2>Changes</h2>
+<h2>⚠️ Breaking</h2>
+
+<ul><li>Remove check for missing layers @afritzler (#240)</li></ul>
+<h2>🚀 Features</h2>
+
+<ul><li>Remove check for missing layers @afritzler (#240)</li></ul>
+<h2>🧰 Maintenance</h2>
+
+<ul><li>Group dependabot updates @gonzolino (#239)</li><li>Bump github.com/onsi/gomega from 1.39.0 to 1.39.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#238)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.5 to 2.28.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#237)</li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.177</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.176</guid>
-            <pubDate>Fri, 06 Feb 2026 05:57:08 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.177</guid>
+            <pubDate>Fri, 06 Feb 2026 09:01:54 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.175 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/493</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.175...v0.4.176</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.176 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/494</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.176...v0.4.177</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-dracut - dracut_109-11gl0</title>
@@ -3360,14 +3384,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.10
 <ul><li>gardener-extension-admission-cilium: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-cilium:v1.46.0</code></li><li>gardener-extension-networking-cilium: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/networking-cilium:v1.46.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-runc - runc_1.3.4-1gl2+bp1877</title>
-            <link>https://github.com/gardenlinux/package-runc</link>
-            <guid>https://github.com/gardenlinux/package-runc/releases/tag/runc_1.3.4-1gl2+bp1877</guid>
-            <pubDate>Wed, 21 Jan 2026 11:56:43 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-runc/actions/runs/21208722583">21208722583</a></p>
-<p>Files in this release:<br>``<code><br>f6937294b7c6b74318fad839740fa40eedfa36dfa81bb735bb77cedd749366d1  ./runc-dbgsym_1.3.4-1gl2+bp1877_arm64.deb<br>d8e184d4e0706883fa8bb9a1b11281b147d4f80c9615e0ffc8227e8ced7b9fde  ./runc_1.3.4-1gl2+bp1877_arm64.changes<br>f84bcf6972e30e6f478f5379388af0338e9f1104d9c11991df663afc62b331e3  ./runc_1.3.4-1gl2+bp1877_amd64.buildinfo<br>f59d808108167c63b95b2979f3ddc2266886354391e2bebffd4828d8fca1a468  ./runc_1.3.4-1gl2+bp1877.debian.tar.xz<br>efa567a5529e93147d39f271472aa6e60665dbd5caff55dc65798d5c7096fa73  ./runc_1.3.4-1gl2+bp1877_amd64.changes<br>9dd2cd02452613675157dcab7e1424da2fb4f3122c80141444a7a2993d631ff3  ./runc_1.3.4-1gl2+bp1877_amd64.deb<br>3a678bcdd75386b318ae69c646000b8b1013f2650c6f5fe4ea17719ffbf41c28  ./runc_1.3.4.orig.tar.xz<br>764eab8a5df7f7ca15dee8897dcb9a67f639a2e6024c8cd9b89a446cf8ccae65  ./runc_1.3.4-1gl2+bp1877_arm64.buildinfo<br>d1fcf505a5c6c97c44775dd4db8e69a6df57be871515e3e0b0c2cdb319ae913e  ./runc-dbgsym_1.3.4-1gl2+bp1877_amd64.deb<br>7bc3f7c5a4a219cce2978df464d5685502f78531be2033cbe0163989ac37cebf  ./runc_1.3.4-1gl2+bp1877_arm64.deb<br>f2c481ca7c1e1716c640bcd9f2066948900e5743a43a9974f2e9f8ee81d3dea1  ./golang-github-opencontainers-runc-dev_1.3.4-1gl2+bp1877_all.deb<br>abfbfbf519e97d28fe9a579f23986fe764afa3c4da77b5e8d222b92ce9a90c9e  ./runc_1.3.4-1gl2+bp1877.dsc<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-containerd - containerd_2.1.6-0gl1+bp1877</title>
             <link>https://github.com/gardenlinux/package-containerd</link>
             <guid>https://github.com/gardenlinux/package-containerd/releases/tag/containerd_2.1.6-0gl1+bp1877</guid>
@@ -3522,19 +3538,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.10
 <h2>🧰 Maintenance</h2>
 
 <ul><li>Bump the go-dependencies group with 2 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#90)</li><li>Bump the go-dependencies group with 2 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#89)</li><li>Bump github.com/spf13/cobra from 1.10.1 to 1.10.2 in the go-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#88)</li><li>Bump actions/checkout from 5 to 6 in the gh-actions-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#87)</li><li>Bump golangci/golangci-lint-action from 8 to 9 in the gh-actions-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#86)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.1 to 2.27.2 in the go-dependencies group @[dependabot[bot]](https://github.com/apps/dependabot) (#85)</li></ul>]]></description>
-        </item>
-<item>
-            <title>ironcore-dev/ironcore-image - v0.2.6</title>
-            <link>https://github.com/ironcore-dev/ironcore-image</link>
-            <guid>https://github.com/ironcore-dev/ironcore-image/releases/tag/v0.2.6</guid>
-            <pubDate>Mon, 19 Jan 2026 07:51:09 +0000</pubDate>
-            <description><![CDATA[<h2>Changes</h2>
-<h2>🚀 Features</h2>
-
-<ul><li>Add support for legacy media types for backwards compatibility @gonzolino (#229)</li></ul>
-<h2>🧰 Maintenance</h2>
-
-<ul><li>Bump github.com/onsi/gomega from 1.38.3 to 1.39.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#234)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.3 to 2.27.4 @[dependabot[bot]](https://github.com/apps/dependabot) (#235)</li><li>Bump github.com/containerd/containerd from 1.7.29 to 1.7.30 @[dependabot[bot]](https://github.com/apps/dependabot) (#233)</li><li>Bump github.com/onsi/gomega from 1.38.2 to 1.38.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#232)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.2 to 2.27.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#231)</li><li>Bump github.com/spf13/cobra from 1.10.1 to 1.10.2 @[dependabot[bot]](https://github.com/apps/dependabot) (#230)</li><li>Bump actions/checkout from 5 to 6 @[dependabot[bot]](https://github.com/apps/dependabot) (#227)</li><li>Bump go.uber.org/zap from 1.27.0 to 1.27.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#228)</li><li>Bump github.com/containerd/containerd from 1.7.28 to 1.7.29 @[dependabot[bot]](https://github.com/apps/dependabot) (#226)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.1 to 2.27.2 @[dependabot[bot]](https://github.com/apps/dependabot) (#225)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.26.0 to 2.27.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#224)</li><li>Bump oras.land/oras-go from 1.2.6 to 1.2.7 @[dependabot[bot]](https://github.com/apps/dependabot) (#223)</li><li>Bump fsfe/reuse-action from 5 to 6 @[dependabot[bot]](https://github.com/apps/dependabot) (#222)</li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/bp-package-polkit - policykit-1_127-1gl0+bp1877</title>
