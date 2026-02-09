@@ -4,9 +4,67 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Mon, 09 Feb 2026 12:12:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 15:04:30 +0000</lastBuildDate>
 
     <item>
+            <title>open-component-model/ocm - latest ocm-cli</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
+            <pubDate>Mon, 09 Feb 2026 14:59:45 +0000</pubDate>
+            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.11.1</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.11.1</guid>
+            <pubDate>Mon, 09 Feb 2026 14:57:09 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix: add label assignement in create or patch operation by @OlegErshov in https://github.com/platform-mesh/account-operator/pull/140</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.11.0...v0.11.1</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.51.15</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.15</guid>
+            <pubDate>Mon, 09 Feb 2026 14:40:01 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update github.com/mandelsoft/goutils digest to cd86279 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/375</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.14...v0.51.15</p>]]></description>
+        </item>
+<item>
+            <title>gardener/oidc-webhook-authenticator - v0.41.0</title>
+            <link>https://github.com/gardener/oidc-webhook-authenticator</link>
+            <guid>https://github.com/gardener/oidc-webhook-authenticator/releases/tag/v0.41.0</guid>
+            <pubDate>Mon, 09 Feb 2026 14:05:37 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/oidc-webhook-authenticator:v0.41.0]</h1>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> OWA is now built using go version 1.25.6. by @dependabot[bot] <a href="https://github.com/gardener/oidc-webhook-authenticator/pull/215">[#215</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/oidc-webhook-authenticator:v0.41.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/oidc-webhook-authenticator:v0.41.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.196</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.196</guid>
+            <pubDate>Mon, 09 Feb 2026 12:33:46 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.195 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/513</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.195...v0.4.196</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-provider-gcp - v1.49.1</title>
+            <link>https://github.com/gardener/gardener-extension-provider-gcp</link>
+            <guid>https://github.com/gardener/gardener-extension-provider-gcp/releases/tag/v1.49.1</guid>
+            <pubDate>Mon, 09 Feb 2026 12:04:00 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-provider-gcp:v1.49.1]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> Loosen secret validation to allow not only for user-generated service accounts in IAM, but also for Google-managed service accounts. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1311">[#1311</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>admission-gcp-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-application:v1.49.1</code></li><li>admission-gcp-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-runtime:v1.49.1</code></li><li>provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-gcp:v1.49.1</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-admission-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-gcp:v1.49.1</code></li><li>gardener-extension-provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-gcp:v1.49.1</code></li></ul>]]></description>
+        </item>
+<item>
             <title>openmcp-project/service-provider-landscaper - Release v0.14.0</title>
             <link>https://github.com/openmcp-project/service-provider-landscaper</link>
             <guid>https://github.com/openmcp-project/service-provider-landscaper/releases/tag/Release v0.14.0</guid>
@@ -20,24 +78,6 @@
 
 #### [USER]
 <ul><li>- Additional printer columns for landscaper resources <strong>(#220, @robertgraeff)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.4.195</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.195</guid>
-            <pubDate>Mon, 09 Feb 2026 10:05:01 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.194 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/512</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.194...v0.4.195</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.51.13</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.13</guid>
-            <pubDate>Mon, 09 Feb 2026 09:45:42 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to 3e81b0d by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/373</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.12...v0.51.13</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-linux - linux_6.18.9-3gl0</title>
@@ -119,15 +159,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore(deps): update dependency eslint to v10 by @renovate[bot] in https://github.com/platform-mesh/portal/pull/352</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.188...v0.16.189</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.11.0</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.11.0</guid>
-            <pubDate>Fri, 06 Feb 2026 17:00:13 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>feat: upgrade KCP to v0.30.0 and controller-tools to v0.20.0 by @nexus49 in https://github.com/platform-mesh/account-operator/pull/139</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.10.0...v0.11.0</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-libvirt - libvirt_11.10.0-2gl4+sta1877</title>
@@ -361,26 +392,6 @@
 <ul><li><code>[DEVELOPER]</code> Use mcm:v0.61.1 in go.mod by @aaronfern <a href="https://github.com/gardener/machine-controller-manager-provider-azure/pull/224">[#224</a>]</li></ul>
 <h2>Container (OCI) Images</h2>
 <ul><li>machine-controller-manager-provider-azure: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/machine-controller-manager-provider-azure:v0.19.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener-extension-provider-gcp - v1.49.0</title>
-            <link>https://github.com/gardener/gardener-extension-provider-gcp</link>
-            <guid>https://github.com/gardener/gardener-extension-provider-gcp/releases/tag/v1.49.0</guid>
-            <pubDate>Wed, 04 Feb 2026 21:32:10 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-provider-gcp:v1.49.0]</h1>
-<h2>⚠️ Breaking Changes</h2>
-<ul><li><code>[OPERATOR]</code> <code>provider-gcp</code> no longer supports Shoots with Кubernetes version &lt;= 1.29. by @marc1404 <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1259">[#1259</a>]</li><li><code>[OPERATOR]</code> ETCD backup config in the provider-chart no longer requires an additional <code>backup</code> yaml-level to render as expected by @AndreasBurger <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1270">[#1270</a>]</li></ul>
-<h2>📰 Noteworthy</h2>
-<ul><li><code>[OPERATOR]</code> The feature gate DisableGardenerServiceAccountCreation is now marked as deprecated and will be removed in v1.52 by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1269">[#1269</a>]</li></ul>
-<h2>✨ New Features</h2>
-<ul><li><code>[OPERATOR]</code> It is possible to enable profiling for the extension by setting <code>.Values.config.profiling</code>. by @dimityrmirchev <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1007">[#1007</a>]</li><li><code>[USER]</code> Update <code>VolumeAttributesClass</code> enablement for clusters &lt;= <code>v1.34</code>. If annotated the kube-apiserver, kube-scheduler, kube-controller-manager will get the VAC feature gate enabled automatically. by @kon-angelo <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1274">[#1274</a>]</li></ul>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[OPERATOR]</code> Downgrade csi-provisioner and csi-resizer for K8S &lt;= 1.33 to make VolumeAttributesClass available for K8S &lt;= 1.33 (v1beta1 + enabled featureGate) and K8S &gt;= 1.34 (v1). by @wpross <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1260">[#1260</a>]</li><li><code>[OPERATOR]</code> Fix NPE if <code>.spec.targetSystem.providerConfig.credentialsConfig</code> section in a <code>WorkloadIdentity</code> resource is not set. by @MartinWeindel <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1258">[#1258</a>]</li><li><code>[OPERATOR]</code> Fixed issue when validating a backupBucket without providerConfig. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1279">[#1279</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Add strict topology flag to the external provisioner of the block CSI controller deployment. by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1264">[#1264</a>]</li><li><code>[OPERATOR]</code> Another fix of path to log file in build-job by @heldkat <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1307">[#1307</a>]</li><li><code>[OPERATOR]</code> export testresults as inlined ocm-resource by @heldkat <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1305">[#1305</a>]</li><li><code>[OPERATOR]</code> Add input validation for DNS provider secrets referenced in the shoot spec. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1257">[#1257</a>]</li><li><code>[OPERATOR]</code> Fix infrastructure status to correctly use spec IP families during single-stack to dual-stack migration. by @axel7born <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1255">[#1255</a>]</li><li><code>[OPERATOR]</code> Extension-provider logging config can now be changed via helm-values by @AndreasBurger <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1270">[#1270</a>]</li><li><code>[USER]</code> Adds support for GCP Storage Pools by @hebelsan <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1046">[#1046</a>]</li><li><code>[DEVELOPER]</code> Adds DNS Record integration tests by @matthias-horne <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1009">[#1009</a>]</li><li><code>[DEPENDENCY]</code> Updated dependency <code>gardener/gardener</code> to <code>v1.134.0</code> (<a href="https://github.com/gardener/gardener/releases/tag/v1.134.0">Release Notes</a>). by @marc1404 <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1259">[#1259</a>]</li><li><code>[DEPENDENCY]</code> The following container images have been updated:</li></ul>    - cloud-controller-manager: v34.1.0 -&gt; v34.2.0 (minor) by @gardener-github-actions[bot] <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1249">[#1249</a>]
-<h2>Helm Charts</h2>
-<ul><li>admission-gcp-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-application:v1.49.0</code></li><li>admission-gcp-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-runtime:v1.49.0</code></li><li>provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-gcp:v1.49.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-admission-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-gcp:v1.49.0</code></li><li>gardener-extension-provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-gcp:v1.49.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/vpn2 - 0.46.2</title>
@@ -1028,13 +1039,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <ul><li><code>[OPERATOR]</code> Upgrade to <code>golang:1.25.6</code> in Dockerfile, <code>1.25.0</code> in <code>go.mod</code>. by @renormalize <a href="https://github.com/gardener/etcd-wrapper/pull/77">[#77</a>]</li></ul>
 <h2>Container (OCI) Images</h2>
 <ul><li>etcd-wrapper: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-wrapper:v0.6.1</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Mon, 02 Feb 2026 11:30:11 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
         </item>
 <item>
             <title>gardener/machine-controller-manager-provider-openstack - v0.25.0</title>
@@ -4119,25 +4123,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></descriptio
 <h2>Helm Charts</h2>
 <ul><li>shoot-oidc-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-oidc-service:v0.35.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-shoot-oidc-service: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-oidc-service:v0.35.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/oidc-webhook-authenticator - v0.40.0</title>
-            <link>https://github.com/gardener/oidc-webhook-authenticator</link>
-            <guid>https://github.com/gardener/oidc-webhook-authenticator/releases/tag/v0.40.0</guid>
-            <pubDate>Fri, 19 Dec 2025 13:30:19 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/oidc-webhook-authenticator:v0.40.0]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> OWA is now built with Go 1.25.5 by @dependabot[bot] <a href="https://github.com/gardener/oidc-webhook-authenticator/pull/209">[#209</a>]</li><li><code>[OPERATOR]</code> The container image base layer has been updated to Debian 13 (trixie). by @dimityrmirchev <a href="https://github.com/gardener/oidc-webhook-authenticator/pull/212">[#212</a>]</li><li><code>[DEPENDENCY]</code> The following third party dependencies have been updated:</li></ul>  - sigs.k8s.io/controller-runtime from v0.22.1 -&gt; v0.22.4 by @dependabot[bot] <a href="https://github.com/gardener/oidc-webhook-authenticator/pull/210">[#210</a>]
-<ul><li><code>[DEPENDENCY]</code> The following third party dependencies have been updated:</li></ul>  - golang.org/x/crypto v0.42.0 -&gt; v0.45.0   
-  - golang.org/x/net v0.44.0 -&gt; v0.47.0   
-  - golang.org/x/sync v0.17.0 -&gt; v0.18.0   
-  - golang.org/x/sys v0.36.0 -&gt; v0.38.0   
-  - golang.org/x/term v0.35.0 -&gt; v0.37.0   
-  - golang.org/x/text v0.29.0 -&gt; v0.31.0   
-  - golang.org/x/tools v0.37.0 -&gt; v0.38.0 by @dependabot[bot] <a href="https://github.com/gardener/oidc-webhook-authenticator/pull/205">[#205</a>]
-<h2>Helm Charts</h2>
-<ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/oidc-webhook-authenticator:v0.40.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/oidc-webhook-authenticator:v0.40.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/gardener-discovery-server - v0.9.0</title>
