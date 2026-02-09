@@ -4,16 +4,96 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sun, 08 Feb 2026 12:04:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 12:12:38 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.189</title>
+            <title>openmcp-project/service-provider-landscaper - Release v0.14.0</title>
+            <link>https://github.com/openmcp-project/service-provider-landscaper</link>
+            <guid>https://github.com/openmcp-project/service-provider-landscaper/releases/tag/Release v0.14.0</guid>
+            <pubDate>Mon, 09 Feb 2026 11:52:39 +0000</pubDate>
+            <description><![CDATA[<h1>Changes included in v0.14.0:</h1>
+
+<h1>Changelog</h1>
+
+
+<h2>🚀 Features</h2>
+
+#### [USER]
+<ul><li>- Additional printer columns for landscaper resources <strong>(#220, @robertgraeff)</strong></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.195</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.189</guid>
-            <pubDate>Sun, 08 Feb 2026 09:18:25 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.195</guid>
+            <pubDate>Mon, 09 Feb 2026 10:05:01 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.188 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/506</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.188...v0.4.189</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.194 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/512</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.194...v0.4.195</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.51.13</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.13</guid>
+            <pubDate>Mon, 09 Feb 2026 09:45:42 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to 3e81b0d by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/373</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.12...v0.51.13</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-linux - linux_6.18.9-3gl0</title>
+            <link>https://github.com/gardenlinux/package-linux</link>
+            <guid>https://github.com/gardenlinux/package-linux/releases/tag/linux_6.18.9-3gl0</guid>
+            <pubDate>Mon, 09 Feb 2026 09:44:35 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-linux/actions/runs/21820005314">21820005314</a></p>
+<p>Files in this release:<br>``<code><br>3ed8dae7ed97d6082bbccf284d79d581c8a519568e2f5e9453af4b629aaaaac9  ./linux-headers-cloud-arm64_6.18.9-3gl0_arm64.deb<br>06e8db6f7b1a66add593fb92b688bcef0419bdfbd30fe26d82b9692d57a74ff2  ./linux_6.18.9.orig.tar.xz<br>632a5d2c5dd4cd2f44f29c860c6f1f4a3919beef0bcbaa2ba30d4f3e951c1110  ./linux_6.18.9-3gl0_amd64.buildinfo<br>e0a58de46859149d90529f2558b8b5b11712933f12ef5a2d48195a4ec7a3d244  ./linux-headers-6.18.9-cloud-arm64_6.18.9-3gl0_arm64.deb<br>58706a26259d8f472d8e5d574cf7d9d7f428a3b97d523f892a10cbdc0078b50c  ./linux-libc-dev-arm64-cross_6.18.9-3gl0_all.deb<br>b4468518ca6e601d6dc8f6786857e0114492a3ae2b1a7bbc37122c90b235ff00  ./usbip_2.0+6.18.9-3gl0_arm64.deb<br>a3ec1a0a540ff4c7612a4f6e4d737699c459b3dd7171f10df2fccff74790ecc5  ./linux_6.18.9-3gl0.debian.tar.xz<br>c30f8ac388a064917c9cbf39f0e76f3fba6dd347d017d4aee47e61e07930a4d2  ./linux-source-6.18_6.18.9-3gl0_all.deb<br>1abc5b5b987978aacbfa368705c7c685bc24937ccb8144de1a6a868c8d75a8c8  ./linux-image-cloud-arm64_6.18.9-3gl0_arm64.deb<br>4aa66fe9f5ed6b92e3e71ce842f548eb29a4e5b4ff04f84b7bb095e6cf67600c  ./libcpupower-dev_6.18.9-3gl0_arm64.deb<br>ad1637954b271981bac3e99ef4f32a8a32e3606943bc9881238b0afd05a3ea61  ./linux-image-cloud-amd64_6.18.9-3gl0_amd64.deb<br>229ba13eb62a78b8cd0cb8acaa96218930d21a0145847b96793605f64cf02444  ./linux-image-amd64-dbg_6.18.9-3gl0_amd64.deb<br>e0cb1312843527c869ea4d1d93c76a7bcd88d06fcecb0faf731622b20d8378a0  ./linux-image-6.18.9-cloud-amd64_6.18.9-3gl0_amd64.deb<br>935c7f8ac82abcb08399b7199998f32838dc17a7f7e8f8563019fe4df143d0f6  ./usbip-dbgsym_2.0+6.18.9-3gl0_arm64.deb<br>6ded13499ba21366f66aa1d9f4e74e75a5e74e564272c088f821b1258509d89e  ./linux-misc-tools_6.18.9-3gl0_amd64.deb<br>56c8524da63029a15d54bec8cbd48cccc87260cdac1a4fcd7c46dd1d1b16c731  ./linux-config-6.18_6.18.9-3gl0_arm64.deb<br>ceba2295b80bbd7feefca319ad59b5774173cbec81331c561399f94974b2a673  ./rtla-dbgsym_6.18.9-3gl0_arm64.deb<br>d207c709ec7ddc118200aada90e3fd8325e49aa0a206f230b8208620db22bd76  ./linux-cpupower-dbgsym_6.18.9-3gl0_amd64.deb<br>f5fa8950edd85012b745b8bdbf36c0debb263b81a3362e7671b44cb31e3e456b  ./linux-image-6.18.9-arm64_6.18.9-3gl0_arm64.deb<br>9ce61d4677bf9d174c0ccdcafdba3ea7dbfaf985612fe834ee08b263192514f7  ./linux-base-cloud-amd64_6.18.9-3gl0_amd64.deb<br>9a5402cff8d646a56778fa678bc106e7b6f07b61a55674faa14279122cd5fdad  ./linux-headers-6.18.9-cloud-amd64_6.18.9-3gl0_amd64.deb<br>f7211f0811889ecdd9fe4225460be190e65e23295df0434e9411b5391949b39e  ./bpftool_7.7.0+6.18.9-3gl0_arm64.deb<br>14d7787b067034dd6b9eaa269bd1fc959b60cb8b3b28d1663ae3fbd25668b04c  ./linux-image-6.18.9-cloud-arm64_6.18.9-3gl0_arm64.deb<br>e61df513da0e72ea5e1d52f6c2060636c4d33bc7de97f7a5571a8603c83fca6c  ./linux-kbuild-6.18.9-dbgsym_6.18.9-3gl0_arm64.deb<br>ecce95a45897dc7dd9901b25a155df544bf05e19e4718232bbf58f4ed61f83b6  ./linux-misc-tools-dbgsym_6.18.9-3gl0_amd64.deb<br>3cf36ebaa757e8a0264e0b037f4aad2e020fc558b48df91201f371f68a51c804  ./libcpupower-dev_6.18.9-3gl0_amd64.deb<br>3e9f7e37d3323182239d6292f45398e0f55cec4d64aa2bf98bc19bcda423c24d  ./linux-cpupower-dbgsym_6.18.9-3gl0_arm64.deb<br>6cc864135fe21ebf78e7c62d8416403dbeb2c72895b6a6415338f70e2968fa96  ./linux-kbuild-6.18.9-dbgsym_6.18.9-3gl0_amd64.deb<br>e86f7d01e1457370b3c700aa250175a51a3f0364ee9fcbcc950399325e3490fe  ./linux-image-6.18.9-amd64-dbg_6.18.9-3gl0_amd64.deb<br>1c5ac1b81101c583a3eaebc3ef0cc831418ea5186855cabb1c5a63e86c65cf6e  ./linux-libc-dev-amd64-cross_6.18.9-3gl0_all.deb<br>c8cf86094c175959c53ccdf7db279197a1c48f73a9ed875142aee4b84ff6c08d  ./linux-headers-amd64_6.18.9-3gl0_amd64.deb<br>5b9d1bd4cd1caddb0205e3f48b521249f57eb809c6507428bd6309b1dcc2475f  ./hyperv-daemons-dbgsym_6.18.9-3gl0_arm64.deb<br>c57bbad9ca6b67a1bb7c98b557a107245da2c2d7bb09cd5d18d2c8a461bbc134  ./linux-bpf-dev_6.18.9-3gl0_amd64.deb<br>97837cee621cdd903cd72b749ea8ef1b91aa46155a4d2b10d9759f9e95b49026  ./hyperv-daemons_6.18.9-3gl0_amd64.deb<br>3d38e63d7559341050dc838e19017269f1d90cc7185f04ac6c366ad8d369fc2d  ./linux-headers-arm64_6.18.9-3gl0_arm64.deb<br>4ba8bbf1a8ec1b48762ab0f8747b8008e5c2b328c9ab6fcfdd453fde501a1eec  ./hyperv-daemons-dbgsym_6.18.9-3gl0_amd64.deb<br>5a5bd3a48e8bb4f39ed41218b25b9a0de1f71a26dc27d3b69d59c51623dba90d  ./linux-kbuild-6.18.9_6.18.9-3gl0_amd64.deb<br>1a1f4c6c3466f055b7579525d3155f400fec1c1d6c92241f9c12ae46c64dc66c  ./linux-misc-tools_6.18.9-3gl0_arm64.deb<br>f9cb249aecccc2c42ea3af21d4a24cf3603306e3cb79516d46f4de78d810ef73  ./libcpupower1_6.18.9-3gl0_arm64.deb<br>f926915ca7628ab4ac11714e890ccd5842428526bfd42cf30ebb2b4c6109570e  ./linux-misc-tools-dbgsym_6.18.9-3gl0_arm64.deb<br>9c3c2a39f54e8981c077b98d27e044be1e5e2b2ac77f4881f7039bc981fb2148  ./linux-libc-dev_6.18.9-3gl0_all.deb<br>cf7670817cd8cfef94c1396809e55d092273277e259519ffe6b35be7dc01f170  ./bpftool-dbgsym_7.7.0+6.18.9-3gl0_amd64.deb<br>3380789a235e9c134b568ea3f3d7b11f5731debdf5aa1ea9eeda3e90f0335f0a  ./linux-image-cloud-amd64-dbg_6.18.9-3gl0_amd64.deb<br>ca09838139a25abc825dd79a056c32b130630d13b1bff96be41f81a84208bd00  ./intel-sdsi_6.18.9-3gl0_amd64.deb<br>b43387c011991d24d73f135cb61d324b5dc04dec55fd759f1e81200c4f5c9f9c  ./linux-base-arm64_6.18.9-3gl0_arm64.deb<br>6d3839170cd9107b7d1e6a03ca8e83857599d0f60a8052514dd24bf9164136fa  ./linux-image-6.18.9-arm64-dbg_6.18.9-3gl0_arm64.deb<br>b36a246bb60d4b1ed2f402f447fb00ce417e98744d38239590bd563b37f15349  ./linux-base-6.18.9-arm64_6.18.9-3gl0_arm64.deb<br>9d337959ea7e9eaa6ec4b05816cb7b3208a938b3ec4b0ac95b17bc7b496f0860  ./linux-base-6.18.9-cloud-amd64_6.18.9-3gl0_amd64.deb<br>2a2881789cc7e87199d62003ec01d932f70312f758b808ce1face7fa168be4ae  ./linux-base-6.18.9-amd64_6.18.9-3gl0_amd64.deb<br>1bc49de7707bc94ee16a2019fa3c1a95dfd67dc6b4d66a361ad46f4297d0d47e  ./linux-cpupower_6.18.9-3gl0_amd64.deb<br>fb1054d82fa679b948e774fb7470942ec333ad3c185e0c0b0236bf897f5fea1c  ./intel-sdsi-dbgsym_6.18.9-3gl0_amd64.deb<br>da2aec91bd1e5fbac88879d391b2140a6543ed1a14bc21aa4ec22de45d67c4fd  ./linux-image-arm64-dbg_6.18.9-3gl0_arm64.deb<br>469fb4441b4913179cc08c209f4c41a81db74281ff8f2c29d9a3df660c02e454  ./linux-image-6.18.9-cloud-amd64-dbg_6.18.9-3gl0_amd64.deb<br>d6cd8cee54cd5db91e71343862914b9333ca28ad80b540acf14cc426fabbebc8  ./linux_6.18.9-3gl0_amd64.changes<br>8425b9d63b30f4923287fad9f5c4040665ec4c308cc0e73171556ddfa3213880  ./linux-image-amd64_6.18.9-3gl0_amd64.deb<br>8b40a5e78a7cdf13aa3efacff5e861835b8b7da223e2151d93f8c0a6136a4261  ./libcpupower1-dbgsym_6.18.9-3gl0_amd64.deb<br>c9d5783662b841d1509c38cea9bcc60267147a7b8cdd2655f019384cf1b3e415  ./linux-kbuild-6.18.9_6.18.9-3gl0_arm64.deb<br>9e7d48ef8ae8c2d0e186f67bb9368fe2eac9690bac591856ff93855a71e9240c  ./bpftool-dbgsym_7.7.0+6.18.9-3gl0_arm64.deb<br>c9c2163faad4bf0d5a7eef01cb8f03db93d6ec0d35e7fbd7ac0a37f49b21cc33  ./linux-image-arm64_6.18.9-3gl0_arm64.deb<br>e77c5c518d93ada6eb380566a83b747401abebbfc11f3020a680c536d26e08d9  ./linux-headers-6.18.9-arm64_6.18.9-3gl0_arm64.deb<br>c3c7d96e0fa8d1af68710639ac06b7e071f56a96ce40c0a0630a018337edfeab  ./rtla-dbgsym_6.18.9-3gl0_amd64.deb<br>6c2176b8e64ddef46c5e25c6a8f3bfef8aff2ee6a47025f67f5266e7646664b1  ./bpftool_7.7.0+6.18.9-3gl0_amd64.deb<br>e833145c288d3feb140254843906ca92971f06bb391e83ab56941188680189b9  ./linux-image-cloud-arm64-dbg_6.18.9-3gl0_arm64.deb<br>59616964ae1451f4ec49ed7a938c986572868a34c87ebf397313fb636ce58144  ./rtla_6.18.9-3gl0_arm64.deb<br>a48de14ab11fb7a0ce3ce827ab2d610063e9c1463ad1bcb3d6265857f3a0bb3b  ./linux-cpupower_6.18.9-3gl0_arm64.deb<br>3ec352a83f0340b19c8b9819ab8b0793c6f59a975fc26c6c034c6a3e86e5e7a7  ./linux-source_6.18.9-3gl0_all.deb<br>62757b6fae22c90ba631ebfe3e15ea3facf15837538166b55c85c9b317b2ecbb  ./linux-headers-cloud-amd64_6.18.9-3gl0_amd64.deb<br>d2335a28d91e50a7602538d256151f1ff021540e51f06e0d857d33a49075365f  ./libcpupower1-dbgsym_6.18.9-3gl0_arm64.deb<br>df93cceb3070c03323f529e6b9370b78190a009b1aef197c5258bc67c5b5049d  ./linux-headers-6.18.9-common_6.18.9-3gl0_all.deb<br>8cda917d69453c65b68aa54a4556ed475e6d1702798eef365dc1b6f811e32d88  ./linux-image-6.18.9-cloud-arm64-dbg_6.18.9-3gl0_arm64.deb<br>31fc6a4fb1f68fe70f2c0e0b6332fa3134557215b7470dc6b162d6a6adda5238  ./linux-base-amd64_6.18.9-3gl0_amd64.deb<br>9d871acb367e187159b5c1282374b21fa482c261bf3940414cd5a9110be6d039  ./usbip-dbgsym_2.0+6.18.9-3gl0_amd64.deb<br>0c0ea2f167a5feca000e543272892aab20369c31219550f28b53ded28310c478  ./linux-bpf-dev_6.18.9-3gl0_arm64.deb<br>48ebfd8d8ae15662e2e69534806cbc80e136a309596d9df60b6ed68e6c8d0007  ./libcpupower1_6.18.9-3gl0_amd64.deb<br>26501f2225101ff21f8bec6ece41c67684ecfc3a0848a65a66b7c6eeabcec837  ./rtla_6.18.9-3gl0_amd64.deb<br>60e44a3ec9b7b8712b5a3714f848b82c3a8492f426c9c1868602b24eb68c53a3  ./linux-headers-6.18.9-amd64_6.18.9-3gl0_amd64.deb<br>cd0e9aa5595afe5e94a9a91a2dd83274c0e56e5220f51b6f21d1e4095ebffebb  ./linux-base-6.18.9-cloud-arm64_6.18.9-3gl0_arm64.deb<br>939635912569413197b220bc61906c69f35abd1da8db7fb2a2310dc7af33fe67  ./usbip_2.0+6.18.9-3gl0_amd64.deb<br>8937ed523ed1d16639d8e6e14458c18de3c3af442a7123b3d72cd8bb8fc274f5  ./linux_6.18.9-3gl0_arm64.buildinfo<br>b4527ccca735644277d039317b3a69f352941833f4de9496f46582a2fe7466a1  ./linux_6.18.9-3gl0_arm64.changes<br>db915665b2b5a0d1c335e8ad19a0f21912229c7ef9be9be69f20e961822ce30c  ./linux_6.18.9-3gl0.dsc<br>d339836a5e98ec98dc15c697e48d599d37dda8807379461bd38100c52573bd4b  ./linux-base-cloud-arm64_6.18.9-3gl0_arm64.deb<br>9e41406fff35c1569827bcd0bd03cde8ef0f9b7afe2d25d6c43ac1557a1c2cda  ./linux-config-6.18_6.18.9-3gl0_amd64.deb<br>633eb882ac851d7a4b0779fc8e92adcfd822c74ced10211c9ede1fe61b834e23  ./linux-image-6.18.9-amd64_6.18.9-3gl0_amd64.deb<br>445d236c16a6a16694afb406a609cf8acf941d8bfa4d02e3b0f13791ee621711  ./hyperv-daemons_6.18.9-3gl0_arm64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-auditing - v0.2.0</title>
+            <link>https://github.com/gardener/gardener-extension-auditing</link>
+            <guid>https://github.com/gardener/gardener-extension-auditing/releases/tag/v0.2.0</guid>
+            <pubDate>Mon, 09 Feb 2026 08:50:15 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-auditing:v0.2.0]</h1>
+<h2>✨ New Features</h2>
+<ul><li><code>[OPERATOR]</code> The extension can now be enabled for the <code>Garden</code> object. by @dimityrmirchev <a href="https://github.com/gardener/gardener-extension-auditing/pull/52">[#52</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>auditing-admission-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/auditing-admission-application:v0.2.0</code></li><li>auditing-admission-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/auditing-admission-runtime:v0.2.0</code></li><li>auditing: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/auditing:v0.2.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-auditing-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/auditing-admission:v0.2.0</code></li><li>gardener-extension-auditing: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/auditing:v0.2.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.20.0</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.20.0</guid>
+            <pubDate>Mon, 09 Feb 2026 08:39:47 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat: use label-based selection for workspace type patching by @nexus49 in https://github.com/platform-mesh/security-operator/pull/324</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.19.11...v0.20.0</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.2.154</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.2.154</guid>
+            <pubDate>Sun, 08 Feb 2026 17:18:04 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.9.30 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/173</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.2.153...v0.2.154</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.12.58</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.12.58</guid>
+            <pubDate>Sun, 08 Feb 2026 13:27:49 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module golang.org/x/oauth2 to v0.35.0 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/307</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.12.57...v0.12.58</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/golang-commons - v0.9.30</title>
+            <link>https://github.com/platform-mesh/golang-commons</link>
+            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.9.30</guid>
+            <pubDate>Sun, 08 Feb 2026 12:52:44 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module golang.org/x/oauth2 to v0.35.0 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/150</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.9.29...v0.9.30</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/bp-package-libtasn1 - libtasn1-6_4.21.0-2gl1+bp1592</title>
@@ -41,24 +121,6 @@
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.16.188...v0.16.189</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/security-operator - v0.19.9</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.19.9</guid>
-            <pubDate>Fri, 06 Feb 2026 21:52:03 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.11.0 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/325</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.19.8...v0.19.9</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/rebac-authz-webhook - v0.2.153</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.2.153</guid>
-            <pubDate>Fri, 06 Feb 2026 17:57:21 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.11.0 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/172</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.2.152...v0.2.153</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/account-operator - v0.11.0</title>
             <link>https://github.com/platform-mesh/account-operator</link>
             <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.11.0</guid>
@@ -82,15 +144,6 @@
             <pubDate>Fri, 06 Feb 2026 16:07:32 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-google-guest-agent/actions/runs/21757220896">21757220896</a></p>
 <p>Files in this release:<br>``<code><br>84efc3aabf4daba417babfb8534ea9e1fc5ea56d5b74f5a7cc69ee9cccdfe5b8  ./google-guest-agent_20250703.00gl4~bp1877_amd64.changes<br>b004d13c5be8e596041abcf3c4e25b8048d25f60aa2b1fd944894078fb83474d  ./google-guest-agent_20250703.00gl4~bp1877_arm64.changes<br>c90be6e091743392b555300d908fdc93edb64a720309a8aef3eaba8b77ad8b95  ./google-guest-agent_20250703.00gl4~bp1877_arm64.deb<br>df9b1e259dece8b3fcc88082c1411e0aa39a3d62749a8a6e6aa7a44524627bc7  ./google-guest-agent_20250703.00gl4~bp1877.dsc<br>3790f11b2d009d02aa149f46e0008c82300c24a3e3eb3a1ed8804dff29906566  ./google-guest-agent_20250703.00gl4~bp1877_amd64.deb<br>93d63702d49a9784c2671cde1324580781969cb64359626a7d4416ffb28417c7  ./google-guest-agent_20250703.00gl4~bp1877_arm64.buildinfo<br>efa836dc808582c3511208c09c7fd6bca6c79e87aff0054f2dd908746796655b  ./google-guest-agent_20250703.00gl4~bp1877.tar.xz<br>c5cffd34060726dc363db9011c502c85b493b8ce9f8a96e4b8f464f293bb5079  ./google-guest-agent_20250703.00gl4~bp1877_amd64.buildinfo<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.51.9</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.9</guid>
-            <pubDate>Fri, 06 Feb 2026 16:06:30 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to ae9a15f by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/369</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.8...v0.51.9</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-runc - runc_1.3.4-1gl3+bp1877</title>
@@ -158,14 +211,6 @@
 
 <ul><li>#20 — Verified Email Checker for <code>GithubAccountLink</code></li><li>#16 — Metrics and alerts</li><li>#5 — Rate limiting</li><li>#4 — GitHub Actions for test and release</li><li>#18 — Org reconciler waits for teams to be Ready</li><li>#9 — Clean operations for <code>notfound</code> team members</li><li>#8 — Organization status overflow</li></ul>
 ---]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-linux - linux_6.12.68-3gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/package-linux</link>
-            <guid>https://github.com/gardenlinux/package-linux/releases/tag/linux_6.12.68-3gl0+bp1877</guid>
-            <pubDate>Fri, 06 Feb 2026 14:24:36 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-linux/actions/runs/21753946550">21753946550</a></p>
-<p>Files in this release:<br>``<code><br>c691f621786ff657c8dc93de49982ef4a6551bae69d8bf0c190d148b9ff03e9f  ./linux-headers-6.12.68-firecracker-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>db27450c88e7f9c6987be1d8e0161addabe1c3e0150ed407b152a21fab76cb0d  ./libcpupower-dev_6.12.68-3gl0~bp1877_amd64.deb<br>b5b66e1479a8a49a5dd6024b3c7a47e55a0497c3e28d0871911f7f2d8726edfc  ./linux-image-6.12.68-cloud-arm64-dbg_6.12.68-3gl0~bp1877_arm64.deb<br>d75d530ba94202329375e9caec62a131ad28d5dff31967a6965324ad76376ac5  ./rtla_6.12.68-3gl0~bp1877_arm64.deb<br>6f4416d5d8f8de4e704961c5633be79634cc383358dca876a9d698fa6f3d623d  ./linux-image-6.12.68-arm64-dbg_6.12.68-3gl0~bp1877_arm64.deb<br>384c04b715472d5cb6e1c7cb8a5d75fc30f12e1f68608fb62c283559cd2ab00f  ./linux-image-6.12.68-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>3f1fd49fcaa22a889c478ae3244af299a8b5835a709d01cba1ba9dfd47104925  ./hyperv-daemons_6.12.68-3gl0~bp1877_amd64.deb<br>ad567d55ea941b0e87de37ad3b6111371655be26d54d2cd5544c43d4ff2910f2  ./libcpupower1_6.12.68-3gl0~bp1877_amd64.deb<br>3d384c6b01561d55807f94e31ca5535f484cdedd5e81b1be4588739806a78220  ./libcpupower1-dbgsym_6.12.68-3gl0~bp1877_arm64.deb<br>39c0aff2608b1a9555768f4e4d0298db6d668d950a591089cd526783d647a26f  ./linux-image-arm64-dbg_6.12.68-3gl0~bp1877_arm64.deb<br>bc55a6de7e213b7ec053f261056077b2708e91934084cb6b9b4025abc62fbc68  ./linux-headers-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>80f5dd0c04ae688aeb5c47d026e8c3ca0982f201517a3bb3b5e5aee280fcc9c3  ./hyperv-daemons-dbgsym_6.12.68-3gl0~bp1877_amd64.deb<br>e72964a520419770e7a08b99ce8644e917b0e9fef9f7330da623b1cd9dacf8c0  ./linux-cpupower-dbgsym_6.12.68-3gl0~bp1877_amd64.deb<br>ffdeb016d51469e4b363f6cbf3d515527ab65d8db704c6c64b8370e3c49468b4  ./linux-headers-6.12.68-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>002c977db65d1039b8c0d6c064bf57762a98ae79bb601272bb40ab67cc7f4144  ./linux-image-6.12.68-cloud-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>56187e85d5e2052d83def011362369645b916b83dede71bd3686482af4464d31  ./bpftool_7.5.0+6.12.68-3gl0~bp1877_amd64.deb<br>dc842ca56810dd1aaccb3f265b54c0596682907fae4d41581e3392aac94ea78b  ./bpftool_7.5.0+6.12.68-3gl0~bp1877_arm64.deb<br>befeae2884d0bfc3725874285bbcd914465661fda7d2bfe5815e19f73b19e1b1  ./linux-headers-6.12.68-cloud-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>ca77d2d4bf9991ddbba7ac7f6e16d815f6c028f17d2431eb121d27b28701b472  ./linux-image-6.12.68-firecracker-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>cfd74b519ef96f979b2befee55f4589330de524005c7a96e03ba0f208c33c43e  ./linux_6.12.68-3gl0~bp1877_amd64.buildinfo<br>304ecaa39e9c55717201bb521f88fe5878f5d37ce0074a067098892c1cde8151  ./linux-source-6.12_6.12.68-3gl0~bp1877_all.deb<br>ee22e81760a68c3df3c7c0a08baef5403304a9d9e4757e475bfc62d210be2f25  ./linux-config-6.12_6.12.68-3gl0~bp1877_amd64.deb<br>16c7305cff8566e8bc8c4b736d57ec983905a54919b32c97d6cce2a281ffd870  ./linux-cpupower-dbgsym_6.12.68-3gl0~bp1877_arm64.deb<br>e7583147d5a70c0e0edd685a6f7287cba2e5855087eeeb6d932c7f159442ff26  ./linux_6.12.68-3gl0~bp1877.debian.tar.xz<br>cfea584823a5e5465c556df5313e9ef35126c6754cb33671ecd7c046c74a6162  ./linux-image-cloud-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>00a74f3ee6b9d568c60b3ddf27e6b566f0b766a521f6a00a278250b45fbd4610  ./linux-headers-6.12.68-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>b897618f78d0b36cc6a0bc9a6727331a4426bd880e84657af1253ffb8b934dc8  ./linux-headers-6.12.68-firecracker-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>49cdd7dc7c027cf1014cb980ec425a7b7ee0c2cf02b138dd74c0d2ab53f296e6  ./linux-image-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>19993e91ffccdad435377313f1e5e20df9a5e6b01b4644013af9c6104b9581cf  ./linux-image-amd64-dbg_6.12.68-3gl0~bp1877_amd64.deb<br>48d64b3e608c9572616f14591cb0086fde32b532355c8ee1750d96bc074559bf  ./linux-image-firecracker-arm64-dbg_6.12.68-3gl0~bp1877_arm64.deb<br>04c4736b713907cc783e18d4a513dd162f2546301fad12e92966e63d8f903700  ./rtla-dbgsym_6.12.68-3gl0~bp1877_amd64.deb<br>1316c7cc76bef5abe9bd8010a1a362fbc1a9ec99d81b8ab3851f8b5b89c7b6c8  ./linux-image-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>39aa062f501be67707d7be18fa65b1d1d6c7ebd0f7103d913a9d9574e862cffd  ./linux-image-6.12.68-firecracker-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>5e422b7995524203c51cb36f2e602142e95173f9f6453fa1d915e1d7613e1d49  ./linux-image-cloud-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>10ef3fa1303875bfc19c5a5a199ffb2fe6c2003d94f6e38015d161efe5b8d276  ./linux_6.12.68-3gl0~bp1877_arm64.buildinfo<br>a8c24da6d46d429e648bf3c55975618a9aa7cf907f41853451c06dafc5d3e05f  ./hyperv-daemons_6.12.68-3gl0~bp1877_arm64.deb<br>f94e7b3d93b16d67bbcb23876792e3e2914e229014b9034e97312a06aab58d9b  ./libcpupower1_6.12.68-3gl0~bp1877_arm64.deb<br>3a8a193575c92073fbafd12fae62cc4c57bc481a312deb5289204ff6597a2f8f  ./linux-image-cloud-arm64-dbg_6.12.68-3gl0~bp1877_arm64.deb<br>56d1abbd7551ca3ef169ff4aff6963284b37ea50c71d80815a2c084af6d8390b  ./linux-kbuild-6.12.68_6.12.68-3gl0~bp1877_arm64.deb<br>4517e7f2228edaba8e66c49f0278b15c58fc2d6d930c4f29505c77b3d37370a3  ./linux_6.12.68-3gl0~bp1877_arm64.changes<br>e89f5561c9d7ae2e59d3f6050f3b6d828c6a1ae4cfe35dc6848240cfc498d707  ./linux-headers-firecracker-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>3c4d66cacb0dff58c3c95796680393da24d2c25db30dc7d294e89d4bcd2a4dd1  ./linux-headers-6.12.68-common_6.12.68-3gl0~bp1877_all.deb<br>b141dc546aea2f57f10d9b2cd6f9461fd70df4075fcf024591d4af76a6b76fd0  ./linux-image-6.12.68-firecracker-arm64-dbg_6.12.68-3gl0~bp1877_arm64.deb<br>4571fbd39c2c566fa1a40214db286ddc151e5828bcb3fab1ad632b5d8d388b8a  ./libcpupower1-dbgsym_6.12.68-3gl0~bp1877_amd64.deb<br>73af33f03a4da300e41cacfaf3c7797e91df1cec92163b4827a73950a37453c4  ./linux-image-6.12.68-firecracker-amd64-dbg_6.12.68-3gl0~bp1877_amd64.deb<br>18c7e35d3761e58c17b41eaf678cff710800e2f4c44a5bd10ece8ad9a6bf4afd  ./usbip-dbgsym_2.0+6.12.68-3gl0~bp1877_arm64.deb<br>8bca5d6d73118b9f084c1e16e9c99f6309096c3ca8c8a69715731c44b0498c66  ./usbip_2.0+6.12.68-3gl0~bp1877_arm64.deb<br>1b755283779e90dfcac902e1d0a53ebbe95a924b11d6880a9f3a11d18e62abd7  ./linux-kbuild-6.12.68-dbgsym_6.12.68-3gl0~bp1877_amd64.deb<br>d69a55cf98b78455cacf441d184e9f93515aa81455860e2f209314aa66109a66  ./libcpupower-dev_6.12.68-3gl0~bp1877_arm64.deb<br>49b039e06e0de43589c55b7e42c88c80136323481df0747986ed7e4008c00469  ./linux-kbuild-6.12.68-dbgsym_6.12.68-3gl0~bp1877_arm64.deb<br>6d4a24e5679d935c011fcef02a730363be87f73d5b7d3af42211551a15db6c53  ./linux-image-firecracker-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>ad9ea4bc587587947490a66bcd31d12be5093be88a4913f47b51045713d983b7  ./linux-headers-6.12.68-cloud-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>a6efcc6b419424d46cf1423f3396b5d772342206d9ff1f8b2fe6f00869755f65  ./linux-image-6.12.68-amd64-dbg_6.12.68-3gl0~bp1877_amd64.deb<br>adc3378435fe6133124590dec854dec94330e85fc97d647dbd4c1903df0f0886  ./linux-image-6.12.68-cloud-amd64-dbg_6.12.68-3gl0~bp1877_amd64.deb<br>b62faa81d341f723795477acb136dc9075de20675444b1da9583708e1d834342  ./linux_6.12.68-3gl0~bp1877_amd64.changes<br>c5a7668100a170e54be3d012944c0332a4fc9fe11b3704f9a6db7f195606bb7b  ./linux-libc-dev_6.12.68-3gl0~bp1877_all.deb<br>9de476d083bcf8ad8b993fc01b3e2100c2fb7b53be0fa31cacf6b8bffb60f66c  ./linux-support-6.12.68_6.12.68-3gl0~bp1877_all.deb<br>370a5fa18a2a5df3102297051ad500017d1aa8cc49fad8edd0f39e33597a8f52  ./linux-image-6.12.68-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>ba9463f7f8398e511afea35f9e86daae48e076ae728b54c25f075b79f22a05f4  ./intel-sdsi_6.12.68-3gl0~bp1877_amd64.deb<br>a9f453c2b5b3b85d2f91cbf054f19e1d9d41fac1e5cbfb2a14501dcccf1257e6  ./linux-image-cloud-amd64-dbg_6.12.68-3gl0~bp1877_amd64.deb<br>0bd42b9bde6449afcc37aaffdab52ad7b7e629b36a73a06a7cfdea6099146c34  ./linux_6.12.68-3gl0~bp1877.dsc<br>3def07c0ccc6135f218a6d126815e115f9ff51835d92e1cacc0a48b8e9201d3a  ./linux-cpupower_6.12.68-3gl0~bp1877_amd64.deb<br>22f9685820e45d45597b594eb560771c0d759d3a664f7d01dd8960708b87677a  ./linux-config-6.12_6.12.68-3gl0~bp1877_arm64.deb<br>0c7eebd65e6491c19d7eba9d34212989fee75ff414fb1f13b28463a69ddfccda  ./usbip-dbgsym_2.0+6.12.68-3gl0~bp1877_amd64.deb<br>30fc40cbe82f2422926d488d0b6d923c58ea564226c5fc9fa19ba4914903d1b0  ./usbip_2.0+6.12.68-3gl0~bp1877_amd64.deb<br>f6d526838eaa042ea1337d31b69f3d7e3da3306535139e08fe32deba2e21bc75  ./linux-headers-firecracker-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>20682b89a7525172ca6355899e5a61013a022de0cb8a4ac3988bdd97d381208b  ./rtla_6.12.68-3gl0~bp1877_amd64.deb<br>fccfcbb34213d18428677a7a7f82a9c1325e6795982c741f174c5b72a5540d64  ./linux-bpf-dev_6.12.68-3gl0~bp1877_arm64.deb<br>856f831b17eef176865e29b4c12297478dc175c541cb716d8b9dcdbbcf77aec6  ./linux-bpf-dev_6.12.68-3gl0~bp1877_amd64.deb<br>e9b5ae27d55de20fa507746fa76495d5d4960e5e19abaeb0ab84c7fd2409c20d  ./hyperv-daemons-dbgsym_6.12.68-3gl0~bp1877_arm64.deb<br>40a005576916871c5bf6ca7135c0e5b425e24ccfb42e83872fe3c34cb01c9e60  ./linux_6.12.68.orig.tar.xz<br>43dea2aa4841ce227cae9c0dc8e688132f4f62d65c1fbb61f5cbeca7d8dafbd0  ./linux-source_6.12.68-3gl0~bp1877_all.deb<br>e21df80518e341e997cbcfdd8dc864dd6fc6b3c202b77f44fcc83e552c6b02e2  ./bpftool-dbgsym_7.5.0+6.12.68-3gl0~bp1877_arm64.deb<br>a508125df93cedb9d27d85b22224cd705a44cc12ed91199c2f6cb34264e810e5  ./linux-image-firecracker-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>1adaeebf744bf8049b3c134ee08fb8bb3e803979536735ff64118f76a8a6647a  ./linux-image-6.12.68-cloud-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>4ca143110a4481a157f76c2e01916af7ef59fcf2339e1b03a1fbbc193dc7db3d  ./linux-headers-cloud-amd64_6.12.68-3gl0~bp1877_amd64.deb<br>dcc225cc5839c19e3aff710d1139b9225b548e3123556f9217ce5af0c3ca4c09  ./linux-kbuild-6.12.68_6.12.68-3gl0~bp1877_amd64.deb<br>28d79a1e5b05f4bdaa1a9b8022c21b1403e89ba70278cd3ad1885b2e45d9a41c  ./linux-headers-cloud-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>d618a59d5cf5d51ac0ae15fb7c5cd33eaabef2465782704e969a4e762e57a591  ./linux-headers-arm64_6.12.68-3gl0~bp1877_arm64.deb<br>4ef948bd57d3994cd6c42f7c89fea70f117c40557c1fb801a6d401e3e3e06708  ./bpftool-dbgsym_7.5.0+6.12.68-3gl0~bp1877_amd64.deb<br>4abe6fd7f6d9f407e2790f6c06f33e65dcf990b68f5dc4f86ada18906a565d79  ./linux-cpupower_6.12.68-3gl0~bp1877_arm64.deb<br>f695fec32722b306d3af3bd3d405ce7d4387b8baf9e9cc7709f473efbe24c355  ./intel-sdsi-dbgsym_6.12.68-3gl0~bp1877_amd64.deb<br>a4afda152f2a3b4fab4c64b2b38ec3c91b3d68e829c900348cabbaef49ef9a99  ./linux-image-firecracker-amd64-dbg_6.12.68-3gl0~bp1877_amd64.deb<br>2f445ddb6dd37a058a9038ab7f605c8f06eb2429afdf8fb9d3a7695f0147d350  ./rtla-dbgsym_6.12.68-3gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/dashboard - unnamed-release</title>
@@ -242,15 +287,6 @@
             <pubDate>Thu, 05 Feb 2026 15:33:41 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-expat/actions/runs/21717681278">21717681278</a></p>
 <p>Files in this release:<br>``<code><br>2383fc942f57b16dd0a7491442fbda84ae12899ac360f99e8eb021540dac8ded  ./expat_2.7.4-1gl0~bp1877_amd64.buildinfo<br>5444338b710bcaf24ee1377614f44e63d07a80589b32b8bdbdd73cad10d9f5ff  ./expat_2.7.4-1gl0~bp1877_arm64.buildinfo<br>d9bc4732ddfad2e2094e047ac8e116caf223ef99ce7496a248169eab52dd7256  ./expat_2.7.4-1gl0~bp1877.dsc<br>6abe0d16f8511cfd04c1e46220ce321850e67d1c518429a7ab6d886187e89bc9  ./libexpat1-dbgsym_2.7.4-1gl0~bp1877_arm64.deb<br>f0056724c49e912230d23c6b900028c0b5294b12f18b74f952fb9675346fdc52  ./expat_2.7.4-1gl0~bp1877.debian.tar.xz<br>cd314acd746f4dc02c977ea58e4f79628b03666a37b2f5c5b6c100f88be02cf8  ./expat_2.7.4.orig.tar.xz<br>e7e0fef0a71c376437bfe74488d0ca75ecc5a01ad2f45c3c9ad3339d7131e04f  ./expat-dbgsym_2.7.4-1gl0~bp1877_arm64.deb<br>272d21c5d6775438a69cf2156f6f3be59c2f9bc002b71e463b7f432992523c70  ./expat_2.7.4-1gl0~bp1877_amd64.changes<br>7f4dbfce289f29577d8a381762ed802172bc1fd87082a396bf23ff1816a1258b  ./libexpat1-dev_2.7.4-1gl0~bp1877_amd64.deb<br>0af789208bebb669ecfe55b324fdc7b12242a38f32f62c50f303d1bc177c88d9  ./libexpat1-dev_2.7.4-1gl0~bp1877_arm64.deb<br>cd0fec97bb4a9d089a8c0b660d70e8a92986cc361bcb8a5769632dfc313aecf6  ./libexpat1-dbgsym_2.7.4-1gl0~bp1877_amd64.deb<br>06c46b6770ae8a1abb9c7daacc71c2262049ef873d789644782a09abd80fb69e  ./libexpat1_2.7.4-1gl0~bp1877_arm64.deb<br>4837ef44f34825fab2d0fc7fbeea12c042e585811f802513026a0350c30c7f38  ./debian.tar<br>906e7c11346620d2a3d6a9db86142d846e0640dd26501c79f706ab9d846dc0f2  ./libexpat1_2.7.4-1gl0~bp1877_amd64.deb<br>a4246d5b8614d570217a5d560fc88dd63f185939bcd55d07c18f6b2be2f6dfd9  ./expat-dbgsym_2.7.4-1gl0~bp1877_amd64.deb<br>989760e632496ffcffde87598bbc7fb31f8507c2117dce0668b57d3edee17bbc  ./expat_2.7.4-1gl0~bp1877_amd64.deb<br>9e48c4bad0385155d5028f3b620105b8f6b729a20803c99604e7667e7fa62a2c  ./expat_2.7.4-1gl0~bp1877_arm64.changes<br>a63612ff7cf23ff217aec79cbac560bd9f4108ca07ed634c0e4daec74697295a  ./expat_2.7.4-1gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.12.56</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.12.56</guid>
-            <pubDate>Thu, 05 Feb 2026 13:58:02 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/go-chi/chi/v5 to v5.2.5 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/305</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.12.55...v0.12.56</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-golang - golang-1.24_1.24.12-1gl0+bp1877</title>
@@ -861,15 +897,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 &lt;!-- generated by git-cliff --&gt;]]></description>
         </item>
 <item>
-            <title>platform-mesh/golang-commons - v0.9.29</title>
-            <link>https://github.com/platform-mesh/golang-commons</link>
-            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.9.29</guid>
-            <pubDate>Tue, 03 Feb 2026 12:35:44 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update opentelemetry-go monorepo to v1.40.0 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/145</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.9.28...v0.9.29</p>]]></description>
-        </item>
-<item>
             <title>gardener/gardener-extension-provider-azure - v1.58.1</title>
             <link>https://github.com/gardener/gardener-extension-provider-azure</link>
             <guid>https://github.com/gardener/gardener-extension-provider-azure/releases/tag/v1.58.1</guid>
@@ -1316,21 +1343,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/usage-operator/pull/3</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
 <strong>Full Changelog</strong>: https://github.com/openmcp-project/usage-operator/compare/v0.0.15...v0.0.16
 ---]]></description>
-        </item>
-<item>
-            <title>openmcp-project/service-provider-landscaper - Release v0.13.0</title>
-            <link>https://github.com/openmcp-project/service-provider-landscaper</link>
-            <guid>https://github.com/openmcp-project/service-provider-landscaper/releases/tag/Release v0.13.0</guid>
-            <pubDate>Thu, 29 Jan 2026 16:19:34 +0000</pubDate>
-            <description><![CDATA[<h1>Changes included in v0.13.0:</h1>
-
-<h1>Changelog</h1>
-
-
-<h2>🚀 Features</h2>
-
-#### [DEVELOPER]
-<ul><li>- Replace landscaper dependency from gardener to openmcp-project <strong>(#209, @robertgraeff)</strong></li></ul>]]></description>
         </item>
 <item>
             <title>openmcp-project/cluster-provider-kind - Release v0.1.0</title>
@@ -4126,15 +4138,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.0]]></descriptio
 <h2>Helm Charts</h2>
 <ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/oidc-webhook-authenticator:v0.40.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/oidc-webhook-authenticator:v0.40.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener-extension-auditing - v0.1.0</title>
-            <link>https://github.com/gardener/gardener-extension-auditing</link>
-            <guid>https://github.com/gardener/gardener-extension-auditing/releases/tag/v0.1.0</guid>
-            <pubDate>Fri, 19 Dec 2025 13:11:57 +0000</pubDate>
-            <description><![CDATA[<h2>Helm Charts</h2>
-<ul><li>auditing-admission-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/auditing-admission-application:v0.1.0</code></li><li>auditing-admission-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/auditing-admission-runtime:v0.1.0</code></li><li>auditing: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/auditing:v0.1.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-auditing-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/auditing-admission:v0.1.0</code></li><li>gardener-extension-auditing: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/auditing:v0.1.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/gardener-discovery-server - v0.9.0</title>
