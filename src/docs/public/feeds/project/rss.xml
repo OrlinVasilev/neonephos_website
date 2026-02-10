@@ -4,16 +4,60 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Tue, 10 Feb 2026 12:15:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 14:38:14 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/platform-mesh-operator - v0.51.18</title>
+            <title>platform-mesh/platform-mesh-operator - v0.51.19</title>
             <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.18</guid>
-            <pubDate>Tue, 10 Feb 2026 10:02:36 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.19</guid>
+            <pubDate>Tue, 10 Feb 2026 13:13:10 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to 2b87daf by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/379</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.17...v0.51.18</p>]]></description>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to 3137a93 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/380</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.51.18...v0.51.19</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.4.202</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.202</guid>
+            <pubDate>Tue, 10 Feb 2026 12:41:04 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.201 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/519</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.201...v0.4.202</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/delivery-service - 0.1267.0</title>
+            <link>https://github.com/open-component-model/delivery-service</link>
+            <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1267.0</guid>
+            <pubDate>Tue, 10 Feb 2026 12:27:09 +0000</pubDate>
+            <description><![CDATA[<h1>[ocm.software/ocm-gear/delivery-service:0.1267.0]</h1>
+<h2>✨ New Features</h2>
+<ul><li><code>[DEVELOPER]</code> Add BDBA based SBoM export extension by @bedirhan-yilmaz <a href="https://github.com/open-component-model/delivery-service/pull/635">[#635</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[USER]</code> Omit Delivery-Dashboard rescoring URL in GitHub issues in case there are no open findings by @8R0WNI3 <a href="https://github.com/open-component-model/delivery-service/pull/660">[#660</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1267.0</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1267.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1267.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1267.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1267.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1267.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1267.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1267.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/falco-event-db-schema - 0.6.0</title>
+            <link>https://github.com/gardener/falco-event-db-schema</link>
+            <guid>https://github.com/gardener/falco-event-db-schema/releases/tag/0.6.0</guid>
+            <pubDate>Tue, 10 Feb 2026 12:16:26 +0000</pubDate>
+            <description><![CDATA[<h2>Helm Charts</h2>
+<ul><li>falco-event-db-schema: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/falco-event-db-schema:0.6.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>falco-event-db-schema: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/falco-event-db-schema:0.6.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener-extension-provider-gcp - v1.49.2</title>
+            <link>https://github.com/gardener/gardener-extension-provider-gcp</link>
+            <guid>https://github.com/gardener/gardener-extension-provider-gcp/releases/tag/v1.49.2</guid>
+            <pubDate>Tue, 10 Feb 2026 11:49:44 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-provider-gcp:v1.49.2]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> Allow private key to end without a newline character. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1315">[#1315</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>admission-gcp-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-application:v1.49.2</code></li><li>admission-gcp-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-runtime:v1.49.2</code></li><li>provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-gcp:v1.49.2</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>gardener-extension-admission-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-gcp:v1.49.2</code></li><li>gardener-extension-provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-gcp:v1.49.2</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/service-account-issuer-discovery - v0.12.0</title>
@@ -28,15 +72,6 @@
 <h2>Helm Charts</h2>
 <ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/service-account-issuer-discovery:v0.12.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/service-account-issuer-discovery:v0.12.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.4.201</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.201</guid>
-            <pubDate>Tue, 10 Feb 2026 09:13:17 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.200 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/518</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.200...v0.4.201</p>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-shoot-oidc-service - v0.36.0</title>
@@ -141,18 +176,6 @@
 <h2>Helm Charts</h2>
 <ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/oidc-webhook-authenticator:v0.41.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>oidc-webhook-authenticator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/oidc-webhook-authenticator:v0.41.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener-extension-provider-gcp - v1.49.1</title>
-            <link>https://github.com/gardener/gardener-extension-provider-gcp</link>
-            <guid>https://github.com/gardener/gardener-extension-provider-gcp/releases/tag/v1.49.1</guid>
-            <pubDate>Mon, 09 Feb 2026 12:04:00 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener-extension-provider-gcp:v1.49.1]</h1>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[OPERATOR]</code> Loosen secret validation to allow not only for user-generated service accounts in IAM, but also for Google-managed service accounts. by @wpross <a href="https://github.com/gardener/gardener-extension-provider-gcp/pull/1311">[#1311</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>admission-gcp-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-application:v1.49.1</code></li><li>admission-gcp-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-gcp-runtime:v1.49.1</code></li><li>provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-gcp:v1.49.1</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>gardener-extension-admission-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-gcp:v1.49.1</code></li><li>gardener-extension-provider-gcp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-gcp:v1.49.1</code></li></ul>]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-landscaper - Release v0.14.0</title>
@@ -355,15 +378,6 @@
             <pubDate>Thu, 05 Feb 2026 17:13:55 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssl/actions/runs/21721206245">21721206245</a></p>
 <p>Files in this release:<br>``<code><br>0a02a7ff2124b58ec5de41b89cbc1e48b4b8b0b21ee3ea4abc381efaa9f07ebf  ./libssl-dev_3.5.5-1gl0~bp1877_amd64.deb<br>be82f3d2adf5c1a2fdb8688a804e19da4aa325bdf5792145bd01d8c5a1b9626a  ./openssl_3.5.5-1gl0~bp1877_arm64.buildinfo<br>2dc1605b9c727fd5750ec88b8c08c981c9fa9fb0e2bc88fff6b073b55b03bdbf  ./openssl_3.5.5-1gl0~bp1877.dsc<br>c0acfed3df8470036c2a2f03d9221d4521c3f1de4f4a271f61238adfea7d2ef7  ./openssl-provider-fips_3.5.5-1gl0~bp1877_amd64.deb<br>9a07b7210931456ed2624884d6ca8c134a99011e57be6711a5526a5d1a073632  ./libssl-doc_3.5.5-1gl0~bp1877_all.deb<br>798ed86ac8581c3f794d08021af93b4b6080909ac5bb266b939ccaee153aefda  ./openssl_3.5.5-1gl0~bp1877_amd64.changes<br>30ce5bacca2426ff567006aa19b04b1fc56ca32cc4dd23e7325209e65b595bc0  ./libssl-dev_3.5.5-1gl0~bp1877_arm64.deb<br>a31091a6fe4042a649b62d6dc0c6c22b246e0cb714ed78fd4ccea0e5b53f6c97  ./openssl-provider-legacy_3.5.5-1gl0~bp1877_arm64.deb<br>b402efbb411db7fd047b654bd1fa6d6253946a4f4a1743726e71991be81aaf65  ./libssl3t64-dbgsym_3.5.5-1gl0~bp1877_arm64.deb<br>de75643d929e34722e2ebc942f36b4d42b93eaa22f22b4011d7d178610ffd4b4  ./openssl-provider-fips-dbgsym_3.5.5-1gl0~bp1877_arm64.deb<br>25c07050902773bf58bd9c938560456b40d26aa0001c7540f09d4bc41627e85c  ./openssl-provider-fips-dbgsym_3.5.5-1gl0~bp1877_amd64.deb<br>842bc7353b16b28ebbab212f763d788fb8ee56c6a6f21648381c1c401f564738  ./libssl3t64_3.5.5-1gl0~bp1877_arm64.deb<br>f4c03891e3e675b0ff91996ab06251565ccefda15c87ae8c1141480aa409ca04  ./openssl_3.5.5-1gl0~bp1877_arm64.deb<br>409eeac96adfa998545b977eae2cd332ba34cf7e8b4e235ad00dd8b0ce3f84e1  ./openssl_3.5.5.orig.tar.xz<br>a8787953f1d725e91029b00a2045fc177e782256fc19430ca0520ae83266b207  ./libssl3t64_3.5.5-1gl0~bp1877_amd64.deb<br>09b05861b89f7ea73ba1a5e6b41feca9d3b1a6bd78342a2050adfa66840b80b5  ./openssl-dbgsym_3.5.5-1gl0~bp1877_amd64.deb<br>027769ddf3b4808690fc62071fc6b09cf4614fa756ba282d69c6f6b1faf8d94b  ./openssl-dbgsym_3.5.5-1gl0~bp1877_arm64.deb<br>d63e899168c5d6eb93e6d4c2621926e7c6de5db3d10de72d82832a2e79133e13  ./openssl-provider-legacy-dbgsym_3.5.5-1gl0~bp1877_amd64.deb<br>abe2e767a796c6ccdd82e2d1ac6fa5eaa2bb2eb30c36e625955200984392d819  ./openssl_3.5.5-1gl0~bp1877_amd64.deb<br>d8a561b80f67fa8cf26c4f94764dc780d4e5591aa4487308f7fbf8efc8f72db9  ./openssl_3.5.5-1gl0~bp1877_arm64.changes<br>d5dcbe75533cd3b97638787c8505a9efa0a1338e812a3deaf72bbe33a2e2d58a  ./openssl_3.5.5-1gl0~bp1877.debian.tar.xz<br>3de28d39c72d7331e8b65436f2bfe8ce2223739909e9517f55f0942202558525  ./openssl-provider-legacy-dbgsym_3.5.5-1gl0~bp1877_arm64.deb<br>e160dec62acc89e7fcc502daa637f75bdcfc8aabd818efee9ea91ffabb35146b  ./libssl3t64-dbgsym_3.5.5-1gl0~bp1877_amd64.deb<br>bb90b94733f996935bb0ff53a557c2d7e6f6f1ec61b55315da93ed7ed5e8be4a  ./openssl-provider-fips_3.5.5-1gl0~bp1877_arm64.deb<br>e8dd0316b06c3ee8eb4fc571a26c0fe1266bb5fa1fe3fe23beb036f153b84e01  ./openssl-provider-legacy_3.5.5-1gl0~bp1877_amd64.deb<br>1bcec98e41eef4513aa005b91c7fa5549e268aff2114e0b3a8ec5630b4d94591  ./openssl_3.5.5-1gl0~bp1877_amd64.buildinfo<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>open-component-model/delivery-service - 0.1260.2</title>
-            <link>https://github.com/open-component-model/delivery-service</link>
-            <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1260.2</guid>
-            <pubDate>Thu, 05 Feb 2026 16:01:43 +0000</pubDate>
-            <description><![CDATA[<h2>Helm Charts</h2>
-<ul><li>bootstrapping: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/bootstrapping:0.1260.2</code></li><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-service:0.1260.2</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/extensions:0.1260.2</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1260.2</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1260.2</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1260.2</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1260.2</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1260.2</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-expat - expat_2.7.4-1gl0+bp1877</title>
@@ -1574,18 +1588,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <h2>Helm Charts</h2>
 <ul><li>falco-event-ingestor: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/falco-event-ingestor:0.52.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>falco-event-ingestor: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/falco-event-ingestor:0.52.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/falco-event-db-schema - 0.5.0</title>
-            <link>https://github.com/gardener/falco-event-db-schema</link>
-            <guid>https://github.com/gardener/falco-event-db-schema/releases/tag/0.5.0</guid>
-            <pubDate>Mon, 26 Jan 2026 15:04:02 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/falco-event-db-schema:0.5.0]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[DEVELOPER]</code> The Helm chart of the <code>falco-event-db-schema</code> component are now published as OCI and OCM artefacts as well by @8R0WNI3 <a href="https://github.com/gardener/falco-event-db-schema/pull/37">[#37</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>falco-event-db-schema: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/falco-event-db-schema:0.5.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>falco-event-db-schema: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/falco-event-db-schema:0.5.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/inventory - unnamed-release</title>
