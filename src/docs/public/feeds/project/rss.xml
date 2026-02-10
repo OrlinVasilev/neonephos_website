@@ -4,14 +4,26 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Tue, 10 Feb 2026 08:37:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 09:01:13 +0000</lastBuildDate>
 
     <item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
+            <title>open-component-model/ocm - v0.36.0-rc.2</title>
             <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Tue, 10 Feb 2026 08:15:11 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/v0.36.0-rc.2</guid>
+            <pubDate>Tue, 10 Feb 2026 08:42:31 +0000</pubDate>
+            <description><![CDATA[<p>&lt;!-- Release notes generated using configuration in .github/config/release.yml at refs/heads/releases/v0.36 --&gt;<br><h2>What&#x27;s Changed</h2></p>
+<h3>‼️ Breaking Changes</h3>
+<ul><li>fix!: use Fulcio certificate instead of public key and upgrade Sigstore Cosign from v2 to v3 by @morri-son in https://github.com/open-component-model/ocm/pull/1726</li><li>fix: chart access artifact set media type by @fabianburth in https://github.com/open-component-model/ocm/pull/1786</li></ul><h3>🚀 Features</h3>
+<ul><li>feat: support index based reading of OCI artifacts by @jakobmoellerdev in https://github.com/open-component-model/ocm/pull/1646</li></ul><h3>🐛 Bug Fixes</h3>
+<ul><li>fix(deps): pin github.com/klauspost/compress to version that does not change the digest on transfer by @frewilhelm in https://github.com/open-component-model/ocm/pull/1738</li><li>fix: add --oci-layout flag for OCI Image Layout blob paths by @piotrjanik in https://github.com/open-component-model/ocm/pull/1723</li><li>fix: update image reference name to use the open-component-model organization repository by @piotrjanik in https://github.com/open-component-model/ocm/pull/1784</li><li>fix(1560): add more explicit errors on get cv by @matthiasbruns in https://github.com/open-component-model/ocm/pull/1787</li></ul><h3>⬆️ Dependencies</h3>
+&lt;details&gt;
+&lt;summary&gt;14 changes&lt;/summary&gt;
+<ul><li>chore(deps): bump the go group with 2 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1728</li><li>chore(deps): bump the go group with 18 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1734</li><li>chore: retract 0.33.0 and 0.34.1 by @frewilhelm in https://github.com/open-component-model/ocm/pull/1740</li><li>chore(deps): bump the go group with 11 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1749</li><li>chore(deps): bump github.com/klauspost/compress by @frewilhelm in https://github.com/open-component-model/ocm/pull/1752</li><li>chore(deps): bump golang from 1.25.4-alpine3.22 to 1.25.5-alpine3.22 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1718</li><li>chore: bump sigstore/fulcio by @jakobmoellerdev in https://github.com/open-component-model/ocm/pull/1757</li><li>chore(deps): bump the go group with 3 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1764</li><li>chore(deps): bump the go group with 12 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1770</li><li>chore(deps): bump github.com/sigstore/fulcio from 1.8.4 to 1.8.5 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1774</li><li>chore(deps): bump the go group with 6 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1778</li><li>chore(deps): bump github.com/sigstore/sigstore from 1.10.3 to 1.10.4 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1792</li><li>chore(deps): bump the go group with 7 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1795</li><li>chore(deps): bump golang from 1.25.5-alpine3.22 to 1.25.6-alpine3.22 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1794</li></ul>&lt;/details&gt;
+<h3>🧰 Maintenance</h3>
+<ul><li>chore: bump VERSION to 0.36.0-dev by @ocmbot[bot] in https://github.com/open-component-model/ocm/pull/1724</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@piotrjanik made their first contribution in https://github.com/open-component-model/ocm/pull/1723</li><li>@matthiasbruns made their first contribution in https://github.com/open-component-model/ocm/pull/1787</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/open-component-model/ocm/compare/v0.35...v0.36.0</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/portal - v0.16.190</title>
