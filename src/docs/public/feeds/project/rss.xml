@@ -4,9 +4,36 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Wed, 11 Feb 2026 10:05:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 12:14:35 +0000</lastBuildDate>
 
     <item>
+            <title>gardenlinux/package-curl - curl_8.18.0-2gl1+bp1592</title>
+            <link>https://github.com/gardenlinux/package-curl</link>
+            <guid>https://github.com/gardenlinux/package-curl/releases/tag/curl_8.18.0-2gl1+bp1592</guid>
+            <pubDate>Wed, 11 Feb 2026 11:16:46 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-curl/actions/runs/21902949905">21902949905</a></p>
+<p>Files in this release:<br>``<code><br>40ba8f5648aef78979d3b5790f8dda56251d9be206ca39a7903e0c814be588c4  ./curl_8.18.0-2gl1+bp1592_amd64.changes<br>9a81314e9bf9a5e31f3312a40b3d816a0c025c89531db2367f5237bc79246276  ./curl-dbgsym_8.18.0-2gl1+bp1592_amd64.deb<br>bdc1dd80ae6434e247b1ddfbb1a0c62bd8ece17324c32db74e40dec690a5829a  ./libcurl3t64-gnutls-dbgsym_8.18.0-2gl1+bp1592_arm64.deb<br>f00520a7a497aae998502943f1456b2997cec839798e7daa0bf186617cde1a3e  ./libcurl4t64-dbgsym_8.18.0-2gl1+bp1592_arm64.deb<br>e1220c980242d882d47604240319e59d25351b219a602f9221fc7d46eb0cb822  ./libcurl4-openssl-dev_8.18.0-2gl1+bp1592_arm64.deb<br>9473d22e9ee8dd65985cdbc6f2cef4994915d69734afa1e865d4f7cd70179653  ./libcurl4t64_8.18.0-2gl1+bp1592_amd64.deb<br>2ba3c1694eacc8f868a4382dde7486388c3f967261daef4266b2a475314b16b8  ./libcurl4t64-dbgsym_8.18.0-2gl1+bp1592_amd64.deb<br>34bd58b3f33a1eb0fe34888e38c63c40a993a3357cf3cd8e8686fcafd427cb74  ./curl_8.18.0-2gl1+bp1592_arm64.changes<br>4946e3a67bf063977623ab6713ce0550b20ca5200d73a0fdfe217b1773f1fca6  ./curl_8.18.0.orig.tar.xz<br>07c0b893697d27b3726c0a208b3ff058ae7d03e65f4c3517a2fdb79ed65deec6  ./libcurl4-gnutls-dev_8.18.0-2gl1+bp1592_amd64.deb<br>11b2d764a5db74ff6d95636a4f92b9eb1cb9aaeb34d81e63f338877c1999284a  ./curl_8.18.0-2gl1+bp1592_arm64.buildinfo<br>7b9be4838e68dddafc8e52e2016fa834ca60578e80dc87798f7c13b1d45d626d  ./libcurl3t64-gnutls-dbgsym_8.18.0-2gl1+bp1592_amd64.deb<br>76a91a98404eaa2568b264bf235d0c57d4d7c2196c8dc3c4bedbb0f9d8a84ec2  ./libcurl3t64-gnutls_8.18.0-2gl1+bp1592_arm64.deb<br>baee07614567b13cb333995fd58cb0bd82174f7e05e51be3eafd978ceb19877b  ./curl_8.18.0-2gl1+bp1592_amd64.buildinfo<br>88c99a22e1aa87a5fd0c933504a2294c0338793c16d7b55e0dc79844b103388f  ./curl_8.18.0-2gl1+bp1592_arm64.deb<br>c794574312e5b016ecca6062edd183de195a1e214e7be1dbf9c94e9d3b258f83  ./curl_8.18.0-2gl1+bp1592.dsc<br>bca686ba9de1b511ed4347223c56ce1afce17011a52663c89b7688795b888827  ./libcurl4-openssl-dev_8.18.0-2gl1+bp1592_amd64.deb<br>96f69163a8b57b0172aa8ba65573533209753b5d3dc532f0b138454ac2da9e77  ./libcurl4-gnutls-dev_8.18.0-2gl1+bp1592_arm64.deb<br>f46fc62a8c1240bab5e413e879738978f8c8e9b1696c57778673bfa238fab304  ./libcurl4t64_8.18.0-2gl1+bp1592_arm64.deb<br>2d63d0e4c8b67d85ce8af72bd93d07aeb04152610b729c2e6a2ae2e99f75670c  ./curl-dbgsym_8.18.0-2gl1+bp1592_arm64.deb<br>de55d5edeea7266b6cfaea7449e8a50606b5cc862381f4a2efa9b924f067590d  ./libcurl3t64-gnutls_8.18.0-2gl1+bp1592_amd64.deb<br>23f7904a50d84f2c959e4c7b94b1cc30490704af84104f4184ba9641335663ba  ./curl_8.18.0-2gl1+bp1592.debian.tar.xz<br>e2dcb996c6d9a3fdd9a604286dd8f89f0116fefc27132ed20c0cce4d809de6ea  ./curl_8.18.0-2gl1+bp1592_amd64.deb<br>1fabc6a8d57d97b8dc6c8ab68da7bd47b1c4f64fe8ae8768a54cb8ad2a3dba56  ./libcurl4-doc_8.18.0-2gl1+bp1592_all.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>cloudoperators/cloudctl - v0.0.5</title>
+            <link>https://github.com/cloudoperators/cloudctl</link>
+            <guid>https://github.com/cloudoperators/cloudctl/releases/tag/v0.0.5</guid>
+            <pubDate>Wed, 11 Feb 2026 10:35:23 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore: update issue titles by @onuryilmaz in https://github.com/cloudoperators/cloudctl/pull/44</li><li>feat(sync): add separate cache dirs to kubelogin when connector_id is used by @onuryilmaz in https://github.com/cloudoperators/cloudctl/pull/45</li><li>chore(ci): switch to goreleaser by @onuryilmaz in https://github.com/cloudoperators/cloudctl/pull/46</li></ul>
+
+<strong>Full Changelog</strong>: https://github.com/cloudoperators/cloudctl/compare/v0.0.4...v0.0.5]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.12.63</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.12.63</guid>
+            <pubDate>Wed, 11 Feb 2026 10:08:26 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.9.34 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/312</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.12.62...v0.12.63</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/platform-mesh-operator - v0.51.27</title>
             <link>https://github.com/platform-mesh/platform-mesh-operator</link>
             <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.51.27</guid>
@@ -73,15 +100,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update kubernetes packages to v0.35.1 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/154</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.9.33...v0.9.34</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.12.62</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.12.62</guid>
-            <pubDate>Wed, 11 Feb 2026 01:50:47 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update kubernetes packages to v0.35.1 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/311</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.12.61...v0.12.62</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/portal - v0.17.4</title>
@@ -2021,14 +2039,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <ul><li>gardener-extension-shoot-networking-filter-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-networking-filter-admission:v0.27.0</code></li><li>gardener-extension-shoot-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-networking-filter:v0.27.0</code></li><li>gardener-runtime-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-networking-filter:v0.27.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-curl - curl_8.18.0-2gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/package-curl</link>
-            <guid>https://github.com/gardenlinux/package-curl/releases/tag/curl_8.18.0-2gl0+bp1877</guid>
-            <pubDate>Thu, 22 Jan 2026 15:02:11 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-curl/actions/runs/21253348919">21253348919</a></p>
-<p>Files in this release:<br>``<code><br>ae9a0fead5b636ad9eeb7143e7f21cb7b4f5306a5d3afb62d648201a4e919b8d  ./curl_8.18.0-2gl0+bp1877_amd64.changes<br>168ed68ab661307901faaf6b0e7aae4e4941113fe77d6764839eee786746992d  ./curl_8.18.0-2gl0+bp1877_arm64.deb<br>5ba995640265cfde99d153081a8f2a1dc0d26eecf7a296c253072c8f2fa8e54e  ./libcurl3t64-gnutls_8.18.0-2gl0+bp1877_arm64.deb<br>8d219bc6d18dafb407bf82a6a6f3905db06c0497ea8cee69f4271eee27249dea  ./libcurl4t64_8.18.0-2gl0+bp1877_arm64.deb<br>16abd998181740f400fb22f50c9ff616772e9a8a2bf1c00e48e8abcf6019326b  ./curl_8.18.0-2gl0+bp1877.debian.tar.xz<br>9f00c6d49e13aebbd62f9cdcaa35cd67f7e4d18ff072546cc5c833eb2a70c84d  ./curl_8.18.0-2gl0+bp1877_amd64.buildinfo<br>4562a064119fb570e697dbb622aa5c0414c152a9917a0495dcd7068956fca97c  ./curl_8.18.0-2gl0+bp1877_arm64.buildinfo<br>0d44e08fe88ed641dda374d95479870ccc1406d37a8121b9d626240642e57b37  ./curl_8.18.0-2gl0+bp1877.dsc<br>bd6d07bd5a69dabf46dff7f0f6cfcc6c6170271d7fe85c4ac78320a17c6ced94  ./libcurl3t64-gnutls_8.18.0-2gl0+bp1877_amd64.deb<br>63d424f9118914b4935d981bf9b4e335d33449a19f01c9bc7bde14f4c5d3f4b5  ./libcurl4-gnutls-dev_8.18.0-2gl0+bp1877_arm64.deb<br>c60e207140e16eb5fbcbc91f3d15019a3b89f58125c24c3c60afe60a894e72d1  ./libcurl4-openssl-dev_8.18.0-2gl0+bp1877_amd64.deb<br>2a526131d8d2295680988ae7435f101acf6ab9c4efe48c71eeb1b943a26a6ff6  ./curl_8.18.0.orig.tar.xz<br>9dcdb057ed5746b5df1baa853ac7bb27187efeda4028c9289d8422f91282cf28  ./curl-dbgsym_8.18.0-2gl0+bp1877_amd64.deb<br>f4b4565fea9c234a306a776c94a1e9cb4ab953004139cdc8fab86e5095b04f2a  ./libcurl4t64-dbgsym_8.18.0-2gl0+bp1877_arm64.deb<br>ece5b52e0439ac6a652b1480ec08b5f7b9798e34f887b8187ba97c2fe3c97087  ./curl_8.18.0-2gl0+bp1877_amd64.deb<br>9b30536fb7649ff4c8dfe8999c1472e1c6ea715097ad12f0b1b559560f04195b  ./libcurl4-doc_8.18.0-2gl0+bp1877_all.deb<br>5d77f5c57f22186fad4860d148708424b2b50f5edcf58ab2585fc34a747755cb  ./libcurl4-gnutls-dev_8.18.0-2gl0+bp1877_amd64.deb<br>0d43111725cabe74fd7a370ac53e980c6637ce5aa005c9d2924bc9f5f75520f5  ./libcurl4t64_8.18.0-2gl0+bp1877_amd64.deb<br>b9d7de9d95a4ef726d9f7493560b6792c7c691eac80cff60efcac00060369283  ./libcurl4-openssl-dev_8.18.0-2gl0+bp1877_arm64.deb<br>fe112c68389677d474126c201fbcf0897414a4fbd5858e200fe64799d04831e4  ./libcurl3t64-gnutls-dbgsym_8.18.0-2gl0+bp1877_amd64.deb<br>5f999e941be65dc1698ebf8ee374904aa2736e371f8366cd49736f088f7dbabc  ./curl-dbgsym_8.18.0-2gl0+bp1877_arm64.deb<br>b944faf43ceaa3da418dec804169456e8ad8f9f8b0f7e1164eba84eb731cf57c  ./libcurl4t64-dbgsym_8.18.0-2gl0+bp1877_amd64.deb<br>e7f36b5be2d7e8b2c008e499b1c3d78ba53f661fff769dc780dd809f458dd5e2  ./libcurl3t64-gnutls-dbgsym_8.18.0-2gl0+bp1877_arm64.deb<br>cd50a2b0feaaa19b018d881113c3a4c6af254ecb818297e01100668d0017c541  ./curl_8.18.0-2gl0+bp1877_arm64.changes<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/bp-package-ngtcp2 - ngtcp2_1.16.0-1gl0+bp1877</title>
             <link>https://github.com/gardenlinux/bp-package-ngtcp2</link>
             <guid>https://github.com/gardenlinux/bp-package-ngtcp2/releases/tag/ngtcp2_1.16.0-1gl0+bp1877</guid>
@@ -2683,16 +2693,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
         &lt;span&gt;Raluca Gruber&lt;/span&gt;
       &lt;/a&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
-        </item>
-<item>
-            <title>cloudoperators/cloudctl - v0.0.4</title>
-            <link>https://github.com/cloudoperators/cloudctl</link>
-            <guid>https://github.com/cloudoperators/cloudctl/releases/tag/v0.0.4</guid>
-            <pubDate>Thu, 08 Jan 2026 12:02:33 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update actions/checkout action to v5 by @renovate[bot] in https://github.com/cloudoperators/cloudctl/pull/34</li><li>chore(deps): update github actions to v6 (major) by @renovate[bot] in https://github.com/cloudoperators/cloudctl/pull/36</li><li>chore(deps): pin dependencies by @renovate[bot] in https://github.com/cloudoperators/cloudctl/pull/33</li><li>chore(config): migrate Renovate config by @renovate[bot] in https://github.com/cloudoperators/cloudctl/pull/42</li></ul>
-
-<strong>Full Changelog</strong>: https://github.com/cloudoperators/cloudctl/compare/v0.0.3...v0.0.4]]></description>
         </item>
 <item>
             <title>gardener/apiserver-proxy - v0.20.0</title>
