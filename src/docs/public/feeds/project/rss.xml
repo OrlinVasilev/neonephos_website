@@ -4,9 +4,17 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Wed, 11 Feb 2026 15:26:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 16:05:17 +0000</lastBuildDate>
 
     <item>
+            <title>gardenlinux/package-gardenlinux-update - gardenlinux-update_0.9gl0+bp1592</title>
+            <link>https://github.com/gardenlinux/package-gardenlinux-update</link>
+            <guid>https://github.com/gardenlinux/package-gardenlinux-update/releases/tag/gardenlinux-update_0.9gl0+bp1592</guid>
+            <pubDate>Wed, 11 Feb 2026 15:37:09 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-gardenlinux-update/actions/runs/21911654391">21911654391</a></p>
+<p>Files in this release:<br>``<code><br>4148b9a3613358b7cf30729870b254e0950087bfb841bcd01d20731f06bf7d35  ./gardenlinux-update_0.9gl0+bp1592.dsc<br>6f348b139c2c5e1645d67c033fd90f47446a5fb1100bec73afcfdefe9703e33c  ./gardenlinux-update_0.9gl0+bp1592.tar.gz<br>76b51e8242cceda798a7881dd3937ee6acb3286cba3e7333439b871397f5f2c3  ./gardenlinux-update_0.9gl0+bp1592_arm64.buildinfo<br>46074771d8b4d98a343256acbb352a3ea318d59915365d2ebe0ad61c3774c7bc  ./gardenlinux-update_0.9gl0+bp1592_arm64.changes<br>d5eb15ca3335e8b26408c92e27719f64228af3aa10f5fe66b608e5b83886fbef  ./gardenlinux-update_0.9gl0+bp1592_amd64.buildinfo<br>f0c377b1a71d8248bb1eeb2487e6de0bece8948984e3847c1b143985652d29cc  ./gardenlinux-update_0.9gl0+bp1592_arm64.deb<br>7a8d8daf22d1285250db9e557c5ab00c413addf62c2cbadc12c0e47c9d901210  ./gardenlinux-update_0.9gl0+bp1592_amd64.deb<br>359f37a10363d7fb62e2aa175fb4a3ae5d1cd2aecd42f54a6d36640528f9f801  ./gardenlinux-update_0.9gl0+bp1592_amd64.changes<br></code>``</p>]]></description>
+        </item>
+<item>
             <title>gardenlinux/bp-package-libtasn1 - libtasn1-6_4.21.0-2gl1+bp1592</title>
             <link>https://github.com/gardenlinux/bp-package-libtasn1</link>
             <guid>https://github.com/gardenlinux/bp-package-libtasn1/releases/tag/libtasn1-6_4.21.0-2gl1+bp1592</guid>
@@ -799,14 +807,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.11
             <pubDate>Thu, 05 Feb 2026 11:52:39 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-glvd/actions/runs/21710409725">21710409725</a></p>
 <p>Files in this release:<br>``<code><br>ada06259f49b1ffbd69ccd6011ca9d87bafb2efedc43e34f0cb7086c9849badd  ./glvd-dbgsym_0.0.3gl0_amd64.deb<br>254be7a5ee57eb4bd17a6c6d40dec2b83dc2c203d02a63d220685213e26f0ce5  ./glvd_0.0.3gl0_arm64.deb<br>9f246d978b02fa50d50857b7dc32b5373d8b449d227bd736eb0e9fe1a9e5802c  ./glvd_0.0.3gl0.dsc<br>a61c1f19b4300b469db4e2a03b29711b98b7442b9060cdbdcb5dfad93da30048  ./glvd_0.0.3gl0_arm64.changes<br>a23ae70ed55e156cc8201259be12aa00c67135c824b88d6f85b4b0efb5313475  ./glvd_0.0.3gl0_arm64.buildinfo<br>6f1aa482cf8724c74cfe645f1fbbbd3ce1fc289bd7046a9a4c32b776aef4a840  ./glvd_0.0.3gl0_amd64.buildinfo<br>9389b09e5ce63bab76eb9f79a88a31e5833bf688fb907498cb6f58ef598304db  ./glvd_0.0.3gl0_amd64.deb<br>51aa62eb1f5db7b6075b1ae61ae97be091693e776f08cdbdf54e39d6993e4bd5  ./glvd_0.0.3gl0.tar.gz<br>e2d5f53fd4affbe8f03ae8f1a975c1d51a815ce50f4ea1cb260f8082fdb617a5  ./glvd_0.0.3gl0_amd64.changes<br>d1deb3d58febe4ec6bde3711838657fdccbb06e59523a8f33100ffdd4e622e94  ./glvd-dbgsym_0.0.3gl0_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-gardenlinux-update - gardenlinux-update_0.9gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/package-gardenlinux-update</link>
-            <guid>https://github.com/gardenlinux/package-gardenlinux-update/releases/tag/gardenlinux-update_0.9gl0+bp1877</guid>
-            <pubDate>Thu, 05 Feb 2026 11:46:20 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-gardenlinux-update/actions/runs/21710246611">21710246611</a></p>
-<p>Files in this release:<br>``<code><br>d4c7f420dee52ed34a14e8a72839e1780205fbd61abf3b46df3ec5967e1ee0ee  ./gardenlinux-update_0.9gl0+bp1877_amd64.buildinfo<br>4310aa41f789a36841702eebd1498c24aca7ed6319643d430413de8775f094b2  ./gardenlinux-update_0.9gl0+bp1877_arm64.deb<br>fdd85309aa94ee1c6e52bcf0296d1eca0d8e18fd203e4c766f0b785c9244aca4  ./gardenlinux-update_0.9gl0+bp1877_amd64.changes<br>44ea3a5ce368172f9fd0109d130e4a6202fe24e4f80bf2be60a20ad2f5cd9c49  ./gardenlinux-update-dbgsym_0.9gl0+bp1877_amd64.deb<br>9c9e8e1cb6641c0c1cb582fe6222c68777c8bab132b055263fbcf94189eab155  ./gardenlinux-update_0.9gl0+bp1877_arm64.buildinfo<br>a9cb3c47c583139022950184030ed33093890139de463c633d2a35d17a204ea2  ./gardenlinux-update_0.9gl0+bp1877.tar.gz<br>f46c8da7fdeb3f015a0031f3f41a5383a0db55b04f7104124d7acb012182dcf9  ./gardenlinux-update-dbgsym_0.9gl0+bp1877_arm64.deb<br>66e7e8e9e758fff646d79790c1f04da34579a2433604f7f100cd9a5ede2aa90f  ./gardenlinux-update_0.9gl0+bp1877_arm64.changes<br>4ffda3c7c1b47eaea281f7c4ed38238a711cc422b19a1b7fa9c810d075480b9b  ./gardenlinux-update_0.9gl0+bp1877.dsc<br>5861762e2b2416592eb23920e1d2d6f12f7630bab4e82727bcf2b59bd05ae200  ./gardenlinux-update_0.9gl0+bp1877_amd64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/platform-service-gateway - Release v0.0.6</title>
