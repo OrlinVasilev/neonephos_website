@@ -4,25 +4,89 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Fri, 20 Feb 2026 12:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 12:04:34 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.4.261</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.261</guid>
-            <pubDate>Fri, 20 Feb 2026 10:42:02 +0000</pubDate>
+            <title>platform-mesh/portal - v0.17.41</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.17.41</guid>
+            <pubDate>Sat, 21 Feb 2026 09:48:20 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.260 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/578</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.260...v0.4.261</p>]]></description>
+<ul><li>fix(deps): update platform mesh by @renovate[bot] in https://github.com/platform-mesh/portal/pull/400</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.17.40...v0.17.41</p>]]></description>
         </item>
 <item>
-            <title>platform-mesh/portal - v0.17.35</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.17.35</guid>
-            <pubDate>Fri, 20 Feb 2026 09:55:25 +0000</pubDate>
+            <title>platform-mesh/extension-manager-operator - v0.4.267</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.4.267</guid>
+            <pubDate>Sat, 21 Feb 2026 08:37:20 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update platform mesh by @renovate[bot] in https://github.com/platform-mesh/portal/pull/394</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.17.34...v0.17.35</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.4.266 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/584</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.4.266...v0.4.267</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-apt - apt_3.1.16gl0</title>
+            <link>https://github.com/gardenlinux/package-apt</link>
+            <guid>https://github.com/gardenlinux/package-apt/releases/tag/apt_3.1.16gl0</guid>
+            <pubDate>Sat, 21 Feb 2026 00:08:43 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-apt/actions/runs/22246098985">22246098985</a></p>
+<p>Files in this release:<br>``<code><br>ccf66790099a25a81c0942ba7ca21ee91697046088b5180cec9ec1220169c54f  ./apt_3.1.16gl0_amd64.buildinfo<br>1be2192525685d7a703ce49523e816ee7f5ba9946751a0f97f6b0bd86bf17864  ./apt_3.1.16gl0_amd64.changes<br>9c4b1872134c79664174badbf6429f1e70544b6ff5fd2c6621d5b7a97420e06e  ./apt-utils-dbgsym_3.1.16gl0_arm64.deb<br>2da928f9b0be9d0e5f1bb1f3d264560e8c53cb91f2bf855e902ee29bf94952ba  ./libapt-pkg7.0_3.1.16gl0_amd64.deb<br>adcde370b26129e25e6aae601d04047368136d61cd293a6552c54da93b027066  ./apt-dbgsym_3.1.16gl0_arm64.deb<br>a0c6a1f6db61431a2fa10390a4232634d393bcb37fda9e46c5b829496f6a81ba  ./apt_3.1.16gl0.tar.xz<br>ca0b941c0033e7e5f0a92f7ea19ae378c2627d1236dc09a2a6c79232c0b4f766  ./apt_3.1.16gl0_amd64.deb<br>80fb6a4fc34e5cea2f2fbc20006cdd9969362341d2a829415d10d3179cccace5  ./libapt-pkg-dev_3.1.16gl0_amd64.deb<br>89970baa8216071e495a2a5167ac6f0c16b1ae26a9bca7351b610b23c91ef15b  ./apt-dbgsym_3.1.16gl0_amd64.deb<br>9006e1e933ece6757bde951f615ed2c5b199d95120a50871c2aa64750791db82  ./apt-utils_3.1.16gl0_arm64.deb<br>f34eb719df6214ab80552356478e59ee3a896270bad13f7b7fede58189eef16f  ./apt_3.1.16gl0_arm64.changes<br>a78bc5681e33c8f65f004f7a335bc6b329281cf073c4dfaf3a64afdc99cfaf26  ./apt_3.1.16gl0_arm64.deb<br>7c4d95b42595fd71e2fd43cb58f6151a18b02015a8e0a7023af9096dc35da07e  ./apt-utils-dbgsym_3.1.16gl0_amd64.deb<br>39e49b7aa0289ce19c83b2a64059303a23b3f043e79b9ca6ad8c3712e16a5cad  ./apt_3.1.16gl0_arm64.buildinfo<br>a1679e6ecb075c01896aee1c157dccd27832c75d5132155365cd530a387c2f0c  ./libapt-pkg-dev_3.1.16gl0_arm64.deb<br>3de47619c8ec2c2b519e7a678266d135a536ce4c64af844032dfe6e9fc39b8f4  ./libapt-pkg7.0_3.1.16gl0_arm64.deb<br>b616706cfaffedc8aa9d4469dbdd6e3d52e08841d6996eb4859a4c47bffbc067  ./apt-utils_3.1.16gl0_amd64.deb<br>d8e5662aa6b2d0577f0e460e2753f1476ceb9b0afc4d5a1e26c67d46f2f6a5e2  ./libapt-pkg7.0-dbgsym_3.1.16gl0_amd64.deb<br>c8591a8088ff3cc097fb54ffe2528ed84ce2974483ba126d4af37805c0f42b6d  ./apt_3.1.16gl0.dsc<br>aad77dad239902d0243a084af2a1be1226fae959fc973c8c134457d03f3b6277  ./libapt-pkg7.0-dbgsym_3.1.16gl0_arm64.deb<br>19bb3b496376e9654bdbb898c163aa054115f7fd19a42f543178358bd80c1142  ./apt-transport-https_3.1.16gl0_all.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.52.17</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.52.17</guid>
+            <pubDate>Fri, 20 Feb 2026 18:00:20 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update github.com/open-component-model/open-component-model/kubernetes/controller digest to e578a97 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/424</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.52.16...v0.52.17</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-cloud-hypervisor-gl - cloud-hypervisor-gl_50.0-1gl7</title>
+            <link>https://github.com/gardenlinux/package-cloud-hypervisor-gl</link>
+            <guid>https://github.com/gardenlinux/package-cloud-hypervisor-gl/releases/tag/cloud-hypervisor-gl_50.0-1gl7</guid>
+            <pubDate>Fri, 20 Feb 2026 16:07:56 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/22231412849">22231412849</a></p>
+<p>Files in this release:<br>``<code><br>c6efc81522e805f1fc25d6118e7a43341c4653158747462299383b4a8a0e78c0  ./cloud-hypervisor-gl-dbgsym_50.0-1gl7_amd64.deb<br>51c1ce039e773bce4054aabc8447d356de5c3419802a01f43867d9732064a104  ./cloud-hypervisor-gl_50.0-1gl7_amd64.changes<br>ee4b609a393b3f2c9953eb5ee430776e2c197d088f03d0842c565fc80e966d8d  ./cloud-hypervisor-gl_50.0-1gl7_amd64.deb<br>8633f5a62dfec5606a2df7f411cc3a17b69468b4f982c9241c2e3d80a94e796e  ./cloud-hypervisor-gl_50.0-1gl7.dsc<br>cd6e90e93df26a973c8e20e30fdf53ba7923513bda8254758b4bdf31186e4c91  ./cloud-hypervisor-gl_50.0-1gl7.debian.tar.xz<br>255416ac9ac3e0418c119202385ce90a63ff5272500d827dcabe77960e6d6f12  ./cloud-hypervisor-gl_50.0-1gl7_amd64.buildinfo<br>50af1c651ebb06c8e0f4f66500e691ac283764839519737de79ea9af2e0320ae  ./cloud-hypervisor-gl_50.0.orig.tar.xz<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-containerd - containerd_2.2.1-0gl2</title>
+            <link>https://github.com/gardenlinux/package-containerd</link>
+            <guid>https://github.com/gardenlinux/package-containerd/releases/tag/containerd_2.2.1-0gl2</guid>
+            <pubDate>Fri, 20 Feb 2026 14:16:18 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-containerd/actions/runs/22227521152">22227521152</a><br><br>Files in this release:<br>``<code><br>0a2192d69fb09e57f9a012b4f5987deee8283a2afa049bdfdda45d5c7f301322  ./containerd_2.2.1-0gl2.dsc<br>4e89093b02ef2efab790bbb4bcbc67f6905433c116d4c7f436949c06bdde7410  ./containerd-dbgsym_2.2.1-0gl2_arm64.deb<br>40e2f2523fd57cffb946a7f064839fa31530edcfce32e375f0cb55d41a4c4c6e  ./containerd_2.2.1-0gl2_arm64.buildinfo<br>3363979482796d59e741c9701556d031bf1545d47a30db30b9d9fe32de0d45b7  ./containerd_2.2.1.orig.tar.xz<br>58c006ed7b44344a537451425dac2a976fa1ec5e19f9b9606c68fe26bc653176  ./containerd_2.2.1-0gl2.debian.tar.xz<br>7945bafc4fd07e9acd4fbdee5af7a96f9a6fee9a02f462b0b1b10adfa86e4fb5  ./containerd-dbgsym_2.2.1-0gl2_amd64.deb<br>39256a3b7194965f9b876ec22f5ec089db82b50dd3acc1af36385429f2773358  ./containerd_2.2.1-0gl2_arm64.deb<br>58d23b5d24efeba0bfcefc44d0bceb4611443b757fba7ed0fc59f19128423d69  ./containerd_2.2.1-0gl2_amd64.changes<br>26fc627ffd6f4d239cc09f95ac7f5549211d87dfd5ceac9f333e994ba5cf4be9  ./containerd_2.2.1-0gl2_amd64.buildinfo<br>3bec1b6ccb261f5a8472b38d13d7af7e1c3845e749b498b7e885d689abf329de  ./golang-github-containerd-containerd-dev_2.2.1-0gl2_all.deb<br>4aedca8abbd40b73845f760d6e5bc56c6432d4440610aecc4f2797034fb0a87a  ./containerd_2.2.1-0gl2_amd64.deb<br>7c98ec7403cdc9d4ce2666a86d613fdebc2e42784fecd301f2c577b4621b29d7  ./containerd_2.2.1-0gl2_arm64.changes<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.22.9</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.22.9</guid>
+            <pubDate>Fri, 20 Feb 2026 13:59:54 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>prevent creation of an IDP resource that would lead to an already existing Keycloak realm by @makdeniss in https://github.com/platform-mesh/security-operator/pull/318</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.22.8...v0.22.9</p>]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/aurora-dashboard - v1.25.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.25.0</guid>
+            <pubDate>Fri, 20 Feb 2026 13:08:20 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.24.0...v1.25.0">1.25.0</a> (2026-02-20)</h2>
+<h3>✨ Features</h3>
+<ul><li><strong>portal:</strong> hierarchical sideNavigation (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/512">#512</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/3e782525be2635c24b5eaa8bde44a61756b98291">3e78252</a>)</li></ul>
+<h3>♻️ Code Refactoring</h3>
+<ul><li><strong>aurora-portal:</strong> extract shared formatBytes utility with binary and decimal support (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/511">#511</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/6bbc4962a9ea7d2b16ce98435cda00da26f9f2a4">6bbc496</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener - v1.135.3</title>
+            <link>https://github.com/gardener/gardener</link>
+            <guid>https://github.com/gardener/gardener/releases/tag/v1.135.3</guid>
+            <pubDate>Fri, 20 Feb 2026 11:58:49 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener:v1.135.3]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> A bug is fixed in the extension scrape configuration in the seed Prometheus, where the scrape address was not correctly configured on IPv4 setups. by @vicwicker <a href="https://github.com/gardener/gardener/pull/14117">[#14117</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>controlplane: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/controlplane:v1.135.3</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.135.3</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.135.3</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.135.3</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.135.3</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.135.3</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.135.3</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.135.3</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.135.3</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.135.3</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.135.3</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.135.3</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.135.3</code></li></ul>]]></description>
         </item>
 <item>
             <title>platform-mesh/iam-service - v0.12.75</title>
@@ -41,15 +105,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>Update website index to 1877.13 by @pnpavlov in https://github.com/gardenlinux/website/pull/50</li><li>Bump docker/build-push-action from 6.18.0 to 6.19.2 by @dependabot[bot] in https://github.com/gardenlinux/website/pull/44</li><li>Bump tar from 7.5.7 to 7.5.9 by @dependabot[bot] in https://github.com/gardenlinux/website/pull/46</li><li>Bump vue from 3.5.27 to 3.5.28 by @dependabot[bot] in https://github.com/gardenlinux/website/pull/45</li></ul>
 <strong>Full Changelog</strong>: https://github.com/gardenlinux/website/compare/v1.0.3...v1.0.4]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.52.13</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.52.13</guid>
-            <pubDate>Fri, 20 Feb 2026 08:36:31 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.11.0 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/421</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.52.12...v0.52.13</p>]]></description>
         </item>
 <item>
             <title>cloudoperators/heureka - v1.44.1</title>
@@ -72,15 +127,6 @@
 <ul><li>gardener-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/dashboard:1.83.6</code></li></ul>]]></description>
         </item>
 <item>
-            <title>platform-mesh/security-operator - v0.22.7</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.22.7</guid>
-            <pubDate>Fri, 20 Feb 2026 07:25:11 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.10.0 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/358</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.22.6...v0.22.7</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/golang-commons - v0.11.0</title>
             <link>https://github.com/platform-mesh/golang-commons</link>
             <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.11.0</guid>
@@ -96,14 +142,6 @@
             <pubDate>Fri, 20 Feb 2026 00:09:59 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-gnutls/actions/runs/22205586842">22205586842</a></p>
 <p>Files in this release:<br>``<code><br>f613d64495504e31d9352c5bd12d5f4055a5905dadf218296e5b6f9ec8924b1d  ./libgnutls-openssl27t64_3.8.12-2gl0_amd64.deb<br>37c28539899fcd71cc2b1de40270e9dfd976c6dac8d81a7fdaf2bcb5db027b5b  ./gnutls28_3.8.12-2gl0.dsc<br>26044e091435e704fcde6ddbad5e99a0ff783026aae869117f02293e72e7a5a6  ./libgnutls30t64_3.8.12-2gl0_arm64.deb<br>dc299959c84184dc7872c5c307a0d94ba2753e91a357588157991b9e6d1c4cf4  ./libgnutls30t64-dbgsym_3.8.12-2gl0_amd64.deb<br>d9b4a1d80f79868aa03b827181220b28a930b29de3a173c7728ace7c60349284  ./libgnutls28-dev_3.8.12-2gl0_arm64.deb<br>f6d2d3b8bedd66461774120ac746e4c10283708b72718d8eb94672e095163da3  ./gnutls28_3.8.12-2gl0_arm64.buildinfo<br>633eb3a692e328a93967d898d29ddff07d22fa2f2e678f0c0553c7ef70af4ea3  ./gnutls-bin-dbgsym_3.8.12-2gl0_amd64.deb<br>4186a68ab4d8e0c1c9540f6aedb0cba9372b2d3e15d34190a7dc2de08ae8e272  ./gnutls-bin-dbgsym_3.8.12-2gl0_arm64.deb<br>4f847bbdb4359a3f684427d254554a873584cb134d137c814c1ce8b8ab5d2cba  ./libgnutls-dane0t64_3.8.12-2gl0_arm64.deb<br>0d59b4df8c601e1ac67d7c1fc3117ce450efd5b062cb20bf28ec3554ad2360c8  ./gnutls-doc_3.8.12-2gl0_all.deb<br>b36cee4bee275bc463936740fa0b14d6f9425355d67e69990a3db07f6674cef0  ./libgnutls28-dev_3.8.12-2gl0_amd64.deb<br>7e0554167570556362db7c80381ab4226c6f7fe6048fe88faecf95f0138a6993  ./libgnutls-openssl27t64_3.8.12-2gl0_arm64.deb<br>80dc9679b9033a9b667fc3de90d74b613102a0a77f107c80b29b9148d599faaa  ./gnutls-bin_3.8.12-2gl0_arm64.deb<br>fdfa86c86d70d3cf3266fd20c87b17c7466e6b32c385022658e796711431c29c  ./gnutls28_3.8.12-2gl0.debian.tar.xz<br>bd0246f0efa3afd1884e7c0f3720ad64d6547bec9f40bce9a83bb5757d674126  ./gnutls28_3.8.12.orig.tar.xz<br>080509d21d042c527661c0e0aa10e5627ce03c1f19d9ea35990b531cd81ac861  ./libgnutls-dane0t64-dbgsym_3.8.12-2gl0_arm64.deb<br>6c09cbf830ee9c9e85d5e4a383af9b13f792c572658086fa7d1123276bac50f3  ./libgnutls-dane0t64-dbgsym_3.8.12-2gl0_amd64.deb<br>67a7087ad36add5f76660c05e7045af1ff72e023e68913341d0d865e4753c219  ./libgnutls30t64_3.8.12-2gl0_amd64.deb<br>a4baf2a2ffe8406de0dff6d521b344bf35f4ac4907f53a1eb6112b428b5cdfd6  ./gnutls-bin_3.8.12-2gl0_amd64.deb<br>5238bba7380e482d940efc7ddea5cc2cb2fb56667b94c0d51bd2d38985d3137b  ./gnutls28_3.8.12-2gl0_amd64.buildinfo<br>8faa64090aa8cf7e1e79c8a3470574da796d05b870971841c1a823ece5ce1abf  ./libgnutls-openssl27t64-dbgsym_3.8.12-2gl0_arm64.deb<br>127ddc601afc4d9d8eb6b0c01b9916dedc58ac9bc53d295c55167ee2be47f5f1  ./libgnutls-openssl27t64-dbgsym_3.8.12-2gl0_amd64.deb<br>2cf1f0f95edaf2d18c34d22e4c9d9d684186356b003501700cfc71564fd3355b  ./gnutls28_3.8.12-2gl0_amd64.changes<br>a4c6044d7ab6ef8b968a8731599c58dc98230509927c120d6444f60a2d492bd5  ./libgnutls30t64-dbgsym_3.8.12-2gl0_arm64.deb<br>747810cb0b7f6ab18eb44e85637c123b0a4219222adb3c06e313710a0c93e53c  ./gnutls28_3.8.12-2gl0_arm64.changes<br>573ab413fcc648c1633e66f7ad26c050493fccd4bf9aad150050db4f9c058162  ./libgnutls-dane0t64_3.8.12-2gl0_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-cloud-hypervisor-gl - cloud-hypervisor-gl_50.0-1gl7+bp1877</title>
-            <link>https://github.com/gardenlinux/package-cloud-hypervisor-gl</link>
-            <guid>https://github.com/gardenlinux/package-cloud-hypervisor-gl/releases/tag/cloud-hypervisor-gl_50.0-1gl7+bp1877</guid>
-            <pubDate>Thu, 19 Feb 2026 17:43:23 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/22193148729">22193148729</a></p>
-<p>Files in this release:<br>``<code><br>8477d760ae6063b513f45c7d4ef1711f807cf043fa87a81b8eb9e36b66d8ec95  ./cloud-hypervisor-gl_50.0-1gl7~bp1877_amd64.changes<br>30d9e4e68441544a13a3228278cb524eea500350d48fc7b9d0904d2f044ef1b1  ./cloud-hypervisor-gl_50.0-1gl7~bp1877.dsc<br>057b9fbab720900273e37648fa7b224288ca5da5282d58b9768a1ff9cef800d6  ./cloud-hypervisor-gl_50.0-1gl7~bp1877_amd64.deb<br>ad106f6cc997f60e34d71fab004d23bfbb2912c987c271df8846db2457bf627a  ./cloud-hypervisor-gl_50.0.orig.tar.xz<br>23719461d08ee20a84bd7e2d05e00ba21eba21b7009364633f7cbb902a0cb6c4  ./cloud-hypervisor-gl-dbgsym_50.0-1gl7~bp1877_amd64.deb<br>9c876f1a842b3094a9bdb47d581bbdb0368fce43c29992cd4e337dd22579eb95  ./cloud-hypervisor-gl_50.0-1gl7~bp1877_amd64.buildinfo<br>f6780b10d265a3a24506c934cd99f8a24780cb38ce5924fb709daa3a9a863d28  ./cloud-hypervisor-gl_50.0-1gl7~bp1877.debian.tar.xz<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-linux - linux_6.6.127-1gl0+bp1592</title>
@@ -177,21 +215,6 @@
 <h2>Helm Charts</h2>
 <ul><li>admission-aws-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-aws-application:v1.67.4</code></li><li>admission-aws-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/admission-aws-runtime:v1.67.4</code></li><li>provider-aws: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/provider-aws:v1.67.4</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-admission-aws: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/admission-aws:v1.67.4</code></li><li>gardener-extension-provider-aws: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/provider-aws:v1.67.4</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener - v1.136.1</title>
-            <link>https://github.com/gardener/gardener</link>
-            <guid>https://github.com/gardener/gardener/releases/tag/v1.136.1</guid>
-            <pubDate>Wed, 18 Feb 2026 23:13:11 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener:v1.136.1]</h1>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[OPERATOR]</code> An issue causing the control-plane migration to get stuck if the source backup entry deployment was retried is now fixed. by @shafeeqes <a href="https://github.com/gardener/gardener/pull/14097">[#14097</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[DEPENDENCY]</code> <code>make format</code> target supports sequential run (again) by passing <code>MODE=sequential</code>. by @LucaBernstein <a href="https://github.com/gardener/gardener/pull/14084">[#14084</a>]</li><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/machine-controller-manager</code> from <code>v0.61.1</code> to <code>v0.61.2</code>. <a href="https://redirect.github.com/gardener/machine-controller-manager/releases/tag/v0.61.2">Release Notes</a>  
-  - <code>github.com/gardener/machine-controller-manager</code> from <code>v0.61.1</code> to <code>v0.61.2</code>. by @ary1992 <a href="https://github.com/gardener/gardener/pull/14095">[#14095</a>]
-<h2>Helm Charts</h2>
-<ul><li>controlplane: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/controlplane:v1.136.1</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.136.1</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.136.1</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.136.1</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.136.1</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.136.1</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.136.1</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.136.1</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.136.1</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.136.1</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.136.1</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.136.1</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.136.1</code></li></ul>]]></description>
         </item>
 <item>
             <title>cloudoperators/cloudctl - v0.0.6</title>
@@ -282,15 +305,6 @@
 <h2>Helm Charts</h2>
 <ul><li>lakom: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/lakom:v0.24.0</code></li><li>shoot-lakom-admission-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-lakom-admission-application:v0.24.0</code></li><li>shoot-lakom-admission-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-lakom-admission-runtime:v0.24.0</code></li><li>shoot-lakom-service: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-lakom-service:v0.24.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-shoot-lakom-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-lakom-admission:v0.24.0</code></li><li>gardener-extension-shoot-lakom-service: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-lakom-service:v0.24.0</code></li><li>lakom: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/lakom:v0.24.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>cobaltcore-dev/aurora-dashboard - v1.24.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.24.0</guid>
-            <pubDate>Wed, 18 Feb 2026 14:24:55 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.23.0...v1.24.0">1.24.0</a> (2026-02-18)</h2>
-<h3>✨ Features</h3>
-<ul><li><strong>aurora-portal:</strong> container list - overview of containers (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/489">#489</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/4e369750bdd6e77a99756f211c3728bfe98aeacc">4e36975</a>)</li></ul>]]></description>
         </item>
 <item>
             <title>gardener/gardener-extension-shoot-networking-problemdetector - v0.32.0</title>
@@ -865,13 +879,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:1877.13
 <p>Files in this release:<br>``<code><br>0532c33b1f38c9d09ff6090a47fcf4d4331314726be88e0c3a37ad5f8c8515b9  ./golang-defaults_1.25gl0_arm64.changes<br>ea6583cb3502b25a4e93e0686de15cf6734bd4457664aca639cb8ee68775d40b  ./golang-defaults_1.25gl0_amd64.changes<br>435209c647976dc3c7299b04f8f4136ad84535826ff5e48250f605cb12a3047c  ./golang-go_1.25gl0_arm64.deb<br>37ae9edc0b9eede1be9e004b9c25a2c6ac9ec431292cee6d050c3ae87b88db56  ./golang-defaults_1.25gl0_amd64.buildinfo<br>1eb23fc8b15a083e4073365cdeafb185bc766f89341496e51c2ff8be630013f1  ./golang-doc_1.25gl0_all.deb<br>28bb973b61900d78df1051c80000c58c83bf2f8e18ae9b6b951992189f479f24  ./golang_1.25gl0_amd64.deb<br>6d6056257bd6edb2ea99fa4e9defce60fa318983524679134be8994ff412b29f  ./golang_1.25gl0_arm64.deb<br>0a21157c2bed52343f0a27e819e6996f288a30451f659ab638dbac5a7a67d683  ./golang-src_1.25gl0_all.deb<br>224fde7cb1fff96da5810b253b5ff98c9d0a40ce65129618818d8ae0d0e48159  ./golang-defaults_1.25gl0_arm64.buildinfo<br>9f9ab9dbe2783ed104c38f05288d312716da89bef0d9f92a008792481aaec004  ./golang-defaults_1.25gl0.tar.xz<br>5a0d6ed986dffc14044481938b8f9ae4d75d1ad32e650201812e392f3122f658  ./golang-any_1.25gl0_amd64.deb<br>da0570557ceedc71047c38b836d107ee6934cca48ee4af0400e513d4b3ac4a41  ./golang-go_1.25gl0_amd64.deb<br>2d01d396d32cc84ce2e0c37674fcb06511eb9d061cdd86d755861a0e14fb1130  ./golang-any_1.25gl0_arm64.deb<br>87c5f7970682302e25134821c47f9fe607df44d393ee25caa37a965470548395  ./golang-defaults_1.25gl0.dsc<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-containerd - containerd_2.2.1-0gl1</title>
-            <link>https://github.com/gardenlinux/package-containerd</link>
-            <guid>https://github.com/gardenlinux/package-containerd/releases/tag/containerd_2.2.1-0gl1</guid>
-            <pubDate>Mon, 16 Feb 2026 14:25:55 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-containerd/actions/runs/22066472523">22066472523</a><br><br>Files in this release:<br>``<code><br>6591132c1d4b3a90d649a56faac20e2f95e8c5be68fcdd1e8c0c37475938f4af  ./containerd_2.2.1-0gl1.debian.tar.xz<br>21ef3328b29cf1839fb48af87e32594b85e36e12e3e72130e4f6eb69dc414183  ./containerd_2.2.1-0gl1_amd64.deb<br>579da47f41ec45514888e50cc5559a6efd1b9a78f19719e7c56c4b92810e7c8a  ./containerd_2.2.1-0gl1_arm64.buildinfo<br>89ce8fb7f0e1df0279074ba1335ad5b19f5ef2671693e03908a4f1b1f0efa1b0  ./containerd-dbgsym_2.2.1-0gl1_amd64.deb<br>73cba3e73b5512cd3e28235ecd16d99920011f270ecaee489035bea0f9e8a0e4  ./containerd_2.2.1-0gl1_arm64.deb<br>f07289ccbd8a8d0db85cab4cc740a7ad76dd32ff1574642d1f0733699a12009c  ./containerd_2.2.1-0gl1_amd64.changes<br>972abde34e35081a260710746b473921840f111ca88eec9cb265070d26bbbabd  ./containerd_2.2.1-0gl1.dsc<br>524bcd4968fd3fe118f7a07a17dacff14d14b169ca2519cfc775174f5b0927e9  ./containerd_2.2.1-0gl1_amd64.buildinfo<br>05fad6c1a1917cf9e31792cb02784ec7fc59fa377cea070b59a348b037bf6bf6  ./containerd-dbgsym_2.2.1-0gl1_arm64.deb<br>43899cebf6e297fe910cd2cd1ff3163e2e22a0508a26c75fe0a90929764a831c  ./containerd_2.2.1.orig.tar.xz<br>2884e029589f44796ac9a51ac6a2459a4f75389703ec5d38f0f76a61a27e06be  ./golang-github-containerd-containerd-dev_2.2.1-0gl1_all.deb<br>992344e340b6b03148c86442e561808ee55948ee671436ffef0d76f28c037724  ./containerd_2.2.1-0gl1_arm64.changes<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-golang - golang-1.25_1.25.7-2gl0</title>
             <link>https://github.com/gardenlinux/package-golang</link>
             <guid>https://github.com/gardenlinux/package-golang/releases/tag/golang-1.25_1.25.7-2gl0</guid>
@@ -1385,14 +1392,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.1]]></descriptio
 <h2>Helm Charts</h2>
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/etcd-druid:v0.35.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-druid:v0.35.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-apt - apt_3.1.15gl0</title>
-            <link>https://github.com/gardenlinux/package-apt</link>
-            <guid>https://github.com/gardenlinux/package-apt/releases/tag/apt_3.1.15gl0</guid>
-            <pubDate>Wed, 04 Feb 2026 00:10:23 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-apt/actions/runs/21652892379">21652892379</a></p>
-<p>Files in this release:<br>``<code><br>8988de9ac6b48119ccbb08c49a394fb9946eceb01c508e19fd73e81510dc926d  ./libapt-pkg-dev_3.1.15gl0_arm64.deb<br>04bcfbcefc20d7a464000f37f847adde910ced487db84061ce2f3e6bbbe9b25d  ./apt-utils_3.1.15gl0_arm64.deb<br>497519076125765705d1f1ef052c36bfd04f257c954c146ea54ecf2ee845d52e  ./apt-transport-https_3.1.15gl0_all.deb<br>3f0949014a3b55e3423c939919f883fcc88842fcfa15d129704fedb68e1468ed  ./apt-dbgsym_3.1.15gl0_amd64.deb<br>2a421af7a4afd7eaebd8b102794d735331bd63d85e3f5ed237a81fe4e840238e  ./libapt-pkg7.0_3.1.15gl0_amd64.deb<br>77b3225aedac9be12de2ee7bde670a3592d06ca59e8053e3afbd80e89f2b2fc3  ./libapt-pkg7.0_3.1.15gl0_arm64.deb<br>adde69af9d1d2a137f629d6a69946b427365f994f07c826b709305607f63ede3  ./libapt-pkg7.0-dbgsym_3.1.15gl0_arm64.deb<br>f9f226908042438f78f8f168776d20e323184b1467e7c36ed1355a574e743bb7  ./apt_3.1.15gl0_amd64.deb<br>9f4455ead7c1dca0140b0918262177919f609fa640469a0a51e619c91b614092  ./apt_3.1.15gl0_arm64.buildinfo<br>582282a5088926138c3ea5e7f43fe331c08d4ff65354a403c113e1cff9fd294a  ./apt-utils_3.1.15gl0_amd64.deb<br>874a5adf290aa1618f937f6ba218a8c8d38e271a565ac5e88b2734ef56fafbef  ./apt-dbgsym_3.1.15gl0_arm64.deb<br>511099ce09436446c9490166c6f5498960c0da3ed19460e025234029b392ff0c  ./apt_3.1.15gl0.dsc<br>eb504dfee4370d5cb081f2e2f198c265aea4a84b190d695695efbc65e416128b  ./apt_3.1.15gl0.tar.xz<br>d39ea47e755e7f746849a9e6e2376ba51dcfe5ef14298b04b42ba3873b5a0e34  ./apt_3.1.15gl0_amd64.buildinfo<br>2d5293cfdbbb2d90c648cf53360eadabe90f0c1a89623cd662cc68c7baee6b91  ./apt_3.1.15gl0_arm64.deb<br>4cb8fbcd267de445a20f0321c51aa9abde9d32df849a009ef74c2e27b9125b3f  ./apt-utils-dbgsym_3.1.15gl0_amd64.deb<br>a1a65e1bf384f6af5c35475b8e91227cd67ab74c9da050bfefc74b39a228cc24  ./apt-utils-dbgsym_3.1.15gl0_arm64.deb<br>47f1f7820e8977fbe279fc963a2c61e58dc1c6f1c282e75e750bbb6dac1c9686  ./apt_3.1.15gl0_amd64.changes<br>ddba07bc9d7b1375175a776a5372a44622d5417621a112b61a650c024be266a8  ./libapt-pkg7.0-dbgsym_3.1.15gl0_amd64.deb<br>21e4d60ba395f867a417fe790bc73fa9eaeb7afa26c3a562d6c5476c00bb51fa  ./apt_3.1.15gl0_arm64.changes<br>df8a7163c3454ba29d0f98cf2e756d049dfb115e8777b5ab3e80f67a667b0aa9  ./libapt-pkg-dev_3.1.15gl0_amd64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/etcd-backup-restore - v0.41.0</title>
