@@ -1,7 +1,7 @@
 ---
 title: "Fraunhofer ISST joins NeoNephos"
 date: "2026-03-06"
-banner: "assets/blog/20260306_fraunhoer_isst_joins_neonephos.svg"
+banner: "assets/blog/20260306_fraunhoer_isst_joins_neonephos_banner.svg"
 authors:
     - "neonephos-team"
 tags:
