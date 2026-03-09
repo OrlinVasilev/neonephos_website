@@ -181,8 +181,9 @@ function generateEventsRSS(events, md) {
       // Use `full` (Markdown without frontmatter) instead of non-existent `body`
       const bodyHtml = event.full ? md.render(event.full) : ''
 
-      var html = bannerHtml + bodyHtml
-      html = "Test"
+      //var html = bannerHtml + bodyHtml
+     var  html = "Test"
+      html = "Test2";
       return `
   <item>
     <title><![CDATA[${event.title}]]></title>
