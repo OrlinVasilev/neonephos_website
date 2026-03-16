@@ -1,5 +1,5 @@
 ---
-title: "NeoNephos Goals Document Release"
+title: "Open Key Chain Manager has been accepted into NeoNephos"
 date: "2026-03-04"
 banner: "assets/blog/20260304_openkcm_new_project.svg"
 authors:
