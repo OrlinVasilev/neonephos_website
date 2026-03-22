@@ -4,16 +4,43 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 21 Mar 2026 12:04:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 12:05:20 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/extension-manager-operator - v0.7.13</title>
+            <title>open-component-model/ocm - latest ocm-cli</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
+            <pubDate>Sun, 22 Mar 2026 09:30:40 +0000</pubDate>
+            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.7.19</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.13</guid>
-            <pubDate>Sat, 21 Mar 2026 10:11:51 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.19</guid>
+            <pubDate>Sun, 22 Mar 2026 05:50:20 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.12 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/732</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.12...v0.7.13</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.18 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/738</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.18...v0.7.19</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-expat - expat_2.7.5-1gl0</title>
+            <link>https://github.com/gardenlinux/package-expat</link>
+            <guid>https://github.com/gardenlinux/package-expat/releases/tag/expat_2.7.5-1gl0</guid>
+            <pubDate>Sun, 22 Mar 2026 00:44:02 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-expat/actions/runs/23392328542">23392328542</a></p>
+<p>Files in this release:<br>``<code><br>7e154a0e7e454c19a677e487e8b816f31bc1d48e7952d2fab6db8633b2f2a524  ./expat_2.7.5-1gl0_arm64.deb<br>4c8536e086954e8f1c1f86806ab0fd38f3df5176a409033b26d6a58961e5a459  ./expat_2.7.5-1gl0_amd64.changes<br>2ce6f1169a4b810b0e69513c6459aa411a2a82658e2b6ff316082bf7caaaba46  ./expat_2.7.5-1gl0_arm64.buildinfo<br>6e74759c219e2d6a2120c6f8c86185a472915862d53ef525f69149b6bc44033e  ./libexpat1_2.7.5-1gl0_amd64.deb<br>47f6e015daafd4fc928114ed794b572552dc988183e04e212b2ca0bee275c674  ./libexpat1-dbgsym_2.7.5-1gl0_amd64.deb<br>dacf5d99051833e68f4f7e2ddd2439fa64be7ffd354c54e1af84f5fc10ce9ed1  ./expat-dbgsym_2.7.5-1gl0_amd64.deb<br>8930442e6bcee460e3e4f94818036f36c7e75bb68964cc7cc46a05ed0351f0a8  ./libexpat1-dev_2.7.5-1gl0_amd64.deb<br>34b4e72b4c78270e9eea934d91f25687edf94e63a763709bacc73321e1a62c1d  ./expat_2.7.5-1gl0_amd64.buildinfo<br>f7083010f7d3ebd0a668ed4e9504aa8554ddd20e45b089f46361fa769e4d3b66  ./libexpat1-dbgsym_2.7.5-1gl0_arm64.deb<br>8fbf82ef8605b7236de8f412d1eeba67eed26ad25647ba02e324df05563297f5  ./expat_2.7.5-1gl0_arm64.changes<br>2c089f20a470c64589f48a119ac3cd41bcb91a365be1fd6eeb8d56bb27b484bd  ./libexpat1_2.7.5-1gl0_arm64.deb<br>96afcf317dedcb3a68981903e4b1d91c2506be1cbbd231ddd4d5aa3ce644edc2  ./expat-dbgsym_2.7.5-1gl0_arm64.deb<br>4e1f792a9cb1e9434814660efdfe5088cb09ad2206bd57f77575feb20cce6307  ./expat_2.7.5-1gl0.debian.tar.xz<br>9582979317ad21bd9b30696f58876850efefda06cee288358ab8e202e17c4f6f  ./expat_2.7.5-1gl0.dsc<br>692fe9938e727f91c3029744f634fb303a863f05fbea85becc3e99f45c383357  ./libexpat1-dev_2.7.5-1gl0_arm64.deb<br>53705040bc6f0d9b74de0733d7624553b119376b34210a681b7d22840c0af67a  ./expat_2.7.5-1gl0_amd64.deb<br>a8cc44aa05165ff4c932def609586a4aab0c06c01d4f60c3b0ee0bd4b2031353  ./expat_2.7.5.orig.tar.xz<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/oidc-apps-controller - v0.24.0</title>
+            <link>https://github.com/gardener/oidc-apps-controller</link>
+            <guid>https://github.com/gardener/oidc-apps-controller/releases/tag/v0.24.0</guid>
+            <pubDate>Sat, 21 Mar 2026 18:00:13 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/oidc-apps-controller:v0.24.0]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> Fixed an issue where the OIDC Apps controller would attempt to list HTTPRoute resources even when the Gateway API scheme was not registered, causing errors on clusters without Gateway API CRDs installed. by @nickytd <a href="https://github.com/gardener/oidc-apps-controller/pull/336">[#336</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>oidc-apps-controller: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/oidc-apps-controller:v0.24.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>oidc-apps-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/oidc-apps-controller:v0.24.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-systemd - systemd_260-1gl0</title>
@@ -211,13 +238,6 @@
 <ul><li><a href="https://github.com/luigi-project/luigi/pull/4838">#4838</a> Modal opener reuse (<a href="https://github.com/hardl">@hardl</a>)</li></ul>]]></description>
         </item>
 <item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Thu, 19 Mar 2026 17:03:31 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
-        </item>
-<item>
             <title>open-component-model/delivery-service - 0.1299.0</title>
             <link>https://github.com/open-component-model/delivery-service</link>
             <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1299.0</guid>
@@ -287,20 +307,6 @@
             <description><![CDATA[<h1><a href="https://github.com/cloudoperators/heureka/compare/v1.53.0...v1.54.0">1.54.0</a> (2026-03-19)</h1>
 <h3>Features</h3>
 <ul><li><strong>remediation:</strong> user id is set for remediation (<a href="https://github.com/cloudoperators/heureka/issues/1134">#1134</a>) (<a href="https://github.com/cloudoperators/heureka/commit/c12e0ec4114315a5723f0547928a78fa777a0eee">c12e0ec</a>)</li></ul>]]></description>
-        </item>
-<item>
-            <title>gardener/oidc-apps-controller - v0.23.0</title>
-            <link>https://github.com/gardener/oidc-apps-controller</link>
-            <guid>https://github.com/gardener/oidc-apps-controller/releases/tag/v0.23.0</guid>
-            <pubDate>Thu, 19 Mar 2026 09:34:07 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/oidc-apps-controller:v0.23.0]</h1>
-<h2>✨ New Features</h2>
-<ul><li><code>[OPERATOR]</code> Added <code>defaultPath</code> configuration option for Ingress and HTTPRoute targets. When set, requests to <code>/</code> are redirected to the specified path. For Ingress this uses the nginx <code>configuration-snippet</code> annotation; for HTTPRoute a Gateway API <code>RequestRedirect</code> filter rule is prepended. by @Niki Dokovski <a href="https://github.com/gardener/oidc-apps-controller/commit/6709b00a2ec7ab8bd7f64951674294c01ab915d4">[gardener/oidc-apps-controller@6709b00a2ec7ab8bd7f64951674294c01ab915d4</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> Simplified <code>isValidDefaultPath</code> validation using a compiled regex and enforced a maximum path length of 32 characters for HTTPRoute default paths. by @Niki Dokovski <a href="https://github.com/gardener/oidc-apps-controller/commit/d8e33908718a5afcb8e235fd2a44fc58fb9e1d5f">[gardener/oidc-apps-controller@d8e33908718a5afcb8e235fd2a44fc58fb9e1d5f</a>]</li><li><code>[OPERATOR]</code> Migrated provider-local dev environment deployment from numbered shell scripts to a kustomize-based workflow with <code>make deploy</code> / <code>make deploy-check</code> targets; added Victoria Logs OIDC support to the local setup. by @nickytd <a href="https://github.com/gardener/oidc-apps-controller/pull/330">[#330</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>oidc-apps-controller: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/oidc-apps-controller:v0.23.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>oidc-apps-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/oidc-apps-controller:v0.23.0</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/logging - v1.4.0</title>
@@ -2868,14 +2874,6 @@ Initial implementation.]]></description>
 <h2>🧰 Maintenance</h2>
 
 <ul><li>Group dependabot updates @gonzolino (#239)</li><li>Bump github.com/onsi/gomega from 1.39.0 to 1.39.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#238)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.5 to 2.28.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#237)</li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-expat - expat_2.7.4-1gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/package-expat</link>
-            <guid>https://github.com/gardenlinux/package-expat/releases/tag/expat_2.7.4-1gl0+bp1877</guid>
-            <pubDate>Thu, 05 Feb 2026 15:33:41 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-expat/actions/runs/21717681278">21717681278</a></p>
-<p>Files in this release:<br>``<code><br>2383fc942f57b16dd0a7491442fbda84ae12899ac360f99e8eb021540dac8ded  ./expat_2.7.4-1gl0~bp1877_amd64.buildinfo<br>5444338b710bcaf24ee1377614f44e63d07a80589b32b8bdbdd73cad10d9f5ff  ./expat_2.7.4-1gl0~bp1877_arm64.buildinfo<br>d9bc4732ddfad2e2094e047ac8e116caf223ef99ce7496a248169eab52dd7256  ./expat_2.7.4-1gl0~bp1877.dsc<br>6abe0d16f8511cfd04c1e46220ce321850e67d1c518429a7ab6d886187e89bc9  ./libexpat1-dbgsym_2.7.4-1gl0~bp1877_arm64.deb<br>f0056724c49e912230d23c6b900028c0b5294b12f18b74f952fb9675346fdc52  ./expat_2.7.4-1gl0~bp1877.debian.tar.xz<br>cd314acd746f4dc02c977ea58e4f79628b03666a37b2f5c5b6c100f88be02cf8  ./expat_2.7.4.orig.tar.xz<br>e7e0fef0a71c376437bfe74488d0ca75ecc5a01ad2f45c3c9ad3339d7131e04f  ./expat-dbgsym_2.7.4-1gl0~bp1877_arm64.deb<br>272d21c5d6775438a69cf2156f6f3be59c2f9bc002b71e463b7f432992523c70  ./expat_2.7.4-1gl0~bp1877_amd64.changes<br>7f4dbfce289f29577d8a381762ed802172bc1fd87082a396bf23ff1816a1258b  ./libexpat1-dev_2.7.4-1gl0~bp1877_amd64.deb<br>0af789208bebb669ecfe55b324fdc7b12242a38f32f62c50f303d1bc177c88d9  ./libexpat1-dev_2.7.4-1gl0~bp1877_arm64.deb<br>cd0fec97bb4a9d089a8c0b660d70e8a92986cc361bcb8a5769632dfc313aecf6  ./libexpat1-dbgsym_2.7.4-1gl0~bp1877_amd64.deb<br>06c46b6770ae8a1abb9c7daacc71c2262049ef873d789644782a09abd80fb69e  ./libexpat1_2.7.4-1gl0~bp1877_arm64.deb<br>4837ef44f34825fab2d0fc7fbeea12c042e585811f802513026a0350c30c7f38  ./debian.tar<br>906e7c11346620d2a3d6a9db86142d846e0640dd26501c79f706ab9d846dc0f2  ./libexpat1_2.7.4-1gl0~bp1877_amd64.deb<br>a4246d5b8614d570217a5d560fc88dd63f185939bcd55d07c18f6b2be2f6dfd9  ./expat-dbgsym_2.7.4-1gl0~bp1877_amd64.deb<br>989760e632496ffcffde87598bbc7fb31f8507c2117dce0668b57d3edee17bbc  ./expat_2.7.4-1gl0~bp1877_amd64.deb<br>9e48c4bad0385155d5028f3b620105b8f6b729a20803c99604e7667e7fa62a2c  ./expat_2.7.4-1gl0~bp1877_arm64.changes<br>a63612ff7cf23ff217aec79cbac560bd9f4108ca07ed634c0e4daec74697295a  ./expat_2.7.4-1gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-glvd - glvd_0.0.3gl0</title>
