@@ -4,16 +4,329 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sun, 29 Mar 2026 12:07:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 12:15:53 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/kubernetes-graphql-gateway - v1.2.3</title>
-            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
-            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.2.3</guid>
-            <pubDate>Sun, 29 Mar 2026 10:59:34 +0000</pubDate>
+            <title>gardener/cc-utils - 1.2749.0</title>
+            <link>https://github.com/gardener/cc-utils</link>
+            <guid>https://github.com/gardener/cc-utils/releases/tag/1.2749.0</guid>
+            <pubDate>Mon, 30 Mar 2026 11:00:54 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/cc-utils:1.2749.0]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> fix ocm-download. If specifying --component (root-component) and --name (sub-component), ocm-download will now print the subcomponent, rather than the root-component. by @ccwienk <a href="https://github.com/gardener/cc-utils/pull/1546">[#1546</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> GitHub-Actions, and reusable workflows from cc-utils-repository are now (also) exposed from a <code>v1</code>-branch, featuring commit-digest-pinning for cross-references. by @ccwienk <a href="https://github.com/gardener/cc-utils/pull/1550">[#1550</a>]</li><li><code>[OPERATOR]</code> github-actions will now be exposed via new branch <code>v1</code>, with crossreferences between actions and workflows being pinned to commit-digests. by @ccwienk <a href="https://github.com/gardener/cc-utils/pull/1547">[#1547</a>]</li></ul>]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/aurora-dashboard - v1.52.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.52.0</guid>
+            <pubDate>Mon, 30 Mar 2026 10:47:02 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.51.0...v1.52.0">1.52.0</a> (2026-03-30)</h2>
+<h3>✨ Features</h3>
+<ul><li><strong>aurora-portal:</strong> created RBAC Security group BFF part (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/637">#637</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/dd93bd08143bf158c824306ac08096da4778d7ef">dd93bd0</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>gardener/garden-shoot-trust-configurator - v0.1.0</title>
+            <link>https://github.com/gardener/garden-shoot-trust-configurator</link>
+            <guid>https://github.com/gardener/garden-shoot-trust-configurator/releases/tag/v0.1.0</guid>
+            <pubDate>Mon, 30 Mar 2026 10:15:34 +0000</pubDate>
+            <description><![CDATA[<h2>Container (OCI) Images</h2>
+<ul><li>garden-shoot-trust-configurator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/garden-shoot-trust-configurator:v0.1.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-cloud-hypervisor-gl - cloud-hypervisor-gl_51.1-1gl6+bp1877</title>
+            <link>https://github.com/gardenlinux/package-cloud-hypervisor-gl</link>
+            <guid>https://github.com/gardenlinux/package-cloud-hypervisor-gl/releases/tag/cloud-hypervisor-gl_51.1-1gl6+bp1877</guid>
+            <pubDate>Mon, 30 Mar 2026 10:13:21 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/23739564991">23739564991</a></p>
+<p>Files in this release:<br>``<code><br>69e4f9b69e07bb71fe921eafe1e95162526069a65950044e1c15f38e13633886  ./cloud-hypervisor-gl-dbgsym_51.1-1gl6~bp1877_amd64.deb<br>133c159e957035152f81e9aad6945abefd8a30739a1b7338745feeaaad94c340  ./cloud-hypervisor-gl_51.1-1gl6~bp1877.debian.tar.xz<br>a87849e3f2f4e68f1b1c0b621d7e0953ddc454ceb9b90b09f7db02911ca3e7c1  ./cloud-hypervisor-gl_51.1-1gl6~bp1877_amd64.deb<br>75ff08048ff0b1d430fe0767266ccfd7a12e8fc1d38252090fdf320accc52cde  ./cloud-hypervisor-gl_51.1-1gl6~bp1877.dsc<br>724a46921d4a69933fd1ce827189001b32614ad6cbdf238d4f8b81fdd048284b  ./cloud-hypervisor-gl_51.1-1gl6~bp1877_amd64.changes<br>b875ea34394535d1e4ba603c1e812c9d470edf61a391e0572bbf6d5c92f4ce9e  ./cloud-hypervisor-gl_51.1-1gl6~bp1877_amd64.buildinfo<br>ecc213e6cd84f49f75ea2602bd0d853407f2d2c847d2ab8ed3e6d3b1f7dc25f7  ./cloud-hypervisor-gl_51.1.orig.tar.xz<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/delivery-dashboard - 0.422.0</title>
+            <link>https://github.com/open-component-model/delivery-dashboard</link>
+            <guid>https://github.com/open-component-model/delivery-dashboard/releases/tag/0.422.0</guid>
+            <pubDate>Mon, 30 Mar 2026 09:40:23 +0000</pubDate>
+            <description><![CDATA[<h1>[ocm.software/ocm-gear/delivery-dashboard:0.422.0]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[USER]</code> Rescoring of IP-Findings now works again. by @zkdev <a href="https://github.com/open-component-model/delivery-dashboard/pull/440">[#440</a>]</li></ul>
+<h2>Helm Charts</h2>
+<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-dashboard:0.422.0</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard:0.422.0</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.7.57</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.57</guid>
+            <pubDate>Mon, 30 Mar 2026 08:47:52 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/golang-jwt/jwt/v5 to v5.3.1 by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/181</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.2.2...v1.2.3</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.56 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/777</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.56...v0.7.57</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/openmcp - Release v0.0.67</title>
+            <link>https://github.com/openmcp-project/openmcp</link>
+            <guid>https://github.com/openmcp-project/openmcp/releases/tag/Release v0.0.67</guid>
+            <pubDate>Mon, 30 Mar 2026 08:45:53 +0000</pubDate>
+            <description><![CDATA[<h1>openMCP</h1>
+<h2>Components:</h2>
+
+<h2>mcp-operator <a href="https://github.com/openmcp-project/mcp-operator/releases/tag/v0.52.0">[v0.52.0</a>]:</h2>
+
+<h3>Changes included in v0.52.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>- Release v0.52.0 <strong>(#266, @robertgraeff)</strong></li><li>- Support credentialsBindingName in shoot templates to allow a migration from secret bindings to credential bindings. <strong>(#264, @robertgraeff)</strong></li></ul>#### [USER]
+<ul><li>- Release v0.51.0 <strong>(#263, @robertgraeff)</strong></li></ul>
+<h2>🐛 Bugfixes</h2>
+
+#### [OPERATOR]
+<ul><li>- Adjust validation of shoot templates, so that credentialsBindingName is supported instead of secretBindingName <strong>(#262, @robertgraeff)</strong></li></ul>
+
+
+---
+<h2>openmcp-operator <a href="https://github.com/openmcp-project/openmcp-operator/releases/tag/v0.18.1">[v0.18.1</a>]:</h2>
+
+<h3>Changes included in v0.18.1:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🐛 Bugfixes</h2>
+
+#### [OPERATOR]
+<ul><li>Fixed a bug that could lead to AccessRequests being stuck in deletion, because responsibility was with the generic controller, but that one ignored AccessRequests with a non-zero DeletionTimestamp. <strong>(#240, @Diaphteiros)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>Added tests for the <code>IsClusterProviderResponsibleForAccessRequest</code> function. <strong>(#240, @Diaphteiros)</strong></li></ul>
+
+
+---
+<h2>gitops-templates <a href="https://github.com/openmcp-project/gitops-templates/releases/tag/v0.1.4">[v0.1.4</a>]:</h2>
+
+<h3>Changes included in v0.1.4:</h3>
+
+<h3>🚀 Features</h3>
+<ul><li>change env overlay branch variable to flux.gitrepo.ref.branch <a href="https://github.com/openmcp-project/gitops-templates/pull/14">#14</a></li></ul>  - <strong>[OPERATOR][BREAKING]</strong> Changed gitrepo environment based variable for branch to git.pullBranch.
+
+
+
+---
+<h2>control-plane-operator <a href="https://github.com/openmcp-project/control-plane-operator/releases/tag/v0.1.19">[v0.1.19</a>]:</h2>
+
+<h3>Changes included in v0.1.19:</h3>
+
+<h3>🐛 Fixes</h3>
+<ul><li>configurable labels <a href="https://github.com/openmcp-project/control-plane-operator/pull/124">#124</a></li></ul>  - <strong>[DEVLOPER][BUGFIX]</strong> Allow label customization with FluxReconciler and ObjectReconciler
+
+
+
+---
+<h2>quota-operator <a href="https://github.com/openmcp-project/quota-operator/releases/tag/v0.16.0">[v0.16.0</a>]:</h2>
+
+<h3>Changes included in v0.16.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [USER]
+<ul><li><strong>(#142, @guewa)</strong></li></ul>
+<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): update hack/common digest to 4159ec6 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/130</li><li>fix(deps): update module github.com/spf13/cobra to v1.10.2 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/132</li><li>chore(deps): update gcr.io/distroless/static-debian12:nonroot docker digest to 2b7c93f by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/133</li><li>chore(deps): update dependency go to v1.25.5 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/131</li><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/136</li><li>chore(deps): update hack/common digest to 6824b1f by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/134</li><li>chore(deps): update gcr.io/distroless/static-debian12:nonroot docker digest to cba10d7 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/141</li><li>chore(deps): update hack/common digest to 63dd575 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/138</li><li>fix(deps): update module github.com/onsi/gomega to v1.39.0 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/140</li><li>fix(deps): update kubernetes packages to v0.35.0 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/137</li><li>fix(deps): update k8s.io/utils digest to 914a6e7 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/139</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.5 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/135</li><li>feat: release v0.16.0 by @guewa in https://github.com/openmcp-project/quota-operator/pull/142</li></ul>
+
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/quota-operator/compare/v0.15.0...v0.16.0
+---
+<h2>project-workspace-operator <a href="https://github.com/openmcp-project/project-workspace-operator/releases/tag/v1.3.0">[v1.3.0</a>]:</h2>
+
+<h3>Changes included in v1.3.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>Changes to the PWO config or to ServiceProviders will now take effect immediately without having to restart the PWO. <strong>(#174, @Diaphteiros)</strong></li></ul>#### [USER]
+<ul><li><strong>(#183, @rdksap)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>The PWO now uses the discovery client instead of fetching CRDs to turn group/version/kind into group/version/resource. <strong>(#174, @Diaphteiros)</strong></li></ul>
+
+
+---
+<h2>bootstrapper <a href="https://github.com/openmcp-project/bootstrapper/releases/tag/v0.15.0">[v0.15.0</a>]:</h2>
+
+<h3>Changes included in v0.15.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>- Release v0.15.0 <strong>(#183, @robertgraeff)</strong></li><li>- Add jq and kubectl to the bootstrapper docker image. <strong>(#182, @robertgraeff)</strong></li></ul>
+
+
+---
+<h2>service-provider-landscaper <a href="https://github.com/openmcp-project/service-provider-landscaper/releases/tag/v0.17.0">[v0.17.0</a>]:</h2>
+
+<h3>Changes included in v0.17.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>The Landscaper controller will now reconcile Landscaper instances if image pull secrets are updated to sync changes. <strong>(#252, @moelsayed)</strong></li></ul>#### [USER]
+<ul><li>- Release v0.17.0 <strong>(#254, @robertgraeff)</strong></li><li>- Increase number of workers for helm and manifest deployer <strong>(#251, @robertgraeff)</strong></li></ul>
+<h2>📚 Documentation</h2>
+
+#### [USER]
+<ul><li>Add explicit documentation for the <code>spec.deployment.repository</code> field in ProviderConfig. <strong>(#253, @moelsayed)</strong></li></ul>
+
+
+---
+<h2>service-provider-crossplane <a href="https://github.com/openmcp-project/service-provider-crossplane/releases/tag/v0.3.1">[v0.3.1</a>]:</h2>
+
+<h3>Changes included in v0.3.1:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🐛 Bugfixes</h2>
+
+#### [OPERATOR]
+<ul><li>fix: orphaned access request <strong>(#92, @ValentinGerlach)</strong></li></ul>
+
+
+---
+<h2>cluster-provider-gardener <a href="https://github.com/openmcp-project/cluster-provider-gardener/releases/tag/v0.12.0">[v0.12.0</a>]:</h2>
+
+<h3>Changes included in v0.12.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [DEVELOPER]
+<ul><li>Bump Gardener dependency to <code>v1.137</code> and use Gardener api module instead of hacky script to depend on the Gardener api types. <strong>(#187, @Diaphteiros)</strong></li></ul>#### [OPERATOR]
+<ul><li>The new <code>enforcedShootExtensions</code> field in the providerconfig&#x27;s <code>spec</code> allows to specify shoot extensions which should always be set. For backward compatibility reasons, the shoot OIDC extension will be enforced by default if the field is not set (or set to <code>null</code>). Setting the field to an actual list - either empty or with entries - disables the shoot OIDC extension, unless it is part of the list. <strong>(#188, @Diaphteiros)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [USER]
+<ul><li>Update issue templates and add CODEOWNERS <strong>(#189, @maximiliantech)</strong></li></ul>
+
+
+---
+<h2>cluster-provider-kind <a href="https://github.com/openmcp-project/cluster-provider-kind/releases/tag/v0.2.0">[v0.2.0</a>]:</h2>
+
+<h3>Changes included in v0.2.0:</h3>
+
+<h3>🚀 Features</h3>
+<ul><li>local registry config <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/120">#120</a></li></ul>  - <strong>[USER][FEATURE]</strong> create clusters with custom kind configuration
+<ul><li>apply requested token config permissions <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/112">#112</a></li></ul>  - <strong>[USER][FEATURE]</strong> token based access processing
+
+
+<h3>🐛 Fixes</h3>
+<ul><li>multi-arch image loading <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/117">#117</a></li></ul>  - <strong>[USER][BUGFIX]</strong> fix image loading to kind on arm64
+<ul><li>improve error message on unsupported network <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/111">#111</a></li></ul>  - <strong>[USER][FEATURE]</strong> improved error message for user on <code>unsupported networks</code>.
+
+
+
+---
+<h2>platform-service-dns <a href="https://github.com/openmcp-project/platform-service-dns/releases/tag/v0.0.5">[v0.0.5</a>]:</h2>
+
+<h3>Changes included in v0.0.5:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🐛 Bugfixes</h2>
+
+#### [USER]
+<ul><li>Preserve unknown fields in <code>PurposeSelectorRequirement</code> <strong>(#66, @reshnm)</strong></li></ul>
+
+
+---
+<h2>platform-service-gateway <a href="https://github.com/openmcp-project/platform-service-gateway/releases/tag/v0.0.10">[v0.0.10</a>]:</h2>
+
+<h3>Changes included in v0.0.10:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [USER]
+<ul><li>- Release v0.0.10 <strong>(#98, @robertgraeff)</strong></li></ul>
+
+
+---
+<h2>platform-service-project-workspace <a href="https://github.com/openmcp-project/project-workspace-operator/releases/tag/v1.3.0">[v1.3.0</a>]:</h2>
+
+<h3>Changes included in v1.3.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>Changes to the PWO config or to ServiceProviders will now take effect immediately without having to restart the PWO. <strong>(#174, @Diaphteiros)</strong></li></ul>#### [USER]
+<ul><li><strong>(#183, @rdksap)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>The PWO now uses the discovery client instead of fetching CRDs to turn group/version/kind into group/version/resource. <strong>(#174, @Diaphteiros)</strong></li></ul>
+
+
+---
+<h2>platform-service-usage <a href="https://github.com/openmcp-project/usage-operator/releases/tag/v0.0.16">[v0.0.16</a>]:</h2>
+
+<h3>Changes included in v0.0.16:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>- Release v0.0.16 <strong>(#14, @robertgraeff)</strong></li></ul>
+<h2>What&#x27;s Changed</h2>
+<ul><li>chore: Configure Renovate by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/3</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v0.19.0 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/4</li><li>fix(deps): update module github.com/spf13/cobra to v1.10.2 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/13</li><li>chore(deps): update dependency go to v1.25.5 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/8</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.3 - autoclosed by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/10</li><li>fix(deps): update kubernetes packages to v0.34.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/9</li><li>chore(deps): update golang docker tag to v1.25 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/12</li><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/11</li><li>chore(deps): update hack/common digest to 6824b1f by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/7</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v1 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/5</li><li>feat: release v0.0.16 by @robertgraeff in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/usage-operator/pull/3</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/usage-operator/compare/v0.0.15...v0.0.16
+---]]></description>
+        </item>
+<item>
+            <title>platform-mesh/kubernetes-graphql-gateway - v1.2.4</title>
+            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
+            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.2.4</guid>
+            <pubDate>Mon, 30 Mar 2026 08:23:08 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix: update kubeconfig handling to parse host for cluster URL resolution by @aaronschweig in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/184</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.2.3...v1.2.4</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.64.9</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.64.9</guid>
+            <pubDate>Mon, 30 Mar 2026 06:39:48 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>feat: Scoped Kube Config for Providers by @philtk79 in https://github.com/platform-mesh/platform-mesh-operator/pull/526</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.64.8...v0.64.9</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/rebac-authz-webhook - v0.5.3</title>
@@ -23,15 +336,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore: add retry logic for bind verb handling and refactor object type construction by @aaronschweig in https://github.com/platform-mesh/rebac-authz-webhook/pull/224</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.5.2...v0.5.3</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.7.51</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.51</guid>
-            <pubDate>Sun, 29 Mar 2026 09:16:20 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.50 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/771</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.50...v0.7.51</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/iam-service - v0.14.38</title>
@@ -68,15 +372,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/account-operator/pull/193</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.31...v0.12.32</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.64.8</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.64.8</guid>
-            <pubDate>Sat, 28 Mar 2026 09:50:48 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/platform-mesh-operator/pull/537</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.64.7...v0.64.8</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/golang-commons - v0.13.23</title>
@@ -208,18 +503,6 @@
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
         </item>
 <item>
-            <title>open-component-model/delivery-dashboard - 0.421.0</title>
-            <link>https://github.com/open-component-model/delivery-dashboard</link>
-            <guid>https://github.com/open-component-model/delivery-dashboard/releases/tag/0.421.0</guid>
-            <pubDate>Fri, 27 Mar 2026 14:58:35 +0000</pubDate>
-            <description><![CDATA[<h1>[ocm.software/ocm-gear/delivery-dashboard:0.421.0]</h1>
-<h2>📰 Noteworthy</h2>
-<ul><li><code>[USER]</code> The DORA tab is now disabled by default and can be enabled using the <code>dora</code> property in the features-cfg by @8R0WNI3 <a href="https://github.com/open-component-model/delivery-dashboard/pull/438">[#438</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/charts/odg/delivery-dashboard:0.421.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>delivery-dashboard: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-dashboard:0.421.0</code></li></ul>]]></description>
-        </item>
-<item>
             <title>open-component-model/delivery-service - 0.1305.0</title>
             <link>https://github.com/open-component-model/delivery-service</link>
             <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1305.0</guid>
@@ -234,14 +517,6 @@
 <ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1305.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1305.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1305.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1305.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1305.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-cloud-hypervisor-gl - cloud-hypervisor-gl_51.1-1gl5+bp1877</title>
-            <link>https://github.com/gardenlinux/package-cloud-hypervisor-gl</link>
-            <guid>https://github.com/gardenlinux/package-cloud-hypervisor-gl/releases/tag/cloud-hypervisor-gl_51.1-1gl5+bp1877</guid>
-            <pubDate>Fri, 27 Mar 2026 14:23:57 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-cloud-hypervisor-gl/actions/runs/23650968149">23650968149</a></p>
-<p>Files in this release:<br>``<code><br>b4afc12fd1c2d8082371727dcf1dbb37a653e9a1bea8b9ee8e8a698b00c9d29a  ./cloud-hypervisor-gl_51.1-1gl5~bp1877.dsc<br>beaf163cd2912262bb184caa685bbda24735d3a68058b37f6469f89da0090384  ./cloud-hypervisor-gl_51.1-1gl5~bp1877.debian.tar.xz<br>a4955670b50123b6b0d6f5128b9512b4b1edac8c3781216723d1f5d4ab36d75a  ./cloud-hypervisor-gl_51.1-1gl5~bp1877_amd64.deb<br>93e056e52fd9dfb507005d8bbc9fe66250943e9104dfa8afe9dd320c247d8718  ./cloud-hypervisor-gl-dbgsym_51.1-1gl5~bp1877_amd64.deb<br>84f193fe1fe9c6f215e836bdab5eb6b21652b481770e724edeaa04d87521426c  ./cloud-hypervisor-gl_51.1.orig.tar.xz<br>9afc1305f9bafdec8e2118c1d024d11b81dfa1a90720e9d896162f153a48a21d  ./cloud-hypervisor-gl_51.1-1gl5~bp1877_amd64.changes<br>ee50790c33e33c2c5fce38231d4c7a3b166f93a823ba54f4796f5e2120c63333  ./cloud-hypervisor-gl_51.1-1gl5~bp1877_amd64.buildinfo<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardener/github-oidc-federation - 0.14.0</title>
             <link>https://github.com/gardener/github-oidc-federation</link>
             <guid>https://github.com/gardener/github-oidc-federation/releases/tag/0.14.0</guid>
@@ -249,17 +524,6 @@
             <description><![CDATA[<h2>Helm Charts</h2>
 <ul><li>github-oidc-federation: <code>europe-docker.pkg.dev/gardener-project/releases/charts/github-oidc-federation/github-oidc-federation:0.14.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>github-oidc-federation: <code>europe-docker.pkg.dev/gardener-project/releases/github-oidc-federation:0.14.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>cobaltcore-dev/aurora-dashboard - v1.50.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.50.0</guid>
-            <pubDate>Fri, 27 Mar 2026 10:03:43 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.49.0...v1.50.0">1.50.0</a> (2026-03-27)</h2>
-<h3>✨ Features</h3>
-<ul><li><strong>aurora-portal:</strong> security group rule create  (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/601">#601</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/312d5b677d053eb203d7f970869a818d61d70224">312d5b6</a>)</li></ul>
-<h3>♻️ Code Refactoring</h3>
-<ul><li><strong>aurora-portal:</strong> simplify, unify and add image modals behaviour (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/609">#609</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/f311bce10b9f1227ad70491a7adeccd40a06458e">f311bce</a>)</li><li><strong>portal:</strong> add filters in URL, clickable Rows, improved search, other UI changes (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/587">#587</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/7cf950a278afd5e791c5f7811ba9b2ec525f9f5c">7cf950a</a>)</li></ul>]]></description>
         </item>
 <item>
             <title>gardener/dashboard - unnamed-release</title>
@@ -324,15 +588,6 @@
         &lt;span&gt;Raluca Gruber&lt;/span&gt;
       &lt;/a&gt;
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
-        </item>
-<item>
-            <title>gardener/cc-utils - 1.2748.0</title>
-            <link>https://github.com/gardener/cc-utils</link>
-            <guid>https://github.com/gardener/cc-utils/releases/tag/1.2748.0</guid>
-            <pubDate>Thu, 26 Mar 2026 12:17:29 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/cc-utils:1.2748.0]</h1>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> CTT will - as an optimisation - avoid &quot;no-op&quot; retagging for &quot;extra-tags&quot;. by @ccwienk <a href="https://github.com/gardener/cc-utils/pull/1544">[#1544</a>]</li><li><code>[OPERATOR]</code> CTT / ocm replicate cmd now allow users to control tree-pruning (disable pruning if full replication is needed) by @ccwienk <a href="https://github.com/gardener/cc-utils/pull/1545">[#1545</a>]</li><li><code>[OPERATOR]</code> gardener-ocm image will now contain gardener-oci from <code>master</code>, rather than last released from PYPI. by @ccwienk <a href="https://github.com/gardener/cc-utils/pull/1543">[#1543</a>]</li></ul>]]></description>
         </item>
 <item>
             <title>cloudoperators/juno - @cloudoperators/juno-ui-components@6.2.0</title>
@@ -668,255 +923,6 @@
             <description><![CDATA[<p>Release 2026.03.23</p>]]></description>
         </item>
 <item>
-            <title>openmcp-project/openmcp - Release v0.0.66</title>
-            <link>https://github.com/openmcp-project/openmcp</link>
-            <guid>https://github.com/openmcp-project/openmcp/releases/tag/Release v0.0.66</guid>
-            <pubDate>Mon, 23 Mar 2026 15:35:13 +0000</pubDate>
-            <description><![CDATA[<h1>openMCP</h1>
-<h2>Components:</h2>
-
-<h2>mcp-operator <a href="https://github.com/openmcp-project/mcp-operator/releases/tag/v0.52.0">[v0.52.0</a>]:</h2>
-
-<h3>Changes included in v0.52.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>- Release v0.52.0 <strong>(#266, @robertgraeff)</strong></li><li>- Support credentialsBindingName in shoot templates to allow a migration from secret bindings to credential bindings. <strong>(#264, @robertgraeff)</strong></li></ul>#### [USER]
-<ul><li>- Release v0.51.0 <strong>(#263, @robertgraeff)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>- Adjust validation of shoot templates, so that credentialsBindingName is supported instead of secretBindingName <strong>(#262, @robertgraeff)</strong></li></ul>
-
-
----
-<h2>openmcp-operator <a href="https://github.com/openmcp-project/openmcp-operator/releases/tag/v0.18.1">[v0.18.1</a>]:</h2>
-
-<h3>Changes included in v0.18.1:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>Fixed a bug that could lead to AccessRequests being stuck in deletion, because responsibility was with the generic controller, but that one ignored AccessRequests with a non-zero DeletionTimestamp. <strong>(#240, @Diaphteiros)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>Added tests for the <code>IsClusterProviderResponsibleForAccessRequest</code> function. <strong>(#240, @Diaphteiros)</strong></li></ul>
-
-
----
-<h2>gitops-templates <a href="https://github.com/openmcp-project/gitops-templates/releases/tag/v0.1.4">[v0.1.4</a>]:</h2>
-
-<h3>Changes included in v0.1.4:</h3>
-
-<h3>🚀 Features</h3>
-<ul><li>change env overlay branch variable to flux.gitrepo.ref.branch <a href="https://github.com/openmcp-project/gitops-templates/pull/14">#14</a></li></ul>  - <strong>[OPERATOR][BREAKING]</strong> Changed gitrepo environment based variable for branch to git.pullBranch.
-
-
-
----
-<h2>control-plane-operator <a href="https://github.com/openmcp-project/control-plane-operator/releases/tag/v0.1.19">[v0.1.19</a>]:</h2>
-
-<h3>Changes included in v0.1.19:</h3>
-
-<h3>🐛 Fixes</h3>
-<ul><li>configurable labels <a href="https://github.com/openmcp-project/control-plane-operator/pull/124">#124</a></li></ul>  - <strong>[DEVLOPER][BUGFIX]</strong> Allow label customization with FluxReconciler and ObjectReconciler
-
-
-
----
-<h2>quota-operator <a href="https://github.com/openmcp-project/quota-operator/releases/tag/v0.16.0">[v0.16.0</a>]:</h2>
-
-<h3>Changes included in v0.16.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li><strong>(#142, @guewa)</strong></li></ul>
-<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update hack/common digest to 4159ec6 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/130</li><li>fix(deps): update module github.com/spf13/cobra to v1.10.2 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/132</li><li>chore(deps): update gcr.io/distroless/static-debian12:nonroot docker digest to 2b7c93f by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/133</li><li>chore(deps): update dependency go to v1.25.5 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/131</li><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/136</li><li>chore(deps): update hack/common digest to 6824b1f by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/134</li><li>chore(deps): update gcr.io/distroless/static-debian12:nonroot docker digest to cba10d7 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/141</li><li>chore(deps): update hack/common digest to 63dd575 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/138</li><li>fix(deps): update module github.com/onsi/gomega to v1.39.0 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/140</li><li>fix(deps): update kubernetes packages to v0.35.0 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/137</li><li>fix(deps): update k8s.io/utils digest to 914a6e7 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/139</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.5 by @renovate[bot] in https://github.com/openmcp-project/quota-operator/pull/135</li><li>feat: release v0.16.0 by @guewa in https://github.com/openmcp-project/quota-operator/pull/142</li></ul>
-
-<strong>Full Changelog</strong>: https://github.com/openmcp-project/quota-operator/compare/v0.15.0...v0.16.0
----
-<h2>project-workspace-operator <a href="https://github.com/openmcp-project/project-workspace-operator/releases/tag/v1.3.0">[v1.3.0</a>]:</h2>
-
-<h3>Changes included in v1.3.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>Changes to the PWO config or to ServiceProviders will now take effect immediately without having to restart the PWO. <strong>(#174, @Diaphteiros)</strong></li></ul>#### [USER]
-<ul><li><strong>(#183, @rdksap)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>The PWO now uses the discovery client instead of fetching CRDs to turn group/version/kind into group/version/resource. <strong>(#174, @Diaphteiros)</strong></li></ul>
-
-
----
-<h2>bootstrapper <a href="https://github.com/openmcp-project/bootstrapper/releases/tag/v0.15.0">[v0.15.0</a>]:</h2>
-
-<h3>Changes included in v0.15.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>- Release v0.15.0 <strong>(#183, @robertgraeff)</strong></li><li>- Add jq and kubectl to the bootstrapper docker image. <strong>(#182, @robertgraeff)</strong></li></ul>
-
-
----
-<h2>service-provider-landscaper <a href="https://github.com/openmcp-project/service-provider-landscaper/releases/tag/v0.16.0">[v0.16.0</a>]:</h2>
-
-<h3>Changes included in v0.16.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li>- Release v0.16.0 <strong>(#248, @robertgraeff)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [USER]
-<ul><li>Update issue templates and add CODEOWNERS <strong>(#239, @maximiliantech)</strong></li></ul>
-
-
----
-<h2>service-provider-crossplane <a href="https://github.com/openmcp-project/service-provider-crossplane/releases/tag/v0.3.1">[v0.3.1</a>]:</h2>
-
-<h3>Changes included in v0.3.1:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>fix: orphaned access request <strong>(#92, @ValentinGerlach)</strong></li></ul>
-
-
----
-<h2>cluster-provider-gardener <a href="https://github.com/openmcp-project/cluster-provider-gardener/releases/tag/v0.11.0">[v0.11.0</a>]:</h2>
-
-<h3>Changes included in v0.11.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>- Release v0.11.0 of the cluster-provider-gardener <strong>(#181, @robertgraeff)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>- Fix for the update of OpenIDConnect resources. <strong>(#180, @robertgraeff)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [H]
-<ul><li>ginkgo --sem-ver-filter=&quot;2.1.1, redis=8.2.0&quot; <strong>(#174, ⚙️)</strong></li></ul>
-
-
----
-<h2>cluster-provider-kind <a href="https://github.com/openmcp-project/cluster-provider-kind/releases/tag/v0.2.0">[v0.2.0</a>]:</h2>
-
-<h3>Changes included in v0.2.0:</h3>
-
-<h3>🚀 Features</h3>
-<ul><li>local registry config <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/120">#120</a></li></ul>  - <strong>[USER][FEATURE]</strong> create clusters with custom kind configuration
-<ul><li>apply requested token config permissions <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/112">#112</a></li></ul>  - <strong>[USER][FEATURE]</strong> token based access processing
-
-
-<h3>🐛 Fixes</h3>
-<ul><li>multi-arch image loading <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/117">#117</a></li></ul>  - <strong>[USER][BUGFIX]</strong> fix image loading to kind on arm64
-<ul><li>improve error message on unsupported network <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/111">#111</a></li></ul>  - <strong>[USER][FEATURE]</strong> improved error message for user on <code>unsupported networks</code>.
-
-
-
----
-<h2>platform-service-dns <a href="https://github.com/openmcp-project/platform-service-dns/releases/tag/v0.0.5">[v0.0.5</a>]:</h2>
-
-<h3>Changes included in v0.0.5:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🐛 Bugfixes</h2>
-
-#### [USER]
-<ul><li>Preserve unknown fields in <code>PurposeSelectorRequirement</code> <strong>(#66, @reshnm)</strong></li></ul>
-
-
----
-<h2>platform-service-gateway <a href="https://github.com/openmcp-project/platform-service-gateway/releases/tag/v0.0.10">[v0.0.10</a>]:</h2>
-
-<h3>Changes included in v0.0.10:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li>- Release v0.0.10 <strong>(#98, @robertgraeff)</strong></li></ul>
-
-
----
-<h2>platform-service-project-workspace <a href="https://github.com/openmcp-project/project-workspace-operator/releases/tag/v1.3.0">[v1.3.0</a>]:</h2>
-
-<h3>Changes included in v1.3.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>Changes to the PWO config or to ServiceProviders will now take effect immediately without having to restart the PWO. <strong>(#174, @Diaphteiros)</strong></li></ul>#### [USER]
-<ul><li><strong>(#183, @rdksap)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>The PWO now uses the discovery client instead of fetching CRDs to turn group/version/kind into group/version/resource. <strong>(#174, @Diaphteiros)</strong></li></ul>
-
-
----
-<h2>platform-service-usage <a href="https://github.com/openmcp-project/usage-operator/releases/tag/v0.0.16">[v0.0.16</a>]:</h2>
-
-<h3>Changes included in v0.0.16:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>- Release v0.0.16 <strong>(#14, @robertgraeff)</strong></li></ul>
-<h2>What&#x27;s Changed</h2>
-<ul><li>chore: Configure Renovate by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/3</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v0.19.0 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/4</li><li>fix(deps): update module github.com/spf13/cobra to v1.10.2 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/13</li><li>chore(deps): update dependency go to v1.25.5 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/8</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.3 - autoclosed by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/10</li><li>fix(deps): update kubernetes packages to v0.34.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/9</li><li>chore(deps): update golang docker tag to v1.25 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/12</li><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/11</li><li>chore(deps): update hack/common digest to 6824b1f by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/7</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v1 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/5</li><li>feat: release v0.0.16 by @robertgraeff in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/usage-operator/pull/3</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
-<strong>Full Changelog</strong>: https://github.com/openmcp-project/usage-operator/compare/v0.0.15...v0.0.16
----]]></description>
-        </item>
-<item>
             <title>ironcore-dev/ironcore - v0.3.0</title>
             <link>https://github.com/ironcore-dev/ironcore</link>
             <guid>https://github.com/ironcore-dev/ironcore/releases/tag/v0.3.0</guid>
@@ -1121,846 +1127,25 @@ The following packages have been upgraded, to address the mentioned CVEs:
   - CVE-2026-3783
   - CVE-2026-3784
   - CVE-2026-3805
-<ul><li>upgrade &#x27;runc&#x27; from <code>1.3.4-1gl3+bp1877</code> to <code>1.3.4-1gl4+bp1877</code></li></ul>  - CVE-2016-3697
-  - CVE-2016-9962
-  - CVE-2019-16884
-  - CVE-2019-19921
-  - CVE-2019-5736
-  - CVE-2021-30465
-  - CVE-2021-43784
-  - CVE-2022-29162
-  - CVE-2023-25809
-  - CVE-2023-27561
-  - CVE-2023-28642
-  - CVE-2024-21626
-  - CVE-2024-45310
-<ul><li>upgrade &#x27;gnutls28&#x27; from <code>3.8.11-3gl0~bp1877</code> to <code>3.8.12-3gl0~bp1877</code></li></ul>  - CVE-2012-0390
-  - CVE-2012-1573
-  - CVE-2012-1663
-  - CVE-2013-0169
-  - CVE-2013-0169
-  - CVE-2013-1619
-  - CVE-2014-0092
-  - CVE-2014-1959
-  - CVE-2014-3465
-  - CVE-2014-3466
-  - CVE-2014-3566
-  - CVE-2014-3566
-  - CVE-2014-8564
-  - CVE-2015-0294
-  - CVE-2015-3308
-  - CVE-2015-6251
-  - CVE-2015-7575
-  - CVE-2015-7575
-  - CVE-2016-4456
-  - CVE-2016-7444
-  - CVE-2017-5334
-  - CVE-2017-5335
-  - CVE-2017-5336
-  - CVE-2017-5337
-  - CVE-2017-7507
-  - CVE-2017-7869
-  - CVE-2018-10844
-  - CVE-2018-10845
-  - CVE-2018-10846
-  - CVE-2018-16868
-  - CVE-2019-3829
-  - CVE-2019-3836
-  - CVE-2020-11501
-  - CVE-2020-13777
-  - CVE-2020-24659
-  - CVE-2021-20231
-  - CVE-2021-20232
-  - CVE-2021-4209
-  - CVE-2022-2509
-  - CVE-2023-0361
-  - CVE-2025-14831
-<ul><li>upgrade &#x27;glib2.0&#x27; from <code>2.87.2-1gl0~bp1877</code> to <code>2.87.2-3gl0~bp1877</code></li></ul>  - CVE-2006-7225
-  - CVE-2006-7226
-  - CVE-2007-1659
-  - CVE-2007-1660
-  - CVE-2007-1661
-  - CVE-2007-1662
-  - CVE-2007-4766
-  - CVE-2007-4767
-  - CVE-2007-4768
-  - CVE-2008-4316
-  - CVE-2009-3289
-  - CVE-2012-0039
-  - CVE-2018-16428
-  - CVE-2018-16429
-  - CVE-2019-12450
-  - CVE-2019-13012
-  - CVE-2019-25085
-  - CVE-2020-35457
-  - CVE-2020-6750
-  - CVE-2021-27218
-  - CVE-2021-27219
-  - CVE-2021-28153
-  - CVE-2021-3800
-  - CVE-2023-29499
-  - CVE-2023-32611
-  - CVE-2023-32665
-  - CVE-2024-34397
-  - CVE-2024-52533
-  - CVE-2025-14087
+<ul><li>upgrade &#x27;runc&#x27; from <code>1.3.4-1gl3+bp1877</code> to <code>1.3.4-1gl4+bp1877</code></li><li>upgrade &#x27;gnutls28&#x27; from <code>3.8.11-3gl0~bp1877</code> to <code>3.8.12-3gl0~bp1877</code></li></ul>  - CVE-2025-14831
+  -  CVE-2025-6395 
+  - CVE-2025-9820
+  - CVE-2026-1584
+<ul><li>upgrade &#x27;glib2.0&#x27; from <code>2.87.2-1gl0~bp1877</code> to <code>2.87.2-3gl0~bp1877</code></li></ul>  - CVE-2025-7039
   - CVE-2025-14512
-  - CVE-2025-3360
-  - CVE-2025-4373
-  - CVE-2025-6052
-  - CVE-2025-7039
-<ul><li>upgrade &#x27;vim&#x27; from <code>2:9.1.1230-1</code> to <code>2:9.1.2141-1gl0~bp1877</code></li></ul>  - CVE-2002-1377
-  - CVE-2004-1138
-  - CVE-2005-0069
-  - CVE-2005-2368
-  - CVE-2007-2438
-  - CVE-2007-2953
-  - CVE-2008-2712
-  - CVE-2008-3074
-  - CVE-2008-3075
-  - CVE-2008-3076
-  - CVE-2008-4101
-  - CVE-2008-4677
-  - CVE-2008-6235
-  - CVE-2009-0316
-  - CVE-2016-1248
-  - CVE-2017-1000382
-  - CVE-2017-11109
-  - CVE-2017-17087
-  - CVE-2017-5953
-  - CVE-2017-6349
-  - CVE-2017-6350
-  - CVE-2018-20786
-  - CVE-2019-12735
-  - CVE-2019-20079
-  - CVE-2019-20807
-  - CVE-2020-20703
-  - CVE-2021-3236
-  - CVE-2021-3770
-  - CVE-2021-3778
-  - CVE-2021-3796
-  - CVE-2021-3872
-  - CVE-2021-3875
-  - CVE-2021-3903
-  - CVE-2021-3927
-  - CVE-2021-3928
-  - CVE-2021-3968
-  - CVE-2021-3973
-  - CVE-2021-3974
-  - CVE-2021-3984
-  - CVE-2021-4019
-  - CVE-2021-4069
-  - CVE-2021-4136
-  - CVE-2021-4166
-  - CVE-2021-4173
-  - CVE-2021-4187
-  - CVE-2021-4192
-  - CVE-2021-4193
-  - CVE-2022-0128
-  - CVE-2022-0156
-  - CVE-2022-0158
-  - CVE-2022-0213
-  - CVE-2022-0261
-  - CVE-2022-0318
-  - CVE-2022-0319
-  - CVE-2022-0351
-  - CVE-2022-0359
-  - CVE-2022-0361
-  - CVE-2022-0368
-  - CVE-2022-0392
-  - CVE-2022-0393
-  - CVE-2022-0407
-  - CVE-2022-0408
-  - CVE-2022-0413
-  - CVE-2022-0417
-  - CVE-2022-0443
-  - CVE-2022-0554
-  - CVE-2022-0572
-  - CVE-2022-0629
-  - CVE-2022-0685
-  - CVE-2022-0696
-  - CVE-2022-0714
-  - CVE-2022-0729
-  - CVE-2022-0943
-  - CVE-2022-1154
-  - CVE-2022-1381
-  - CVE-2022-1420
-  - CVE-2022-1616
-  - CVE-2022-1619
-  - CVE-2022-1620
-  - CVE-2022-1621
-  - CVE-2022-1629
-  - CVE-2022-1674
-  - CVE-2022-1720
-  - CVE-2022-1725
-  - CVE-2022-1733
-  - CVE-2022-1735
-  - CVE-2022-1769
-  - CVE-2022-1771
-  - CVE-2022-1785
-  - CVE-2022-1796
-  - CVE-2022-1851
-  - CVE-2022-1886
-  - CVE-2022-1897
-  - CVE-2022-1898
-  - CVE-2022-1927
-  - CVE-2022-1942
-  - CVE-2022-1968
-  - CVE-2022-2000
-  - CVE-2022-2042
-  - CVE-2022-2124
-  - CVE-2022-2125
-  - CVE-2022-2126
-  - CVE-2022-2129
-  - CVE-2022-2175
-  - CVE-2022-2182
-  - CVE-2022-2183
-  - CVE-2022-2206
-  - CVE-2022-2207
-  - CVE-2022-2208
-  - CVE-2022-2210
-  - CVE-2022-2231
-  - CVE-2022-2257
-  - CVE-2022-2264
-  - CVE-2022-2284
-  - CVE-2022-2285
-  - CVE-2022-2286
-  - CVE-2022-2287
-  - CVE-2022-2288
-  - CVE-2022-2289
-  - CVE-2022-2304
-  - CVE-2022-2343
-  - CVE-2022-2344
-  - CVE-2022-2345
-  - CVE-2022-2522
-  - CVE-2022-2571
-  - CVE-2022-2581
-  - CVE-2022-2598
-  - CVE-2022-2816
-  - CVE-2022-2817
-  - CVE-2022-2819
-  - CVE-2022-2845
-  - CVE-2022-2849
-  - CVE-2022-2862
-  - CVE-2022-2874
-  - CVE-2022-2889
-  - CVE-2022-2923
-  - CVE-2022-2946
-  - CVE-2022-2980
-  - CVE-2022-2982
-  - CVE-2022-3016
-  - CVE-2022-3037
-  - CVE-2022-3099
-  - CVE-2022-3134
-  - CVE-2022-3153
-  - CVE-2022-3234
-  - CVE-2022-3235
-  - CVE-2022-3256
-  - CVE-2022-3278
-  - CVE-2022-3296
-  - CVE-2022-3297
-  - CVE-2022-3324
-  - CVE-2022-3352
-  - CVE-2022-3491
-  - CVE-2022-3520
-  - CVE-2022-3591
-  - CVE-2022-3705
-  - CVE-2022-4141
-  - CVE-2022-4292
-  - CVE-2022-4293
-  - CVE-2022-47024
-  - CVE-2023-0049
-  - CVE-2023-0051
-  - CVE-2023-0054
-  - CVE-2023-0288
-  - CVE-2023-0433
-  - CVE-2023-0512
-  - CVE-2023-1127
-  - CVE-2023-1170
-  - CVE-2023-1175
-  - CVE-2023-1264
-  - CVE-2023-1355
-  - CVE-2023-2426
-  - CVE-2023-2609
-  - CVE-2023-2610
-  - CVE-2023-3896
-  - CVE-2023-46246
-  - CVE-2023-4733
-  - CVE-2023-4734
-  - CVE-2023-4735
-  - CVE-2023-4738
-  - CVE-2023-4750
-  - CVE-2023-4751
-  - CVE-2023-4752
-  - CVE-2023-4781
-  - CVE-2023-48231
-  - CVE-2023-48232
-  - CVE-2023-48233
-  - CVE-2023-48234
-  - CVE-2023-48235
-  - CVE-2023-48236
-  - CVE-2023-48237
-  - CVE-2023-48706
-  - CVE-2023-5441
-  - CVE-2023-5535
-  - CVE-2024-22667
-  - CVE-2025-53905
-  - CVE-2025-53906
-  - CVE-2025-9390
+  - CVE-2026-0988
+<ul><li>upgrade &#x27;vim&#x27; from <code>2:9.1.1230-1</code> to <code>2:9.1.2141-1gl0~bp1877</code></li></ul>  - CVE-2026-26269
   - CVE-2026-25749
-  - CVE-2026-26269
-  - CVE-2026-28417
-  - CVE-2026-28418
-  - CVE-2026-28419
-  - CVE-2026-28420
-  - CVE-2026-28421
-  - CVE-2026-28422
-  - CVE-2026-32249
-  - CVE-2026-33412
-<ul><li>upgrade &#x27;apt&#x27; from <code>3.0.1</code> to <code>3.1.16gl1~bp1877</code></li></ul>  - CVE-2009-1300
-  - CVE-2009-1358
-  - CVE-2011-1829
-  - CVE-2011-3374
-  - CVE-2011-3634
-  - CVE-2012-0214
-  - CVE-2012-0954
-  - CVE-2012-0961
-  - CVE-2012-3587
-  - CVE-2013-1051
-  - CVE-2014-0478
-  - CVE-2014-0487
-  - CVE-2014-0488
-  - CVE-2014-0489
-  - CVE-2014-0490
-  - CVE-2014-6273
-  - CVE-2014-7206
-  - CVE-2016-1252
-  - CVE-2018-0501
-  - CVE-2019-3462
-  - CVE-2020-27350
-  - CVE-2020-3810
-<ul><li>upgrade &#x27;openssl&#x27; from <code>3.5.5-1gl0</code> to <code>3.5.5-1gl13~bp1877</code></li></ul>  - CVE-2000-1254
-  - CVE-2002-0655
-  - CVE-2002-0656
-  - CVE-2002-0657
-  - CVE-2002-0659
-  - CVE-2002-1568
-  - CVE-2003-0078
-  - CVE-2003-0131
-  - CVE-2003-0147
-  - CVE-2003-0543
-  - CVE-2003-0544
-  - CVE-2003-0545
-  - CVE-2004-0079
-  - CVE-2004-0081
-  - CVE-2004-0112
-  - CVE-2004-0975
-  - CVE-2005-2946
-  - CVE-2005-2969
-  - CVE-2006-2937
-  - CVE-2006-2940
-  - CVE-2006-3738
-  - CVE-2006-4339
-  - CVE-2006-4343
-  - CVE-2006-7250
-  - CVE-2007-3108
-  - CVE-2007-4995
-  - CVE-2007-5135
-  - CVE-2007-6755
-  - CVE-2008-0891
-  - CVE-2008-1672
-  - CVE-2008-5077
-  - CVE-2008-7270
-  - CVE-2009-0590
-  - CVE-2009-0653
-  - CVE-2009-1377
-  - CVE-2009-1378
-  - CVE-2009-1379
-  - CVE-2009-1386
-  - CVE-2009-1387
-  - CVE-2009-2409
-  - CVE-2009-3245
-  - CVE-2009-3555
-  - CVE-2009-4355
-  - CVE-2010-0740
-  - CVE-2010-0742
-  - CVE-2010-2939
-  - CVE-2010-3864
-  - CVE-2010-4180
-  - CVE-2010-5298
-  - CVE-2011-0014
-  - CVE-2011-1945
-  - CVE-2011-3207
-  - CVE-2011-3210
-  - CVE-2011-4108
-  - CVE-2011-4109
-  - CVE-2011-4354
-  - CVE-2011-4576
-  - CVE-2011-4577
-  - CVE-2011-4619
-  - CVE-2011-5095
-  - CVE-2012-0027
-  - CVE-2012-0050
-  - CVE-2012-0884
-  - CVE-2012-1165
-  - CVE-2012-2110
-  - CVE-2012-2333
-  - CVE-2012-2686
-  - CVE-2012-4929
-  - CVE-2013-0166
-  - CVE-2013-4353
-  - CVE-2013-6449
-  - CVE-2013-6450
-  - CVE-2014-0076
-  - CVE-2014-0160
-  - CVE-2014-0195
-  - CVE-2014-0198
-  - CVE-2014-0221
-  - CVE-2014-0224
-  - CVE-2014-3470
-  - CVE-2014-3505
-  - CVE-2014-3506
-  - CVE-2014-3507
-  - CVE-2014-3508
-  - CVE-2014-3509
-  - CVE-2014-3510
-  - CVE-2014-3511
-  - CVE-2014-3512
-  - CVE-2014-3513
-  - CVE-2014-3567
-  - CVE-2014-3568
-  - CVE-2014-3569
-  - CVE-2014-3570
-  - CVE-2014-3571
-  - CVE-2014-3572
-  - CVE-2014-5139
-  - CVE-2014-8176
-  - CVE-2014-8275
-  - CVE-2015-0204
-  - CVE-2015-0205
-  - CVE-2015-0206
-  - CVE-2015-0209
-  - CVE-2015-0286
-  - CVE-2015-0287
-  - CVE-2015-0288
-  - CVE-2015-0289
-  - CVE-2015-0292
-  - CVE-2015-0293
-  - CVE-2015-1788
-  - CVE-2015-1789
-  - CVE-2015-1790
-  - CVE-2015-1791
-  - CVE-2015-1792
-  - CVE-2015-1793
-  - CVE-2015-1794
-  - CVE-2015-3193
-  - CVE-2015-3194
-  - CVE-2015-3195
-  - CVE-2015-3196
-  - CVE-2015-3197
-  - CVE-2015-4000
-  - CVE-2016-0701
-  - CVE-2016-0702
-  - CVE-2016-0703
-  - CVE-2016-0704
-  - CVE-2016-0705
-  - CVE-2016-0797
-  - CVE-2016-0798
-  - CVE-2016-0799
-  - CVE-2016-0800
-  - CVE-2016-2105
-  - CVE-2016-2106
-  - CVE-2016-2107
-  - CVE-2016-2108
-  - CVE-2016-2109
-  - CVE-2016-2177
-  - CVE-2016-2178
-  - CVE-2016-2179
-  - CVE-2016-2180
-  - CVE-2016-2181
-  - CVE-2016-2182
-  - CVE-2016-2842
-  - CVE-2016-6302
-  - CVE-2016-6303
-  - CVE-2016-6304
-  - CVE-2016-6306
-  - CVE-2016-7052
-  - CVE-2016-7053
-  - CVE-2016-7054
-  - CVE-2016-7055
-  - CVE-2016-7056
-  - CVE-2016-8610
-  - CVE-2017-3730
-  - CVE-2017-3731
-  - CVE-2017-3732
-  - CVE-2017-3733
-  - CVE-2017-3735
-  - CVE-2017-3736
-  - CVE-2017-3737
-  - CVE-2017-3738
-  - CVE-2018-0732
-  - CVE-2018-0733
-  - CVE-2018-0734
-  - CVE-2018-0735
-  - CVE-2018-0737
-  - CVE-2018-0739
-  - CVE-2018-5407
-  - CVE-2019-1543
-  - CVE-2019-1547
-  - CVE-2019-1549
-  - CVE-2019-1551
-  - CVE-2019-1559
-  - CVE-2019-1563
-  - CVE-2020-1967
-  - CVE-2020-1968
-  - CVE-2020-1971
-  - CVE-2021-23839
-  - CVE-2021-23840
-  - CVE-2021-23841
-  - CVE-2021-3449
-  - CVE-2021-3450
-  - CVE-2021-3711
-  - CVE-2021-3712
-  - CVE-2021-4160
-  - CVE-2022-0778
-  - CVE-2022-1292
-  - CVE-2022-2068
-  - CVE-2022-2097
-  - CVE-2022-2274
-  - CVE-2022-3358
-  - CVE-2022-3602
-  - CVE-2022-3786
-  - CVE-2022-3996
-  - CVE-2022-4203
-  - CVE-2022-4304
-  - CVE-2022-4450
-  - CVE-2023-0215
-  - CVE-2023-0216
-  - CVE-2023-0217
-  - CVE-2023-0286
-  - CVE-2023-0401
-  - CVE-2023-0464
-  - CVE-2023-0465
-  - CVE-2023-0466
-  - CVE-2023-1255
-  - CVE-2023-2650
-  - CVE-2023-2975
-  - CVE-2023-3446
-  - CVE-2023-3817
-  - CVE-2023-5678
-  - CVE-2023-6129
-  - CVE-2023-6237
-  - CVE-2024-0727
-  - CVE-2024-12797
-  - CVE-2024-13176
-  - CVE-2024-2511
-  - CVE-2024-4603
-  - CVE-2024-4741
-  - CVE-2024-5535
-  - CVE-2024-6119
-  - CVE-2024-9143
-  - CVE-2026-2673
-<ul><li>upgrade &#x27;libpcap&#x27; from <code>1.10.5-2gl0</code> to <code>1.10.6-1gl0~bp1877</code></li></ul>  - CVE-2011-1935
-  - CVE-2019-15161
-  - CVE-2019-15162
-  - CVE-2019-15163
-  - CVE-2019-15164
-  - CVE-2019-15165
-  - CVE-2025-11961
-<ul><li>upgrade &#x27;containerd&#x27; from <code>2.1.6-0gl2~bp1877</code> to <code>2.1.6-0gl3~bp1877</code></li></ul>  - CVE-2020-15157
-  - CVE-2020-15257
-  - CVE-2021-21334
-  - CVE-2021-32760
-  - CVE-2021-41103
-  - CVE-2021-43816
-  - CVE-2022-23471
-  - CVE-2022-23648
-  - CVE-2022-24769
-  - CVE-2022-31030
-  - CVE-2023-25153
-  - CVE-2023-25173
-  - CVE-2024-25621
-  - CVE-2024-40635
-  - CVE-2025-64329
-<ul><li>upgrade &#x27;libgcrypt20&#x27; from <code>1.11.0-7</code> to <code>1.11.2-3gl2~bp1877</code></li></ul>  - CVE-2014-3591
-  - CVE-2014-5270
-  - CVE-2015-0837
-  - CVE-2015-7511
-  - CVE-2016-6313
-  - CVE-2017-0379
-  - CVE-2017-7526
-  - CVE-2017-9526
-  - CVE-2018-0495
-  - CVE-2018-6829
-  - CVE-2019-13627
-  - CVE-2021-33560
-  - CVE-2021-40528
-  - CVE-2024-2236
-<ul><li>upgrade &#x27;sqlite3&#x27; from <code>3.46.1-7gl0+bp1877</code> to <code>3.46.1-9gl0+bp1877</code></li></ul>  - CVE-2013-7443
-  - CVE-2015-3414
-  - CVE-2015-3415
-  - CVE-2015-3416
-  - CVE-2016-6153
-  - CVE-2017-10989
-  - CVE-2017-13685
-  - CVE-2017-15286
-  - CVE-2017-2513
-  - CVE-2017-2518
-  - CVE-2017-2519
-  - CVE-2017-2520
-  - CVE-2018-20346
-  - CVE-2018-20505
-  - CVE-2018-20506
-  - CVE-2018-8740
-  - CVE-2019-16168
-  - CVE-2019-19242
-  - CVE-2019-19244
-  - CVE-2019-19603
-  - CVE-2019-19645
-  - CVE-2019-19880
-  - CVE-2019-19923
-  - CVE-2019-19924
-  - CVE-2019-19925
-  - CVE-2019-19959
-  - CVE-2019-20218
-  - CVE-2019-5018
-  - CVE-2019-5827
-  - CVE-2019-8457
-  - CVE-2019-9936
-  - CVE-2019-9937
-  - CVE-2020-11655
-  - CVE-2020-11656
-  - CVE-2020-13434
-  - CVE-2020-13435
-  - CVE-2020-13630
-  - CVE-2020-13631
-  - CVE-2020-13632
-  - CVE-2020-13871
-  - CVE-2020-15358
-  - CVE-2020-24736
-  - CVE-2020-35525
-  - CVE-2020-35527
-  - CVE-2020-9327
-  - CVE-2021-20227
-  - CVE-2021-31239
-  - CVE-2021-36690
-  - CVE-2021-45346
-  - CVE-2022-35737
-  - CVE-2022-46908
-  - CVE-2023-7104
-  - CVE-2024-0232
-  - CVE-2025-70873
-  - CVE-2025-7458
-  - CVE-2025-7709
-<ul><li>upgrade &#x27;coreutils&#x27; from <code>9.7-2</code> to <code>9.7-2gl0~bp1877</code></li></ul>  - CVE-2003-0853
-  - CVE-2003-0854
-  - CVE-2005-1039
-  - CVE-2007-4998
-  - CVE-2008-1946
-  - CVE-2014-9471
-  - CVE-2015-1865
-  - CVE-2016-2781
-  - CVE-2017-18018
-  - CVE-2017-2616
-  - CVE-2017-2616
-  - CVE-2017-2616
-  - CVE-2024-0684
-  - CVE-2025-5278
-<ul><li>upgrade &#x27;dracut&#x27; from <code>106-6</code> to <code>106-6gl3~bp1877</code></li></ul>  - CVE-2012-4453
-  - CVE-2016-8637
-<ul><li>upgrade &#x27;linux&#x27; from <code>6.12.72-1gl0~bp1877</code> to <code>6.12.74-1gl6~bp1877</code></li></ul>  - CVE-2026-23221
+<ul><li>upgrade &#x27;apt&#x27; from <code>3.0.1</code> to <code>3.1.16gl1~bp1877</code></li><li>upgrade &#x27;openssl&#x27; from <code>3.5.5-1gl0</code> to <code>3.5.5-1gl13~bp1877</code></li><li>upgrade &#x27;libpcap&#x27; from <code>1.10.5-2gl0</code> to <code>1.10.6-1gl0~bp1877</code></li></ul>  - CVE-2025-11961
+<ul><li>upgrade &#x27;containerd&#x27; from <code>2.1.6-0gl2~bp1877</code> to <code>2.1.6-0gl3~bp1877</code></li><li>upgrade &#x27;libgcrypt20&#x27; from <code>1.11.0-7</code> to <code>1.11.2-3gl2~bp1877</code></li><li>upgrade &#x27;sqlite3&#x27; from <code>3.46.1-7gl0+bp1877</code> to <code>3.46.1-9gl0+bp1877</code></li></ul>  - CVE-2025-7709
+<ul><li>upgrade &#x27;coreutils&#x27; from <code>9.7-2</code> to <code>9.7-2gl0~bp1877</code></li><li>upgrade &#x27;dracut&#x27; from <code>106-6</code> to <code>106-6gl3~bp1877</code></li><li>upgrade &#x27;linux&#x27; from <code>6.12.72-1gl0~bp1877</code> to <code>6.12.74-1gl6~bp1877</code></li></ul>  - CVE-2026-23221
   - CVE-2026-23238
   - CVE-2026-23237
   - CVE-2025-71238
   - CVE-2026-23390
   - CVE-2026-23225
   - CVE-2026-23100
-<ul><li>upgrade &#x27;samba&#x27; from <code>2:4.22.1+dfsg-1</code> to <code>2:4.22.8+dfsg-0+deb13u1gl0+bp1877</code></li></ul>  - CVE-2002-1318
-  - CVE-2002-2196
-  - CVE-2003-0085
-  - CVE-2003-0086
-  - CVE-2003-0196
-  - CVE-2003-0201
-  - CVE-2004-0082
-  - CVE-2004-0186
-  - CVE-2004-0600
-  - CVE-2004-0686
-  - CVE-2004-0807
-  - CVE-2004-0808
-  - CVE-2004-0815
-  - CVE-2004-0829
-  - CVE-2004-0882
-  - CVE-2004-0930
-  - CVE-2004-1154
-  - CVE-2004-2546
-  - CVE-2006-1059
-  - CVE-2006-3403
-  - CVE-2007-0452
-  - CVE-2007-0454
-  - CVE-2007-2444
-  - CVE-2007-2446
-  - CVE-2007-2447
-  - CVE-2007-4138
-  - CVE-2007-4572
-  - CVE-2007-5398
-  - CVE-2007-6015
-  - CVE-2008-1105
-  - CVE-2008-3789
-  - CVE-2008-4314
-  - CVE-2009-0022
-  - CVE-2009-1886
-  - CVE-2009-1888
-  - CVE-2009-2813
-  - CVE-2009-2906
-  - CVE-2009-2948
-  - CVE-2010-0547
-  - CVE-2010-0728
-  - CVE-2010-0787
-  - CVE-2010-0926
-  - CVE-2010-1635
-  - CVE-2010-1642
-  - CVE-2010-2063
-  - CVE-2010-3069
-  - CVE-2011-0719
-  - CVE-2011-2522
-  - CVE-2011-2694
-  - CVE-2012-0817
-  - CVE-2012-0870
-  - CVE-2012-1182
-  - CVE-2012-2111
-  - CVE-2012-6150
-  - CVE-2013-0213
-  - CVE-2013-0214
-  - CVE-2013-0454
-  - CVE-2013-4124
-  - CVE-2013-4408
-  - CVE-2013-4475
-  - CVE-2013-4476
-  - CVE-2013-4496
-  - CVE-2013-6442
-  - CVE-2014-0178
-  - CVE-2014-0239
-  - CVE-2014-0244
-  - CVE-2014-3493
-  - CVE-2014-3560
-  - CVE-2014-8143
-  - CVE-2015-0240
-  - CVE-2015-3223
-  - CVE-2015-5252
-  - CVE-2015-5296
-  - CVE-2015-5299
-  - CVE-2015-5330
-  - CVE-2015-5370
-  - CVE-2015-7540
-  - CVE-2015-7560
-  - CVE-2015-8467
-  - CVE-2016-0771
-  - CVE-2016-2110
-  - CVE-2016-2111
-  - CVE-2016-2112
-  - CVE-2016-2113
-  - CVE-2016-2114
-  - CVE-2016-2115
-  - CVE-2016-2118
-  - CVE-2016-2119
-  - CVE-2016-2123
-  - CVE-2016-2124
-  - CVE-2016-2125
-  - CVE-2016-2126
-  - CVE-2017-11103
-  - CVE-2017-12150
-  - CVE-2017-12151
-  - CVE-2017-12163
-  - CVE-2017-14746
-  - CVE-2017-15275
-  - CVE-2017-2619
-  - CVE-2017-7494
-  - CVE-2017-9461
-  - CVE-2018-1050
-  - CVE-2018-1057
-  - CVE-2018-10858
-  - CVE-2018-10918
-  - CVE-2018-10919
-  - CVE-2018-1139
-  - CVE-2018-1140
-  - CVE-2018-14628
-  - CVE-2018-14629
-  - CVE-2018-16841
-  - CVE-2018-16851
-  - CVE-2018-16852
-  - CVE-2018-16853
-  - CVE-2018-16857
-  - CVE-2018-16860
-  - CVE-2019-10197
-  - CVE-2019-10218
-  - CVE-2019-12435
-  - CVE-2019-14833
-  - CVE-2019-14847
-  - CVE-2019-14861
-  - CVE-2019-14870
-  - CVE-2019-14902
-  - CVE-2019-14907
-  - CVE-2019-19344
-  - CVE-2019-3824
-  - CVE-2019-3870
-  - CVE-2019-3880
-  - CVE-2020-10700
-  - CVE-2020-10704
-  - CVE-2020-10730
-  - CVE-2020-10745
-  - CVE-2020-10760
-  - CVE-2020-14303
-  - CVE-2020-14318
-  - CVE-2020-14323
-  - CVE-2020-14383
-  - CVE-2020-1472
-  - CVE-2020-25717
-  - CVE-2020-25718
-  - CVE-2020-25719
-  - CVE-2020-25720
-  - CVE-2020-25721
-  - CVE-2020-25722
-  - CVE-2020-27840
-  - CVE-2021-20251
-  - CVE-2021-20254
-  - CVE-2021-20277
-  - CVE-2021-20316
-  - CVE-2021-23192
-  - CVE-2021-3670
-  - CVE-2021-3671
-  - CVE-2021-3738
-  - CVE-2021-43566
-  - CVE-2021-44141
-  - CVE-2021-44142
-  - CVE-2022-0336
-  - CVE-2022-1615
-  - CVE-2022-2031
-  - CVE-2022-2127
-  - CVE-2022-32742
-  - CVE-2022-32743
-  - CVE-2022-32744
-  - CVE-2022-32745
-  - CVE-2022-32746
-  - CVE-2022-3437
-  - CVE-2022-37966
-  - CVE-2022-37967
-  - CVE-2022-38023
-  - CVE-2022-44640
-  - CVE-2022-45141
-  - CVE-2023-0225
-  - CVE-2023-0614
-  - CVE-2023-0922
-  - CVE-2023-3347
-  - CVE-2023-34966
-  - CVE-2023-34967
-  - CVE-2023-34968
-  - CVE-2023-3961
-  - CVE-2023-4091
-  - CVE-2023-4154
-  - CVE-2023-42669
-  - CVE-2023-42670
-  - CVE-2023-5568
-  - CVE-2025-0620
+<ul><li>upgrade &#x27;samba&#x27; from <code>2:4.22.1+dfsg-1</code> to <code>2:4.22.8+dfsg-0+deb13u1gl0+bp1877</code></li></ul>  - CVE-2025-0620
   - CVE-2025-10230
   - CVE-2025-9640
 
@@ -3778,6 +2963,19 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.3]]></descriptio
             <guid>https://github.com/gardenlinux/builder/releases/tag/Builder (latest)</guid>
             <pubDate>Tue, 17 Mar 2026 11:19:58 +0000</pubDate>
             <description><![CDATA[<p>:penguin: :building_construction:</p>]]></description>
+        </item>
+<item>
+            <title>ironcore-dev/metalnet - v0.3.14</title>
+            <link>https://github.com/ironcore-dev/metalnet</link>
+            <guid>https://github.com/ironcore-dev/metalnet/releases/tag/v0.3.14</guid>
+            <pubDate>Tue, 17 Mar 2026 08:49:24 +0000</pubDate>
+            <description><![CDATA[<h2>Changes</h2>
+<h2>🚀 Features</h2>
+
+<ul><li>Remove IPv4Only flag @byteocean (#404)</li></ul>
+<h2>🧰 Maintenance</h2>
+
+<ul><li>Update README.md @byteocean (#422)</li><li>Bump github.com/ironcore-dev/controller-utils from 0.10.0 to 0.11.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#391)</li><li>Bump actions/checkout from 5 to 6 @[dependabot[bot]](https://github.com/apps/dependabot) (#399)</li><li>Bump github.com/onsi/gomega from 1.38.2 to 1.38.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#403)</li><li>Bump docker/setup-qemu-action from 3 to 4 @[dependabot[bot]](https://github.com/apps/dependabot) (#408)</li><li>Bump docker/login-action from 3 to 4 @[dependabot[bot]](https://github.com/apps/dependabot) (#409)</li><li>Bump google.golang.org/grpc from 1.75.1 to 1.76.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#388)</li><li>Bump sigs.k8s.io/controller-runtime from 0.22.2 to 0.22.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#389)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.26.0 to 2.27.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#390)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.25.3 to 2.26.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#385)</li><li>Bump sigs.k8s.io/controller-runtime from 0.22.1 to 0.22.2 @[dependabot[bot]](https://github.com/apps/dependabot) (#386)</li><li>Bump sigs.k8s.io/controller-runtime from 0.22.0 to 0.22.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#379)</li><li>Bump github.com/ironcore-dev/ironcore from 0.2.3 to 0.2.4 @[dependabot[bot]](https://github.com/apps/dependabot) (#380)</li><li>Bump google.golang.org/grpc from 1.75.0 to 1.75.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#384)</li><li>Bump actions/setup-go from 5 to 6 @[dependabot[bot]](https://github.com/apps/dependabot) (#376)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.25.2 to 2.25.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#378)</li><li>Bump k8s.io/client-go from 0.34.0 to 0.34.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#381)</li></ul>]]></description>
         </item>
 <item>
             <title>ironcore-dev/metalbond - v0.4.0</title>
@@ -6392,22 +5590,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
             <guid>https://github.com/openmcp-project/provider-upgrade-test/releases/tag/v1.0.0</guid>
             <pubDate>Wed, 10 Sep 2025 09:44:51 +0000</pubDate>
             <description><![CDATA[<p>Initial Release of the Upgrade tooling. Just to pin this version and don&#x27;t break when someone messes with main.</p>]]></description>
-        </item>
-<item>
-            <title>ironcore-dev/metalnet - v0.3.13</title>
-            <link>https://github.com/ironcore-dev/metalnet</link>
-            <guid>https://github.com/ironcore-dev/metalnet/releases/tag/v0.3.13</guid>
-            <pubDate>Fri, 05 Sep 2025 13:12:22 +0000</pubDate>
-            <description><![CDATA[<h2>Changes</h2>
-<h2>🚀 Features</h2>
-
-<ul><li>Improve bluefield node detection @guvenc (#361)</li><li>Add <code>filterByNodePredicate</code> to prevent reconciliation of unassigned resources @sujeet01 (#345)</li><li>Use new REUSE API format @byteocean (#341)</li></ul>
-<h2>🐛 Bug Fixes</h2>
-
-<ul><li>Fix REUSE files @byteocean (#343)</li></ul>
-<h2>🧰 Maintenance</h2>
-
-<ul><li>Bump github.com/ironcore-dev/dpservice/go/dpservice-go from 0.3.16 to 0.3.17 @[dependabot[bot]](https://github.com/apps/dependabot) (#377)</li><li>Bump github.com/spf13/pflag from 1.0.9 to 1.0.10 @[dependabot[bot]](https://github.com/apps/dependabot) (#375)</li><li>Bump github.com/spf13/pflag from 1.0.7 to 1.0.9 @[dependabot[bot]](https://github.com/apps/dependabot) (#374)</li><li>Bump github.com/jaypipes/ghw from 0.19.0 to 0.19.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#373)</li><li>Bump sigs.k8s.io/controller-runtime from 0.21.0 to 0.22.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#371)</li><li>Bump k8s.io/client-go from 0.33.4 to 0.34.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#372)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.25.1 to 2.25.2 @[dependabot[bot]](https://github.com/apps/dependabot) (#369)</li><li>Bump github.com/jaypipes/ghw from 0.17.0 to 0.19.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#367)</li><li>Bump google.golang.org/grpc from 1.74.2 to 1.75.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#364)</li><li>Bump github.com/onsi/gomega from 1.38.0 to 1.38.2 @[dependabot[bot]](https://github.com/apps/dependabot) (#368)</li><li>Bump golang from 1.24 to 1.25 @[dependabot[bot]](https://github.com/apps/dependabot) (#360)</li><li>Bump k8s.io/client-go from 0.33.3 to 0.33.4 @[dependabot[bot]](https://github.com/apps/dependabot) (#357)</li><li>Bump github.com/ironcore-dev/metalbond from 0.3.5 to 0.3.6 @[dependabot[bot]](https://github.com/apps/dependabot) (#356)</li><li>Bump actions/checkout from 4 to 5 @[dependabot[bot]](https://github.com/apps/dependabot) (#355)</li><li>Bump github.com/ironcore-dev/ironcore from 0.1.2 to 0.2.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#326)</li><li>Bump github.com/ironcore-dev/controller-utils from 0.9.3 to 0.10.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#346)</li><li>Bump sigs.k8s.io/controller-runtime from 0.18.4 to 0.21.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#350)</li><li>Bump github.com/jaypipes/ghw from 0.12.0 to 0.17.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#352)</li><li>Bump google.golang.org/grpc from 1.66.0 to 1.74.2 @[dependabot[bot]](https://github.com/apps/dependabot) (#347)</li><li>Bump github.com/spf13/pflag from 1.0.5 to 1.0.7 @[dependabot[bot]](https://github.com/apps/dependabot) (#353)</li><li>Bump github.com/onsi/gomega from 1.34.2 to 1.38.0 @[dependabot[bot]](https://github.com/apps/dependabot) (#351)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.20.2 to 2.23.4 @[dependabot[bot]](https://github.com/apps/dependabot) (#331)</li><li>Bump pascalgn/size-label-action from 0.5.4 to 0.5.5 @[dependabot[bot]](https://github.com/apps/dependabot) (#272)</li><li>Bump golang from 1.23 to 1.24 @[dependabot[bot]](https://github.com/apps/dependabot) (#302)</li><li>Project housekeeping @afritzler (#354)</li><li>Remove <code>kube-rbac-proxy</code> dependency \&amp; adopt controller-runtime native auth for metric @sujeet01 (#332)</li></ul>]]></description>
         </item>
 <item>
             <title>ironcore-dev/cloud-provider-ironcore - v0.4.0</title>
