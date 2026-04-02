@@ -19,7 +19,7 @@ Now, equipped with the fruits of our labor from all these past months, we did no
 
 ## NeoNephos Booth
 
-Our booth served as our permanent *flagpole in the sand* amd presented our most initimate way, for people to learn about NeoNephos. Thanks to the continuous staffing provided by representatives of our projects, KubeCon attendees were exposed to hands-on demonstrations of some of our projects and could directly ask questions.
+Our booth served as our permanent *flagpole in the sand* amd presented our most initimate way for people to learn about NeoNephos. Thanks to the continuous staffing provided by representatives of our projects, KubeCon attendees were exposed to hands-on demonstrations of some of our projects and could directly ask questions.
 Many great discussions arose and relationships have formed thanks to this booth. We will be catching up on some of these discussions for sure!
 
 ## Talks
