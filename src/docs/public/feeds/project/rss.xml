@@ -4,9 +4,172 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Thu, 02 Apr 2026 12:15:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 12:10:40 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/account-operator - v0.12.34</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.34</guid>
+            <pubDate>Fri, 03 Apr 2026 09:41:15 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Feat/migrate to subroutines by @simontesar in https://github.com/platform-mesh/account-operator/pull/177</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.33...v0.12.34</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/platform-mesh-operator - v0.65.8</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.65.8</guid>
+            <pubDate>Fri, 03 Apr 2026 09:09:03 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>trigger: ci by @akafazov in https://github.com/platform-mesh/platform-mesh-operator/pull/550</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.65.7...v0.65.8</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/gardenlinux-nvidia-installer - 1.7.0</title>
+            <link>https://github.com/gardenlinux/gardenlinux-nvidia-installer</link>
+            <guid>https://github.com/gardenlinux/gardenlinux-nvidia-installer/releases/tag/1.7.0</guid>
+            <pubDate>Fri, 03 Apr 2026 08:34:06 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>Update versions by @github-actions[bot] in https://github.com/gardenlinux/gardenlinux-nvidia-installer/pull/209</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/gardenlinux/gardenlinux-nvidia-installer/compare/1.6.0...1.7.0</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-dracut - dracut_110-8gl0</title>
+            <link>https://github.com/gardenlinux/package-dracut</link>
+            <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_110-8gl0</guid>
+            <pubDate>Fri, 03 Apr 2026 00:24:21 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/23928178645">23928178645</a></p>
+<p>Files in this release:<br>``<code><br>b6f25aa0afb8297c91a1d2d61c1a3394bef8ad3323a0e2a5bc05c3233d1d0644  ./dracut-install_110-8gl0_arm64.deb<br>64f673298173f792815be46725b18da6cfe4a323ba85924bfc1a7d7a26e553be  ./dracut-core-dbgsym_110-8gl0_amd64.deb<br>ac4f3b51ea6144b56ab928c854b9c4a305d26fdce8a5b65411b8204d05d7bc10  ./dracut_110-8gl0.dsc<br>63e5c7764c626db20862e8136e4d61815a08b25315cdf5a775bb40145e085bea  ./dracut-test_110-8gl0_amd64.deb<br>6c4c99cd7ecf873486b3d02768f213ea3ee725638057e173d4891a224167d989  ./dracut-test_110-8gl0_arm64.deb<br>39dc2ce99542c79e2aa84832962756c0648277c1d632c887138f5603dfaf1744  ./dracut_110-8gl0_arm64.changes<br>4ab23d4ae44ebce499ea11a220e7e4d2e8681d91a6f32c870015a3c4ed6921ad  ./dracut-network_110-8gl0_all.deb<br>d0562a7d53fc14b1119953dfe0b6f82e6abcb81d4d37036fed20b56b65be43ce  ./dracut-core-dbgsym_110-8gl0_arm64.deb<br>eb234a1c43420bd27036a4e767c6fdec6acff57d513ad3e664e94fa40beaf062  ./dracut_110.orig.tar.xz<br>f53daa8a431088f5eaeaf76482b476c1fbd3bc9e7b0668886bdb26e5ac404b7c  ./dracut-install-dbgsym_110-8gl0_amd64.deb<br>6ab5cd5f4e7a8aa9d3ad0eb7585e643ffc6d89a35b918798d1617b8f73a90b9b  ./dracut-core_110-8gl0_amd64.deb<br>805b265d50c96b8a71e98a17e264db47f406ea8d17702214d2691d7bf913241b  ./dracut-install-dbgsym_110-8gl0_arm64.deb<br>f56f9028f6b8dcb132b85f103c65f4a7259ee7a1a983c955742b4ef049535d41  ./dracut-core_110-8gl0_arm64.deb<br>7936dec4550a1ebbd48db5d515c0467e4a4f1a2ee6da75def93234b3072ba610  ./dracut_110-8gl0_arm64.buildinfo<br>e4e867d6eac4b9efa9c4e403126c902bc84dbdcae625a024b4e2e4db308747bd  ./dracut_110-8gl0_amd64.buildinfo<br>f76d0757c3b72e823f5d7a3623fae235b877a0a200ce915f43f18cf8e28d8ee9  ./dracut_110-8gl0.debian.tar.xz<br>bb8bd1d04007157087e0d32eeb1d6dec4e88ea98a7ab4fc6d05abe4d4a7534c8  ./dracut_110-8gl0_amd64.changes<br>ce5b6721a981aa1115d6affd7e6cfae373a89ebc75ce9b02d244afb9d261c1e0  ./dracut-install_110-8gl0_amd64.deb<br>2aac9be3e16f07cb42ed8ef830f25b60f9387d6087a40aded4fe9422601101a9  ./dracut_110-8gl0_all.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardener/gardener - v1.137.7</title>
+            <link>https://github.com/gardener/gardener</link>
+            <guid>https://github.com/gardener/gardener/releases/tag/v1.137.7</guid>
+            <pubDate>Thu, 02 Apr 2026 18:07:38 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/gardener:v1.137.7]</h1>
+<h2>🐛 Bug Fixes</h2>
+<ul><li><code>[OPERATOR]</code> Fix a bug where the <code>shoot-care</code> controller cannot reconcile shoots with <code>spec.maintenance.confineSpecUpdateRollout=true</code> and updated DNS credentials, i.e. <code>shoot.spec.dns.providers[].credentialsRef</code>, until the shoot is reconciled. by @vpnachev <a href="https://github.com/gardener/gardener/pull/14445">[#14445</a>]</li></ul>
+<h2>🏃 Others</h2>
+<ul><li><code>[OPERATOR]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/autoscaler</code> from <code>v1.34.0</code> to <code>v1.34.1</code>. <a href="https://redirect.github.com/gardener/autoscaler/releases/tag/v1.34.1">Release Notes</a>  
+  - <code>gardener/autoscaler</code> from <code>v1.33.0</code> to <code>v1.33.1</code>. <a href="https://redirect.github.com/gardener/autoscaler/releases/tag/v1.33.1">Release Notes</a>  
+  - <code>gardener/autoscaler</code> from <code>v1.32.2</code> to <code>v1.32.3</code>. <a href="https://redirect.github.com/gardener/autoscaler/releases/tag/v1.32.3">Release Notes</a>  
+  - <code>gardener/autoscaler</code> from <code>v1.31.0</code> to <code>v1.31.1</code>. <a href="https://redirect.github.com/gardener/autoscaler/releases/tag/v1.31.1">Release Notes</a>  
+  - <code>gardener/autoscaler</code> from <code>v1.30.2</code> to <code>v1.30.3</code>. <a href="https://redirect.github.com/gardener/autoscaler/releases/tag/v1.30.3">Release Notes</a> by @aaronfern <a href="https://github.com/gardener/gardener/pull/14498">[#14498</a>]
+<ul><li><code>[OPERATOR]</code> There is now <code>maxConnectionDuration</code> of 1 day for connections to kube-apiserver endpoints. Their <code>maxConnections</code> limit has been removed. by @oliver-goetz <a href="https://github.com/gardener/gardener/pull/14469">[#14469</a>]</li><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/machine-controller-manager</code> from <code>v0.61.2</code> to <code>v0.61.3</code>. <a href="https://redirect.github.com/gardener/machine-controller-manager/releases/tag/v0.61.3">Release Notes</a>  
+  - <code>github.com/gardener/machine-controller-manager</code> from <code>v0.61.2</code> to <code>v0.61.3</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14488">[#14488</a>]
+<h2>Helm Charts</h2>
+<ul><li>controlplane: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/controlplane:v1.137.7</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.137.7</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.137.7</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.137.7</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.137.7</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.137.7</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.137.7</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.137.7</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.137.7</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.137.7</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.137.7</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.137.7</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.137.7</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.27.18</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.27.18</guid>
+            <pubDate>Thu, 02 Apr 2026 14:49:17 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore: add test coverage configuration by @OlegErshov in https://github.com/platform-mesh/security-operator/pull/451</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.27.17...v0.27.18</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/example-httpbin-operator - v0.5.3</title>
+            <link>https://github.com/platform-mesh/example-httpbin-operator</link>
+            <guid>https://github.com/platform-mesh/example-httpbin-operator/releases/tag/v0.5.3</guid>
+            <pubDate>Thu, 02 Apr 2026 14:32:31 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update kubernetes monorepo to v0.34.6 (patch) by @renovate[bot] in https://github.com/platform-mesh/example-httpbin-operator/pull/111</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/example-httpbin-operator/compare/0.5.2...v0.5.3</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/kubernetes-graphql-gateway - v1.2.8</title>
+            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
+            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.2.8</guid>
+            <pubDate>Thu, 02 Apr 2026 14:29:17 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update k8s.io/kube-openapi digest to 16be699 by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/185</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.2.7...v1.2.8</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.7.61</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.61</guid>
+            <pubDate>Thu, 02 Apr 2026 14:25:21 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.57 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/778</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.60...v0.7.61</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.20.31</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.20.31</guid>
+            <pubDate>Thu, 02 Apr 2026 13:54:36 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update nestjs by @renovate[bot] in https://github.com/platform-mesh/portal/pull/298</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.20.30...v0.20.31</p>]]></description>
+        </item>
+<item>
+            <title>open-resource-discovery/specification - v1.14.3</title>
+            <link>https://github.com/open-resource-discovery/specification</link>
+            <guid>https://github.com/open-resource-discovery/specification/releases/tag/v1.14.3</guid>
+            <pubDate>Thu, 02 Apr 2026 13:43:48 +0000</pubDate>
+            <description><![CDATA[<h3>Added</h3>
+<ul><li>Added relationship property to <code>ApiResource</code> for expressing relations to other ORD resources:</li></ul>  - <code>relatedApiResources</code>: Array of <code>RelatedApiResource</code> objects to link API resources to API resources
+  - <code>relatedEventResources</code>: Array of <code>RelatedEventResource</code> objects to link API resources to event resources
+<ul><li>Added relationship property to <code>EventResource</code> for expressing relations to other ORD resources:</li></ul>  - <code>relatedEventResources</code>: Array of <code>RelatedEventResource</code> objects to link event resources to event resources
+  - <code>relatedApiResources</code>: Array of <code>RelatedApiResource</code> objects to link event resources to API resources
+<h3>Changed</h3>
+<ul><li>Improved the <a href="./docs/spec-v1/concepts/grouping-and-bundling.md">Grouping and Bundling</a> documentation page:</li></ul>  - Added missing <strong>Product</strong> section explaining the concept and its role in portfolio structuring.
+  - Added a &quot;Choosing the Right Concept&quot; comparison table to help decide which grouping mechanism to use.
+  - Improved descriptions for all grouping concepts (Package, Consumption Bundle, Entity Type, Tags, Labels, Groups).
+<h3>Commits</h3>
+<ul><li><a href="https://github.com/open-resource-discovery/specification/commit/2eba1389951ca4c554836b93d83435e96149d23b">2eba138</a> Add missing relations with custom relationType to APIResource and EventResource (#110) (Raluca Gruber)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/9b7fdc1a00768c3de0f678ff12a12c6f3d506771">9b7fdc1</a> Add script for LLM notebook export (#107) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/cc769473989127305697864893155af4556df4f9">cc76947</a> Minor improvements to AGENTS.md and claude config (#106) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/4e324ac1bc799763c543ca4c50d5c0ee836c2f83">4e324ac</a> Mention products in grouping and bundling (#101) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/020556c36a71cd9853a6354f2ed66b1f46c36fcd">020556c</a> Chore: Improve AGENTS.md, add Claude config (#103) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/ea8827eafb7d2c954ffbd9641f423e2c67891dd4">ea8827e</a> SAP Policy Levels naming convention (#77) (Pavel Kornev)</li></ul>
+<h3>Contributors</h3>
+&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
+      &lt;a href=&#x27;https://github.com/maiargu&#x27;&gt;
+        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/92865676?v=4&#x27; alt=&#x27;Raluca Gruber&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
+        &lt;span&gt;Raluca Gruber&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;&lt;td align=&#x27;center&#x27;&gt;
+      &lt;a href=&#x27;https://github.com/pavelkornev&#x27;&gt;
+        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/748043?v=4&#x27; alt=&#x27;Pavel Kornev&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
+        &lt;span&gt;Pavel Kornev&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;&lt;td align=&#x27;center&#x27;&gt;
+      &lt;a href=&#x27;https://github.com/Fannon&#x27;&gt;
+        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/470980?v=4&#x27; alt=&#x27;Simon Heimler&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
+        &lt;span&gt;Simon Heimler&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
+        </item>
+<item>
+            <title>cobaltcore-dev/aurora-dashboard - v1.55.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.55.0</guid>
+            <pubDate>Thu, 02 Apr 2026 13:15:50 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.54.0...v1.55.0">1.55.0</a> (2026-04-02)</h2>
+<h3>✨ Features</h3>
+<ul><li><strong>aurora-portal:</strong> created rbac security group ui (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/651">#651</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/8b4c9f4bc50bcc1376fe3a28d1abce21a890c1ab">8b4c9f4</a>)</li></ul>
+<h3>♻️ Code Refactoring</h3>
+<ul><li><strong>network:</strong> floating-ip improve code-quality through refactoring and updated tests (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/652">#652</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/dc0d58337dc29a7fa145a385c38d8cb10a9730ce">dc0d583</a>)</li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.5.5</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.5.5</guid>
+            <pubDate>Thu, 02 Apr 2026 11:57:52 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/rebac-authz-webhook/pull/230</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.5.4...v0.5.5</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/virtual-workspaces - v0.10.5</title>
+            <link>https://github.com/platform-mesh/virtual-workspaces</link>
+            <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.10.5</guid>
+            <pubDate>Thu, 02 Apr 2026 11:57:08 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/virtual-workspaces/pull/93</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.10.4...v0.10.5</p>]]></description>
+        </item>
+<item>
             <title>platform-mesh/iam-service - v0.14.40</title>
             <link>https://github.com/platform-mesh/iam-service</link>
             <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.14.40</guid>
@@ -14,24 +177,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/iam-service/pull/418</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.14.39...v0.14.40</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.7.60</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.7.60</guid>
-            <pubDate>Thu, 02 Apr 2026 11:56:31 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/extension-manager-operator/pull/783</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.59...v0.7.60</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.12.33</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.33</guid>
-            <pubDate>Thu, 02 Apr 2026 11:56:17 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: inline pipeline workflow (ADR 004) by @nexus49 in https://github.com/platform-mesh/account-operator/pull/195</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.32...v0.12.33</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/observability-stack - Release v0.0.7</title>
@@ -52,51 +197,6 @@
             <pubDate>Thu, 02 Apr 2026 09:04:21 +0000</pubDate>
             <description><![CDATA[<h2>Container (OCI) Images</h2>
 <ul><li>coredns-config-adapter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/coredns-config-adapter:v0.5.0</code></li><li>update go version to <code>1.26.1</code></li><li>update distroless image to <code>static-debian13</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.65.4</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.65.4</guid>
-            <pubDate>Thu, 02 Apr 2026 08:18:58 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: add quality-gate status check by @nexus49 in https://github.com/platform-mesh/platform-mesh-operator/pull/547</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.65.3...v0.65.4</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/rebac-authz-webhook - v0.5.4</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.5.4</guid>
-            <pubDate>Thu, 02 Apr 2026 08:14:58 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: add quality-gate status check by @nexus49 in https://github.com/platform-mesh/rebac-authz-webhook/pull/229</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.5.3...v0.5.4</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/kubernetes-graphql-gateway - v1.2.6</title>
-            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
-            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.2.6</guid>
-            <pubDate>Thu, 02 Apr 2026 08:14:44 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: add quality-gate status check by @nexus49 in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/188</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.2.5...v1.2.6</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/virtual-workspaces - v0.10.4</title>
-            <link>https://github.com/platform-mesh/virtual-workspaces</link>
-            <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.10.4</guid>
-            <pubDate>Thu, 02 Apr 2026 08:13:59 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: add quality-gate status check by @nexus49 in https://github.com/platform-mesh/virtual-workspaces/pull/92</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.10.3...v0.10.4</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.27.16</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.27.16</guid>
-            <pubDate>Thu, 02 Apr 2026 08:13:08 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>ci: add quality-gate status check by @nexus49 in https://github.com/platform-mesh/security-operator/pull/448</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.27.15...v0.27.16</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-flux - Release v0.1.0</title>
@@ -169,6 +269,21 @@
 <ul><li>cluster-autoscaler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/autoscaler/cluster-autoscaler:v1.30.3</code></li></ul>]]></description>
         </item>
 <item>
+            <title>openmcp-project/service-provider-external-secrets - Release v0.1.0</title>
+            <link>https://github.com/openmcp-project/service-provider-external-secrets</link>
+            <guid>https://github.com/openmcp-project/service-provider-external-secrets/releases/tag/Release v0.1.0</guid>
+            <pubDate>Wed, 01 Apr 2026 11:27:58 +0000</pubDate>
+            <description><![CDATA[<h1>Changes included in v0.1.0:</h1>
+
+<h1>Changelog</h1>
+
+<h2>What&#x27;s Changed</h2>
+<ul><li>feat: initial implementation by @christophrj in https://github.com/openmcp-project/service-provider-external-secrets/pull/1</li><li>fix: initial version by @christophrj in https://github.com/openmcp-project/service-provider-external-secrets/pull/2</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@christophrj made their first contribution in https://github.com/openmcp-project/service-provider-external-secrets/pull/1</li></ul>
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/service-provider-external-secrets/commits/v0.1.0]]></description>
+        </item>
+<item>
             <title>gardener/gardener-extension-shoot-agent-sandbox - v0.2.1</title>
             <link>https://github.com/gardener/gardener-extension-shoot-agent-sandbox</link>
             <guid>https://github.com/gardener/gardener-extension-shoot-agent-sandbox/releases/tag/v0.2.1</guid>
@@ -179,24 +294,6 @@
 <h2>Helm Charts</h2>
 <ul><li>shoot-agent-sandbox: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-agent-sandbox:v0.2.1</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-shoot-agent-sandbox: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-agent-sandbox:v0.2.1</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>cobaltcore-dev/aurora-dashboard - v1.54.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.54.0</guid>
-            <pubDate>Wed, 01 Apr 2026 08:20:16 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.53.0...v1.54.0">1.54.0</a> (2026-04-01)</h2>
-<h3>✨ Features</h3>
-<ul><li><strong>aurora-portal:</strong> swift objects - folder actions (recursive delete and create) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/610">#610</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/5271418798c42a01205fa9e24383e2832639c2ec">5271418</a>)</li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.20.29</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.20.29</guid>
-            <pubDate>Wed, 01 Apr 2026 07:16:41 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update Angular packages to 21.2.x by @nexus49 in https://github.com/platform-mesh/portal/pull/507</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.20.28...v0.20.29</p>]]></description>
         </item>
 <item>
             <title>open-component-model/ocm - latest ocm-cli</title>
@@ -1791,109 +1888,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <p>Files in this release:<br>``<code><br>e55ab1ef6b74db7bf929089d1658a65c3cddc8f3bfac5233e4f24a56b0f02f4b  ./libxml2-16-dbgsym_2.15.2+dfsg-0.1gl0_amd64.deb<br>0002ff80a10df9bfff562fbc0569d3c6f266d4cdfa3f9e0a235291b61b10d8f9  ./libxml2-utils-dbgsym_2.15.2+dfsg-0.1gl0_amd64.deb<br>874c69dc53e4668facf84fed911e8d249930ba2a81ac566f5cec00eec079cd0e  ./libxml2-doc_2.15.2+dfsg-0.1gl0_all.deb<br>b969f5d64f4e3bf0c36f6a8853beb57ce1a92c78e7d2ccf774c46383c3ee2224  ./libxml2_2.15.2+dfsg-0.1gl0_amd64.changes<br>e153b07bef8702c1064de95b705f1c83e14cbb7e61da58809187c2e10f80da2e  ./python3-libxml2_2.15.2+dfsg-0.1gl0_arm64.deb<br>80af0c4b22dfd4e48a3d185fe8a0c3b70854d8212d99031d0bdb5cd7f0720842  ./libxml2-source_2.15.2+dfsg-0.1gl0_all.deb<br>07ae2dc7191ad485dc840298a7d56595f4d07f1c98954c56304dd5eb1972a835  ./libxml2-16-dbgsym_2.15.2+dfsg-0.1gl0_arm64.deb<br>d48f8874e55667d4efcbc0c9a3edde0947c930b0ad8217793195833d2f49f09f  ./libxml2-dev_2.15.2+dfsg-0.1gl0_arm64.deb<br>82ecfe2d07a973933513caf5521661279bfd761cb298ae2053e2d6744a7d1718  ./libxml2_2.15.2+dfsg-0.1gl0_amd64.buildinfo<br>090043f8e202f1f847e8345657ce79ea10304dff804a7771b8c20599538ebfde  ./libxml2-utils_2.15.2+dfsg-0.1gl0_amd64.deb<br>ec44b5794d10325a2abc7cda33f470419700ed2e4eaf474f7116014300c2a09c  ./libxml2-16_2.15.2+dfsg-0.1gl0_arm64.deb<br>40da300feeffc67ab1fa366abfc76b86150ef1114f367b6d30b5a95f0a2638b2  ./python3-libxml2-dbgsym_2.15.2+dfsg-0.1gl0_amd64.deb<br>1de577fbea007354ecfbcaf77813423bdbc773070c8efc3ce832a73d7d47d535  ./libxml2_2.15.2+dfsg-0.1gl0.debian.tar.xz<br>806f43d634d39fd1b3744bdbe21a59765c1bc837efccb6dacd1f86d23c9e2b85  ./libxml2_2.15.2+dfsg-0.1gl0_arm64.changes<br>6e932269d3a17ac48b63bd0596052b9d4ba90f0fa62fb2940edda3099bd47e9c  ./libxml2_2.15.2+dfsg.orig.tar.xz<br>9a1ed5436099c2ec043d67305e06e857675b076fc549918c256407eeb47c4083  ./libxml2_2.15.2+dfsg-0.1gl0.dsc<br>b14f01e9831eb9efccee945081485a5bd8ab2a5ea790299e1f789090cc952438  ./libxml2-16_2.15.2+dfsg-0.1gl0_amd64.deb<br>1a9759ee96e9cf770c8ce23d044c4906d7a252cf3cc22fa62f96d961aa27e42a  ./libxml2-dev_2.15.2+dfsg-0.1gl0_amd64.deb<br>8b385575b66c5ac610bcf50d311249f4710724a9a456cfa3d5509151b2d242ee  ./python3-libxml2-dbgsym_2.15.2+dfsg-0.1gl0_arm64.deb<br>f834a3a4d6c42508628577f1d2382227400617b89d6134561dad8248b244e5ff  ./python3-libxml2_2.15.2+dfsg-0.1gl0_amd64.deb<br>df4a90517930856d836f25e27086151ed9ae2960b0e12ac636c38e3f735a4dbd  ./libxml2_2.15.2+dfsg-0.1gl0_arm64.buildinfo<br>976dccdd065e6f66fb135ac74697ca4627185499a80b5f7d129a37114e5fc026  ./libxml2-utils-dbgsym_2.15.2+dfsg-0.1gl0_arm64.deb<br>e23fd1a1ee3059d5df7099977208a3df6a98ef799de1f57a685e4f091f14da9e  ./libxml2-utils_2.15.2+dfsg-0.1gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-dracut - dracut_110-7gl0</title>
-            <link>https://github.com/gardenlinux/package-dracut</link>
-            <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_110-7gl0</guid>
-            <pubDate>Sat, 28 Mar 2026 00:22:13 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/23673067455">23673067455</a></p>
-<p>Files in this release:<br>``<code><br>7f261398018310845db060e01924b4a5b5cd3d6989faacfeeeeb792bb28afa04  ./dracut_110-7gl0.debian.tar.xz<br>9276c4508fdd7190b0ba6b1e1b3db20b87dddb837ac4bd5e9edf3bbb49421cc2  ./dracut_110-7gl0_arm64.buildinfo<br>c21f067d542d7a296b762e0a500750743f548206661ff4745124fa0083cd3643  ./dracut-test_110-7gl0_arm64.deb<br>940683d743eed7945388598dda1cd08c51ae2dea4f3a77430e01e5938c01a2d5  ./dracut_110-7gl0_all.deb<br>e539fde606bec47f06c3c04995a692919c15d12aa74fc4ce7a67c13b3ebd06c5  ./dracut_110-7gl0_amd64.changes<br>4e7950ba17dd38a589a694e1b497a53aa286b693b3564040c593b955e2c14d42  ./dracut-core-dbgsym_110-7gl0_arm64.deb<br>02725a3a9eb1004c21b3f936fa064d0e8ef6fab5e12841c76bd38b173d350340  ./dracut_110-7gl0_amd64.buildinfo<br>eb234a1c43420bd27036a4e767c6fdec6acff57d513ad3e664e94fa40beaf062  ./dracut_110.orig.tar.xz<br>df5e91c6e601e3ceeba6a0f0e1ceae9dae58121dcb5d05bb729352c3b8e14488  ./dracut-install_110-7gl0_amd64.deb<br>ce271c51ce77b54a3d99784513ad186154dc4c65f6103fae9c32149218072ad4  ./dracut_110-7gl0_arm64.changes<br>8a259b2ad2fa71713afd3d83f39404504216b2b652f7c556b74ab8c3e40f083b  ./dracut-core_110-7gl0_amd64.deb<br>00d1da806e270179a4fa937fb12a52ab734bf6ea3a8bc485737af7fd88737b30  ./dracut-core-dbgsym_110-7gl0_amd64.deb<br>43900999b8bdc678802ba2829da89f0f00baf9fa4bae6d13a879ebc65fc3c887  ./dracut_110-7gl0.dsc<br>12ede3cfd75dd25e734ae01dcad3d94ecd33d7b3f00dec70d21e540f3ed5ea53  ./dracut-core_110-7gl0_arm64.deb<br>232365d8163ac2162cbe5a23b028e0e686fb71804148d39d07110c8b81aa779e  ./dracut-install-dbgsym_110-7gl0_amd64.deb<br>f829048d062bac692f84464c388de33e3ecf4cebb218deabc66a8aa123c71414  ./dracut-install-dbgsym_110-7gl0_arm64.deb<br>510fa9f38cf4f9c328def2532575605554c787eca78175754e7286577de8dad9  ./dracut-install_110-7gl0_arm64.deb<br>f0cd95efe99de19eaf12b8160516df58e53f4f039342553edbc61cd0e7356bb5  ./dracut-test_110-7gl0_amd64.deb<br>6411bf7b537457561fe2a2b5fdf53e344372912f98ea938b846b82549ec33fbd  ./dracut-network_110-7gl0_all.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardener/gardener - v1.139.0</title>
-            <link>https://github.com/gardener/gardener</link>
-            <guid>https://github.com/gardener/gardener/releases/tag/v1.139.0</guid>
-            <pubDate>Fri, 27 Mar 2026 18:41:21 +0000</pubDate>
-            <description><![CDATA[<h1>[github.com/gardener/gardener:v1.139.0]</h1>
-<h2>⚠️ Breaking Changes</h2>
-<ul><li><code>[OPERATOR]</code> The type of the Gardenlet&#x27;s configuration field <code>.controllers.tokenRequestorWorkloadIdentity.tokenExpirationDuration</code> has been changed from <code>time.Duration</code> to <code>k8s.io/apimachinery/pkg/apis/meta/v1.Duration</code>. by @vpnachev <a href="https://github.com/gardener/gardener/pull/14333">[#14333</a>]</li><li><code>[OPERATOR]</code> Garden <code>.status.encryptedResources</code> field is removed, use Garden <code>.status.credentials.encryptionAtRest.resources</code> instead. by @iypetrov <a href="https://github.com/gardener/gardener/pull/14354">[#14354</a>]</li><li><code>[OPERATOR]</code> The <code>raise-spec-limits</code> verb has been removed for <code>NamespacedCloudProfile</code>s because it is no-longer needed. by @mimiteto <a href="https://github.com/gardener/gardener/pull/14344">[#14344</a>]</li><li><code>[USER]</code> ⚠️ The Shoot field <code>.spec.dns.providers[].secretName</code> has been forbidden for clusters running on Kubernetes version v1.35.0 or higher. Please, use <code>.spec.dns.providers[].credentialsRef</code> instead. by @vpnachev <a href="https://github.com/gardener/gardener/pull/14309">[#14309</a>]</li><li><code>[USER]</code> Shoot <code>.status.encryptedResources</code> field is removed, use Shoot <code>.status.credentials.encryptionAtRest.resources</code> instead. by @iypetrov <a href="https://github.com/gardener/gardener/pull/14354">[#14354</a>]</li><li><code>[DEVELOPER]</code> ⚠️ A default reconciliation timeout of 3 minutes has been set for the extension controllers:</li></ul>  - github.com/gardener/gardener/extensions/pkg/controller/backupbucket  
-  - github.com/gardener/gardener/extensions/pkg/controller/backupentry  
-  - github.com/gardener/gardener/extensions/pkg/controller/containerruntime  
-  - github.com/gardener/gardener/extensions/pkg/controller/controlplane  
-  - github.com/gardener/gardener/extensions/pkg/controller/dnsrecord  
-  - github.com/gardener/gardener/extensions/pkg/controller/extension  
-  - github.com/gardener/gardener/extensions/pkg/controller/healthcheck  
-  - github.com/gardener/gardener/extensions/pkg/controller/heartbeat  
-  - github.com/gardener/gardener/extensions/pkg/controller/network  
-  - github.com/gardener/gardener/extensions/pkg/controller/operatingsystemconfig  
-  A default reconciliation timeout of 20 minutes has been set for the extension controllers:  
-  - github.com/gardener/gardener/extensions/pkg/controller/bastion  
-  - github.com/gardener/gardener/extensions/pkg/controller/infrastructure  
-  - github.com/gardener/gardener/extensions/pkg/controller/worker  
-  Extension developers can define own reconciliation timeout via the <code>sigs.k8s.io/controller-runtime/pkg/controller.Options</code> provided to the respective controller. by @vpnachev <a href="https://github.com/gardener/gardener/pull/14105">[#14105</a>]
-<ul><li><code>[DEVELOPER]</code> :warning: The deprecated Seed field <code>secretRef</code> in <code>spec.dns.provider</code> has been removed, use <code>credentialsRef</code> instead. by @vpnachev <a href="https://github.com/gardener/gardener/pull/14308">[#14308</a>]</li></ul>
-<h2>📰 Noteworthy</h2>
-<ul><li><code>[OPERATOR]</code> <code>AdminKubeconfigRequest</code> now uses the static username prefix <code>gardener.cloud:admin:</code>, and <code>ViewerKubeconfigRequest</code> uses <code>gardener.cloud:viewer:</code> to generate the username for the resulting kubeconfig. Previously, this prefix was randomized.&quot; by @timuthy <a href="https://github.com/gardener/gardener/pull/14252">[#14252</a>]</li><li><code>[DEVELOPER]</code> <code>gardenadm</code> bootstrap etcd version is updated from <code>v3.4.34</code> to <code>v3.5.27</code>. by @LucaBernstein <a href="https://github.com/gardener/gardener/pull/14352">[#14352</a>]</li><li><code>[DEPENDENCY]</code> During the <code>Shoot</code> reconciliation, control plane and extension readiness is waited for before further system components are reconciled. by @LucaBernstein <a href="https://github.com/gardener/gardener/pull/14338">[#14338</a>]</li></ul>
-<h2>✨ New Features</h2>
-<ul><li><code>[OPERATOR]</code> Deletion of the <code>Garden</code> CRD installed via the gardener-operator Helm chart is now prevented unless annotated with <a href="https://gardener.cloud/docs/gardener/concepts/resource-manager/#unconfirmed-deletion-prevention-for-custom-resources-and-definitions"><code>confirmation.gardener.cloud/deletion=true</code></a> by @maboehm <a href="https://github.com/gardener/gardener/pull/14373">[#14373</a>]</li><li><code>[OPERATOR]</code> A new <code>spec.settings.zoneSelection</code> field on <code>Seed</code> resources allows operators to configure whether the control plane namespace of non-HA <code>Shoot</code>s (or those with failure tolerance type <code>node</code>) is placed in the same availability zone as the shoot&#x27;s worker nodes (<code>Prefer</code>) or strictly required to match (<code>Enforce</code>). by @rfranzke <a href="https://github.com/gardener/gardener/pull/14238">[#14238</a>]</li><li><code>[OPERATOR]</code> The <code>istio-ingressgateway</code> now uses a dual autoscaling approach with both <code>VPA</code> (VerticalPodAutoscaler) and <code>HPA</code> (HorizontalPodAutoscaler) working together without causing pod-thrashing. by @oliver-goetz <a href="https://github.com/gardener/gardener/pull/14313">[#14313</a>]</li><li><code>[OPERATOR]</code> The Gardener Dashboard RBAC now allows listing and watching ManagedSeeds to support newer dashboard functionality around ManagedSeed-related Shoot information. by @petersutter <a href="https://github.com/gardener/gardener/pull/14321">[#14321</a>]</li><li><code>[DEVELOPER]</code> <code>gardener-node-agent</code> can now resolve <code>.spec.files[].content.secretRef</code> from <code>Secret</code>s in <code>kube-system</code>, enabling <code>OperatingSystemConfig</code> files to reference secrets instead of requiring inlined content. by @rfranzke <a href="https://github.com/gardener/gardener/pull/14319">[#14319</a>]</li></ul>
-<h2>🐛 Bug Fixes</h2>
-<ul><li><code>[OPERATOR]</code> A bug causing the nil pointer panic in gardenlet config validation when <code>staleExtensionHealthChecks.threshold</code> is nil is fixed. by @acumino <a href="https://github.com/gardener/gardener/pull/14317">[#14317</a>]</li><li><code>[OPERATOR]</code> An issue preventing the <code>shootstate-controller</code> of gardenlet to populate all required states to the ShootState for a self-hosted Shoot is now fixed. by @ialidzhikov <a href="https://github.com/gardener/gardener/pull/14339">[#14339</a>]</li><li><code>[OPERATOR]</code> An issue causing <code>gardener-operator</code> to fail to create resource <code>events</code> in API group <code>events.k8s.io</code> is now fixed. by @shafeeqes <a href="https://github.com/gardener/gardener/pull/14327">[#14327</a>]</li><li><code>[OPERATOR]</code> A bug causing the <code>gardenlet</code> to crash during startup was fixed. Earlier, the startup procedure occasionally failed on large-scale seed clusters due to cache sync timeouts. by @timuthy <a href="https://github.com/gardener/gardener/pull/14408">[#14408</a>]</li><li><code>[DEVELOPER]</code> The <code>nodePort</code> auto-remediation in the local setup service controller no longer incorrectly targets <code>ClusterIP</code> services. by @rfranzke <a href="https://github.com/gardener/gardener/pull/14390">[#14390</a>]</li></ul>
-<h2>🏃 Others</h2>
-<ul><li><code>[OPERATOR]</code> The <code>.spec.trafficDistribution</code> field of the topology-aware <code>etcd-{events,main}-client</code> Services will be automatically switched from the deprecated <code>PreferClose</code> to the new <code>PreferSameZone</code> option for Kubernetes 1.34+. by @ialidzhikov <a href="https://github.com/gardener/gardener/pull/14278">[#14278</a>]</li><li><code>[OPERATOR]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/etcd-druid</code> from <code>v0.35.1</code> to <code>v0.36.1</code>. <a href="https://github.com/gardener/etcd-druid/releases/tag/v0.36.1">Release Notes</a>  
-  - <code>github.com/gardener/etcd-druid/api</code> from <code>v0.35.1</code> to <code>v0.36.1</code>. by @Shreyas-s14 <a href="https://github.com/gardener/gardener/pull/14341">[#14341</a>]
-<ul><li><code>[OPERATOR]</code> Status updates for <code>Shoot</code> resources during reconciliation are now minimized when the associated <code>Seed</code> is not ready. Previously, this could lead to excessive growth of the gardener&#x27;s etcd key space. by @timuthy <a href="https://github.com/gardener/gardener/pull/14377">[#14377</a>]</li><li><code>[OPERATOR]</code> Opentelemetry collector migration implemented in gardener - v1.136.0 is no longer needed. by @nickytd <a href="https://github.com/gardener/gardener/pull/14138">[#14138</a>]</li><li><code>[OPERATOR]</code> During the <code>restore</code> phase of control plane migration, <code>Machines</code> and <code>MachineSets</code> are now deployed in parallel across 10 go routines. Additionally, the restoration logic now checks if a <code>Machine</code> or <code>MachineSet</code> already exists, and if that is the case, it does not attempt to create it. This should speed up the restoration of the <code>Worker</code> resource. by @plkokanov <a href="https://github.com/gardener/gardener/pull/14219">[#14219</a>]</li><li><code>[OPERATOR]</code> Now victorialogs streams follow opentelemetry semantic convention fields. by @nickytd <a href="https://github.com/gardener/gardener/pull/14381">[#14381</a>]</li><li><code>[OPERATOR]</code> <code>victoria-logs</code> pods are now labeled according oidc-apps semantic. by @nickytd <a href="https://github.com/gardener/gardener/pull/14325">[#14325</a>]</li><li><code>[OPERATOR]</code> Unused bootstrap secrets from the <code>gardener-resource-manager</code> are cleaned up properly. Earlier, the shoot reconciliation left a considerable amount of unused secrets in the control-plane, if the GRM bootstrap procedure was stuck. by @timuthy <a href="https://github.com/gardener/gardener/pull/14343">[#14343</a>]</li><li><code>[OPERATOR]</code> Fix Istio Gateway metric retention and reenable metric scraping. by @Bobi-Wan <a href="https://github.com/gardener/gardener/pull/14337">[#14337</a>]</li><li><code>[OPERATOR]</code> apiserver-proxy connection for shoots with legacy single-dash namespace format has been fixed. by @axel7born <a href="https://github.com/gardener/gardener/pull/14406">[#14406</a>]</li><li><code>[OPERATOR]</code> Timeout for credentials renewal during rotation of <code>Garden</code> secrets was increased to 10 minutes. by @dimityrmirchev <a href="https://github.com/gardener/gardener/pull/14433">[#14433</a>]</li><li><code>[OPERATOR]</code> The <code>v1alpha1</code> perses CRDs are deleted and replaced with <code>v1alpha2</code> versions during reconciliation. by @rickardsjp <a href="https://github.com/gardener/gardener/pull/14264">[#14264</a>]</li><li><code>[USER]</code> VPN Dashboard now displays the pod name in the legend for the VPN Shoot Network I/O panel by @domdom82 <a href="https://github.com/gardener/gardener/pull/14393">[#14393</a>]</li><li><code>[DEVELOPER]</code> The remote local setup has been updated to the latest changes in Gardener. by @vicwicker <a href="https://github.com/gardener/gardener/pull/14289">[#14289</a>]</li><li><code>[DEVELOPER]</code> Added <code>hack/generate-renovate-ignore-deps.sh</code> to generate the renovate <code>ignoreDeps</code> section from the intersection of a downstream repo&#x27;s <code>go.mod</code> and <code>gardener/gardener</code>&#x27;s <code>go.mod</code>. Downstream repos can now remove their local copies and call the script from <code>$GARDENER_HACK_DIR</code>. by @LucaBernstein <a href="https://github.com/gardener/gardener/pull/14425">[#14425</a>]</li><li><code>[DEVELOPER]</code> Remote setup garden template has been updated with gardenerDiscoveryServer configuration by @domdom82 <a href="https://github.com/gardener/gardener/pull/14306">[#14306</a>]</li><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>registry.k8s.io/ingress-nginx/controller-chroot</code> from <code>v1.15.0</code> to <code>v1.15.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14363">[#14363</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>registry.k8s.io/ingress-nginx/controller-chroot</code> from <code>v1.14.3</code> to <code>v1.15.0</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14267">[#14267</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>registry.k8s.io/coredns/coredns</code> from <code>v1.14.1</code> to <code>v1.14.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14290">[#14290</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/dashboard</code> from <code>1.83.8</code> to <code>1.83.9</code>. <a href="https://redirect.github.com/gardener/dashboard/releases/tag/1.83.9">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14312">[#14312</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>quay.io/brancz/kube-rbac-proxy</code> from <code>v0.21.0</code> to <code>v0.21.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14332">[#14332</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/dashboard</code> from <code>1.83.9</code> to <code>1.83.10</code>. <a href="https://redirect.github.com/gardener/dashboard/releases/tag/1.83.10">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14380">[#14380</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>europe-docker.pkg.dev/gardener-project/releases/gardener/fluent-bit-plugin</code> from <code>v1.2.0</code> to <code>v1.4.0</code>. by @nickytd <a href="https://github.com/gardener/gardener/pull/14357">[#14357</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>quay.io/brancz/kube-rbac-proxy</code> from <code>v0.21.1</code> to <code>v0.21.2</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14382">[#14382</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>registry.k8s.io/ingress-nginx/controller-chroot</code> from <code>v1.14.4</code> to <code>v1.14.5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14362">[#14362</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/vpn2</code> from <code>0.47.0</code> to <code>0.48.0</code>. <a href="https://redirect.github.com/gardener/vpn2/releases/tag/0.48.0">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14374">[#14374</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>perses/perses</code> from <code>v0.53.0</code> to <code>v0.53.1</code>. <a href="https://redirect.github.com/perses/perses/releases/tag/v0.53.1">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14307">[#14307</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gardener/dashboard</code> from <code>1.83.10</code> to <code>1.83.11</code>. <a href="https://redirect.github.com/gardener/dashboard/releases/tag/1.83.11">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14438">[#14438</a>]
-<ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>gcr.io/istio-release/pilot</code> from <code>1.27.7</code> to <code>1.27.8</code>.   
-  - <code>gcr.io/istio-release/proxyv2</code> from <code>1.27.7</code> to <code>1.27.8</code>.   
-  - <code>istio.io/api</code> from <code>v1.27.7</code> to <code>v1.27.8</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener/pull/14280">[#14280</a>]
-<h2>📖 Documentation</h2>
-<ul><li><code>[DEPENDENCY]</code> Extension admission components deployed via <code>gardener-operator</code> should set the <code>--webhook-config-owner-namespace</code> flag to prevent <code>ValidatingWebhookConfiguration</code> resources from leaking in the virtual garden cluster upon uninstall. by @theoddora <a href="https://github.com/gardener/gardener/pull/14360">[#14360</a>]</li></ul>
-<h2>Helm Charts</h2>
-<ul><li>controlplane: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/controlplane:v1.139.0</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/gardenlet:v1.139.0</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/operator:v1.139.0</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/resource-manager:v1.139.0</code></li></ul><h2>Container (OCI) Images</h2>
-<ul><li>admission-controller: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/admission-controller:v1.139.0</code></li><li>apiserver: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/apiserver:v1.139.0</code></li><li>controller-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/controller-manager:v1.139.0</code></li><li>gardenadm: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenadm:v1.139.0</code></li><li>gardenlet: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardenlet:v1.139.0</code></li><li>node-agent: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/node-agent:v1.139.0</code></li><li>operator: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/operator:v1.139.0</code></li><li>resource-manager: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/resource-manager:v1.139.0</code></li><li>scheduler: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/scheduler:v1.139.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>open-resource-discovery/specification - v1.14.2</title>
-            <link>https://github.com/open-resource-discovery/specification</link>
-            <guid>https://github.com/open-resource-discovery/specification/releases/tag/v1.14.2</guid>
-            <pubDate>Fri, 27 Mar 2026 16:11:00 +0000</pubDate>
-            <description><![CDATA[<h3>Added</h3>
-
-<ul><li>Added a <code>files</code> property to Packages to allow linking of arbitrary files associated with packages, such as additional documentation in PDF format.</li><li>Added new <code>releaseStatus</code> value <code>development</code> for resources that are under active development and not yet released for consumption.</li><li>Added relationship properties to <code>Capability</code> for expressing relations to other ORD resources:</li></ul>  - <code>relatedApiResources</code>: Array of <code>RelatedApiResource</code> objects to link capabilities to API resources
-  - <code>relatedEventResources</code>: Array of <code>RelatedEventResource</code> objects to link capabilities to event resources
-  - <code>relatedCapabilities</code>: Array of <code>RelatedCapability</code> objects to link capabilities to other capabilities
-  - Each relationship object includes the ORD ID of the related resource and an extensible <code>relationType</code>
-<ul><li>Existing <code>relatedEntityTypes</code> property on <code>EntityType</code> has been extended to include <code>relationType</code> as well, for consistency and extensibility.</li><li>Added <code>CapabilityIntegrationAspect</code> definition to support capability dependencies in integration aspects</li></ul>  - Capabilities can now be referenced as integration dependencies alongside API and Event Resources
-  - Includes <code>ordId</code> and <code>minVersion</code> properties for capability integration aspects
-<ul><li>Added <code>x-deprecated-in-version</code> and <code>x-deprecation-text</code> information to the exported JSON Schema</li></ul>
-<h3>Changed</h3>
-
-<ul><li>Made <code>RelatedEntityType.relationType</code> an extensible enum that now also accepts any valid <a href="./docs/spec-v1/index.md#concept-id">Concept ID</a> in addition to the existing values (<code>part-of</code>, <code>can-share-identity</code>)</li></ul>
-<h3>Commits</h3>
-<ul><li><a href="https://github.com/open-resource-discovery/specification/commit/899b2d3d8a6ba222ceaf907ce405bc5e028be1b8">899b2d3</a> Release v1.14.2 (#100) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/832bfbbc449974f4d4b734342325ee5993300ea5">832bfbb</a> Add missing relations with custom relationType to Capability (#96) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/2feb93e9b71c8c7385af5478b13bdc7a0184d901">2feb93e</a> Allow integration dependencies to also refer to capabilitites (#93) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/1624908f4a43ace8d9e278397d1c7ce8749ae8a5">1624908</a> Add releaseStatus: development (#92) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/7780ea14705029ddbf028e30a2a0406c9f9588a5">7780ea1</a> Add <code>files</code> property for Packages (#94) (Pavel Kornev)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/801cbb24b0b8fffef2693e0ead474603178b3ab7">801cbb2</a> Do not inherit descriptions via YAML Anchor tag (#98) (Simon Heimler)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/f9aa617efa933f3eb485e7de2f3ac1a3f951f2f2">f9aa617</a> Added <code>x-deprecated-in-version</code> and <code>x-deprecation-text</code> information to the exported JSON Schema (#97) (Raluca Gruber)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/31c92ec6e310b8726d5a4bb516c2519c9e6cfaf9">31c92ec</a> Add PR preview support (#89) (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/specification/commit/e0a40e9540850ee1f3edec552e22e7c98629e8b3">e0a40e9</a> Fix release workflow (#91) (Pavel Kornev)</li></ul>
-<h3>Contributors</h3>
-&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/nirooxx&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/51267793?v=4&#x27; alt=&#x27;Nangiale Shir&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Nangiale Shir&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/maiargu&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/92865676?v=4&#x27; alt=&#x27;Raluca Gruber&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Raluca Gruber&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/pavelkornev&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/748043?v=4&#x27; alt=&#x27;Pavel Kornev&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Pavel Kornev&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/Fannon&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/470980?v=4&#x27; alt=&#x27;Simon Heimler&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Simon Heimler&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
-        </item>
-<item>
             <title>open-component-model/delivery-service - 0.1305.0</title>
             <link>https://github.com/open-component-model/delivery-service</link>
             <guid>https://github.com/open-component-model/delivery-service/releases/tag/0.1305.0</guid>
@@ -2533,16 +2527,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <h2>Helm Charts</h2>
 <ul><li>os-coreos: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/os-coreos:v1.29.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-os-coreos: <code>europe-docker.pkg.dev/gardener-project/releases/extensions/os-coreos:v1.29.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/gardenlinux-nvidia-installer - 1.2.1</title>
-            <link>https://github.com/gardenlinux/gardenlinux-nvidia-installer</link>
-            <guid>https://github.com/gardenlinux/gardenlinux-nvidia-installer/releases/tag/1.2.1</guid>
-            <pubDate>Thu, 19 Mar 2026 17:53:25 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Update History by @github-actions[bot] in https://github.com/gardenlinux/gardenlinux-nvidia-installer/pull/176</li><li>Auto-update README.md after release via PR by @dhague in https://github.com/gardenlinux/gardenlinux-nvidia-installer/pull/177</li></ul>
-
-<strong>Full Changelog</strong>: https://github.com/gardenlinux/gardenlinux-nvidia-installer/compare/1.2.0...1.2.1]]></description>
         </item>
 <item>
             <title>luigi-project/luigi - v2.29.0</title>
@@ -4111,17 +4095,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>codeberg.org/forgejo/forgejo</code> from <code>13.0.3</code> to <code>13.0.5</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-landscape-kit/pull/69">[#69</a>]
 <ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.133.0</code> to <code>v1.133.1</code>. by @gardener-ci-robot <a href="https://github.com/gardener/gardener-landscape-kit/pull/35">[#35</a>]
 <ul><li><code>[DEPENDENCY]</code> The following dependencies have been updated:</li></ul>  - <code>github.com/gardener/gardener</code> from <code>v1.134.1</code> to <code>v1.134.2</code>. <a href="https://redirect.github.com/github.com/gardener/gardener/releases/tag/v1.134.2">Release Notes</a> by @gardener-ci-robot <a href="https://github.com/gardener/gardener-landscape-kit/pull/65">[#65</a>]]]></description>
-        </item>
-<item>
-            <title>platform-mesh/example-httpbin-operator - v0.5.1</title>
-            <link>https://github.com/platform-mesh/example-httpbin-operator</link>
-            <guid>https://github.com/platform-mesh/example-httpbin-operator/releases/tag/v0.5.1</guid>
-            <pubDate>Thu, 29 Jan 2026 11:57:36 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(httproute): update SectionName for HTTPRoute to use wildcard portal by @akafazov in https://github.com/platform-mesh/example-httpbin-operator/pull/103</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@akafazov made their first contribution in https://github.com/platform-mesh/example-httpbin-operator/pull/103</li></ul>
-<strong>Full Changelog</strong>: https://github.com/platform-mesh/example-httpbin-operator/compare/0.5.0...v0.5.1]]></description>
         </item>
 <item>
             <title>gardenlinux/package-pcr-oracle - pcr-oracle_0.5.4-1gl0</title>
