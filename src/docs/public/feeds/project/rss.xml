@@ -4,9 +4,38 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 04 Apr 2026 12:08:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 12:07:30 +0000</lastBuildDate>
 
     <item>
+            <title>platform-mesh/account-operator - v0.12.37</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.37</guid>
+            <pubDate>Sun, 05 Apr 2026 01:27:22 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.2.6 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/198</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.36...v0.12.37</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.20.32</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.20.32</guid>
+            <pubDate>Sat, 04 Apr 2026 21:38:47 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(ci): use @main for shared .github workflow references by @nexus49 in https://github.com/platform-mesh/portal/pull/501</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.20.31...v0.20.32</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-ui - v0.10.8</title>
+            <link>https://github.com/platform-mesh/iam-ui</link>
+            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.10.8</guid>
+            <pubDate>Sat, 04 Apr 2026 19:56:23 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>trigger: ocm ci by @akafazov in https://github.com/platform-mesh/iam-ui/pull/44</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@akafazov made their first contribution in https://github.com/platform-mesh/iam-ui/pull/44</li></ul>
+<strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.10.7...v0.10.8]]></description>
+        </item>
+<item>
             <title>open-resource-discovery/ord-maven - v0.8.0</title>
             <link>https://github.com/open-resource-discovery/ord-maven</link>
             <guid>https://github.com/open-resource-discovery/ord-maven/releases/tag/v0.8.0</guid>
@@ -29,15 +58,6 @@
             <pubDate>Sat, 04 Apr 2026 00:13:04 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-adduser/actions/runs/23966954016">23966954016</a></p>
 <p>Files in this release:<br>``<code><br>a3fb90e15bb93f565c4ad30a09fc4c070454cca70e2e5dc8b10a0ef8f9a3d221  ./adduser_3.155gl0_amd64.changes<br>33e7602de45eb03831f2084ddf044ba7a014010551fd3689ad53d84d628e3aa3  ./adduser_3.155gl0_amd64.buildinfo<br>06e2f1a8f2d29818de44873f9e55025bcf8aea7c109c55b4998b0d75231afa3f  ./adduser_3.155gl0_all.deb<br>cca1253af0c44a3688b217feb66628bce459e8edd79e3f27dd1d67c82c5ff366  ./adduser_3.155gl0.tar.xz<br>26cac2ed450813cc7b6b3273fd5fe834e71b30cc5901544a2a75f813a7298b89  ./adduser_3.155gl0.dsc<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.12.35</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.12.35</guid>
-            <pubDate>Fri, 03 Apr 2026 22:07:50 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/subroutines to v0.2.3 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/196</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.12.34...v0.12.35</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/iam-service - v0.14.41</title>
@@ -129,15 +149,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update module github.com/platform-mesh/extension-manager-operator/api to v0.7.57 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/778</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.7.60...v0.7.61</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.20.31</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.20.31</guid>
-            <pubDate>Thu, 02 Apr 2026 13:54:36 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update nestjs by @renovate[bot] in https://github.com/platform-mesh/portal/pull/298</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.20.30...v0.20.31</p>]]></description>
         </item>
 <item>
             <title>open-resource-discovery/specification - v1.14.3</title>
@@ -2424,15 +2435,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <h2>Helm Charts</h2>
 <ul><li>image-rewriter: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/image-rewriter:v0.8.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-image-rewriter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/image-rewriter:v0.8.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-ui - v0.10.7</title>
-            <link>https://github.com/platform-mesh/iam-ui</link>
-            <guid>https://github.com/platform-mesh/iam-ui/releases/tag/v0.10.7</guid>
-            <pubDate>Mon, 23 Mar 2026 08:09:36 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Angular 21 by @Sobyt483 in https://github.com/platform-mesh/iam-ui/pull/41</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-ui/compare/0.10.6...v0.10.7</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-expat - expat_2.7.5-1gl0</title>
