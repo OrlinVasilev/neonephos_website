@@ -1,12 +1,12 @@
 ---
-title: "Open Source Summit Europe"
+title: "Alasca Tech Talks"
 date: "2026-04-24"
-banner: "assets/events/20260424_alasca_tech_talks_banner.svg"
-bannerMobile: "assets/events/20260424_alasca_tech_talks_banner_mobile.svg"
-bannerSmall: "assets/events/20260424_alasca_tech_talks_banner_small.svg"
+banner: "assets/events/20260424_alasca_talks_banner.svg"
+bannerMobile: "assets/events/20260424_alasca_talks_banner_mobile.svg"
+bannerSmall: "assets/events/20260424_alasca_talks_banner_small.svg"
 backgroundhex: "#889aa4ff"
-tags: ["neonephos", "open-source-summit"]
-rssPubDate: "2026-03-12"
+tags: ["neonephos", "alasca"]
+rssPubDate: "2026-04-09"
 published: true
 ---
 
