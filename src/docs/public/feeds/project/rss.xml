@@ -4,16 +4,433 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Mon, 20 Apr 2026 12:20:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 12:18:13 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/rebac-authz-webhook - v0.8.5</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.5</guid>
-            <pubDate>Mon, 20 Apr 2026 11:03:40 +0000</pubDate>
+            <title>open-component-model/ocm - v0.40.0</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/v0.40.0</guid>
+            <pubDate>Tue, 21 Apr 2026 11:35:55 +0000</pubDate>
+            <description><![CDATA[<p>&lt;!-- Release notes generated using configuration in .github/config/release.yml at refs/heads/releases/v0.40 --&gt;<br><h2>What&#x27;s Changed</h2><br><br><h3>⬆️ Dependencies</h3><br>&lt;details&gt;<br>&lt;summary&gt;6 changes&lt;/summary&gt;<br><br><ul><li>chore(deps): bump github.com/go-git/go-git/v5 from 5.17.0 to 5.17.1 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1886</li><li>chore(deps): bump github.com/go-git/go-git/v5 from 5.17.1 to 5.17.2 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1891</li><li>chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.3 to 4.1.4 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1892</li><li>chore(deps): bump the go group across 1 directory with 11 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1896</li><li>chore(deps): migrate github.com/containers/image by @frewilhelm in https://github.com/open-component-model/ocm/pull/1898</li><li>chore(deps): bump go to 1.26.2 (#1905) by @frewilhelm in https://github.com/open-component-model/ocm/pull/1906</li></ul>&lt;/details&gt;<br><br><h3>🧰 Maintenance</h3><br><ul><li>chore: bump VERSION to 0.40.0-dev by @ocmbot[bot] in https://github.com/open-component-model/ocm/pull/1878</li><li>chore: add wget example and cross-reference to &quot;ocm get credentials&quot; docs by @morri-son in https://github.com/open-component-model/ocm/pull/1880</li></ul><br><br><br><strong>Full Changelog</strong>: https://github.com/open-component-model/ocm/compare/v0.39...v0.40.0</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/openmcp - Release v0.1.1</title>
+            <link>https://github.com/openmcp-project/openmcp</link>
+            <guid>https://github.com/openmcp-project/openmcp/releases/tag/Release v0.1.1</guid>
+            <pubDate>Tue, 21 Apr 2026 09:22:15 +0000</pubDate>
+            <description><![CDATA[<h1>openMCP</h1>
+<h2>Components:</h2>
+
+<h2>mcp-operator <a href="https://github.com/openmcp-project/mcp-operator/releases/tag/v0.54.0">[v0.54.0</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+
+
+---
+<h2>openmcp-operator <a href="https://github.com/openmcp-project/openmcp-operator/releases/tag/v0.18.1">[v0.18.1</a>]:</h2>
+
+<h3>Changes included in v0.18.1:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🐛 Bugfixes</h2>
+
+#### [OPERATOR]
+<ul><li>Fixed a bug that could lead to AccessRequests being stuck in deletion, because responsibility was with the generic controller, but that one ignored AccessRequests with a non-zero DeletionTimestamp. <strong>(#240, @Diaphteiros)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>Added tests for the <code>IsClusterProviderResponsibleForAccessRequest</code> function. <strong>(#240, @Diaphteiros)</strong></li></ul>
+
+
+---
+<h2>gitops-templates <a href="https://github.com/openmcp-project/gitops-templates/releases/tag/v0.1.4">[v0.1.4</a>]:</h2>
+
+<h3>Changes included in v0.1.4:</h3>
+
+<h3>🚀 Features</h3>
+<ul><li>change env overlay branch variable to flux.gitrepo.ref.branch <a href="https://github.com/openmcp-project/gitops-templates/pull/14">#14</a></li></ul>  - <strong>[OPERATOR][BREAKING]</strong> Changed gitrepo environment based variable for branch to git.pullBranch.
+
+
+
+---
+<h2>control-plane-operator <a href="https://github.com/openmcp-project/control-plane-operator/releases/tag/v0.1.19">[v0.1.19</a>]:</h2>
+
+<h3>Changes included in v0.1.19:</h3>
+
+<h3>🐛 Fixes</h3>
+<ul><li>configurable labels <a href="https://github.com/openmcp-project/control-plane-operator/pull/124">#124</a></li></ul>  - <strong>[DEVLOPER][BUGFIX]</strong> Allow label customization with FluxReconciler and ObjectReconciler
+
+
+
+---
+<h2>platform-service-quota <a href="https://github.com/openmcp-project/platform-service-quota/releases/tag/v1.0.0">[v1.0.0</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+<h2>🚨 Breaking</h2>
+
+#### [OPERATOR]
+<ul><li>This repository and all of its artifacts are now named <code>platform-service-quota</code>. <strong>(#177, @Diaphteiros)</strong></li><li>The quota operator is now a platform service. Running it as standalone operator, as before, is not supported anymore (unless it is run in a way which adheres to the platform service contract). <strong>(#173, @Diaphteiros)</strong></li><li>The operator&#x27;s config is now expected as a <code>QuotaServiceConfig</code> resource on the platform cluster. It has to have the same name as the <code>PlatformService</code> resource that created the controller pod. <strong>(#173, @Diaphteiros)</strong></li><li>The value of the quota operator managed-by label has changed. This requires a manual step when upgrading from the old quota operator to the new platform service: Remove the <code>quota.openmcp.cloud/managed-by</code> label from all namespaces on the onboarding cluster. This label is meant to prevent multiple instances of the quota operator from working on the same namespace, which means that only the instance with the matching identity (now set to the name of the <code>PlatformService</code> resource) will feel responsible for the respective namespace. <strong>(#173, @Diaphteiros)</strong></li></ul>
+
+
+---
+<h2>bootstrapper <a href="https://github.com/openmcp-project/bootstrapper/releases/tag/v0.15.0">[v0.15.0</a>]:</h2>
+
+<h3>Changes included in v0.15.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>- Release v0.15.0 <strong>(#183, @robertgraeff)</strong></li><li>- Add jq and kubectl to the bootstrapper docker image. <strong>(#182, @robertgraeff)</strong></li></ul>
+
+
+---
+<h2>service-provider-landscaper <a href="https://github.com/openmcp-project/service-provider-landscaper/releases/tag/v0.18.0">[v0.18.0</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+
+
+---
+<h2>service-provider-crossplane <a href="https://github.com/openmcp-project/service-provider-crossplane/releases/tag/v0.4.1">[v0.4.1</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+<h2>➕ Other</h2>
+
+#### [DEVELOPER]
+<ul><li>Update renovate config according to service-provider-template <strong>(#113, @maximiliantech)</strong></li><li>Various renovate dependency updates</li></ul>
+
+
+---
+<h2>service-provider-external-secrets <a href="https://github.com/openmcp-project/service-provider-external-secrets/releases/tag/v0.1.2">[v0.1.2</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+<h2>➕ Other</h2>
+
+#### [OPERATOR]
+<ul><li>generate service provider specific name for chart pull secret copies <strong>(#23, @christophrj)</strong></li></ul>
+
+
+---
+<h2>service-provider-flux <a href="https://github.com/openmcp-project/service-provider-flux/releases/tag/v0.1.2">[v0.1.2</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+<h2>➕ Other</h2>
+
+#### [USER]
+<ul><li>Update dependencies including security fixes for grpc and OpenTelemetry SDK <strong>(#18, @maximiliantech)</strong></li></ul>
+
+
+---
+<h2>service-provider-velero <a href="https://github.com/openmcp-project/service-provider-velero/releases/tag/v0.1.5">[v0.1.5</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+<h2>🐛 Bugfixes</h2>
+
+#### [OPERATOR]
+<ul><li>fixes handling of pull image secrets type <strong>(#27, @christophrj)</strong></li></ul>#### [USER]
+<ul><li>Updated controller-utils to v0.27.1 fixing secret type handling. <strong>(#25, @maximiliantech)</strong></li></ul>
+
+
+---
+<h2>service-provider-ocm <a href="https://github.com/open-component-model/service-provider-ocm/releases/tag/v0.1.0">[v0.1.0</a>]:</h2>
+
+<h3>Changes included in v0.1.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [USER]
+<ul><li>Release for v0.1.0 <strong>(#64, @Skarlso)</strong></li><li>Add ocm component to the release. <strong>(#59, @Skarlso)</strong></li><li>Update README.md and test version <strong>(#22, @frewilhelm)</strong></li><li>Update the README with important information about naming. <strong>(#20, @Skarlso)</strong></li><li><strong>(#19, @Skarlso)</strong></li><li>Fix the chart url for the ocm controller. <strong>(#18, @Skarlso)</strong></li><li><strong>(#17, @Skarlso)</strong></li><li>Add provider config for Helm Upgrades and Helm installs with sensible defaults. <strong>(#13, @Skarlso)</strong></li><li><strong>(#12, @Skarlso)</strong></li><li><strong>(#11, @Skarlso)</strong></li><li><strong>(#10, @Skarlso)</strong></li><li><strong>(#9, @Skarlso)</strong></li><li><strong>(#8, @Skarlso)</strong></li><li><strong>(#7, @Skarlso)</strong></li><li><strong>(#6, @Skarlso)</strong></li><li><strong>(#5, @Skarlso)</strong></li><li>Release and publish flow for the controller <strong>(#4, @Skarlso)</strong></li><li><strong>(#3, @Skarlso)</strong></li><li><strong>(#2, @Skarlso)</strong></li><li><strong>(#1, @Skarlso)</strong></li></ul>
+
+
+---
+<h2>cluster-provider-gardener <a href="https://github.com/openmcp-project/cluster-provider-gardener/releases/tag/v0.12.0">[v0.12.0</a>]:</h2>
+
+<h3>Changes included in v0.12.0:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [DEVELOPER]
+<ul><li>Bump Gardener dependency to <code>v1.137</code> and use Gardener api module instead of hacky script to depend on the Gardener api types. <strong>(#187, @Diaphteiros)</strong></li></ul>#### [OPERATOR]
+<ul><li>The new <code>enforcedShootExtensions</code> field in the providerconfig&#x27;s <code>spec</code> allows to specify shoot extensions which should always be set. For backward compatibility reasons, the shoot OIDC extension will be enforced by default if the field is not set (or set to <code>null</code>). Setting the field to an actual list - either empty or with entries - disables the shoot OIDC extension, unless it is part of the list. <strong>(#188, @Diaphteiros)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [USER]
+<ul><li>Update issue templates and add CODEOWNERS <strong>(#189, @maximiliantech)</strong></li></ul>
+
+
+---
+<h2>cluster-provider-kind <a href="https://github.com/openmcp-project/cluster-provider-kind/releases/tag/v0.2.0">[v0.2.0</a>]:</h2>
+
+<h3>Changes included in v0.2.0:</h3>
+
+<h3>🚀 Features</h3>
+<ul><li>local registry config <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/120">#120</a></li></ul>  - <strong>[USER][FEATURE]</strong> create clusters with custom kind configuration
+<ul><li>apply requested token config permissions <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/112">#112</a></li></ul>  - <strong>[USER][FEATURE]</strong> token based access processing
+
+
+<h3>🐛 Fixes</h3>
+<ul><li>multi-arch image loading <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/117">#117</a></li></ul>  - <strong>[USER][BUGFIX]</strong> fix image loading to kind on arm64
+<ul><li>improve error message on unsupported network <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/111">#111</a></li></ul>  - <strong>[USER][FEATURE]</strong> improved error message for user on <code>unsupported networks</code>.
+
+
+
+---
+<h2>platform-service-dns <a href="https://github.com/openmcp-project/platform-service-dns/releases/tag/v0.0.5">[v0.0.5</a>]:</h2>
+
+<h3>Changes included in v0.0.5:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🐛 Bugfixes</h2>
+
+#### [USER]
+<ul><li>Preserve unknown fields in <code>PurposeSelectorRequirement</code> <strong>(#66, @reshnm)</strong></li></ul>
+
+
+---
+<h2>platform-service-gateway <a href="https://github.com/openmcp-project/platform-service-gateway/releases/tag/v0.0.10">[v0.0.10</a>]:</h2>
+
+<h3>Changes included in v0.0.10:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [USER]
+<ul><li>- Release v0.0.10 <strong>(#98, @robertgraeff)</strong></li></ul>
+
+
+---
+<h2>platform-service-test-runner <a href="https://github.com/openmcp-project/platform-service-test-runner/releases/tag/v0.0.1">[v0.0.1</a>]:</h2>
+
+<h3>Changes included in v0.0.1:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [USER]
+<ul><li><strong>(#6, @rdksap)</strong></li><li>Allow configuration of pollInterval and pollTimeout per test case <strong>(#3, @rdksap)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [USER]
+<ul><li>Continue processing test cases if resource already exists but has no status <strong>(#5, @rdksap)</strong></li></ul>
+<h2>What&#x27;s Changed</h2>
+<ul><li>feat: test runner as platform service with initial tests by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/1</li><li>feat: allow configuration of pollInterval and pollTimeout per test case by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/3</li><li>fix: proceed with tests if resource already present by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/5</li><li>release: v0.0.1 by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/6</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@rdksap made their first contribution in https://github.com/openmcp-project/platform-service-test-runner/pull/1</li></ul>
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/platform-service-test-runner/commits/v0.0.1
+---
+<h2>platform-service-project-workspace <a href="https://github.com/openmcp-project/platform-service-project-workspace/releases/tag/v2.0.0">[v2.0.0</a>]:</h2>
+
+<h3>Changelog</h3>
+
+
+<h2>🚨 Breaking</h2>
+
+#### [DEVELOPER]
+<ul><li>The <code>MemberOverrides</code> k8s resource has been removed. The struct in the config which holds the overrides has been renamed from <code>MemberOverridesV2</code> to <code>MemberOverrides</code>. The structure has not changed. <strong>(#210, @Diaphteiros)</strong></li></ul>#### [OPERATOR]
+<ul><li>The repository and all resulting artifacts are now named <code>platform-service-project-workspace</code>. <strong>(#214, @Diaphteiros)</strong></li><li>The project-workspace-operator can only only be deployed as platform service. The helm chart has been removed and the <code>init</code> and <code>run</code> subcommands now do what previously <code>platformservice init</code> and <code>platformservice run</code> did. <strong>(#210, @Diaphteiros)</strong></li><li>The project-workspace-operator does not support pure v1 landscapes anymore. It can still support hybrid landscapes (which offer v1 and v2 in parallel) via its &#x27;<a href="./docs/config/v1.md">v1 support mode</a>&#x27;, but its defaults always include the v2 resources and it will always check for registered <code>ServiceProvider</code> resources. <strong>(#210, @Diaphteiros)</strong></li><li>The <code>run</code> subcommand accepts a <code>--v1</code> flag, which will include the v1 resources (<code>ManagedControlPlane</code>, <code>ClusterAdmin</code>) in several places. This is just a convenience feature, the same effect can be achieved by adding the v1 resources in the configuration to <code>spec.workspace.deletionBlockingResources</code> and <code>spec.workspace.additionalPermissions</code>. Note that setting the flag requires a non-standard <code>PlatformService</code> manifest, an example can be generated by using <code>task platformservice-v1</code>. <strong>(#210, @Diaphteiros)</strong></li></ul>
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>Projects/workspaces which cannot be deleted due to remaining resources are now requeued with an increasing interval instead of every three seconds. This should reduce excessive logging. <strong>(#210, @Diaphteiros)</strong></li></ul>#### [USER]
+<ul><li>Project admins can now manage secrets in project namespaces. <strong>(#210, @Diaphteiros)</strong></li></ul>
+<h2>📚 Documentation</h2>
+
+#### [OPERATOR]
+<ul><li>Added some more documentation and removed the outdated v1 documentation. <strong>(#210, @Diaphteiros)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [OPERATOR]
+<ul><li>Unified and improved logging. <strong>(#210, @Diaphteiros)</strong></li></ul>
+
+
+---
+<h2>platform-service-usage <a href="https://github.com/openmcp-project/usage-operator/releases/tag/v0.0.16">[v0.0.16</a>]:</h2>
+
+<h3>Changes included in v0.0.16:</h3>
+
+<h3>Changelog</h3>
+
+
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>- Release v0.0.16 <strong>(#14, @robertgraeff)</strong></li></ul>
+<h2>What&#x27;s Changed</h2>
+<ul><li>chore: Configure Renovate by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/3</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v0.19.0 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/4</li><li>fix(deps): update module github.com/spf13/cobra to v1.10.2 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/13</li><li>chore(deps): update dependency go to v1.25.5 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/8</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.3 - autoclosed by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/10</li><li>fix(deps): update kubernetes packages to v0.34.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/9</li><li>chore(deps): update golang docker tag to v1.25 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/12</li><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/11</li><li>chore(deps): update hack/common digest to 6824b1f by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/7</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v1 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/5</li><li>feat: release v0.0.16 by @robertgraeff in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
+<h2>New Contributors</h2>
+<ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/usage-operator/pull/3</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/usage-operator/compare/v0.0.15...v0.0.16
+---]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.15.26</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.26</guid>
+            <pubDate>Tue, 21 Apr 2026 09:05:41 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.30.3 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/247</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.4...v0.8.5</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.14.1 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/464</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.25...v0.15.26</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.30.17</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.17</guid>
+            <pubDate>Tue, 21 Apr 2026 08:40:33 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.14.0 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/493</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.16...v0.30.17</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-nghttp2 - nghttp2_1.68.1-1gl0</title>
+            <link>https://github.com/gardenlinux/package-nghttp2</link>
+            <guid>https://github.com/gardenlinux/package-nghttp2/releases/tag/nghttp2_1.68.1-1gl0</guid>
+            <pubDate>Tue, 21 Apr 2026 08:38:34 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-nghttp2/actions/runs/24712685532">24712685532</a></p>
+<p>Files in this release:<br>``<code><br>d43d8bd1090b06d80fdb436795933b6f6cab025e5dfb7371b594fe2393d699f3  ./nghttp2-server-dbgsym_1.68.1-1gl0_arm64.deb<br>a5650e00e2b219bbd7f7bf0469c81caa325db5b70497289fae5690ffbb7fdb13  ./nghttp2-proxy_1.68.1-1gl0_arm64.deb<br>c430464d29454e8ec9f75dbc862a5724454538b26f872a5c6616b03929af6924  ./nghttp2-server_1.68.1-1gl0_arm64.deb<br>5168635a1a39e5fc3bfa9d6e5267e9d6b34119e74aa18c7f86321364777cbde7  ./nghttp2_1.68.1-1gl0_amd64.changes<br>62ee3c1907f21908ae30e4ec0273527631a505e9df1aaf1e6ab1dcb0a377e1ef  ./nghttp2-server-dbgsym_1.68.1-1gl0_amd64.deb<br>a010d8739d2841508cdcc1b5ed3c4640dfc43d657f06bce43bf22ead557e2b2e  ./nghttp2-client_1.68.1-1gl0_amd64.deb<br>42a61194732440a1551b19e609ed8770f8cec8a0c12b26c751daf59666ff46cf  ./libnghttp2-dev_1.68.1-1gl0_arm64.deb<br>ede6f6b5c31228ccd7637f3d16b36f3a6e129be6838c0c5ed1eab54489acd3f8  ./libnghttp2-14_1.68.1-1gl0_arm64.deb<br>91a8e0fa9d0dd00c5af07cde8fd7ba854fb109ffa83e772fcb34f7a7c60db003  ./nghttp2_1.68.1-1gl0.dsc<br>faba08633f5f423e3d1faa445a90c8674646655d8a33dfa6a06e775e5895a744  ./nghttp2-client-dbgsym_1.68.1-1gl0_amd64.deb<br>d62f15f4cda562cb2e72af3bd25ce2b5311623315d5ea197fb69a362134839c3  ./nghttp2-proxy-dbgsym_1.68.1-1gl0_arm64.deb<br>e80a3b22763bb9b239a59e8abc764a53c87bfcdd49de973c200c8f3e1602de74  ./libnghttp2-dev_1.68.1-1gl0_amd64.deb<br>e902931eed1b0d66df30f784d7a8a9f124559c7d55b9a9d06cfb1a3231cfcfec  ./nghttp2_1.68.1-1gl0.debian.tar.xz<br>2f8b2477d018358652ecfa4b7fbbf1b70407ffa6423f2445a9bc51f0a1d17456  ./nghttp2_1.68.1.orig.tar.xz<br>d57410e65130008154e1597dfec2dc3eb5ed61da82f7058b9e902a6b8715c90d  ./nghttp2-client-dbgsym_1.68.1-1gl0_arm64.deb<br>25a17540f0239f61780ff7bbadca1721b011f42b332b24ec6fac8217cfce6ee7  ./libnghttp2-14_1.68.1-1gl0_amd64.deb<br>08f0b74bca893be71fbd9d58eafb88e2062d555728455cb98e72d4747e4dcfe0  ./nghttp2_1.68.1-1gl0_all.deb<br>263c869d9fd0a430b9ceb99a29c5599ae41c1b9c7546faf947fb7cebfd53193c  ./nghttp2_1.68.1-1gl0_amd64.buildinfo<br>6c943ed30b5495af89f17681868ee5db6c9148f6355ee6d398fb337f4074326e  ./nghttp2_1.68.1-1gl0_arm64.changes<br>8f17dbf6e5a2de400b22c3afe6757232ec02c85f3cec3b39182035da1f2b59c3  ./nghttp2-proxy_1.68.1-1gl0_amd64.deb<br>d5ff0b5d2fdd87c1b25138face82f948a0b921a37085a733d838faed082b637a  ./nghttp2-proxy-dbgsym_1.68.1-1gl0_amd64.deb<br>f05430ef1e57e7671b082708201cd7e7469f861a6d66de15569235204fa79a65  ./libnghttp2-14-dbgsym_1.68.1-1gl0_amd64.deb<br>a0c3c4edba7dd8aff33a62dcc4c2fcfdac832715c35a44f5d71bde1ad1bedf7d  ./nghttp2_1.68.1-1gl0_arm64.buildinfo<br>fc333ca037fef979f4163e715e85cca207b1a41c7b54df8a1c8a243b32a2df8e  ./nghttp2-server_1.68.1-1gl0_amd64.deb<br>54cb1617914e0e9b65472495a8fa93c1f2563845aa2624d1e63233e6e67eae43  ./libnghttp2-doc_1.68.1-1gl0_all.deb<br>1276af9fdd1e3f143261bbf9e31f6aebad181142f0e9e7424f41f12d92bb7010  ./libnghttp2-14-dbgsym_1.68.1-1gl0_arm64.deb<br>3d92b578eef8d69d9b2b08e14b395c3c57d8cf9aae9f27df437ed025eca31e3c  ./nghttp2-client_1.68.1-1gl0_arm64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/platform-service-quota - Release v1.0.0</title>
+            <link>https://github.com/openmcp-project/platform-service-quota</link>
+            <guid>https://github.com/openmcp-project/platform-service-quota/releases/tag/Release v1.0.0</guid>
+            <pubDate>Tue, 21 Apr 2026 07:30:56 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+
+<h2>🚨 Breaking</h2>
+
+#### [OPERATOR]
+<ul><li>This repository and all of its artifacts are now named <code>platform-service-quota</code>. <strong>(#177, @Diaphteiros)</strong></li><li>The quota operator is now a platform service. Running it as standalone operator, as before, is not supported anymore (unless it is run in a way which adheres to the platform service contract). <strong>(#173, @Diaphteiros)</strong></li><li>The operator&#x27;s config is now expected as a <code>QuotaServiceConfig</code> resource on the platform cluster. It has to have the same name as the <code>PlatformService</code> resource that created the controller pod. <strong>(#173, @Diaphteiros)</strong></li><li>The value of the quota operator managed-by label has changed. This requires a manual step when upgrading from the old quota operator to the new platform service: Remove the <code>quota.openmcp.cloud/managed-by</code> label from all namespaces on the onboarding cluster. This label is meant to prevent multiple instances of the quota operator from working on the same namespace, which means that only the instance with the matching identity (now set to the name of the <code>PlatformService</code> resource) will feel responsible for the respective namespace. <strong>(#173, @Diaphteiros)</strong></li></ul>]]></description>
+        </item>
+<item>
+            <title>open-resource-discovery/global-registry-bot - v0.1.1</title>
+            <link>https://github.com/open-resource-discovery/global-registry-bot</link>
+            <guid>https://github.com/open-resource-discovery/global-registry-bot/releases/tag/v0.1.1</guid>
+            <pubDate>Tue, 21 Apr 2026 07:06:34 +0000</pubDate>
+            <description><![CDATA[<h2>Summary</h2>
+<ul><li>improve auto-update and merge flow for approved registry PRs</li><li>keep approved PRs in sync with default branch</li><li>make CI-triggered auto-merge more reliable</li></ul>
+<h2>Changes</h2>
+<ul><li>auto-update approved PR branches when default branch changes</li><li>use mergeability state (<code>behind</code>) instead of requiring pre-update green checks</li><li>add delayed retry for branch updates after push events</li><li>improve merge flow with mergeability polling</li><li>trigger auto-merge on successful <code>check_suite</code> and <code>check_run</code> events</li><li>prevent duplicate approval handling and respect existing approvals</li></ul>
+<h2>Result</h2>
+<ul><li>approved PRs no longer get stuck outdated</li><li>smoother CI-driven merge behavior</li><li>more stable and predictable bot automation</li></ul>
+<h3>Commits</h3>
+<ul><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/321e0a91a72440b38cb33ce09b4b7e149106c215">321e0a9</a> Merge pull request #51 from open-resource-discovery/fix/direct-pr-onapproval-retrigger (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/42d7a0f32b54d27d792bfe882cedb23eeca865f3">42d7a0f</a> new Version (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/5ffaa81404c7d95e7b1208ed2d6120781660d1c6">5ffaa81</a> expand blockedServiceUsers (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/1ffee7e4d371195d488b5bd97c097143a69db2dc">1ffee7e</a> Upgrade package version (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/f578861ce53859810daf077de57e068388e3213d">f578861</a> remove bot fallback from PR requester resolution (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/6963f721397d1631e2162a8026c1dfa7a56e76a3">6963f72</a> exclude more bot users (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/1f98150f2e139395846368a32d1a373569561831">1f98150</a> exclude bot users from request author resolution for onApproval (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/d806d21115667a1356bd30c714ff2901dd65f248">d806d21</a> fix(tests): align push branch-update regressions with mergeability checks (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/5703339ed9339bf6c446bf42c236464d001a59fe">5703339</a> fix(requests): retry merge after GitHub mergeability refresh (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/0a8199a78dd63c076ba2e1ea83035f80999524e9">0a8199a</a> fix(requests): stabilize approved PR branch updates and auto-merge flow (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/f0338e9f14e24de3cfa9c428fa51bf9cc47c1445">f0338e9</a> fix(requests): retry merge after GitHub mergeability refresh (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/c995b648c19c46777c2ccbbe8bbe755e69b627bf">c995b64</a> fix: retry approved PR branch updates after base changes (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/943856e27d7d527117f8066b0663208fbc72e5cf">943856e</a> fix: harden approved PR branch updates (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/3c1f96dcf1e674ab44192ab170e635fa7b67b841">3c1f96d</a> feat: auto-update approved PR branches from base (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/c282e21c2db43d5363a16b5866ae98fe8b01d1ef">c282e21</a> chore: log detailed approval review API failure (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/03cd6bc8a2c49bce23bfe77e2d507c856e37f15d">03cd6bc</a> fix: ignore web-flow service user for approval requester resolution (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/91f3c556b85fbb10efcbe30ebcc12107f40eb1ec">91f3c55</a> fix: normalize onApproval requester matching and gate direct PR approval on full green CI (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/4fd19449291fbea7b6c8b4faf9570d414fa6ff37">4fd1944</a> fix: gate onApproval behind green CI again (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/09113db87c01b37dec9666b466c2424cc8b1513a">09113db</a> chore: upgrade package dev version (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/521fb54bebdcdd470065bf5d2be39a65acc26876">521fb54</a> Trigger direct PR onApproval re-evaluation on config updates (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/d0bec747057b1fa758deb5a565600d2651791835">d0bec74</a> Merge pull request #48 from open-resource-discovery/fix/schema-first-machine-readable-fields (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/6e8fcbec3474257d5cef2a453e28b1d171dd2128">6e8fcbe</a> Merge branch &#x27;main&#x27; into fix/schema-first-machine-readable-fields (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/0dd2c90c0192458cc6644ff47e779c5fcc1f0d34">0dd2c90</a> Merge pull request #26 from open-resource-discovery/deps/globals-17.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/6a8704e18eb7ae1674baca4e6113713eb0f6266d">6a8704e</a> Merge branch &#x27;main&#x27; into deps/globals-17.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/7d1ccb48e75089ab2e9c5a496c0f93b91d5c7fe4">7d1ccb4</a> Merge pull request #27 from open-resource-discovery/deps/smee-client-5.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/f1bdaa98fee1e6c7f2314ccdf0f644901bbd21ed">f1bdaa9</a> Merge branch &#x27;fix/schema-first-machine-readable-fields&#x27; of https://github.com/open-resource-discovery/global-registry-bot into fix/schema-first-machine-readable-fields (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/b013d23a2be68ca82c27289ef5c489d4c3ce6a62">b013d23</a> Expand regression testing for request, configuration, and PR handling (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/bdb1aa4c3cfcd1016ca82fbcb14b9ea77d122da7">bdb1aa4</a> Update src/handlers/request/index.ts (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/5f75634406ffd29306edcb8289a9835da9e032da">5f75634</a> Set dev version into package json (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/21b693f5f9fd1a79f78c6f1de6f9df63ffb68297">21b693f</a> fix: make machine-readable fields schema-first in issue and pr comments (Shir)</li></ul>
+<h3>Contributors</h3>
+&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
+      &lt;a href=&#x27;https://github.com/nirooxx&#x27;&gt;
+        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/51267793?v=4&#x27; alt=&#x27;Nangiale Shir&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
+        &lt;span&gt;Nangiale Shir&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.21.18</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.18</guid>
+            <pubDate>Tue, 21 Apr 2026 01:04:05 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/547</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.17...v0.21.18</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-dracut - dracut_110-12gl0</title>
+            <link>https://github.com/gardenlinux/package-dracut</link>
+            <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_110-12gl0</guid>
+            <pubDate>Tue, 21 Apr 2026 00:29:37 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/24697537731">24697537731</a></p>
+<p>Files in this release:<br>``<code><br>93b9ef75c5eb138c0947e137ab5648e127143b317ef1e24f0034a685d52525d1  ./dracut_110-12gl0_amd64.buildinfo<br>18ee645d75a5206b50ebdcf0818067b953569b3b3cccc5ed65c21e9ade031953  ./dracut_110-12gl0_amd64.changes<br>aa3039f12e7aec82fcf0d937b3a0a69271e8e6bbd2051ea3aab6fd610f76f64b  ./dracut_110-12gl0_arm64.buildinfo<br>be0b472d4a4aebf89241250cd0e2d6de0b0afe1ad73d3e58fe9aaf9e759e999a  ./dracut-install_110-12gl0_amd64.deb<br>20e254369c38519b3a75703ce160fc3d69e7b989d735ab4596c9c43d2f0547f7  ./dracut-network_110-12gl0_all.deb<br>531084c4dd48db1ec8bea0b40f5ce403a92539454909b18d9f00e7dd3f6f7b76  ./dracut-core-dbgsym_110-12gl0_arm64.deb<br>17f72f60f6af179d4707e885fd49201b347707042d7364920b03eccd0a89d694  ./dracut-install-dbgsym_110-12gl0_amd64.deb<br>d1f10978b5a5627a2bffa8e06b2d58dbd95c0a9b01d52ff3c926b559adbd0aa9  ./dracut_110-12gl0_arm64.changes<br>0a3b59da61f0c4c093b7c7c2ea05aa69a35f7482b10cae4a4f0b2b1c976451f5  ./dracut-install_110-12gl0_arm64.deb<br>3e43d121585022c7500f06b7c402d2d0094230c802039643e81c88390a41518f  ./dracut-core_110-12gl0_arm64.deb<br>ee2c374cabf8797362d8f6c7d7c485dad76c04f5c24ec9e52a8742fec43ad4ed  ./dracut_110-12gl0.dsc<br>f1bf9222603bb31befc1bd1cbefc98b4195ecc03028518b86c1daaf5552d8921  ./dracut-install-dbgsym_110-12gl0_arm64.deb<br>e113a1bf0612dff6a275f276fe6a7ec8da9c4ea9e193af3ed74e872206e233a2  ./dracut-test_110-12gl0_arm64.deb<br>7fe284228ea1b9de339388a9b583c37873579a7fe0c077bf629b6f611ccd1089  ./dracut-core_110-12gl0_amd64.deb<br>eb234a1c43420bd27036a4e767c6fdec6acff57d513ad3e664e94fa40beaf062  ./dracut_110.orig.tar.xz<br>d93df945b6b234ea6d2cf3fa36495fdc9f6d322d609f43ab7131298ac00cecca  ./dracut_110-12gl0.debian.tar.xz<br>709e64ef3f1b633b43e7e5f3ec5557df04253c091b4fb6139204e640cc5586ea  ./dracut_110-12gl0_all.deb<br>248aa71730278331ca9015e13563bc531a986b05b7a881842650cc0078825d1d  ./dracut-test_110-12gl0_amd64.deb<br>8d8668aea92486dfa798df11477c49cff444711be86d2873ef4970dcb1ec308d  ./dracut-core-dbgsym_110-12gl0_amd64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.8.6</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.6</guid>
+            <pubDate>Mon, 20 Apr 2026 13:44:14 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/248</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.5...v0.8.6</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/platform-service-project-workspace - Release v2.0.0</title>
+            <link>https://github.com/openmcp-project/platform-service-project-workspace</link>
+            <guid>https://github.com/openmcp-project/platform-service-project-workspace/releases/tag/Release v2.0.0</guid>
+            <pubDate>Mon, 20 Apr 2026 13:20:49 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+
+<h2>🚨 Breaking</h2>
+
+#### [DEVELOPER]
+<ul><li>The <code>MemberOverrides</code> k8s resource has been removed. The struct in the config which holds the overrides has been renamed from <code>MemberOverridesV2</code> to <code>MemberOverrides</code>. The structure has not changed. <strong>(#210, @Diaphteiros)</strong></li></ul>#### [OPERATOR]
+<ul><li>The repository and all resulting artifacts are now named <code>platform-service-project-workspace</code>. <strong>(#214, @Diaphteiros)</strong></li><li>The project-workspace-operator can only only be deployed as platform service. The helm chart has been removed and the <code>init</code> and <code>run</code> subcommands now do what previously <code>platformservice init</code> and <code>platformservice run</code> did. <strong>(#210, @Diaphteiros)</strong></li><li>The project-workspace-operator does not support pure v1 landscapes anymore. It can still support hybrid landscapes (which offer v1 and v2 in parallel) via its &#x27;<a href="./docs/config/v1.md">v1 support mode</a>&#x27;, but its defaults always include the v2 resources and it will always check for registered <code>ServiceProvider</code> resources. <strong>(#210, @Diaphteiros)</strong></li><li>The <code>run</code> subcommand accepts a <code>--v1</code> flag, which will include the v1 resources (<code>ManagedControlPlane</code>, <code>ClusterAdmin</code>) in several places. This is just a convenience feature, the same effect can be achieved by adding the v1 resources in the configuration to <code>spec.workspace.deletionBlockingResources</code> and <code>spec.workspace.additionalPermissions</code>. Note that setting the flag requires a non-standard <code>PlatformService</code> manifest, an example can be generated by using <code>task platformservice-v1</code>. <strong>(#210, @Diaphteiros)</strong></li></ul>
+<h2>🚀 Features</h2>
+
+#### [OPERATOR]
+<ul><li>Projects/workspaces which cannot be deleted due to remaining resources are now requeued with an increasing interval instead of every three seconds. This should reduce excessive logging. <strong>(#210, @Diaphteiros)</strong></li></ul>#### [USER]
+<ul><li>Project admins can now manage secrets in project namespaces. <strong>(#210, @Diaphteiros)</strong></li></ul>
+<h2>📚 Documentation</h2>
+
+#### [OPERATOR]
+<ul><li>Added some more documentation and removed the outdated v1 documentation. <strong>(#210, @Diaphteiros)</strong></li></ul>
+<h2>➕ Other</h2>
+
+#### [OPERATOR]
+<ul><li>Unified and improved logging. <strong>(#210, @Diaphteiros)</strong></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.14.13</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.13</guid>
+            <pubDate>Mon, 20 Apr 2026 13:17:44 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/224</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.12...v0.14.13</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.8.15</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.15</guid>
+            <pubDate>Mon, 20 Apr 2026 12:54:59 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/812</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.14...v0.8.15</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/kubernetes-graphql-gateway - v1.7.2</title>
+            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
+            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.7.2</guid>
+            <pubDate>Mon, 20 Apr 2026 12:35:55 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/212</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.7.1...v1.7.2</p>]]></description>
         </item>
 <item>
             <title>gardener/cc-utils - 1.2756.0</title>
@@ -42,42 +459,6 @@
 <ul><li>delivery-service: <code>europe-docker.pkg.dev/gardener-project/releases/odg/delivery-service:0.1314.0</code></li><li>extension-clamav: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-clamav:0.1314.0</code></li><li>extension-crypto: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-crypto:0.1314.0</code></li><li>extension-db-manager: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extension-db-manager:0.1314.0</code></li><li>extensions: <code>europe-docker.pkg.dev/gardener-project/releases/odg/extensions:0.1314.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>platform-mesh/security-operator - v0.30.14</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.14</guid>
-            <pubDate>Mon, 20 Apr 2026 10:22:07 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.30.3 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/489</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.13...v0.30.14</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.14.12</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.12</guid>
-            <pubDate>Mon, 20 Apr 2026 10:16:56 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.30.3 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/223</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.11...v0.14.12</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.15.22</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.22</guid>
-            <pubDate>Mon, 20 Apr 2026 10:14:26 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.30.3 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/459</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.21...v0.15.22</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.8.14</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.14</guid>
-            <pubDate>Mon, 20 Apr 2026 10:09:45 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.30.3 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/811</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.13...v0.8.14</p>]]></description>
-        </item>
-<item>
             <title>openmcp-project/service-provider-external-secrets - Release v0.1.2</title>
             <link>https://github.com/openmcp-project/service-provider-external-secrets</link>
             <guid>https://github.com/openmcp-project/service-provider-external-secrets/releases/tag/Release v0.1.2</guid>
@@ -89,15 +470,6 @@
 
 #### [OPERATOR]
 <ul><li>generate service provider specific name for chart pull secret copies <strong>(#23, @christophrj)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/kubernetes-graphql-gateway - v1.7.1</title>
-            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
-            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.7.1</guid>
-            <pubDate>Mon, 20 Apr 2026 09:09:00 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): update module go.opentelemetry.io/otel/sdk to v1.43.0 [security] by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/211</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.7.0...v1.7.1</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/golang-commons - v0.16.3</title>
@@ -117,13 +489,6 @@
 <p>Files in this release:<br>``<code><br>7bd498771d503adc3cce2e29414d1de1a28c409f18866df2b71e734a85042224  ./hyperv-daemons-dbgsym_6.18.23-1gl0_amd64.deb<br>694a799b6eae2f0b883324f13635a788f215d686f056aada4e20c86a6e593d79  ./hyperv-daemons-dbgsym_6.18.23-1gl0_arm64.deb<br>a167ff4b082516a2e6c569c30bb0d34757ef089281aa83fcb2d91a7a9a5a34cd  ./linux-misc-tools_6.18.23-1gl0_amd64.deb<br>f4fb6a0976d7cc895c082c19a195d7db8d63a68070f8b473b4bc701a078a070e  ./linux-cpupower_6.18.23-1gl0_amd64.deb<br>00f36f8b0357ead2369a288e01e8fb54960ef128686d5e7db27ee1495c3cfc27  ./linux-headers-cloud-amd64_6.18.23-1gl0_amd64.deb<br>c3364389bfdc6bfafead8bb176bf0d0d7a4c5f12a9501daae4c78e248e9cd632  ./rtla_6.18.23-1gl0_amd64.deb<br>15307c95443d22eaeb2d7a46009140c0a6d4a245123b9a69e1f600001824f627  ./rtla-dbgsym_6.18.23-1gl0_arm64.deb<br>0f937627c732cd62f8bd5f88b46c5e03d2fc3b1e755f25bb354804bf50a3e873  ./linux-base-cloud-arm64_6.18.23-1gl0_arm64.deb<br>88428aea1314c699c7c8b39a848d7e23a20ac7aef420e5485c9d8d8e97d1c898  ./usbip-dbgsym_2.0+6.18.23-1gl0_arm64.deb<br>f6b87349a5f0f19706f0590e53630bd6a3234aab62302b95bb6ec959e0f4630e  ./linux-kbuild-6.18.23_6.18.23-1gl0_amd64.deb<br>3e7a90bccc1871d6d29281137aeedda745a2ba3d27834cba23dcec5e05d0eca7  ./linux-image-6.18.23-cloud-amd64-dbg_6.18.23-1gl0_amd64.deb<br>fa1c5609f9b5506c5c650607895f65774185418803ed068b2731209b1456f61f  ./linux-kbuild-6.18.23_6.18.23-1gl0_arm64.deb<br>e5c546bb659eae39d8b9f6ad1cfce614135485393d9eb041991c0afb070a8c2b  ./linux-image-arm64-dbg_6.18.23-1gl0_arm64.deb<br>96cbdb79ca4646401af137759e74bd46736601fc07941436d5e1e01ece880445  ./linux-image-6.18.23-cloud-arm64_6.18.23-1gl0_arm64.deb<br>081f6db16086b7236a212f89de4ed2ffdc9cf1f6701aee7f4df47ffcb68cc2c2  ./intel-sdsi-dbgsym_6.18.23-1gl0_amd64.deb<br>7db315e0e06c14442efa86bbc18ee7723838a218a0f0cfa5c93a4d69cbc42c90  ./linux-base-6.18.23-cloud-amd64_6.18.23-1gl0_amd64.deb<br>0c73b17f793e46840adfea1103adc2ba5d4763b38fe83f45a9e3a9de4b968db2  ./linux-cpupower-dbgsym_6.18.23-1gl0_amd64.deb<br>bdda361ff88b1c7f5746936197e8e4231489da3a8c5ca151983af867c6e24a88  ./linux-config-6.18_6.18.23-1gl0_amd64.deb<br>f5cd61f70437e9602a7e53d3eaa3bed98db9d671eac69d787996e3ff3ebd999c  ./linux_6.18.23-1gl0_amd64.changes<br>e60fe6f36c7d817089b6c509a1ec76fd5a95a9f8b079b661a0147c3eaaeffb79  ./usbip-dbgsym_2.0+6.18.23-1gl0_amd64.deb<br>fcfdc9c7965d4a7175524c8b541d9e333cdaaaefe280bf15ea035810350e19b5  ./linux_6.18.23-1gl0_amd64.buildinfo<br>744628fa89371e8199d5a9879798c709b500a0496a44bf70e887ab52cce7cc29  ./linux-base-arm64_6.18.23-1gl0_arm64.deb<br>292c10a86e980700c91039608ded0aef7bcc9de4fe5aedaf9b72430ff180a227  ./linux_6.18.23-1gl0_arm64.buildinfo<br>626c63704d901b5a431ade8f569a9f91d820be38e2d99e6dc22522db2f10c437  ./linux-base-6.18.23-arm64_6.18.23-1gl0_arm64.deb<br>0243602c0606be9e637d341f600f284c88caca050baf7484b4c0b7ad147f0ce3  ./libcpupower-dev_6.18.23-1gl0_arm64.deb<br>07871bd3c01c34556255f0402f0c34207e91b333e30f31dd782511427a6e3b59  ./linux-image-cloud-arm64-dbg_6.18.23-1gl0_arm64.deb<br>f18fbf9bae1172abf26a66fe3f15e6a9510a71cf607911b0abd38c12201342f6  ./rtla_6.18.23-1gl0_arm64.deb<br>a535561a31eb65b97053f2da5632741325d27b1f1d6cdd766a88317b0c2c73e2  ./linux-image-6.18.23-arm64_6.18.23-1gl0_arm64.deb<br>a3c10b6b4c942a3bab4486942493b8187fc0fce2ced1087e2f4495c60507fa3e  ./linux-bpf-dev_6.18.23-1gl0_arm64.deb<br>d711f0dcb049c7a4ff18f5e4e0968f53bafc4995e9754a9d9a048c6cbd6db78f  ./bpftool-dbgsym_7.7.0+6.18.23-1gl0_amd64.deb<br>3e06e159722a10c6150ad47563600065b8e2d221e23c5739a4e6590e1ff3cd3e  ./bpftool-dbgsym_7.7.0+6.18.23-1gl0_arm64.deb<br>1343b31211faa07e79428e8e842ac6455c09952279f16e33600bd98a59f6dc15  ./linux-headers-6.18.23-common_6.18.23-1gl0_all.deb<br>b26f14c1f78f78c8d955563f93d78d4b30a1d59610b54482ad6c1f52efd52e52  ./libcpupower-dev_6.18.23-1gl0_amd64.deb<br>d699a61f64287e10766534a25b2ce97e843c80b548b6c9e28ab7bf1fff5991a8  ./linux-headers-6.18.23-amd64_6.18.23-1gl0_amd64.deb<br>f3e06a9f8367478cea31ab074cb62c57c17e3e05d666ec1db39ff180e90dbfec  ./linux_6.18.23.orig.tar.xz<br>a6cb3611ac0e1b79ffb389bf502836b297bde8e6e36fd0115e7a2c4c5b4ad3ab  ./linux-headers-6.18.23-arm64_6.18.23-1gl0_arm64.deb<br>127b8ca247b2c8dfc587904a056154b1993dc0f8cba8e03cbaf8186270b57ba1  ./linux-headers-arm64_6.18.23-1gl0_arm64.deb<br>2670286e2eeb0069a0cb645101a570f1667e44f265474c37ffc7204f0726b843  ./linux-headers-cloud-arm64_6.18.23-1gl0_arm64.deb<br>37c17999ff324b5816f2d7ee06d7e06117e8ed4b06348203b91adb2e25dc794e  ./linux-headers-amd64_6.18.23-1gl0_amd64.deb<br>9a9a379fd7087d624adb458c0411bd16c185fabdb27053069fcd243b6908aaf7  ./usbip_2.0+6.18.23-1gl0_amd64.deb<br>f7c634a387660dbe216103bda4fbcaed53ec2b2a311cee4e138564c3a6083e18  ./linux-base-cloud-amd64_6.18.23-1gl0_amd64.deb<br>84121720680e8826611aa4444cab59519124ee792d157edba350206de531cc4b  ./linux-cpupower-dbgsym_6.18.23-1gl0_arm64.deb<br>3e12a588c5be6cac59a436db203b69812058dd1a66286202355a35a65327867c  ./linux_6.18.23-1gl0.debian.tar.xz<br>43cde722e322eb5738bc5b54a59ae302bd442523fd17b234f655a5b71baa7bf7  ./linux-source-6.18_6.18.23-1gl0_all.deb<br>39e9442345a24bc7e553a336b891827e5ad0fe4f8d026b8d65626553c7d87a52  ./libcpupower1_6.18.23-1gl0_arm64.deb<br>47d30cd066d0f32945d69f38480e6a1c60263e578a470c8d3ffd7eeb98e946fb  ./linux-image-6.18.23-cloud-amd64_6.18.23-1gl0_amd64.deb<br>22b24e97852709b4b95c152fd5396cfc81ee6e6151aa5a96c296068cefba5ef7  ./linux-image-cloud-amd64_6.18.23-1gl0_amd64.deb<br>1b58005091238b402982ca62d27ebd791c7dfd0379565ae1c5fc76609bd9d99a  ./linux-headers-6.18.23-cloud-amd64_6.18.23-1gl0_amd64.deb<br>cd22ed1080553eac0db24220d95879bbed65f7e80fd9fcfbf0f7a29b5f0bc85a  ./linux-misc-tools_6.18.23-1gl0_arm64.deb<br>3334c4e63d18d4d9c7f60d3c90bd5dc736e773bd6aefb9740fca21649030689a  ./hyperv-daemons_6.18.23-1gl0_arm64.deb<br>dc2b25aac0fcd11ab3f18117e6ea0d544ab9f35838290027d3c7a295d09f711f  ./hyperv-daemons_6.18.23-1gl0_amd64.deb<br>f7fe860fc8c126582878bec45a24bbee4e5d5b9d145a9d02146218e7675beb07  ./linux-image-cloud-amd64-dbg_6.18.23-1gl0_amd64.deb<br>5bc05dc0627747f3db481a0bb26f46082b84af5f15f67de1cfa7382061712854  ./linux-base-6.18.23-cloud-arm64_6.18.23-1gl0_arm64.deb<br>9f4eab1188d5e820e2bd9eb26cd972d1a3bc0bec3149923daeed69b9db3d3eac  ./linux-image-6.18.23-arm64-dbg_6.18.23-1gl0_arm64.deb<br>23aaf32cd1dcaa5afd0be9fad6457dd1b5f2b02eadf8e0a67931e52fe09d30ff  ./rtla-dbgsym_6.18.23-1gl0_amd64.deb<br>2c86a24447006dd26d5742401ba02bf15f305838a1f953e8f6a0e0b2b76505a8  ./linux-kbuild-6.18.23-dbgsym_6.18.23-1gl0_arm64.deb<br>2fd5eb4fdeb10923630e82bd7336a4f47042e8a4f3c0b8203359623355df327b  ./linux-cpupower_6.18.23-1gl0_arm64.deb<br>83c83619d5321956608df2d858127d28e88c452168ee0101a8f04431cbfae3be  ./linux_6.18.23-1gl0_arm64.changes<br>b2935598f3da998637800ace3698c147fab2e3c74c8552d06cc1ae4f94d662fa  ./libcpupower1-dbgsym_6.18.23-1gl0_arm64.deb<br>f5a455d2c62ed4c6ae131b8749904532a8451d8f96e6d6bc2a94953ed13209ab  ./linux-image-amd64-dbg_6.18.23-1gl0_amd64.deb<br>82bf0204d8b80ce29a8af56f24507166fec6c0017570913c41df30483312e48f  ./linux-misc-tools-dbgsym_6.18.23-1gl0_amd64.deb<br>ba102efaec7918887371ea9fec4769418323f7e1461b309a34283d1deeac4a00  ./linux-image-arm64_6.18.23-1gl0_arm64.deb<br>06125da89019efbcf4dcf583f4220b476db7f246e020d91e2d3e1a6e0849a42b  ./bpftool_7.7.0+6.18.23-1gl0_amd64.deb<br>7c7652ed14855fa9881f4f0a9e0ee6c3e63752bb79bcbe237d07137822e32851  ./linux-libc-dev-amd64-cross_6.18.23-1gl0_all.deb<br>d4b7c327a98472f93e0bfab1119b0e52e7d266139997806cb1cebbe097dd7ba8  ./linux-image-6.18.23-amd64_6.18.23-1gl0_amd64.deb<br>f32715bad1afcc353f568a571bc7f596dc5924e7f91c2d4603e1a11842a74c18  ./linux-headers-6.18.23-cloud-arm64_6.18.23-1gl0_arm64.deb<br>6852112109ffffd276c65913bc9dd2dc1eb87d48e29f82837ce999e6e7503392  ./linux-libc-dev_6.18.23-1gl0_all.deb<br>ad8c26d00faf4ba037430d2d4423419ad56fa5c706617002bbe616e7cf896b07  ./linux-base-6.18.23-amd64_6.18.23-1gl0_amd64.deb<br>4e95ea7d3072884b286b46e2e5838062e037b615a2fe814c27ad86cc3602001d  ./linux-base-amd64_6.18.23-1gl0_amd64.deb<br>17fa0921a25cdec7d347e2a455ca270b998c87799149f42300d3a0c9572feeda  ./linux-bpf-dev_6.18.23-1gl0_amd64.deb<br>699adcf2d13c473cfc220c632b2a5645cabdf64bc55c4e5591f73a72e65f16a4  ./intel-sdsi_6.18.23-1gl0_amd64.deb<br>167c0f07724f7509bc44ee8f49d21d019d93fd240277f93727146ab7d488d0d6  ./linux-source_6.18.23-1gl0_all.deb<br>32870410a3e05b783da726d8a74d37def67de09d497cef3ca0df3468983021c9  ./libcpupower1_6.18.23-1gl0_amd64.deb<br>5f381f0d677c70a00294a37d67ff3448aa8367f478477d16c560dd45c88737cd  ./linux-image-6.18.23-cloud-arm64-dbg_6.18.23-1gl0_arm64.deb<br>1592493b4a3c8146d8c54b81825502f4079ca2242ad2d0ebd3710d9471e23679  ./linux-misc-tools-dbgsym_6.18.23-1gl0_arm64.deb<br>4378807586709cf6313311982783beba967e2c9587bff82fca8282592ad139ae  ./linux-config-6.18_6.18.23-1gl0_arm64.deb<br>4dcc0218acabce4423efe5ba5568cb2590caa7cbf5e2c298669deb8ac4a1f201  ./linux-image-amd64_6.18.23-1gl0_amd64.deb<br>3c80e8b46ef7fd8d0be075aa33ae239165fe0da3a905aed4198e28159df9288f  ./linux-image-cloud-arm64_6.18.23-1gl0_arm64.deb<br>5a3cfcb34d62faa08a727d11eafbd1ab7debe085d4870ea32fb327faabb3e56d  ./linux_6.18.23-1gl0.dsc<br>7070d877681c1a3bca8336c3cbf61bb04e5204e7e1036d2df15088c2957cc509  ./usbip_2.0+6.18.23-1gl0_arm64.deb<br>7575d22c774bf27fd97c4a2f1ec3645f538240f2c3dcae7ee96efaddb1b275ce  ./linux-libc-dev-arm64-cross_6.18.23-1gl0_all.deb<br>630ec71c42b0ac5f8efb04291b2bcb36a4119e53cf7f857d544f300aff23b25a  ./libcpupower1-dbgsym_6.18.23-1gl0_amd64.deb<br>d6811baaa07b12e9cf57253851a8a1bf790db2448268b4267e406f1d5f79671b  ./linux-kbuild-6.18.23-dbgsym_6.18.23-1gl0_amd64.deb<br>ad637634a1745153103ae40174428f18f15cf6a3e501fc344ce5f5a200caad03  ./linux-image-6.18.23-amd64-dbg_6.18.23-1gl0_amd64.deb<br>7a93cb5d8eba5f5e5c00ea66bc1a5ab809bc64266f3c848a645e83254acc97c4  ./bpftool_7.7.0+6.18.23-1gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>open-component-model/ocm - latest ocm-cli</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/latest ocm-cli</guid>
-            <pubDate>Mon, 20 Apr 2026 07:51:37 +0000</pubDate>
-            <description><![CDATA[<p>holds always the latest ocm-cli binaries</p>]]></description>
-        </item>
-<item>
             <title>platform-mesh/virtual-workspaces - v0.11.5</title>
             <link>https://github.com/platform-mesh/virtual-workspaces</link>
             <guid>https://github.com/platform-mesh/virtual-workspaces/releases/tag/v0.11.5</guid>
@@ -133,20 +498,29 @@
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/virtual-workspaces/compare/0.11.4...v0.11.5</p>]]></description>
         </item>
 <item>
+            <title>ironcore-dev/ironcore-image - v0.4.0</title>
+            <link>https://github.com/ironcore-dev/ironcore-image</link>
+            <guid>https://github.com/ironcore-dev/ironcore-image/releases/tag/v0.4.0</guid>
+            <pubDate>Mon, 20 Apr 2026 07:07:55 +0000</pubDate>
+            <description><![CDATA[<h2>Changes</h2>
+
+<h2>⚠️ Breaking</h2>
+
+<ul><li>Migrate from oras-go v1 to v2 @friegger (#247)</li></ul>  - Small API changes 
+
+<h2>🚀 Features</h2>
+
+<ul><li>Update README with multi-arch build and tagging workflow documentation @hardikdr (#241)</li></ul>
+<h2>🧰 Maintenance</h2>
+
+<ul><li>Bump the gh-actions-dependencies group across 1 directory with 2 updates @[dependabot[bot]](https://github.com/apps/dependabot) (#246)</li><li>Bump google.golang.org/grpc from 1.68.0 to 1.79.3 @[dependabot[bot]](https://github.com/apps/dependabot) (#245)</li><li>Add BMWE-EU funding logo to README @friegger (#243)</li><li>Update README with multi-arch build and tagging workflow documentation @hardikdr (#241)</li></ul>]]></description>
+        </item>
+<item>
             <title>openmcp-project/landscaper-service - Release v1.2.0</title>
             <link>https://github.com/openmcp-project/landscaper-service</link>
             <guid>https://github.com/openmcp-project/landscaper-service/releases/tag/Release v1.2.0</guid>
             <pubDate>Mon, 20 Apr 2026 06:07:06 +0000</pubDate>
             <description><![CDATA[]]></description>
-        </item>
-<item>
-            <title>platform-mesh/portal - v0.21.16</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.16</guid>
-            <pubDate>Mon, 20 Apr 2026 01:57:24 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/545</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.15...v0.21.16</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/subroutines - v0.4.1</title>
@@ -528,25 +902,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <ul><li>gardener-extension-shoot-networking-filter-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-networking-filter-admission:v0.29.0</code></li><li>gardener-extension-shoot-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-networking-filter:v0.29.0</code></li><li>gardener-runtime-networking-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/runtime-networking-filter:v0.29.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>open-resource-discovery/global-registry-bot - v0.1.0</title>
-            <link>https://github.com/open-resource-discovery/global-registry-bot</link>
-            <guid>https://github.com/open-resource-discovery/global-registry-bot/releases/tag/v0.1.0</guid>
-            <pubDate>Tue, 14 Apr 2026 14:13:06 +0000</pubDate>
-            <description><![CDATA[<h2>Added</h2>
-<ul><li>Direct PR auto-approval via <code>onApproval</code> hook</li><li>Use last commit author as <code>requestAuthorId</code></li><li>Merge <code>approvers</code> and <code>approversPool</code> for approval logic</li><li>Auto-add <code>Approved</code> label on successful auto-approval</li><li>Multi-file validation support with aggregated PR comment</li><li>Machine-readable validation output</li></ul>
-<h2>Improved</h2>
-<ul><li>Consistent validation feedback between CI and bot comments</li><li>Safer approval logic</li></ul>
-<h3>Commits</h3>
-<ul><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/48a714b6aab9bac27a89ce369511fe386f4b3856">48a714b</a> Merge pull request #46 from open-resource-discovery/feat/approval-hook-pr-flow (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/94ee57e63be516f9fd412b576ae8b29c3404e776">94ee57e</a> Upgrade package version (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/4b126ac737ea3a36c8c5814e53b229591c56ccfb">4b126ac</a> Merge branch &#x27;main&#x27; into feat/approval-hook-pr-flow (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/b1ebe79c71ab4e757682bf117b3a2e0f456442eb">b1ebe79</a> Merge pull request #28 from open-resource-discovery/deps/typescript-6.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/f29159ac8aa8bb79705c834e86f8c18a5faf854c">f29159a</a> test: update orchestrator expectations for file-grouped validation comments (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/ff82f94da4ccea486ace7aba2721e3fee68cd1b9">ff82f94</a> fix: use template-first validation field names with schema fallback (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/6b2df8d29385a4d6fb90af719c753bacff1bdb68">6b2df8d</a> Merge branch &#x27;feat/approval-hook-pr-flow&#x27; of https://github.com/open-resource-discovery/global-registry-bot into feat/approval-hook-pr-flow (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/293d9bd9f87c7e441165e936aaf7b45ac86c14be">293d9bd</a> chore: prettier check . (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/fd1f78ca0d8089673f77c2693ba50e0630058e7f">fd1f78c</a> Update src/handlers/request/index.ts (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/59202cce18bf4e6e9ac3cfa1ec5acd695980aca1">59202cc</a> feat: update changelog + package version (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/97041ebb4bd38eb266db75addbcb7110a3711b75">97041eb</a> Merge branch &#x27;main&#x27; into deps/typescript-6.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/35cc07e7f63a1bde5f8f28473b60c0f9b5aa04d7">35cc07e</a> fix: map machine-readable validation fields to template labels with schema fallback (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/84ae01adedd609a5d6276a3e52518258d0adcd9d">84ae01a</a> extend approval hook with direct PR support, approversPool merge, and aggregated validation comments (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/da43a4eccf6b5405489f1bc6d5c131b5a104a5ce">da43a4e</a> Merge pull request #45 from open-resource-discovery/fix/stale-request-branch-recovery (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/c53bf95c78195e503cb4b87a98012d5088687f6f">c53bf95</a> Merge branch &#x27;main&#x27; into deps/typescript-6.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/25b1b519f926255fb827243d5eca0c4fdfd1bf84">25b1b51</a> Merge branch &#x27;main&#x27; into fix/stale-request-branch-recovery (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/f1a7350d5152a2e1541b4777a4374df57368f1e3">f1a7350</a> fix: eslint issue (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/a04bf5e0e300627915f7094ce4a623dc5c2fbb8f">a04bf5e</a> fix: recover from stale request branches during approval (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/439d0a228395907aaa564e09dbba5d7cce949770">439d0a2</a> chore(deps): update dependency typescript to v6 (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/c0e1ca8aa9ebbf45a88be37a912a5980512aaaa8">c0e1ca8</a> Merge pull request #13 from open-resource-discovery/feat/vendor-root-goverance (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/903c3447ec8cfd58088c4e928f86fbe9f3a9d1ef">903c344</a> Clean up (Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/493add636ba0ff965b0a20005abfd2399366668e">493add6</a> Merge pull request #14 from open-resource-discovery/feat/approver-label-control (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/2009c123b9ba9f7e4bdb33b8393376b0009707f3">2009c12</a> Merge pull request #32 from open-resource-discovery/feat/approver-pool-routing (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/ab6c20e620c97e96985797528e94c8f3a6b4b0b7">ab6c20e</a> Merge branch &#x27;feat/approver-label-control&#x27; into feat/approver-pool-routing (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/e6fd1b1164518127fad18936b6962bd2ced0fa86">e6fd1b1</a> Merge branch &#x27;feat/vendor-root-goverance&#x27; into feat/approver-label-control (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/0fbda08e4b97bc426c73edc68ae2f8822723eed1">0fbda08</a> Merge branch &#x27;main&#x27; into feat/vendor-root-goverance (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/6c56e6ed3b8f4162cef324505ac026f91d9c8232">6c56e6e</a> Merge pull request #40 from open-resource-discovery/deps/major-github-actions (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/1272d8469c73ff150bc83d7b9c0d0b0cfc8e9399">1272d84</a> chore(deps): update actions/github-script action to v9 (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/b168d6eb7472a596e697a07e31f43758040a95f4">b168d6e</a> Merge pull request #22 from open-resource-discovery/deps/lint-staged-16.x (Nangiale Shir)</li><li><a href="https://github.com/open-resource-discovery/global-registry-bot/commit/84315a3d0ff5958b05491e04b1f7534d5aedf7b6">84315a3</a> chore(deps): update dependency lint-staged to v16.4.0 (renovate[bot])</li></ul>
-<h3>Contributors</h3>
-&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/nirooxx&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/51267793?v=4&#x27; alt=&#x27;Nangiale Shir&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Nangiale Shir&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
-        </item>
-<item>
             <title>cloudoperators/greenhouse - v0.11.0</title>
             <link>https://github.com/cloudoperators/greenhouse</link>
             <guid>https://github.com/cloudoperators/greenhouse/releases/tag/v0.11.0</guid>
@@ -564,304 +919,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <pubDate>Tue, 14 Apr 2026 12:01:15 +0000</pubDate>
             <description><![CDATA[<h2>Container (OCI) Images</h2>
 <ul><li>egress-filter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/egress-filter:0.20.1</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>openmcp-project/openmcp - Release v0.0.71</title>
-            <link>https://github.com/openmcp-project/openmcp</link>
-            <guid>https://github.com/openmcp-project/openmcp/releases/tag/Release v0.0.71</guid>
-            <pubDate>Tue, 14 Apr 2026 11:05:41 +0000</pubDate>
-            <description><![CDATA[<h1>openMCP</h1>
-<h2>Components:</h2>
-
-<h2>mcp-operator <a href="https://github.com/openmcp-project/mcp-operator/releases/tag/v0.54.0">[v0.54.0</a>]:</h2>
-
-<h3>Changelog</h3>
-
-
-
-
----
-<h2>openmcp-operator <a href="https://github.com/openmcp-project/openmcp-operator/releases/tag/v0.18.1">[v0.18.1</a>]:</h2>
-
-<h3>Changes included in v0.18.1:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>Fixed a bug that could lead to AccessRequests being stuck in deletion, because responsibility was with the generic controller, but that one ignored AccessRequests with a non-zero DeletionTimestamp. <strong>(#240, @Diaphteiros)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>Added tests for the <code>IsClusterProviderResponsibleForAccessRequest</code> function. <strong>(#240, @Diaphteiros)</strong></li></ul>
-
-
----
-<h2>gitops-templates <a href="https://github.com/openmcp-project/gitops-templates/releases/tag/v0.1.4">[v0.1.4</a>]:</h2>
-
-<h3>Changes included in v0.1.4:</h3>
-
-<h3>🚀 Features</h3>
-<ul><li>change env overlay branch variable to flux.gitrepo.ref.branch <a href="https://github.com/openmcp-project/gitops-templates/pull/14">#14</a></li></ul>  - <strong>[OPERATOR][BREAKING]</strong> Changed gitrepo environment based variable for branch to git.pullBranch.
-
-
-
----
-<h2>control-plane-operator <a href="https://github.com/openmcp-project/control-plane-operator/releases/tag/v0.1.19">[v0.1.19</a>]:</h2>
-
-<h3>Changes included in v0.1.19:</h3>
-
-<h3>🐛 Fixes</h3>
-<ul><li>configurable labels <a href="https://github.com/openmcp-project/control-plane-operator/pull/124">#124</a></li></ul>  - <strong>[DEVLOPER][BUGFIX]</strong> Allow label customization with FluxReconciler and ObjectReconciler
-
-
-
----
-<h2>quota-operator <a href="https://github.com/openmcp-project/quota-operator/releases/tag/v0.18.0">[v0.18.0</a>]:</h2>
-
-<h3>Changelog</h3>
-
-
-
-
----
-<h2>project-workspace-operator <a href="https://github.com/openmcp-project/project-workspace-operator/releases/tag/v1.4.0">[v1.4.0</a>]:</h2>
-
-<h3>Changes included in v1.4.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚨 Breaking</h2>
-
-#### [OPERATOR]
-<ul><li>Instead of <code>memberOverridesName</code>, the <code>memberOverrides</code> are now specified in the <code>ProjectWorkspaceConfig</code>&#x27;s <code>spec</code> directly. <strong>(#196, @Diaphteiros)</strong></li></ul>
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>The <code>kind</code> field in a <code>MemberOverride</code>&#x27;s <code>OverrideResource</code> specification now also accepts <code>Project</code> and <code>Workspace</code>, while it only allowed the lowercase versions of these strings before. In addition, constants for both values have been added. <strong>(#196, @Diaphteiros)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>The &#x27;member overrides&#x27; feature is now better usable for the v2 variant. It does not require any additional resource on the onboarding cluster anymore, instead the configuration is now part of the <code>ProjectWorkspaceConfig</code> resource. <strong>(#196, @Diaphteiros)</strong></li></ul>#### [USER]
-<ul><li>Fixed a bug which caused the builtin list of resources that block project/workspace deletion not being reflected in the dynamic AccessRequest&#x27;s permissions. This caused errors when trying to delete a project or workspace, as the controller was lacking permissions. <strong>(#201, @Diaphteiros)</strong></li></ul>
-
-
----
-<h2>bootstrapper <a href="https://github.com/openmcp-project/bootstrapper/releases/tag/v0.15.0">[v0.15.0</a>]:</h2>
-
-<h3>Changes included in v0.15.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>- Release v0.15.0 <strong>(#183, @robertgraeff)</strong></li><li>- Add jq and kubectl to the bootstrapper docker image. <strong>(#182, @robertgraeff)</strong></li></ul>
-
-
----
-<h2>service-provider-landscaper <a href="https://github.com/openmcp-project/service-provider-landscaper/releases/tag/v0.17.0">[v0.17.0</a>]:</h2>
-
-<h3>Changes included in v0.17.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>The Landscaper controller will now reconcile Landscaper instances if image pull secrets are updated to sync changes. <strong>(#252, @moelsayed)</strong></li></ul>#### [USER]
-<ul><li>- Release v0.17.0 <strong>(#254, @robertgraeff)</strong></li><li>- Increase number of workers for helm and manifest deployer <strong>(#251, @robertgraeff)</strong></li></ul>
-<h2>📚 Documentation</h2>
-
-#### [USER]
-<ul><li>Add explicit documentation for the <code>spec.deployment.repository</code> field in ProviderConfig. <strong>(#253, @moelsayed)</strong></li></ul>
-
-
----
-<h2>service-provider-crossplane <a href="https://github.com/openmcp-project/service-provider-crossplane/releases/tag/v0.4.0">[v0.4.0</a>]:</h2>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [DEVELOPER]
-<ul><li>Watch referenced pull secrets and trigger reconciliation on change <strong>(#101, @moelsayed)</strong></li><li>Use upstream smartrequeue instead of local implementation. <strong>(#99, @moelsayed)</strong></li></ul>#### [USER]
-<ul><li>The <code>image</code> field in <code>ProviderConfig</code> versions is now optional. When omitted, the default image configured in the Helm chart is used, reducing configuration complexity for setups that do not use private OCI registries. <strong>(#108, @ValentinGerlach)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>Fix reconcile loop when instance is ready <strong>(#99, @moelsayed)</strong></li></ul>#### [USER]
-<ul><li>Updated controller-utils to v0.27.1 fixing secret type handling. <strong>(#107, @maximiliantech)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>Update dependencies: kubernetes monorepo to v0.35.3, fluxcd/source-controller/api to v1.8.2, fluxcd/helm-controller/api to v1.5.3, openmcp-operator/api and lib to v0.18.1. Pin GitHub workflow actions and hack/common submodule to digest 2857d51. <strong>(#109, @maximiliantech)</strong></li></ul>#### [USER]
-<ul><li>Update issue templates and add CODEOWNERS <strong>(#88, @maximiliantech)</strong></li></ul>
-
-
----
-<h2>service-provider-external-secrets <a href="https://github.com/openmcp-project/service-provider-external-secrets/releases/tag/v0.1.1">[v0.1.1</a>]:</h2>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li>fixes handling of pull image secrets type <strong>(#21, @christophrj)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [USER]
-<ul><li>Updated controller-utils to v0.27.1 fixing secret type handling. <strong>(#11, @maximiliantech)</strong></li></ul>
-<h2>📚 Documentation</h2>
-
-#### [USER]
-<ul><li>clarify end user facing version field meaning <strong>(#7, @christophrj)</strong></li></ul>
-
-
----
-<h2>service-provider-flux <a href="https://github.com/openmcp-project/service-provider-flux/releases/tag/v0.1.2">[v0.1.2</a>]:</h2>
-
-<h3>Changelog</h3>
-
-
-<h2>➕ Other</h2>
-
-#### [USER]
-<ul><li>Update dependencies including security fixes for grpc and OpenTelemetry SDK <strong>(#18, @maximiliantech)</strong></li></ul>
-
-
----
-<h2>cluster-provider-gardener <a href="https://github.com/openmcp-project/cluster-provider-gardener/releases/tag/v0.12.0">[v0.12.0</a>]:</h2>
-
-<h3>Changes included in v0.12.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [DEVELOPER]
-<ul><li>Bump Gardener dependency to <code>v1.137</code> and use Gardener api module instead of hacky script to depend on the Gardener api types. <strong>(#187, @Diaphteiros)</strong></li></ul>#### [OPERATOR]
-<ul><li>The new <code>enforcedShootExtensions</code> field in the providerconfig&#x27;s <code>spec</code> allows to specify shoot extensions which should always be set. For backward compatibility reasons, the shoot OIDC extension will be enforced by default if the field is not set (or set to <code>null</code>). Setting the field to an actual list - either empty or with entries - disables the shoot OIDC extension, unless it is part of the list. <strong>(#188, @Diaphteiros)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [USER]
-<ul><li>Update issue templates and add CODEOWNERS <strong>(#189, @maximiliantech)</strong></li></ul>
-
-
----
-<h2>cluster-provider-kind <a href="https://github.com/openmcp-project/cluster-provider-kind/releases/tag/v0.2.0">[v0.2.0</a>]:</h2>
-
-<h3>Changes included in v0.2.0:</h3>
-
-<h3>🚀 Features</h3>
-<ul><li>local registry config <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/120">#120</a></li></ul>  - <strong>[USER][FEATURE]</strong> create clusters with custom kind configuration
-<ul><li>apply requested token config permissions <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/112">#112</a></li></ul>  - <strong>[USER][FEATURE]</strong> token based access processing
-
-
-<h3>🐛 Fixes</h3>
-<ul><li>multi-arch image loading <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/117">#117</a></li></ul>  - <strong>[USER][BUGFIX]</strong> fix image loading to kind on arm64
-<ul><li>improve error message on unsupported network <a href="https://github.com/openmcp-project/cluster-provider-kind/pull/111">#111</a></li></ul>  - <strong>[USER][FEATURE]</strong> improved error message for user on <code>unsupported networks</code>.
-
-
-
----
-<h2>platform-service-dns <a href="https://github.com/openmcp-project/platform-service-dns/releases/tag/v0.0.5">[v0.0.5</a>]:</h2>
-
-<h3>Changes included in v0.0.5:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🐛 Bugfixes</h2>
-
-#### [USER]
-<ul><li>Preserve unknown fields in <code>PurposeSelectorRequirement</code> <strong>(#66, @reshnm)</strong></li></ul>
-
-
----
-<h2>platform-service-gateway <a href="https://github.com/openmcp-project/platform-service-gateway/releases/tag/v0.0.10">[v0.0.10</a>]:</h2>
-
-<h3>Changes included in v0.0.10:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li>- Release v0.0.10 <strong>(#98, @robertgraeff)</strong></li></ul>
-
-
----
-<h2>platform-service-test-runner <a href="https://github.com/openmcp-project/platform-service-test-runner/releases/tag/v0.0.1">[v0.0.1</a>]:</h2>
-
-<h3>Changes included in v0.0.1:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [USER]
-<ul><li><strong>(#6, @rdksap)</strong></li><li>Allow configuration of pollInterval and pollTimeout per test case <strong>(#3, @rdksap)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [USER]
-<ul><li>Continue processing test cases if resource already exists but has no status <strong>(#5, @rdksap)</strong></li></ul>
-<h2>What&#x27;s Changed</h2>
-<ul><li>feat: test runner as platform service with initial tests by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/1</li><li>feat: allow configuration of pollInterval and pollTimeout per test case by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/3</li><li>fix: proceed with tests if resource already present by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/5</li><li>release: v0.0.1 by @rdksap in https://github.com/openmcp-project/platform-service-test-runner/pull/6</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@rdksap made their first contribution in https://github.com/openmcp-project/platform-service-test-runner/pull/1</li></ul>
-<strong>Full Changelog</strong>: https://github.com/openmcp-project/platform-service-test-runner/commits/v0.0.1
----
-<h2>platform-service-project-workspace <a href="https://github.com/openmcp-project/project-workspace-operator/releases/tag/v1.4.0">[v1.4.0</a>]:</h2>
-
-<h3>Changes included in v1.4.0:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚨 Breaking</h2>
-
-#### [OPERATOR]
-<ul><li>Instead of <code>memberOverridesName</code>, the <code>memberOverrides</code> are now specified in the <code>ProjectWorkspaceConfig</code>&#x27;s <code>spec</code> directly. <strong>(#196, @Diaphteiros)</strong></li></ul>
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>The <code>kind</code> field in a <code>MemberOverride</code>&#x27;s <code>OverrideResource</code> specification now also accepts <code>Project</code> and <code>Workspace</code>, while it only allowed the lowercase versions of these strings before. In addition, constants for both values have been added. <strong>(#196, @Diaphteiros)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>The &#x27;member overrides&#x27; feature is now better usable for the v2 variant. It does not require any additional resource on the onboarding cluster anymore, instead the configuration is now part of the <code>ProjectWorkspaceConfig</code> resource. <strong>(#196, @Diaphteiros)</strong></li></ul>#### [USER]
-<ul><li>Fixed a bug which caused the builtin list of resources that block project/workspace deletion not being reflected in the dynamic AccessRequest&#x27;s permissions. This caused errors when trying to delete a project or workspace, as the controller was lacking permissions. <strong>(#201, @Diaphteiros)</strong></li></ul>
-
-
----
-<h2>platform-service-usage <a href="https://github.com/openmcp-project/usage-operator/releases/tag/v0.0.16">[v0.0.16</a>]:</h2>
-
-<h3>Changes included in v0.0.16:</h3>
-
-<h3>Changelog</h3>
-
-
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>- Release v0.0.16 <strong>(#14, @robertgraeff)</strong></li></ul>
-<h2>What&#x27;s Changed</h2>
-<ul><li>chore: Configure Renovate by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/3</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v0.19.0 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/4</li><li>fix(deps): update module github.com/spf13/cobra to v1.10.2 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/13</li><li>chore(deps): update dependency go to v1.25.5 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/8</li><li>fix(deps): update module github.com/onsi/ginkgo/v2 to v2.27.3 - autoclosed by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/10</li><li>fix(deps): update kubernetes packages to v0.34.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/9</li><li>chore(deps): update golang docker tag to v1.25 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/12</li><li>fix(deps): update module github.com/onsi/gomega to v1.38.3 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/11</li><li>chore(deps): update hack/common digest to 6824b1f by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/7</li><li>chore(deps): update module github.com/openmcp-project/project-workspace-operator/api to v1 by @renovate[bot] in https://github.com/openmcp-project/usage-operator/pull/5</li><li>feat: release v0.0.16 by @robertgraeff in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@renovate[bot] made their first contribution in https://github.com/openmcp-project/usage-operator/pull/3</li><li>@robertgraeff made their first contribution in https://github.com/openmcp-project/usage-operator/pull/14</li></ul>
-<strong>Full Changelog</strong>: https://github.com/openmcp-project/usage-operator/compare/v0.0.15...v0.0.16
----]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-velero - Release v0.1.5</title>
@@ -1049,13 +1106,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <ul><li><code>[OPERATOR]</code> The <code>copy</code> operation now fetches the latest 4 full snapshots when checking if a <code>final</code> full snapshot is present. by @plkokanov <a href="https://github.com/gardener/etcd-backup-restore/pull/1021">[#1021</a>]</li></ul>
 <h2>Container (OCI) Images</h2>
 <ul><li>etcdbrctl: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcdbrctl:v0.41.2</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>openmcp-project/quota-operator - Release v0.18.0</title>
-            <link>https://github.com/openmcp-project/quota-operator</link>
-            <guid>https://github.com/openmcp-project/quota-operator/releases/tag/Release v0.18.0</guid>
-            <pubDate>Fri, 10 Apr 2026 14:42:25 +0000</pubDate>
-            <description><![CDATA[<h1>Changelog</h1>]]></description>
         </item>
 <item>
             <title>openmcp-project/mcp-operator - Release v0.54.0</title>
@@ -1332,14 +1382,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <p>Files in this release:<br>``<code><br>a3fb90e15bb93f565c4ad30a09fc4c070454cca70e2e5dc8b10a0ef8f9a3d221  ./adduser_3.155gl0_amd64.changes<br>33e7602de45eb03831f2084ddf044ba7a014010551fd3689ad53d84d628e3aa3  ./adduser_3.155gl0_amd64.buildinfo<br>06e2f1a8f2d29818de44873f9e55025bcf8aea7c109c55b4998b0d75231afa3f  ./adduser_3.155gl0_all.deb<br>cca1253af0c44a3688b217feb66628bce459e8edd79e3f27dd1d67c82c5ff366  ./adduser_3.155gl0.tar.xz<br>26cac2ed450813cc7b6b3273fd5fe834e71b30cc5901544a2a75f813a7298b89  ./adduser_3.155gl0.dsc<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-dracut - dracut_110-8gl0</title>
-            <link>https://github.com/gardenlinux/package-dracut</link>
-            <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_110-8gl0</guid>
-            <pubDate>Fri, 03 Apr 2026 00:24:21 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/23928178645">23928178645</a></p>
-<p>Files in this release:<br>``<code><br>b6f25aa0afb8297c91a1d2d61c1a3394bef8ad3323a0e2a5bc05c3233d1d0644  ./dracut-install_110-8gl0_arm64.deb<br>64f673298173f792815be46725b18da6cfe4a323ba85924bfc1a7d7a26e553be  ./dracut-core-dbgsym_110-8gl0_amd64.deb<br>ac4f3b51ea6144b56ab928c854b9c4a305d26fdce8a5b65411b8204d05d7bc10  ./dracut_110-8gl0.dsc<br>63e5c7764c626db20862e8136e4d61815a08b25315cdf5a775bb40145e085bea  ./dracut-test_110-8gl0_amd64.deb<br>6c4c99cd7ecf873486b3d02768f213ea3ee725638057e173d4891a224167d989  ./dracut-test_110-8gl0_arm64.deb<br>39dc2ce99542c79e2aa84832962756c0648277c1d632c887138f5603dfaf1744  ./dracut_110-8gl0_arm64.changes<br>4ab23d4ae44ebce499ea11a220e7e4d2e8681d91a6f32c870015a3c4ed6921ad  ./dracut-network_110-8gl0_all.deb<br>d0562a7d53fc14b1119953dfe0b6f82e6abcb81d4d37036fed20b56b65be43ce  ./dracut-core-dbgsym_110-8gl0_arm64.deb<br>eb234a1c43420bd27036a4e767c6fdec6acff57d513ad3e664e94fa40beaf062  ./dracut_110.orig.tar.xz<br>f53daa8a431088f5eaeaf76482b476c1fbd3bc9e7b0668886bdb26e5ac404b7c  ./dracut-install-dbgsym_110-8gl0_amd64.deb<br>6ab5cd5f4e7a8aa9d3ad0eb7585e643ffc6d89a35b918798d1617b8f73a90b9b  ./dracut-core_110-8gl0_amd64.deb<br>805b265d50c96b8a71e98a17e264db47f406ea8d17702214d2691d7bf913241b  ./dracut-install-dbgsym_110-8gl0_arm64.deb<br>f56f9028f6b8dcb132b85f103c65f4a7259ee7a1a983c955742b4ef049535d41  ./dracut-core_110-8gl0_arm64.deb<br>7936dec4550a1ebbd48db5d515c0467e4a4f1a2ee6da75def93234b3072ba610  ./dracut_110-8gl0_arm64.buildinfo<br>e4e867d6eac4b9efa9c4e403126c902bc84dbdcae625a024b4e2e4db308747bd  ./dracut_110-8gl0_amd64.buildinfo<br>f76d0757c3b72e823f5d7a3623fae235b877a0a200ce915f43f18cf8e28d8ee9  ./dracut_110-8gl0.debian.tar.xz<br>bb8bd1d04007157087e0d32eeb1d6dec4e88ea98a7ab4fc6d05abe4d4a7534c8  ./dracut_110-8gl0_amd64.changes<br>ce5b6721a981aa1115d6affd7e6cfae373a89ebc75ce9b02d244afb9d261c1e0  ./dracut-install_110-8gl0_amd64.deb<br>2aac9be3e16f07cb42ed8ef830f25b60f9387d6087a40aded4fe9422601101a9  ./dracut_110-8gl0_all.deb<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>open-resource-discovery/specification - v1.14.3</title>
             <link>https://github.com/open-resource-discovery/specification</link>
             <guid>https://github.com/open-resource-discovery/specification/releases/tag/v1.14.3</guid>
@@ -1410,30 +1452,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 <ul><li><code>[OPERATOR]</code> export testresults as inlined ocm-resource by @Franziska-Schallhorn <a href="https://github.com/gardener/gardener-metrics-exporter/pull/142">[#142</a>]</li><li><code>[OPERATOR]</code> Add metrics for seed reconciliation <code>LastOperation</code> state by @adenitiu <a href="https://github.com/gardener/gardener-metrics-exporter/pull/146">[#146</a>]</li><li><code>[OPERATOR]</code> Added <code>status</code> label to <code>garden_shoot_info</code> metric by @videlov <a href="https://github.com/gardener/gardener-metrics-exporter/pull/145">[#145</a>]</li><li><code>[OPERATOR]</code> Fix ARM64 build target to not include an x86-64 binary. by @mstueer <a href="https://github.com/gardener/gardener-metrics-exporter/pull/143">[#143</a>]</li></ul>
 <h2>Container (OCI) Images</h2>
 <ul><li>metrics-exporter: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/metrics-exporter:0.44.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>openmcp-project/platform-service-project-workspace - Release v1.4.0</title>
-            <link>https://github.com/openmcp-project/platform-service-project-workspace</link>
-            <guid>https://github.com/openmcp-project/platform-service-project-workspace/releases/tag/Release v1.4.0</guid>
-            <pubDate>Wed, 01 Apr 2026 15:22:03 +0000</pubDate>
-            <description><![CDATA[<h1>Changes included in v1.4.0:</h1>
-
-<h1>Changelog</h1>
-
-
-<h2>🚨 Breaking</h2>
-
-#### [OPERATOR]
-<ul><li>Instead of <code>memberOverridesName</code>, the <code>memberOverrides</code> are now specified in the <code>ProjectWorkspaceConfig</code>&#x27;s <code>spec</code> directly. <strong>(#196, @Diaphteiros)</strong></li></ul>
-<h2>🚀 Features</h2>
-
-#### [OPERATOR]
-<ul><li>The <code>kind</code> field in a <code>MemberOverride</code>&#x27;s <code>OverrideResource</code> specification now also accepts <code>Project</code> and <code>Workspace</code>, while it only allowed the lowercase versions of these strings before. In addition, constants for both values have been added. <strong>(#196, @Diaphteiros)</strong></li></ul>
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>The &#x27;member overrides&#x27; feature is now better usable for the v2 variant. It does not require any additional resource on the onboarding cluster anymore, instead the configuration is now part of the <code>ProjectWorkspaceConfig</code> resource. <strong>(#196, @Diaphteiros)</strong></li></ul>#### [USER]
-<ul><li>Fixed a bug which caused the builtin list of resources that block project/workspace deletion not being reflected in the dynamic AccessRequest&#x27;s permissions. This caused errors when trying to delete a project or workspace, as the controller was lacking permissions. <strong>(#201, @Diaphteiros)</strong></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/autoscaler - unnamed-release</title>
@@ -3804,22 +3822,6 @@ Initial implementation.]]></description>
 <h2>Helm Charts</h2>
 <ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/service-account-issuer-discovery:v0.12.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>service-account-issuer-discovery: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/service-account-issuer-discovery:v0.12.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>ironcore-dev/ironcore-image - v0.3.0</title>
-            <link>https://github.com/ironcore-dev/ironcore-image</link>
-            <guid>https://github.com/ironcore-dev/ironcore-image/releases/tag/v0.3.0</guid>
-            <pubDate>Fri, 06 Feb 2026 10:25:18 +0000</pubDate>
-            <description><![CDATA[<h2>Changes</h2>
-<h2>⚠️ Breaking</h2>
-
-<ul><li>Remove check for missing layers @afritzler (#240)</li></ul>
-<h2>🚀 Features</h2>
-
-<ul><li>Remove check for missing layers @afritzler (#240)</li></ul>
-<h2>🧰 Maintenance</h2>
-
-<ul><li>Group dependabot updates @gonzolino (#239)</li><li>Bump github.com/onsi/gomega from 1.39.0 to 1.39.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#238)</li><li>Bump github.com/onsi/ginkgo/v2 from 2.27.5 to 2.28.1 @[dependabot[bot]](https://github.com/apps/dependabot) (#237)</li></ul>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-glvd - glvd_0.0.3gl0</title>
