@@ -4,20 +4,28 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Tue, 21 Apr 2026 12:18:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:18:09 +0000</lastBuildDate>
 
     <item>
-            <title>open-component-model/ocm - v0.40.0</title>
-            <link>https://github.com/open-component-model/ocm</link>
-            <guid>https://github.com/open-component-model/ocm/releases/tag/v0.40.0</guid>
-            <pubDate>Tue, 21 Apr 2026 11:35:55 +0000</pubDate>
-            <description><![CDATA[<p>&lt;!-- Release notes generated using configuration in .github/config/release.yml at refs/heads/releases/v0.40 --&gt;<br><h2>What&#x27;s Changed</h2><br><br><h3>⬆️ Dependencies</h3><br>&lt;details&gt;<br>&lt;summary&gt;6 changes&lt;/summary&gt;<br><br><ul><li>chore(deps): bump github.com/go-git/go-git/v5 from 5.17.0 to 5.17.1 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1886</li><li>chore(deps): bump github.com/go-git/go-git/v5 from 5.17.1 to 5.17.2 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1891</li><li>chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.3 to 4.1.4 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1892</li><li>chore(deps): bump the go group across 1 directory with 11 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1896</li><li>chore(deps): migrate github.com/containers/image by @frewilhelm in https://github.com/open-component-model/ocm/pull/1898</li><li>chore(deps): bump go to 1.26.2 (#1905) by @frewilhelm in https://github.com/open-component-model/ocm/pull/1906</li></ul>&lt;/details&gt;<br><br><h3>🧰 Maintenance</h3><br><ul><li>chore: bump VERSION to 0.40.0-dev by @ocmbot[bot] in https://github.com/open-component-model/ocm/pull/1878</li><li>chore: add wget example and cross-reference to &quot;ocm get credentials&quot; docs by @morri-son in https://github.com/open-component-model/ocm/pull/1880</li></ul><br><br><br><strong>Full Changelog</strong>: https://github.com/open-component-model/ocm/compare/v0.39...v0.40.0</p>]]></description>
+            <title>openmcp-project/openmcp-operator - Release v0.19.0</title>
+            <link>https://github.com/openmcp-project/openmcp-operator</link>
+            <guid>https://github.com/openmcp-project/openmcp-operator/releases/tag/Release v0.19.0</guid>
+            <pubDate>Wed, 22 Apr 2026 11:51:39 +0000</pubDate>
+            <description><![CDATA[<h1>Changelog</h1>
+
+
+<h2>🚀 Features</h2>
+
+#### [DEVELOPER]
+<ul><li>Add dynamic configuration reload support <strong>(#255, @moelsayed)</strong></li><li>A new <code>EnvrionmentLabel</code> has been added to the <code>api/constants</code> package. It can be used to mark a resource&#x27;s environment. <strong>(#248, @Diaphteiros)</strong></li><li>The <code>clusters/v1alpha1</code> API package now contains several selector API types that can be used to filter <code>Cluster</code> and <code>ClusterRequest</code> resources for labels, purposes, and by identity. See the <a href="docs/libraries/selectors.md">documentation</a> for further information. <strong>(#244, @Diaphteiros)</strong></li></ul>#### [OPERATOR]
+<ul><li>Expose controller-runtime metrics endpoint for <code>ServiceProviders</code>, <code>ClusterProviders</code> and <code>PlatformServices</code> <strong>(#269, @reshnm)</strong></li></ul>#### [USER]
+<ul><li>Add metrics service name and namespace to the deployment status <strong>(#273, @reshnm)</strong></li></ul>]]></description>
         </item>
 <item>
-            <title>openmcp-project/openmcp - Release v0.1.1</title>
+            <title>openmcp-project/openmcp - Release v0.1.2</title>
             <link>https://github.com/openmcp-project/openmcp</link>
-            <guid>https://github.com/openmcp-project/openmcp/releases/tag/Release v0.1.1</guid>
-            <pubDate>Tue, 21 Apr 2026 09:22:15 +0000</pubDate>
+            <guid>https://github.com/openmcp-project/openmcp/releases/tag/Release v0.1.2</guid>
+            <pubDate>Wed, 22 Apr 2026 11:28:33 +0000</pubDate>
             <description><![CDATA[<h1>openMCP</h1>
 <h2>Components:</h2>
 
@@ -293,22 +301,224 @@
 ---]]></description>
         </item>
 <item>
-            <title>platform-mesh/iam-service - v0.15.26</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.26</guid>
-            <pubDate>Tue, 21 Apr 2026 09:05:41 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.14.1 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/464</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.25...v0.15.26</p>]]></description>
+            <title>cobaltcore-dev/aurora-dashboard - v1.61.0</title>
+            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
+            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.61.0</guid>
+            <pubDate>Wed, 22 Apr 2026 11:19:30 +0000</pubDate>
+            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.60.0...v1.61.0">1.61.0</a> (2026-04-22)</h2>
+<h3>✨ Features</h3>
+<ul><li><strong>portal:</strong> image list filters, URL sync, sharing UX, and pagination-observer fixes    (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/709">#709</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/ac7b64a0ca6dcc86cfd6000a8c599348a4a92ece">ac7b64a</a>)</li></ul>]]></description>
         </item>
 <item>
-            <title>platform-mesh/security-operator - v0.30.17</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.17</guid>
-            <pubDate>Tue, 21 Apr 2026 08:40:33 +0000</pubDate>
+            <title>platform-mesh/platform-mesh-operator - v0.71.1</title>
+            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
+            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.71.1</guid>
+            <pubDate>Wed, 22 Apr 2026 10:50:18 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/account-operator to v0.14.0 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/493</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.16...v0.30.17</p>]]></description>
+<ul><li>fix(deps): update module github.com/cert-manager/cert-manager to v1.20.2 by @renovate[bot] in https://github.com/platform-mesh/platform-mesh-operator/pull/586</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.71.0...v0.71.1</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-runc - runc_1.3.5-1gl0+bp1877</title>
+            <link>https://github.com/gardenlinux/package-runc</link>
+            <guid>https://github.com/gardenlinux/package-runc/releases/tag/runc_1.3.5-1gl0+bp1877</guid>
+            <pubDate>Wed, 22 Apr 2026 10:34:42 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-runc/actions/runs/24773669984">24773669984</a></p>
+<p>Files in this release:<br>``<code><br>e4af100cea0df49dc987e1a4801f67301ed05ba228d31948c2f08c37d670997e  ./runc_1.3.5-1gl0+bp1877.dsc<br>dfcf7518a5e7a17c03b067b788bc231f56d4257c3c6997c7c0af9fb77178c1dd  ./runc-dbgsym_1.3.5-1gl0+bp1877_arm64.deb<br>5da2a6d95f07be2e640c32c6263c12a325feaf7999f66c4f02210881de5df077  ./runc-dbgsym_1.3.5-1gl0+bp1877_amd64.deb<br>5c8a1d8927e61ec337331505433f02ddc1a2dcee5ff5482259606a33852e6fb4  ./runc_1.3.5-1gl0+bp1877_arm64.deb<br>e710459343724810c5713457f9d5882384811bee2c101b5ef96f053e8c24191e  ./runc_1.3.5-1gl0+bp1877_arm64.buildinfo<br>372b43992a48684bd520de944ddf5cd0de5a3b8f803d6f315a40f8e54cb61ab2  ./runc_1.3.5-1gl0+bp1877_amd64.deb<br>66fcc4d673526e4c948d73c2651bc96e50c1fd10d6376e1c0f2136c304b97a97  ./runc_1.3.5-1gl0+bp1877_arm64.changes<br>797f8176713a1385fc2e43ea47fec301868da6a0b84898f2de8ed0d28039073d  ./runc_1.3.5-1gl0+bp1877_amd64.buildinfo<br>c22eeaf60ba95870abfb2a7aafe5b2f5ed23b75e5c43fd1c284648dcde84d2f5  ./runc_1.3.5-1gl0+bp1877.debian.tar.xz<br>71756205c97b1430df551bffdae8576530cdc347a524ebc34323e350c04c762d  ./runc_1.3.5.orig.tar.xz<br>6e36f606874346921c35d8ec22b677078dc9a7ec0ae6277061e876cd333940bd  ./golang-github-opencontainers-runc-dev_1.3.5-1gl0+bp1877_all.deb<br>d6a2a0a93ad76f45a5d904352529c51078519055333f356b8e73e382e4b9a7d7  ./runc_1.3.5-1gl0+bp1877_amd64.changes<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-containerd - containerd_2.1.7-0gl0+bp1877</title>
+            <link>https://github.com/gardenlinux/package-containerd</link>
+            <guid>https://github.com/gardenlinux/package-containerd/releases/tag/containerd_2.1.7-0gl0+bp1877</guid>
+            <pubDate>Wed, 22 Apr 2026 10:18:15 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-containerd/actions/runs/24773006217">24773006217</a></p>
+<p>Files in this release:<br>``<code><br>dd5a13289713025701ff7db6ed1e7580bca9058e52d2b5ca121113d6b5509648  ./containerd_2.1.7-0gl0~bp1877_amd64.changes<br>ecdeffc0bb548ebd458d58011ceddf34e5d59b4f09351a6dea9ffbea3da6a13a  ./golang-github-containerd-containerd-dev_2.1.7-0gl0~bp1877_all.deb<br>314078b618256f1a29c14cc100719a51aaba39de5917b42b064b4763309e5831  ./golang-github-containerd-containerd-api-dev_2.1.7-0gl0~bp1877_all.deb<br>eb007a2e0af753d72c88c06fb2c2d80c7d369dacbfeee786f89c43d9984b9e00  ./containerd_2.1.7.orig.tar.xz<br>be2ef98229d9ffd80c9ebd42e2e4effd5a1ce2b9a20ea41939cbc3d666b03ce0  ./containerd_2.1.7-0gl0~bp1877.dsc<br>e502c4b6f252543b96a4d59ff73e73173e3ef9bfa808fd5f4dc3cfda176341c6  ./containerd-dbgsym_2.1.7-0gl0~bp1877_arm64.deb<br>125e1dfe352c0eb9b2d9c2bfd828b00e319349a99ab87a3dd74007ea1c3be79c  ./containerd_2.1.7-0gl0~bp1877.debian.tar.xz<br>42633118cffec983abbdd84ff21ee9e8960e637ed28bd577edbb95e0da8e556c  ./containerd_2.1.7-0gl0~bp1877_amd64.deb<br>977589db0841f366fbb3bbbee8a62dc03c90b8ecec86c0b8498ad0d896a18066  ./containerd_2.1.7-0gl0~bp1877_arm64.changes<br>c420a08c7badbffc8cf9429b5694fbf450944081b0d3e8dd376c64f1b735e09f  ./containerd-dbgsym_2.1.7-0gl0~bp1877_amd64.deb<br>35eb9b06d6e4465de169ef27762ca7fe92403e4c15a9015ba13961edab5cfc8f  ./containerd_2.1.7-0gl0~bp1877_arm64.deb<br>d5ef045fa31303f73a3089a9df1e43d694aa794afae3a10d03bf600b80ba8507  ./containerd_2.1.7-0gl0~bp1877_amd64.buildinfo<br>0f0bebf63d9f9c4f809f4aecf1b6a92376720928c60d2eaf3ea5a83cf6bd4b23  ./containerd_2.1.7-0gl0~bp1877_arm64.buildinfo<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/bp-package-glibc - glibc_2.42-15gl0+bp1877</title>
+            <link>https://github.com/gardenlinux/bp-package-glibc</link>
+            <guid>https://github.com/gardenlinux/bp-package-glibc/releases/tag/glibc_2.42-15gl0+bp1877</guid>
+            <pubDate>Wed, 22 Apr 2026 09:29:31 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-glibc/actions/runs/24770958715">24770958715</a></p>
+<p>Files in this release:<br>``<code><br>77c0802bc825044db231c4e5b86be450fd31a066a79bd9ad702f77c50de179e5  ./locales-all_2.42-15gl0~bp1877_arm64.deb<br>8f25e5373198f421519890c1f05ea772602a5c13d27c33353102041752a72e2e  ./libc6-dev-dbgsym_2.42-15gl0~bp1877_arm64.deb<br>e0e553457a499c19e625f555064de3d2bfa94b310e32d54e6f35bed6f0784960  ./libc6-i386_2.42-15gl0~bp1877_amd64.deb<br>03c776d1e6f7a08b0aec4b57e1283038f144b0b444cda35f93a8ab58747e665f  ./nscd-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>a78391928b8c9988212f9ddd2a9e44b8da77f59ce252d1815b8c15fa17cd8dfa  ./glibc_2.42-15gl0~bp1877_amd64.changes<br>61bdb33184ebe8758594c22a2a98730aec7f3217d931049d422ac92ecbddde29  ./glibc_2.42-15gl0~bp1877.debian.tar.xz<br>3714d9fdb912bd714496d76befc7a185891e86da31d222937f4dfab8f5b31abd  ./libc-dev-bin-dbgsym_2.42-15gl0~bp1877_arm64.deb<br>33aa62a7562028f42e5e34292cf444b98ab133e002cc179d45ec5a8d27183864  ./libc6-x32_2.42-15gl0~bp1877_amd64.deb<br>f24aa441021121a79266f0d75242706cab8843a47901fefe74527491807f1998  ./glibc_2.42.orig.tar.xz<br>5769e28553e54711fd43dbac2309a39634a9b2a7804d4131d73ca775b3bbba8d  ./libc-dev-bin-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>0b238a8f2a81265e537d9b79b1f2923f12bea28b3e7a22e667de029a736fab7f  ./libc6-dbg_2.42-15gl0~bp1877_amd64.deb<br>586d5c5b3d45176b98246c3115ec7d630ead9794eca7caf91d6a355f74a8634e  ./libc-devtools_2.42-15gl0~bp1877_arm64.deb<br>be3cfe73c01cf0dec312f2f430960d3da0852f07cf2ef3f136a32d0e42cf2b64  ./libc6-dev_2.42-15gl0~bp1877_arm64.deb<br>78ee2f57679b16334fdcc2b26564268a9380fb9941009f4b342c320350c7e734  ./locales_2.42-15gl0~bp1877_all.deb<br>264d845ca533c43ce90d8caf571e34ef2a79a3d6485c0fb0d783b51513de41cb  ./nscd_2.42-15gl0~bp1877_arm64.deb<br>345c71fcf91a7f77422e2ffe56d30a188ec8bdf96e7e729b8c9b286e057ca3e0  ./libc6_2.42-15gl0~bp1877_arm64.deb<br>cd8eeb3b207a729c05991ed6bf4e37ba7fcf268641e571be9ead10e999ae17fb  ./libc6-dbg_2.42-15gl0~bp1877_arm64.deb<br>d7777813d6b784d94d32a88472610b0363e79a7715ddaa72da1c0390be67b833  ./libc-bin_2.42-15gl0~bp1877_amd64.deb<br>6f514c42b17e42b3fd60991adfd3583b602f49dce6cf6131f35430181c2a1031  ./libc-devtools-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>2f492b15ee58e3b25be6107e547d653ec3fdec3713121cb07ec4f5aba7c71045  ./locales-all_2.42-15gl0~bp1877_amd64.deb<br>de8ac71d35156098248d68835cca3025fe9a82ad9a3ca7b8929f7e6eb277a2f6  ./libc6-dev-i386_2.42-15gl0~bp1877_amd64.deb<br>299fa65a5b3217836bc16691f0763f310cb10535f8c3535313faf75b7b03d40e  ./glibc_2.42-15gl0~bp1877_arm64.changes<br>c6d912959d4deacefeaa6842ecf3acba2ea4f6b3776b707e85575497f4cb42af  ./libc6-dev-x32_2.42-15gl0~bp1877_amd64.deb<br>a0346c97afd8e82cb2515b7978fc0f5e8cf839b78fbfd8f571c0020cb31f9c20  ./glibc-source_2.42-15gl0~bp1877_all.deb<br>0e52723c4492d83471aa6270ffadbb7809b5066fe55eb3ce0bab67ac308dc2ba  ./nscd-dbgsym_2.42-15gl0~bp1877_arm64.deb<br>385c2402616037f58075960ba57e35c012ef6dabf047e2edb982f6b1b10173aa  ./glibc_2.42-15gl0~bp1877_arm64.buildinfo<br>307445f4ceaef2986b9b7c2ba2c0325a479885a36c121eb3b95a57d657bfe5ab  ./glibc_2.42-15gl0~bp1877_amd64.buildinfo<br>6d26a6a08f3854f1e0f7c79d91ed9494ef2ae0adc2d345f988b33ec97e03f75f  ./libc-dev-bin_2.42-15gl0~bp1877_arm64.deb<br>03bb7ad3a14762c1d42a2f1838b91c00f770968af4d2a7fdf068693de90e8c0d  ./libc6-dev-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>d594abdbf60a8ca00ed1379f8e084501f01d65fb6d627dd4fba017a0fbe41d65  ./libc-devtools_2.42-15gl0~bp1877_amd64.deb<br>5ade40e950b38fd51da563947064ef68b7e1597e44fe13b7c82621a394c2d685  ./libc6-x32-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>0c46186c6de466a92425514b696075034c3c3cdadc5feb082ca8614b3ed54e2a  ./libc-bin-dbgsym_2.42-15gl0~bp1877_arm64.deb<br>99be6bcb75dc2b60f153b19a576f7131a4795e2964b7e1362a526c1910e5cb16  ./libc6-dev_2.42-15gl0~bp1877_amd64.deb<br>d6931d5918d888f3872ff955897a2762760708a03a89153cd155e1c51747ecc1  ./libc-l10n_2.42-15gl0~bp1877_all.deb<br>e651c74095ef983d845d9ad4683d2cb6b7f0494f0f3651a00aa2aaf7bd3a7219  ./libc-dev-bin_2.42-15gl0~bp1877_amd64.deb<br>a9f23d5414f14a022a130787b3ed9a59856ad5f22440d618dffd08320ea0e213  ./glibc_2.42-15gl0~bp1877.dsc<br>0badfb7b6c3c5942dce71f34f649317798a71f04c3d9ed740cff0fda39ffb505  ./libc-bin-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>b85e406c92d982ce1ce9de295aa500741f825620e6ebc5712a9725b39222c372  ./libc-bin_2.42-15gl0~bp1877_arm64.deb<br>b6424a09fed30e1c6800aaee757795965512c9ae7b556e25bf1e4287c5b7bac6  ./glibc-doc_2.42-15gl0~bp1877_all.deb<br>1028392546a86766cb060a38943b74d28fed0b7179b648fce0b20d0ea7941449  ./libc6_2.42-15gl0~bp1877_amd64.deb<br>8d221474baeeea5312683a04b644cff5eec791ef62eaca9dba0fcb8b737a8f3b  ./libc6-i386-dbgsym_2.42-15gl0~bp1877_amd64.deb<br>efdc9efa18e2094dd920ce2011ecdf580d63577151e4dde90cb026d7933fecd5  ./libc-devtools-dbgsym_2.42-15gl0~bp1877_arm64.deb<br>197f8203bff8a86457aeef3fe06dd55451ea028075e55d0688eb19f95ab66f29  ./nscd_2.42-15gl0~bp1877_amd64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>open-resource-discovery/provider-server - v1.1.0</title>
+            <link>https://github.com/open-resource-discovery/provider-server</link>
+            <guid>https://github.com/open-resource-discovery/provider-server/releases/tag/v1.1.0</guid>
+            <pubDate>Wed, 22 Apr 2026 07:41:57 +0000</pubDate>
+            <description><![CDATA[<h3>Added</h3>
+<ul><li>Resolve relative URLs in package <code>packageLinks</code> and <code>files</code> to absolute server paths</li><li>Serve non-JSON resource files (PDF, YAML, etc.) under the documents subdirectory</li><li>Fall back to raw file serving for <code>.json</code> files that are not ORD documents</li></ul>
+<h3>Changed</h3>
+<ul><li>Extract shared document processing logic (<code>processResourceDefinitions</code>, <code>processPackageLinks</code>) into <code>src/util/documentProcessing.ts</code> to eliminate duplication between <code>documentService</code> and <code>cacheService</code></li></ul>
+<h3>Commits</h3>
+<ul><li><a href="https://github.com/open-resource-discovery/provider-server/commit/b9506ed8ec52f0fb0d34ad3ac8dcc4f1740526a6">b9506ed</a> feat: Support for package links and files (#268) (Juri J.)</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/1af11cb15e55755fed9275373da7f123968e17c5">1af11cb</a> chore(deps): update node.js to v24.15.0 (#274) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/e9cbaa72562f3a323ad9e2327253cf060bc2e6f3">e9cbaa7</a> chore(deps): update dependency @fastify/static to v9.1.1 [security] (#273) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/b057836e113022887b27b206f5533a7da91b4c50">b057836</a> chore(deps): update dependency fastify to v5.8.5 [security] (#272) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/b93bc0230fc79396f93a4aeabaff24b4129636e2">b93bc02</a> chore(deps): update dependency dotenv to v17.4.2 (#271) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/77a5d5dc696dcc0b175b53bb0fc81e9d97bf48d7">77a5d5d</a> chore(deps): update dependency @fastify/static to v9.1.0 (#270) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/6790aefe97839f7629a58c42b12447e1296ec0af">6790aef</a> chore(deps): update dependency isomorphic-git to v1.37.5 (#269) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/e3a30bac6ad8413cc257b47cfc15e4c7a88632a5">e3a30ba</a> chore(deps): update dependency dotenv to v17.4.1 (#267) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/05bdebe5fc4c0b815cd1b12db575673baa920c12">05bdebe</a> chore(deps): update dependency dotenv to v17.4.0 (#266) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/4bb701c311d6bcc4957eda758b8043b4e6ae6766">4bb701c</a> chore(deps): update typescript build tools (#265) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/1216a1afda234044fbea9957b89015e512745479">1216a1a</a> chore(deps): update dependency @open-resource-discovery/specification to v1.14.3 (#264) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/cc44ebd51cc39c0463310a7d773344a13ee36f82">cc44ebd</a> chore(deps): update node.js to v24.14.1 (#262) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/3f67d469b9b33499d9bba3b8cdf79e11e4877129">3f67d46</a> chore(deps): update dependency fastify to v5.8.4 (#261) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/29ae9d8d4d4a7530ad3478f80d642d6f03fcaf3a">29ae9d8</a> chore(deps): update dependency @open-resource-discovery/specification to v1.14.2 (#260) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/63eef95fef17849155f5555d966577f9f2c38c0e">63eef95</a> chore(deps): update dependency fastify to v5.8.3 [security] (#259) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/3443dea729bf350cbd5068f725a9b3d52f1ecc1c">3443dea</a> chore(deps): update dependency @open-resource-discovery/specification to v1.14.1 (#258) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/702960ac5cb9fe00a995fc5e003b28b302479d0a">702960a</a> chore(deps): update dependency lint-staged to v16.4.0 (#256) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/8ef81e11512aafaa245dcbd78dad9e2273f39517">8ef81e1</a> chore(deps): update testing frameworks to v30.3.0 (#255) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/befea2c8d192f45cc877c915dfbc65a856139dc1">befea2c</a> chore(deps): update dependency lint-staged to v16.3.3 (#254) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/e4c3b305c897151602a37b502fe72db9bce941bc">e4c3b30</a> chore(deps): update dependency isomorphic-git to v1.37.4 (#253) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/515df0f5f384a13413d83d472b825ef46f389efc">515df0f</a> chore(deps): update dependency fastify to v5.8.2 (#252) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/3b689e38ce0e92898960618b8699cb9d5f905cbd">3b689e3</a> chore(deps): update dependency @types/node to v24.12.0 (#251) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/0a5bea7eac64c98ff092400834d813c8032115ca">0a5bea7</a> chore(deps): update dependency lint-staged to v16.3.2 (#250) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/2e8fe42a9517e0059ec76abda1a9f08e6d666467">2e8fe42</a> chore(deps): update dependency fastify to v5.8.1 [security] (#249) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/6ff9d3607f28f282f312446aef55b22a4977c6fe">6ff9d36</a> chore(deps): update dependency lint-staged to v16.3.1 (#248) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/cc1e71407153a34327592c5014e5e2cc72b2d908">cc1e714</a> chore(deps): update dependency lint-staged to v16.3.0 (#247) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/1a89488f499fd02488df597bda53c78c2d8b95bf">1a89488</a> chore(deps): update node.js to v24.14.0 (#245) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/f28c6b7cda76ddfcf26c64aea43797aba1e24314">f28c6b7</a> chore(deps): update dependency @types/node to v24.11.0 (#246) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/aef759e078b23c0b31befd07d7c4655e6a5962a4">aef759e</a> chore(deps): update dependency @types/node to v24.10.15 (#244) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/39365ccadad5eb9358058e2b833568ceb5477d5c">39365cc</a> chore(deps): update dependency isomorphic-git to v1.37.2 (#241) (renovate[bot])</li></ul>
+<h3>Contributors</h3>
+&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
+      &lt;a href=&#x27;https://github.com/jurijat&#x27;&gt;
+        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/105035926?v=4&#x27; alt=&#x27;Juri J.&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
+        &lt;span&gt;Juri J.&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-gnutls - gnutls28_3.8.12-3gl3</title>
+            <link>https://github.com/gardenlinux/package-gnutls</link>
+            <guid>https://github.com/gardenlinux/package-gnutls/releases/tag/gnutls28_3.8.12-3gl3</guid>
+            <pubDate>Wed, 22 Apr 2026 06:53:16 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-gnutls/actions/runs/24764730249">24764730249</a></p>
+<p>Files in this release:<br>``<code><br>1f5776aa8c9ebf176621cd1b726cf2f44d2f24b6e9db21c5519f3ba7c315967f  ./gnutls28_3.8.12-3gl3_amd64.changes<br>4a2cb948ac25b869ba45a38470823245ad071ad665d9f74d89260f8e10676800  ./libgnutls-dane0t64-dbgsym_3.8.12-3gl3_amd64.deb<br>9046b38b963d5f57314e6acb462cd89c6be377f55e0c2667f6b2bb7198f2833e  ./libgnutls-dane0t64_3.8.12-3gl3_arm64.deb<br>967549a010ecba2cc1b693810371487e7317aae6b7018a0277c2cdceb4867708  ./gnutls-bin-dbgsym_3.8.12-3gl3_amd64.deb<br>cc9db2333bf545e6e6faabc4f1a03d63d665e8329b281d70913f515d39da5571  ./gnutls28_3.8.12-3gl3_amd64.buildinfo<br>f484008942ecf8ca8a1a0fff604e2761807426f3a86783dc3d322ff7e7bdd0e6  ./libgnutls30t64-dbgsym_3.8.12-3gl3_amd64.deb<br>befe882aaf3f2ff5d595ab560ddb9d7d7028859d0f32374a838e3aa9e3e3d89d  ./gnutls-bin_3.8.12-3gl3_arm64.deb<br>c790c2db1824fdd866fa2ab3b7d1c10ed319cfb06bfa85af9130290cab04fabc  ./gnutls28_3.8.12-3gl3.dsc<br>6234d8d34f10d6bf43c5bd8c8408914f534b01027bbe06305420994ac9788fb6  ./gnutls28_3.8.12-3gl3.debian.tar.xz<br>660c6956af49e79186a30c88edfc1413f110f883db0d9d99f5fae792ac7147ee  ./libgnutls-dane0t64-dbgsym_3.8.12-3gl3_arm64.deb<br>ddd9d09693d6cb1e4b2d1291f8ffe671f2b997a06ec48c3acdc051a5522697be  ./libgnutls-dane0t64_3.8.12-3gl3_amd64.deb<br>bee55c2fb2e2dcad15518d8981ad09ef75047d693f612f3d66adbf48928240cb  ./gnutls-bin_3.8.12-3gl3_amd64.deb<br>26c394c3bd071f8570f3ff05a9f9a70a62a64f9da9d8ead61e6cca03d9361719  ./gnutls28_3.8.12-3gl3_arm64.buildinfo<br>8a97d36236c72cb58ca01adf533e143a4f913307d67a7631b7aebe057d6d3b1a  ./gnutls-doc_3.8.12-3gl3_all.deb<br>7a6795d3d2ccf544f1519d67c6ac7b4f041e0ca75f3e715ad2d6d88a2182418b  ./libgnutls28-dev_3.8.12-3gl3_arm64.deb<br>39e18b025dac76a1212043aeedb04141498267d385242589244afb6fee5ccbfe  ./gnutls-bin-dbgsym_3.8.12-3gl3_arm64.deb<br>c5402ebefff6d72027edf0c466b9ccb7755fc04e5cd47bb446a111ef3f333918  ./libgnutls28-dev_3.8.12-3gl3_amd64.deb<br>d9ed5b8484e1170decc2a5cbb844de78e4b088558dffcf22db19894e61e1e668  ./libgnutls30t64_3.8.12-3gl3_arm64.deb<br>bd0246f0efa3afd1884e7c0f3720ad64d6547bec9f40bce9a83bb5757d674126  ./gnutls28_3.8.12.orig.tar.xz<br>a7955d03a1349c09f227061cc48489bd2cd8a40625316f9d805396adf39ae606  ./libgnutls30t64_3.8.12-3gl3_amd64.deb<br>778eeeb80e45e829069f8ebbcebe387cddffbdd1285f469b2228346691492fc0  ./libgnutls30t64-dbgsym_3.8.12-3gl3_arm64.deb<br>3119f40ce1d259a4b19d8a2b2ad5ba834b785b119f22d69b8531c6bbd961e6ba  ./gnutls28_3.8.12-3gl3_arm64.changes<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.21.22</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.22</guid>
+            <pubDate>Wed, 22 Apr 2026 06:08:15 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/552</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.21...v0.21.22</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.15.31</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.15.31</guid>
+            <pubDate>Wed, 22 Apr 2026 05:10:41 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.30.3 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/469</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.15.30...v0.15.31</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.30.21</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.21</guid>
+            <pubDate>Wed, 22 Apr 2026 04:02:24 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module k8s.io/apimachinery to v0.35.4 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/497</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.20...v0.30.21</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-openssh - openssh_10.3p1-1gl0</title>
+            <link>https://github.com/gardenlinux/package-openssh</link>
+            <guid>https://github.com/gardenlinux/package-openssh/releases/tag/openssh_10.3p1-1gl0</guid>
+            <pubDate>Wed, 22 Apr 2026 00:47:46 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssh/actions/runs/24754192114">24754192114</a></p>
+<p>Files in this release:<br>``<code><br>b245c95faedec248bfebf145bf34c748d18a5f6917ce1ef92f917aa76e5c291c  ./openssh-server-dbgsym_10.3p1-1gl0_amd64.deb<br>35236d0afa2714d0fc839777370cb9967422dcd0f46a8aaa2de551229675e846  ./openssh-sftp-server-dbgsym_10.3p1-1gl0_arm64.deb<br>b8f7c690c8db611330582ee37b49dfaa0e44624aa7aab5cb646b86dc369e6af4  ./openssh-server_10.3p1-1gl0_amd64.deb<br>5ba4e7696e13c09ca5c7b2328d929771529902eeffa060a3c48e676215897ba7  ./openssh-sftp-server_10.3p1-1gl0_arm64.deb<br>fbb0e06a67a15194a875ef7b6834586bcc643ee81695521ffaa36a7ca1009126  ./openssh-server-gssapi_10.3p1-1gl0_all.deb<br>424d1ae3c083911f9ead0b534d4bcae78c6772f50f638f36571275c04fe4c043  ./ssh-askpass-gnome-dbgsym_10.3p1-1gl0_amd64.deb<br>bf13af2e13de0ab91ce30ffd22f702ddf7d843922ef5657e075c45f1c711df81  ./ssh_10.3p1-1gl0_all.deb<br>e5a8c5b2f36a16ea1320de33d7fffb6c87ee38eefcdefab099b12ad904821b71  ./openssh-tests-dbgsym_10.3p1-1gl0_amd64.deb<br>7db2ad35ec6b2b1348a6457f61eb059d7dfad595f5f7cadbc51ff4d15bcff666  ./openssh-client_10.3p1-1gl0_arm64.deb<br>e34e2baea5b79be955c02199674d608999378ac2a47f5e7dc82301ca29142b39  ./openssh_10.3p1-1gl0_amd64.changes<br>20ce00df67d8e547057ef1db33cf344df5cdc5694527bb7f1dc78e61f6e1cf09  ./openssh_10.3p1-1gl0_arm64.changes<br>ec67a984494e966220fcbc98922a333d55db482ded43a837934820fcb97ade5a  ./openssh-client_10.3p1-1gl0_amd64.deb<br>a18e65d9972acf8be8455e02a3b58c481e763b8204324fd5ab30462a0cf3485f  ./openssh-server_10.3p1-1gl0_arm64.deb<br>04589810bd27e44dddd32699d55069dde99a26b577a5a8a57b69e220b5d0cc4e  ./ssh-askpass-gnome-dbgsym_10.3p1-1gl0_arm64.deb<br>42ed8993d5143700845c38629bdc37eaf70ecca413ca35a09c74d63c26f45235  ./openssh_10.3p1-1gl0_arm64.buildinfo<br>1f01f7104fe2763b06a79bab301e041b1f6cec4d507eae79f898cbbaff1c918a  ./openssh-client-dbgsym_10.3p1-1gl0_amd64.deb<br>1c675a59bd944644738dba16d289aa47ea782cc2c2bdaf38cfc546280efcdb9e  ./openssh-sftp-server_10.3p1-1gl0_amd64.deb<br>059e25bd1951fd3d67094cde269d11acd6cab0ff3f5d57e44ae7587dba76f26e  ./openssh_10.3p1-1gl0.dsc<br>5ba44a3f878856390b930a643b50dd377825296227749fcf199724e3af802377  ./openssh_10.3p1.orig.tar.xz<br>6bb1c0562eae8b80e71dfa74acc7db759c09e0b88bdae8ee6958b3b8f9d78bde  ./openssh-sftp-server-dbgsym_10.3p1-1gl0_amd64.deb<br>65622ab1111b960fefe6e05dd2b8306073ab97857053cf9ce89265b261baf998  ./ssh-askpass-gnome_10.3p1-1gl0_arm64.deb<br>2ecc64ea5ca9fc8ef52e0dd127a1055bd1df8aa0495454d9692026d6270b2d9c  ./openssh_10.3p1-1gl0.debian.tar.xz<br>f154c00330d61b0881e2abe2ae1cd1b4ffe576d96a8bcd5a1928522b0870f325  ./openssh-server-dbgsym_10.3p1-1gl0_arm64.deb<br>3c5152a8f6a9a96c7c3e9628781aa7b822c0653ae69ec4e69ca0778c4394cc1e  ./openssh-tests_10.3p1-1gl0_amd64.deb<br>bc945784d0ea345f2162a85290ce9fef7cf482522e8e72f9bd6064b9eeafd14b  ./ssh-askpass-gnome_10.3p1-1gl0_amd64.deb<br>8fe0598fbbe8bf87a3c9cfdcc2e7f2b2d365f6cb1198fb3ac95343930f03b7cb  ./openssh-client-dbgsym_10.3p1-1gl0_arm64.deb<br>1e08112be361544ba30cf7f2e4c262eda14675346ebc253b2f216c4e5ccb700f  ./openssh-tests_10.3p1-1gl0_arm64.deb<br>f0565072fe1a45702c751b1dff523a1e71b737697857d793fc87b1d27edff9ba  ./openssh_10.3p1-1gl0_amd64.buildinfo<br>09eeaa8cf01d28b40d85c034f063c488f0bceb53b9ca90a8790f4bab91242ef1  ./openssh-tests-dbgsym_10.3p1-1gl0_arm64.deb<br>c80af4085ae387382d411886737d6ed246e196f46c84c7da0fc36e1b0ea8dc58  ./openssh-client-gssapi_10.3p1-1gl0_all.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/golang-commons - v0.16.5</title>
+            <link>https://github.com/platform-mesh/golang-commons</link>
+            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.5</guid>
+            <pubDate>Wed, 22 Apr 2026 00:02:04 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/openfga/openfga to v1.14.2 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/220</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.16.4...v0.16.5</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/kubernetes-graphql-gateway - v1.7.4</title>
+            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
+            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.7.4</guid>
+            <pubDate>Tue, 21 Apr 2026 23:54:53 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module k8s.io/apimachinery to v0.35.4 by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/215</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.7.3...v1.7.4</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/rebac-authz-webhook - v0.8.7</title>
+            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
+            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.7</guid>
+            <pubDate>Tue, 21 Apr 2026 21:18:11 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module k8s.io/apimachinery to v0.35.4 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/250</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.6...v0.8.7</p>]]></description>
+        </item>
+<item>
+            <title>gardener/inventory - unnamed-release</title>
+            <link>https://github.com/gardener/inventory</link>
+            <guid>https://github.com/gardener/inventory/releases/tag/unnamed-release</guid>
+            <pubDate>Tue, 21 Apr 2026 17:41:34 +0000</pubDate>
+            <description><![CDATA[<h1>[github.com/gardener/inventory:v0.1.25]</h1>
+<h2>✨ New Features</h2>
+<ul><li><code>[USER]</code> aws: add support for excluding specific regions from being collected by @dnaeon <a href="https://github.com/gardener/inventory/pull/813">[#813</a>]</li></ul>
+<h2>application/spdx+json</h2>
+<ul><li>inventory-spdx-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/inventory@sha256:b66b246a16613e31bd6d288e6941008d56700c68274e32ff6bf2b2359fbd6471</code></li><li>inventory-spdx-ref: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/inventory@sha256:ed62b0de38e3af211bfb01631498a8179dacc4fc1411a8992346a98290b29549</code></li></ul><h2>Container (OCI) Images</h2>
+<ul><li>inventory: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/inventory:v0.1.25</code></li></ul>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/account-operator - v0.14.14</title>
+            <link>https://github.com/platform-mesh/account-operator</link>
+            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.14</guid>
+            <pubDate>Tue, 21 Apr 2026 16:12:21 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module k8s.io/apimachinery to v0.35.4 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/226</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.13...v0.14.14</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/extension-manager-operator - v0.8.16</title>
+            <link>https://github.com/platform-mesh/extension-manager-operator</link>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.16</guid>
+            <pubDate>Tue, 21 Apr 2026 16:12:12 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module k8s.io/apimachinery to v0.35.4 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/814</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.15...v0.8.16</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/package-openssl - openssl_3.5.5-1+deb13u2gl21</title>
+            <link>https://github.com/gardenlinux/package-openssl</link>
+            <guid>https://github.com/gardenlinux/package-openssl/releases/tag/openssl_3.5.5-1+deb13u2gl21</guid>
+            <pubDate>Tue, 21 Apr 2026 15:26:00 +0000</pubDate>
+            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssl/actions/runs/24731032642">24731032642</a></p>
+<p>Files in this release:<br>``<code><br>150d821464cb09a0f3a47abbabeb27cec82a5e1eb619e1bc222bbf9cb02c3de9  ./openssl-provider-fips_3.5.5-1~deb13u2gl21_arm64.deb<br>2673b665be0b36d876317aab3a376aafe5f006cf564e6f8a44cdd86b2235e028  ./openssl_3.5.5-1~deb13u2gl21_amd64.changes<br>d2bbd254c131a8eb28b332270eba573fc92ef7169c37b704189cf6082b12aa9f  ./openssl-provider-fips-dbgsym_3.5.5-1~deb13u2gl21_arm64.deb<br>55d0ef459ad3fceef8bef7f0c96dc5f08cd9d4305463560c904563c832a91566  ./openssl-provider-legacy_3.5.5-1~deb13u2gl21_amd64.deb<br>72b3d9c7beff44c84154ab9c6dcdc244863de7815decf41dde3a0ae8ee32d1c3  ./openssl-provider-fips_3.5.5-1~deb13u2gl21_amd64.deb<br>8478b32cb7e84d11cdaa93a3d652b7eadb0910bb072aeefeb813b2df5316c0fb  ./openssl_3.5.5-1~deb13u2gl21_amd64.buildinfo<br>ec3f228c4ddbe5ebae1445f4bbd5ef843d4c314cf5d0e1e0a6d96ff7874229e9  ./libssl3t64_3.5.5-1~deb13u2gl21_arm64.deb<br>b36b55f9d4b46e17bd5c96f42341af2bcea7e4e285ef9372e62ddd730462e16c  ./openssl_3.5.5-1~deb13u2gl21_amd64.deb<br>c11fd1c90001cdb322d30004b53f98349a6b4cf069caa04d9dda18626d0fbe86  ./openssl_3.5.5-1~deb13u2gl21_arm64.changes<br>2d40ff661f7c827da8b4bdb1e57f1c5c4b5aa81886a42d7042ccd31c2f2a6329  ./libssl3t64-dbgsym_3.5.5-1~deb13u2gl21_arm64.deb<br>a128196cedb97c4773dfb5f395197f7617b7164874b379bc60bba0244b579e08  ./openssl-dbgsym_3.5.5-1~deb13u2gl21_amd64.deb<br>3af41aa37a98bbb5503e19695ea418a45d229e0ef5976baa7c51232e23ff3dd2  ./libssl3t64_3.5.5-1~deb13u2gl21_amd64.deb<br>5fbe45b9521d1137454cf0e111dfaee884af5f81b839b69dafeab7f94564466d  ./openssl_3.5.5.orig.tar.xz<br>593c293ffdea1bf6c34fe28059d90ef18f676324baa1c1062cf4cd427499fafc  ./libssl3t64-dbgsym_3.5.5-1~deb13u2gl21_amd64.deb<br>d65d770a3511b9081b86307c9ef9269966a7a521784e4f968c47670d91d5f4c9  ./libssl-doc_3.5.5-1~deb13u2gl21_all.deb<br>f8812d19256308c9e3d18cf62652a850db3735f6e2127c9fe86cb50dbd1c4509  ./openssl_3.5.5-1~deb13u2gl21_arm64.buildinfo<br>4903081341badf57f02796f6e265c9475fc123869122302adc083a1c0b2543b0  ./openssl_3.5.5-1~deb13u2gl21.dsc<br>204462fe716b16ab4a5bf7985d3ad01559401ffb39d4818603512698144c7bea  ./libssl-dev_3.5.5-1~deb13u2gl21_arm64.deb<br>ab4320a11674d451a295f249750dd60f12a8bef0ecd54d0913bbbd0f946ee8e0  ./openssl-provider-fips-dbgsym_3.5.5-1~deb13u2gl21_amd64.deb<br>1107efc3502e34f1676b88288545266bbad962870f545cb7e3fb929c0dce139b  ./openssl-provider-legacy-dbgsym_3.5.5-1~deb13u2gl21_arm64.deb<br>715acc5e22ca8b20071919ef5ab9ee4445388d574ba59424663b88dc1da2fddc  ./openssl_3.5.5-1~deb13u2gl21_arm64.deb<br>56ab4d8cf0ac6e9185221b4dffb3798b704297cabb209e7953b1b37110205ce4  ./openssl-provider-legacy-dbgsym_3.5.5-1~deb13u2gl21_amd64.deb<br>e85112e931328a26f609649d3abc10e5c43e4f5706d6a01a1e90bb2abb12e72a  ./openssl-dbgsym_3.5.5-1~deb13u2gl21_arm64.deb<br>1b9e5b8c5e50ccb1340a5a346f51698f09b67e86c78e48ed6ada4d2908717229  ./openssl_3.5.5-1~deb13u2gl21.debian.tar.xz<br>e09423dfe1ace7ff7a7eff4d351588a9bb868796f7b40ff7445cb7fd5c1733b6  ./libssl-dev_3.5.5-1~deb13u2gl21_amd64.deb<br>f00a6de595f93a7b51a687f7c3c3edf7adb1db0b531fb61280534c9b881615b3  ./openssl-provider-legacy_3.5.5-1~deb13u2gl21_arm64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/subroutines - v0.4.2</title>
+            <link>https://github.com/platform-mesh/subroutines</link>
+            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.4.2</guid>
+            <pubDate>Tue, 21 Apr 2026 14:52:07 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module k8s.io/apimachinery to v0.35.4 by @renovate[bot] in https://github.com/platform-mesh/subroutines/pull/26</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.4.1...v0.4.2</p>]]></description>
+        </item>
+<item>
+            <title>openmcp-project/observability-stack - Release v0.0.8</title>
+            <link>https://github.com/openmcp-project/observability-stack</link>
+            <guid>https://github.com/openmcp-project/observability-stack/releases/tag/Release v0.0.8</guid>
+            <pubDate>Tue, 21 Apr 2026 14:47:50 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+
+<h3>✨ New Features</h3>
+<ul><li>Add log aggregation to the observability stack. Pod stdout/stderr logs from all cluster nodes are now automatically collected by an OpenTelemetry Collector DaemonSet and stored in Victoria Logs. The Victoria Logs UI is accessible via the shared Observability Gateway using</li></ul>  HTTPS and mTLS client certificate authentication (same certificate used for Prometheus). Logs from additional Kubernetes clusters can be ingested via a dedicated mTLS OTLP endpoint. Victoria Logs retention period, storage size, and resource limits are configurable via the     
+  <code>ObservabilityStack</code> custom resource. 
+ (#39) @reshnm
+<ul><li>Add metrics and rules for <code>clusters.openmcp.cloud</code> resources</li></ul> (#61) @reshnm
+
+<h3>📦 Dependency Updates</h3>
+<ul><li>chore(deps): update quay.io/prometheus/prometheus Docker tag to v3.11.0 (#48) @app/renovate</li><li>chore(deps): update docker/login-action digest to 4907a6d (#49) @app/renovate</li><li>chore(deps): update kro to v0.9.1 (#50) @app/renovate</li><li>chore(deps): update prometheus (#51) @app/renovate</li><li>chore(deps): update module helm.sh/helm/v3 to v3.20.2 (#53) @app/renovate</li><li>chore(deps): update actions/github-script action to v9 (#54) @app/renovate</li><li>chore(deps): update dependency open-telemetry/opentelemetry-helm-charts to v0.109.2 (#56) @app/renovate</li><li>chore(deps): update dependency cert-manager/cert-manager to v1.20.2 (#57) @app/renovate</li><li>chore(deps): update quay.io/prometheus/prometheus Docker tag to v3.11.2 (#59) @app/renovate</li><li>chore(deps): update e2e-go-dependencies (#62) @app/renovate</li><li>chore(deps): update module github.com/moby/spdystream to v0.5.1 [SECURITY] (#63) @app/renovate</li></ul>
+
+<strong>Full Changelog</strong>: https://github.com/openmcp-project/observability-stack/compare/v0.0.7...v0.0.8]]></description>
+        </item>
+<item>
+            <title>open-component-model/open-component-model - OCM Controller 0.4.0</title>
+            <link>https://github.com/open-component-model/open-component-model</link>
+            <guid>https://github.com/open-component-model/open-component-model/releases/tag/OCM Controller 0.4.0</guid>
+            <pubDate>Tue, 21 Apr 2026 14:38:07 +0000</pubDate>
+            <description><![CDATA[<h2>[kubernetes/controller/v0.4.0] - promoted from [kubernetes/controller/v0.4.0-rc.1] on 2026-04-21</h2>
+<h3>📚 Dependencies</h3>
+<ul><li><em>(deps)</em> Update ocm monorepo go module dependencies to c751cdf (#2126)</li><li><em>(deps)</em> Update ghcr.io/open-component-model/kubernetes/controller:latest docker digest to 64a8dd1 (#2133)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies (#2134)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies to e2b46f9 (#2140)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies to e120070 (#2141)</li><li><em>(deps)</em> Update go-openapi packages (patch) (#2158)</li><li><em>(deps)</em> Update module sigs.k8s.io/controller-runtime to v0.23.3 (#2161)</li><li><em>(deps)</em> Update golang x repositories (minor) (#2166)</li><li><em>(deps)</em> Update module k8s.io/klog/v2 to v2.140.0 (#2163)</li><li><em>(deps)</em> Update module github.com/docker/cli to v29.3.0+incompatible (#2165)</li><li><em>(deps)</em> Update golang:1.26.1 docker digest to 42ebbf7 (#2170)</li><li><em>(deps)</em> Update module ocm.software/open-component-model/bindings/go/oci to v0.0.38 (#2181)</li><li><em>(deps)</em> Update golang:1.26.1 docker digest to cd78d88 (#2180)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies (no ctf) (#2174)</li></ul>
+<h3>⚙️ Miscellaneous Tasks</h3>
+<ul><li>Add status description to deployer (#2118)</li><li>Remove unused cli arguments (#2125)</li><li>Add description to tasks (#2145)</li></ul>
+<h3>Quick installation and usage guide</h3>
+<p>To install the latest version of the OCM Controllers into an existing kubernetes cluster,<br>you can use our Helm chart:</p>
+<p>``<code>bash<br>helm install ocm-k8s-toolkit oci://ghcr.io/open-component-model/kubernetes/controller/chart --namespace ocm-k8s-toolkit-system --create-namespace<br></code>``</p>
+<p>Check out our <a href="https://ocm.software/docs/getting-started/set-up-controller-environments/">guide</a> on how to set up<br>OCM Controller environments for more details.</p>
+<h3>Community &amp; Contributors</h3>
+<p>This release we had a total of <strong>2</strong> contributors!<br>If you want to engage with us, check our <a href="https://ocm.software/community/engagement/">community page</a>!</p>]]></description>
+        </item>
+<item>
+            <title>open-component-model/ocm - v0.40.0</title>
+            <link>https://github.com/open-component-model/ocm</link>
+            <guid>https://github.com/open-component-model/ocm/releases/tag/v0.40.0</guid>
+            <pubDate>Tue, 21 Apr 2026 11:35:55 +0000</pubDate>
+            <description><![CDATA[<p>&lt;!-- Release notes generated using configuration in .github/config/release.yml at refs/heads/releases/v0.40 --&gt;<br><h2>What&#x27;s Changed</h2><br><br><h3>⬆️ Dependencies</h3><br>&lt;details&gt;<br>&lt;summary&gt;6 changes&lt;/summary&gt;<br><br><ul><li>chore(deps): bump github.com/go-git/go-git/v5 from 5.17.0 to 5.17.1 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1886</li><li>chore(deps): bump github.com/go-git/go-git/v5 from 5.17.1 to 5.17.2 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1891</li><li>chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.3 to 4.1.4 by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1892</li><li>chore(deps): bump the go group across 1 directory with 11 updates by @dependabot[bot] in https://github.com/open-component-model/ocm/pull/1896</li><li>chore(deps): migrate github.com/containers/image by @frewilhelm in https://github.com/open-component-model/ocm/pull/1898</li><li>chore(deps): bump go to 1.26.2 (#1905) by @frewilhelm in https://github.com/open-component-model/ocm/pull/1906</li></ul>&lt;/details&gt;<br><br><h3>🧰 Maintenance</h3><br><ul><li>chore: bump VERSION to 0.40.0-dev by @ocmbot[bot] in https://github.com/open-component-model/ocm/pull/1878</li><li>chore: add wget example and cross-reference to &quot;ocm get credentials&quot; docs by @morri-son in https://github.com/open-component-model/ocm/pull/1880</li></ul><br><br><br><strong>Full Changelog</strong>: https://github.com/open-component-model/ocm/compare/v0.39...v0.40.0</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-nghttp2 - nghttp2_1.68.1-1gl0</title>
@@ -353,30 +563,12 @@
     &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
         </item>
 <item>
-            <title>platform-mesh/portal - v0.21.18</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.18</guid>
-            <pubDate>Tue, 21 Apr 2026 01:04:05 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/547</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.17...v0.21.18</p>]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-dracut - dracut_110-12gl0</title>
             <link>https://github.com/gardenlinux/package-dracut</link>
             <guid>https://github.com/gardenlinux/package-dracut/releases/tag/dracut_110-12gl0</guid>
             <pubDate>Tue, 21 Apr 2026 00:29:37 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-dracut/actions/runs/24697537731">24697537731</a></p>
 <p>Files in this release:<br>``<code><br>93b9ef75c5eb138c0947e137ab5648e127143b317ef1e24f0034a685d52525d1  ./dracut_110-12gl0_amd64.buildinfo<br>18ee645d75a5206b50ebdcf0818067b953569b3b3cccc5ed65c21e9ade031953  ./dracut_110-12gl0_amd64.changes<br>aa3039f12e7aec82fcf0d937b3a0a69271e8e6bbd2051ea3aab6fd610f76f64b  ./dracut_110-12gl0_arm64.buildinfo<br>be0b472d4a4aebf89241250cd0e2d6de0b0afe1ad73d3e58fe9aaf9e759e999a  ./dracut-install_110-12gl0_amd64.deb<br>20e254369c38519b3a75703ce160fc3d69e7b989d735ab4596c9c43d2f0547f7  ./dracut-network_110-12gl0_all.deb<br>531084c4dd48db1ec8bea0b40f5ce403a92539454909b18d9f00e7dd3f6f7b76  ./dracut-core-dbgsym_110-12gl0_arm64.deb<br>17f72f60f6af179d4707e885fd49201b347707042d7364920b03eccd0a89d694  ./dracut-install-dbgsym_110-12gl0_amd64.deb<br>d1f10978b5a5627a2bffa8e06b2d58dbd95c0a9b01d52ff3c926b559adbd0aa9  ./dracut_110-12gl0_arm64.changes<br>0a3b59da61f0c4c093b7c7c2ea05aa69a35f7482b10cae4a4f0b2b1c976451f5  ./dracut-install_110-12gl0_arm64.deb<br>3e43d121585022c7500f06b7c402d2d0094230c802039643e81c88390a41518f  ./dracut-core_110-12gl0_arm64.deb<br>ee2c374cabf8797362d8f6c7d7c485dad76c04f5c24ec9e52a8742fec43ad4ed  ./dracut_110-12gl0.dsc<br>f1bf9222603bb31befc1bd1cbefc98b4195ecc03028518b86c1daaf5552d8921  ./dracut-install-dbgsym_110-12gl0_arm64.deb<br>e113a1bf0612dff6a275f276fe6a7ec8da9c4ea9e193af3ed74e872206e233a2  ./dracut-test_110-12gl0_arm64.deb<br>7fe284228ea1b9de339388a9b583c37873579a7fe0c077bf629b6f611ccd1089  ./dracut-core_110-12gl0_amd64.deb<br>eb234a1c43420bd27036a4e767c6fdec6acff57d513ad3e664e94fa40beaf062  ./dracut_110.orig.tar.xz<br>d93df945b6b234ea6d2cf3fa36495fdc9f6d322d609f43ab7131298ac00cecca  ./dracut_110-12gl0.debian.tar.xz<br>709e64ef3f1b633b43e7e5f3ec5557df04253c091b4fb6139204e640cc5586ea  ./dracut_110-12gl0_all.deb<br>248aa71730278331ca9015e13563bc531a986b05b7a881842650cc0078825d1d  ./dracut-test_110-12gl0_amd64.deb<br>8d8668aea92486dfa798df11477c49cff444711be86d2873ef4970dcb1ec308d  ./dracut-core-dbgsym_110-12gl0_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/rebac-authz-webhook - v0.8.6</title>
-            <link>https://github.com/platform-mesh/rebac-authz-webhook</link>
-            <guid>https://github.com/platform-mesh/rebac-authz-webhook/releases/tag/v0.8.6</guid>
-            <pubDate>Mon, 20 Apr 2026 13:44:14 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/rebac-authz-webhook/pull/248</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/rebac-authz-webhook/compare/0.8.5...v0.8.6</p>]]></description>
         </item>
 <item>
             <title>openmcp-project/platform-service-project-workspace - Release v2.0.0</title>
@@ -404,33 +596,6 @@
 
 #### [OPERATOR]
 <ul><li>Unified and improved logging. <strong>(#210, @Diaphteiros)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/account-operator - v0.14.13</title>
-            <link>https://github.com/platform-mesh/account-operator</link>
-            <guid>https://github.com/platform-mesh/account-operator/releases/tag/v0.14.13</guid>
-            <pubDate>Mon, 20 Apr 2026 13:17:44 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/224</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.12...v0.14.13</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.8.15</title>
-            <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.15</guid>
-            <pubDate>Mon, 20 Apr 2026 12:54:59 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/812</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.14...v0.8.15</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/kubernetes-graphql-gateway - v1.7.2</title>
-            <link>https://github.com/platform-mesh/kubernetes-graphql-gateway</link>
-            <guid>https://github.com/platform-mesh/kubernetes-graphql-gateway/releases/tag/v1.7.2</guid>
-            <pubDate>Mon, 20 Apr 2026 12:35:55 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/kcp-dev/sdk to v0.31.0 by @renovate[bot] in https://github.com/platform-mesh/kubernetes-graphql-gateway/pull/212</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/kubernetes-graphql-gateway/compare/1.7.1...v1.7.2</p>]]></description>
         </item>
 <item>
             <title>gardener/cc-utils - 1.2756.0</title>
@@ -470,15 +635,6 @@
 
 #### [OPERATOR]
 <ul><li>generate service provider specific name for chart pull secret copies <strong>(#23, @christophrj)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/golang-commons - v0.16.3</title>
-            <link>https://github.com/platform-mesh/golang-commons</link>
-            <guid>https://github.com/platform-mesh/golang-commons/releases/tag/v0.16.3</guid>
-            <pubDate>Mon, 20 Apr 2026 08:58:54 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/getsentry/sentry-go to v0.45.1 by @renovate[bot] in https://github.com/platform-mesh/golang-commons/pull/218</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/golang-commons/compare/0.16.2...v0.16.3</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/package-linux - linux_6.18.23-1gl0</title>
@@ -523,32 +679,12 @@
             <description><![CDATA[]]></description>
         </item>
 <item>
-            <title>platform-mesh/subroutines - v0.4.1</title>
-            <link>https://github.com/platform-mesh/subroutines</link>
-            <guid>https://github.com/platform-mesh/subroutines/releases/tag/v0.4.1</guid>
-            <pubDate>Sun, 19 Apr 2026 09:16:22 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>Add OpenSSF Scorecard schedule by @Perseus985 in https://github.com/platform-mesh/subroutines/pull/25</li></ul>
-<h2>New Contributors</h2>
-<ul><li>@Perseus985 made their first contribution in https://github.com/platform-mesh/subroutines/pull/25</li></ul>
-<strong>Full Changelog</strong>: https://github.com/platform-mesh/subroutines/compare/0.4.0...v0.4.1]]></description>
-        </item>
-<item>
             <title>gardenlinux/package-libguestfs - libguestfs_1.58.1-5gl0</title>
             <link>https://github.com/gardenlinux/package-libguestfs</link>
             <guid>https://github.com/gardenlinux/package-libguestfs/releases/tag/libguestfs_1.58.1-5gl0</guid>
             <pubDate>Sat, 18 Apr 2026 00:12:42 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-libguestfs/actions/runs/24592178554">24592178554</a></p>
 <p>Files in this release:<br>``<code><br>c5733cbe8c0abe684ed432852facad125fe14c1c85f70d360281223c1d85a0b2  ./guestfsd_1.58.1-5gl0_amd64.deb<br>8925a6acfadff3508973b8608ee6590f1785271519ca6b374491aa46faf47d37  ./libguestfs-ocaml_1.58.1-5gl0_amd64.deb<br>30bb3b635e4473fe3a37367c53da3058a04c5dd4eac674a1c3b1954fed6ee4c4  ./libguestfs-gfs2_1.58.1-5gl0_amd64.deb<br>01a806f0e95b7db9ed6dfe7bb51b49337ceea5411e1a37bbc933cede029df253  ./libguestfs_1.58.1-5gl0_amd64.buildinfo<br>0501536c7d64701525a26ac6fdc5c496e8d6c5312a1923118ba88ee5c0ba138f  ./guestfish_1.58.1-5gl0_amd64.deb<br>c4609ab1823771ddd8a4fbbe1d2ecae6b96a050ab9d481982b4be9664aa7907f  ./libguestfs-nilfs_1.58.1-5gl0_amd64.deb<br>c2d32c7e03fdf4a7b9724f5467d3772f495ad4cf6c74454c95b3be1e48333eb9  ./libguestfs-ocaml-dev_1.58.1-5gl0_amd64.deb<br>fc6a08ef5161b2e2469dcc4c60bae9b700582d6d227900b4182a90152ae05395  ./ruby-guestfs_1.58.1-5gl0_amd64.deb<br>805bee36af721bcc63d442d70412a5c780d803efa56c4e660e647e056f995082  ./guestfish-dbgsym_1.58.1-5gl0_amd64.deb<br>7da051b1b90a2fb303ee0a176f4f293b77fa8a06d95213541b61a49015170f2b  ./libguestfs-perl-dbgsym_1.58.1-5gl0_amd64.deb<br>42ad6a1353f5dee603c237e148c957890a58f699315bbab6eba56a71cb100efa  ./php-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>048fa3fa92c4e170f52a51899e03f006a93bb207c9044c0aa026efdece3f7163  ./libguestfs-xfs_1.58.1-5gl0_amd64.deb<br>503b6401a3a3dfe9ef3720d1b5c18d60b51e784bae2a48660bec5c7a64fcb948  ./libguestfs-gobject-1.0-0t64_1.58.1-5gl0_amd64.deb<br>c2f1c5bf827ad619bae098ac345b1c3fcb22853b4f2b886f5d3479410d3656c0  ./libguestfs-hfsplus_1.58.1-5gl0_amd64.deb<br>19cde8f34993552d7cca5a2b121d3a76d778b9229eacdcafa547922372fd093c  ./lua-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>88eb65809245a99033debd07fc5a0ba80ce0f20d4e7642b46f35843c48611789  ./gir1.2-guestfs-1.0_1.58.1-5gl0_amd64.deb<br>0740be9c1be37c08bb52551d6883d1d6fc37c64f484538335961b8f95a0461a5  ./libguestfs-tools_1.58.1-5gl0_amd64.deb<br>9654f358623eb28115879fdb2b1fd498669041196ef389a42d71cdcd13146f4c  ./libguestfs_1.58.1-5gl0_amd64.changes<br>c47a0df12424e1b55c9b499dc4807de40ff0b767d266587378cc4845e12f5a24  ./guestmount-dbgsym_1.58.1-5gl0_amd64.deb<br>11a328683a5d91466dd8648a5ff82100be64558004759a5cbe7bd4359d343889  ./libguestfs_1.58.1-5gl0.dsc<br>fe9b04538aff560ec31931198d62a5165efc8926d22b937fbd95afe5a7db741e  ./python3-guestfs_1.58.1-5gl0_amd64.deb<br>f7567fc3fde07ab87548b5b5ad3a9a163d6a1c1571bc5db0baf9a690ed3417cb  ./guestfsd-dbgsym_1.58.1-5gl0_amd64.deb<br>bef69896055ddcff05f8b12a52e6fa6fe33277c13b992668664ac081ee13b6be  ./libguestfs-java-dbgsym_1.58.1-5gl0_amd64.deb<br>84859b49f90162ae6b3037b5ea8c52d1cc6aea75690753ef049dfa567e222011  ./golang-guestfs-dev_1.58.1-5gl0_all.deb<br>5c185f46771f2b501ca1525cde9caa6be878f7b39113f0dede764d50d8e0c397  ./libguestfs-tools-dbgsym_1.58.1-5gl0_amd64.deb<br>69c0fcc7e81ddd3de8b693fef38f1796b79cfd3ee6c05a09de93325a4613ce90  ./libguestfs-gobject-dev_1.58.1-5gl0_amd64.deb<br>f33233843d1351e5a1c9e5f129d065e68c2bd9f454d799f45944e4762a37d8f7  ./libguestfs0t64_1.58.1-5gl0_amd64.deb<br>9e3bbe4939008358118a5ed93a4418a0272347fad65e479d5cb7dbca942f420c  ./libguestfs-dev_1.58.1-5gl0_amd64.deb<br>d368af212f5c873c283082b11de471fb03f459b7fa09edc3ce3e1416758ebb59  ./php-guestfs_1.58.1-5gl0_amd64.deb<br>6ebd0fd03a1ff8ce9ae6daebee0123baa9d90aa9ea17dcc32150f31e90b9c4c8  ./libguestfs-java_1.58.1-5gl0_amd64.deb<br>a621d63a82497b9e268e05449803020192f1f45492d98af6745f9a08ec62e047  ./libguestfs-rescue_1.58.1-5gl0_amd64.deb<br>82f74cad8773d7acb41dbff8144674a5c94d7ea31155a67c5317ec32f59fc140  ./libguestfs0t64-dbgsym_1.58.1-5gl0_amd64.deb<br>f0d8a57c4180ef3fee21b41cd5b662435e6eccd8e52ad98ece595cb6ffb8e1d2  ./python3-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>6fe317c5ac4477ca46fdd2b8842db1dc0c595f7cce2b21542289495f49646604  ./libguestfs-gobject-1.0-0t64-dbgsym_1.58.1-5gl0_amd64.deb<br>70c36e998932f03c5f74fc409d73b3914d2ee66f8735758d93ca69acfd56ce5a  ./guestmount_1.58.1-5gl0_amd64.deb<br>434af29afe408c68e9fa13af5a4cf855751184225007ded7eb90e829c920bb67  ./ruby-guestfs-dbgsym_1.58.1-5gl0_amd64.deb<br>86980a6135ca1a1a6fafaee09b055a38ff459ef566eb23ecaae2ea65ff1f6f3b  ./libguestfs-jfs_1.58.1-5gl0_amd64.deb<br>cb0cd95bbdcf1f9107bb37fde76682a67c44c334d2c09b0f5084d1da90fa2dbd  ./libguestfs-ocaml-dbgsym_1.58.1-5gl0_amd64.deb<br>af0a83bacd48b7226c02627ecba61de5fa20dc84c0946ca9fe0b6bcb63c20c3b  ./libguestfs-perl_1.58.1-5gl0_amd64.deb<br>92ba809c474a6cee31673c3a1f05a01d5d2cf0ec224caf47b38b05dc5e849f29  ./lua-guestfs_1.58.1-5gl0_amd64.deb<br>53b8637c7d9e555cb9002c8aace60088a986253c3a17aa0c29cfefb1d5871200  ./libguestfs-rsync_1.58.1-5gl0_amd64.deb<br>133cf481fa3bf6206696f16cbd171b33820bdc88a2c271cad28c5f4a9a0bd03f  ./libguestfs_1.58.1.orig.tar.xz<br>0877e1fff3303fb24e043a50f024dc1ac71a30a78a258c826deab09a9686dc34  ./libguestfs_1.58.1-5gl0.debian.tar.xz<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>cobaltcore-dev/aurora-dashboard - v1.60.0</title>
-            <link>https://github.com/cobaltcore-dev/aurora-dashboard</link>
-            <guid>https://github.com/cobaltcore-dev/aurora-dashboard/releases/tag/v1.60.0</guid>
-            <pubDate>Fri, 17 Apr 2026 15:09:02 +0000</pubDate>
-            <description><![CDATA[<h2><a href="https://github.com/cobaltcore-dev/aurora-dashboard/compare/v1.59.0...v1.60.0">1.60.0</a> (2026-04-17)</h2>
-<h3>✨ Features</h3>
-<ul><li><strong>aurora-portal:</strong> created project and domain scoped procedures (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/issues/666">#666</a>) (<a href="https://github.com/cobaltcore-dev/aurora-dashboard/commit/468e02c6d0371fbcacf33b99e1b1472fe028e2f8">468e02c</a>)</li></ul>]]></description>
         </item>
 <item>
             <title>openmcp-project/service-provider-landscaper - Release v0.18.0</title>
@@ -696,14 +832,6 @@
 <ul><li>gardener-extension-os-suse-chost: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/os-suse-chost:v1.38.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-gnutls - gnutls28_3.8.12-3gl3+bp1877</title>
-            <link>https://github.com/gardenlinux/package-gnutls</link>
-            <guid>https://github.com/gardenlinux/package-gnutls/releases/tag/gnutls28_3.8.12-3gl3+bp1877</guid>
-            <pubDate>Thu, 16 Apr 2026 07:29:55 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-gnutls/actions/runs/24497834439">24497834439</a></p>
-<p>Files in this release:<br>``<code><br>2e4a38bc525eed563f41fa92fdeaac99040df8faa552fe7a4de2fdbb02795ea7  ./gnutls-bin_3.8.12-3gl3~bp1877_arm64.deb<br>1f8a00deb9350e8081dc534a8380afb1db8099dd6f9bba82ddf11f101f4d9c65  ./gnutls28_3.8.12-3gl3~bp1877.dsc<br>84e4f68006a70c8751bd8256015074e1ec18e2bae8ae2ba28c88dbd53bd987cb  ./gnutls28_3.8.12-3gl3~bp1877_arm64.buildinfo<br>df5ca16f76f4af338bd8cf4d8fd34320437c9eeaa24f2f170a7eccc92913d7e0  ./gnutls28_3.8.12-3gl3~bp1877_amd64.buildinfo<br>464a324d012c66d1ebd206eee47eb8fedb968e6ec33e3127a3a52b7b5e9aa92a  ./libgnutls30t64_3.8.12-3gl3~bp1877_arm64.deb<br>227cfda393c2af34bb2364b6b272e6df39b59cbe355bd122e7c577f47f9d6cfd  ./gnutls-bin-dbgsym_3.8.12-3gl3~bp1877_amd64.deb<br>143b7aafcd7b683b94b67e4e7d81df302d134847776983d0a101ce6dfcac7b69  ./gnutls28_3.8.12-3gl3~bp1877.debian.tar.xz<br>d91a4ea480c7881da2538f0188370efcbe858294698fc7ece7043ae570763414  ./gnutls-bin_3.8.12-3gl3~bp1877_amd64.deb<br>612aef0e298037dc062eeb70ee2e0971976fd9562183998e65260d1589f13657  ./libgnutls28-dev_3.8.12-3gl3~bp1877_amd64.deb<br>c4e65f08612cf8fee1ca153e31e931efd421dd9a79af079880f5b8f9fae3d1d9  ./libgnutls30t64-dbgsym_3.8.12-3gl3~bp1877_arm64.deb<br>cf2cb9088aafe8ba242c6950373035c5b7dcb239b284e6a4c995166a987057f1  ./gnutls-doc_3.8.12-3gl3~bp1877_all.deb<br>ff471eeaa7457ae0f51386ea9f00c9f60f6e3ce0de691f15ea8beb6b7fb7daeb  ./libgnutls-dane0t64_3.8.12-3gl3~bp1877_amd64.deb<br>61ed9b6b263851627c95b86de7a13068979af3b1609438665893fd5cdcd1b3c0  ./libgnutls28-dev_3.8.12-3gl3~bp1877_arm64.deb<br>f99f18b2ef4efc4ed133445da988c8ff24886fda94535c8d714d92c41be4a0e1  ./libgnutls30t64_3.8.12-3gl3~bp1877_amd64.deb<br>485244497cceca994c111183d1656d996334f87b2807e7f40c240fd505e620ba  ./gnutls-bin-dbgsym_3.8.12-3gl3~bp1877_arm64.deb<br>f3e2171b43441d6371aaa4f230e8e1d777d1c5190d3bd6f48c7df8a3cf12f40c  ./libgnutls-dane0t64-dbgsym_3.8.12-3gl3~bp1877_amd64.deb<br>bd0246f0efa3afd1884e7c0f3720ad64d6547bec9f40bce9a83bb5757d674126  ./gnutls28_3.8.12.orig.tar.xz<br>dd7739d902971537ff081445ca26d91fca2f83c02438bdee753df475ea7dc527  ./libgnutls-dane0t64_3.8.12-3gl3~bp1877_arm64.deb<br>94d7a1b630b995c67cc1a6879e493313b9eb1cf08f9a4301a70d9b25368e53cc  ./libgnutls-dane0t64-dbgsym_3.8.12-3gl3~bp1877_arm64.deb<br>afe4dde5eec672a2f3157b318d583e2e7e6b68a45b523fb562591c1ecc7ba43a  ./gnutls28_3.8.12-3gl3~bp1877_arm64.changes<br>d4e8b9ff1191e1c532520b56e0ee0148d6cb7279d2cba8950d92e9f4cda15642  ./libgnutls30t64-dbgsym_3.8.12-3gl3~bp1877_amd64.deb<br>ce7f43960416fbfbd251b082bcbcd9d1027007f737195dc9c66489731e6a0643  ./gnutls28_3.8.12-3gl3~bp1877_amd64.changes<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>gardener/gardener-discovery-server - v0.10.0</title>
             <link>https://github.com/gardener/gardener-discovery-server</link>
             <guid>https://github.com/gardener/gardener-discovery-server/releases/tag/v0.10.0</guid>
@@ -730,14 +858,6 @@
 <ul><li>gardener-discovery-server: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/gardener-discovery-server:v0.10.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-openssl - openssl_3.5.5-1gl20+bp1877</title>
-            <link>https://github.com/gardenlinux/package-openssl</link>
-            <guid>https://github.com/gardenlinux/package-openssl/releases/tag/openssl_3.5.5-1gl20+bp1877</guid>
-            <pubDate>Thu, 16 Apr 2026 06:43:39 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssl/actions/runs/24496152680">24496152680</a></p>
-<p>Files in this release:<br>``<code><br>9981c607c5a7e561c5d3ab21f165b89adb788714bad0eb27df0ae017719d222d  ./openssl_3.5.5-1gl20~bp1877_arm64.buildinfo<br>6d5c2b18001387899b2fc5309b5134ab4756f0de03ae1fd60c535bd238978dc6  ./libssl3t64_3.5.5-1gl20~bp1877_arm64.deb<br>a1de404167d9a1064734f5ece6e98f3e2ee29c20e1f27d75e30003e038fbabc0  ./libssl3t64-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>b98e5877153d70906ee8e64e2e11d75ffb3f69a4309201273d696d90e088e215  ./openssl_3.5.5-1gl20~bp1877_amd64.deb<br>a9e5baf4a84108eaccd141e745b085b6a785956d1f7e7da1733853152d1a5d64  ./openssl-provider-fips-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>e3df0a32599f24f2f361f82dc487bf92e1233db41b6b86da09eea5da0728be3c  ./libssl-dev_3.5.5-1gl20~bp1877_arm64.deb<br>2d387d232ad9f786f0e8f7bee864edda9530a7b8ee4e369d145c6a6e70803858  ./openssl_3.5.5.orig.tar.xz<br>78cbb058bf81e815f7facb8a77a15d9d1d8c2edc8f0ebce2be3646ecdc9029e0  ./openssl_3.5.5-1gl20~bp1877_amd64.buildinfo<br>f09b3851a36306faeb27d490a67128c43301efcbd014f0fbd9c8a77b145bce57  ./libssl3t64_3.5.5-1gl20~bp1877_amd64.deb<br>f423e3cda87757db5ca1300d5fe5e73d25d81be20b7180cda542a0a3c3e04883  ./openssl-provider-legacy-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>dfb64c3a699e08bd270ab0a6085dc4d46f44026d5f78f0dc2f93b7454e49b39c  ./libssl-doc_3.5.5-1gl20~bp1877_all.deb<br>eafacf37a444c00f018fa31b4e076aa6ab80c580049caa65c2424405493236fb  ./openssl_3.5.5-1gl20~bp1877.debian.tar.xz<br>e7b12e4c0c44c0025330201ba0af6009dd57171c3a6f11ae70be1ccbe831d8c4  ./openssl-dbgsym_3.5.5-1gl20~bp1877_arm64.deb<br>fd53b64d21fcef3cb9d3987914eb99f9853d74929fb4836608aab825d020c4e3  ./openssl-provider-legacy-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>6599ed2dcc9730710e5ff42a36c70815ccc0b72d886ce8b447756c1586df5ce3  ./openssl-provider-legacy_3.5.5-1gl20~bp1877_amd64.deb<br>0eac1f944d34c480ac16fe7460bb7e0c4a582ea20c8ba841b562d32a3f06bb86  ./openssl_3.5.5-1gl20~bp1877_arm64.changes<br>1822e57c6e57c9ba60671da8d4a8b07197fc20baf5398a28dbc00749a637eae6  ./openssl-provider-fips_3.5.5-1gl20~bp1877_arm64.deb<br>cb3b963c195d29437318fe8331a2197f6464b232f56601ede803bb2564b40884  ./libssl-dev_3.5.5-1gl20~bp1877_amd64.deb<br>95f474086f8dd1202157d7318e02accb95f554c1ce43ddd13fc4354f2bb124c1  ./openssl-provider-fips-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>bf36b3ad652f7f9eef8c4aa87d7e3d51fac6f74fc90281385b124ee29c2dd205  ./openssl_3.5.5-1gl20~bp1877.dsc<br>827c855a515f9db9b42c64fe00ce2a3ad3f51f1f18f515d5428730472e260d58  ./openssl_3.5.5-1gl20~bp1877_amd64.changes<br>a87d8197e75b5783263a71583920393283389c454b0d71e2aea0fb05ef2c7981  ./openssl_3.5.5-1gl20~bp1877_arm64.deb<br>48f00cbe7486bb57458c88e4b4d960bd0fbb70466b807b6054314fa423e7bd8c  ./openssl-provider-fips_3.5.5-1gl20~bp1877_amd64.deb<br>e1b66a3cf08369d7ccec6755a9ec22f4400d9f637dccfca1269cf197bcf3f455  ./libssl3t64-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>098f343f4c2696fc04f49fab75b477dd6286a97d9a045e68b676680a26efbfad  ./openssl-dbgsym_3.5.5-1gl20~bp1877_amd64.deb<br>d21609546d7230af8c5443012541f5f36bd8cd81edcff262fb77df9eb7948824  ./openssl-provider-legacy_3.5.5-1gl20~bp1877_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>open-component-model/delivery-dashboard - 0.427.0</title>
             <link>https://github.com/open-component-model/delivery-dashboard</link>
             <guid>https://github.com/open-component-model/delivery-dashboard/releases/tag/0.427.0</guid>
@@ -759,43 +879,12 @@
 europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></description>
         </item>
 <item>
-            <title>open-component-model/open-component-model - CLI 0.4.0-rc.2</title>
-            <link>https://github.com/open-component-model/open-component-model</link>
-            <guid>https://github.com/open-component-model/open-component-model/releases/tag/CLI 0.4.0-rc.2</guid>
-            <pubDate>Wed, 15 Apr 2026 15:11:44 +0000</pubDate>
-            <description><![CDATA[<h2>[cli/v0.4.0-rc.2] - 2026-04-15</h2>
-<h3>🚀 Features</h3>
-<ul><li><em>(cli)</em> Add full PEM encoding support for signing and verifying component versions (#2147)</li></ul>
-<h3>📚 Dependencies</h3>
-<ul><li><em>(deps)</em> Update ocm monorepo go module dependencies to c751cdf (#2126)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies (#2134)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies to e2b46f9 (#2140)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies to e120070 (#2141)</li><li><em>(deps)</em> Update go-openapi packages (patch) (#2158)</li><li><em>(deps)</em> Update module github.com/mattn/go-runewidth to v0.0.21 (#2159)</li><li><em>(deps)</em> Update module go.yaml.in/yaml/v2 to v2.4.4 (#2160)</li><li><em>(deps)</em> Update module sigs.k8s.io/controller-runtime to v0.23.3 (#2161)</li><li><em>(deps)</em> Update golang x repositories (minor) (#2166)</li><li><em>(deps)</em> Update debian:bookworm-slim docker digest to 4724b8c (#2169)</li><li><em>(deps)</em> Update module go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp to v0.67.0 (#2162)</li><li><em>(deps)</em> Update module k8s.io/klog/v2 to v2.140.0 (#2163)</li><li><em>(deps)</em> Update opentelemetry-go monorepo to v1.42.0 (minor) (#2164)</li><li><em>(deps)</em> Update module ocm.software/open-component-model/bindings/go/oci to v0.0.38 (#2181)</li><li><em>(deps)</em> Update ocm monorepo go module dependencies (no ctf) (#2174)</li></ul>
-<h3>⚙️ Miscellaneous Tasks</h3>
-<ul><li>Streamline release workflows and CLI build versioning (#2131)</li></ul>
-<h3>Quick installation and usage guide</h3>
-<p>To install the latest version of OCM, you can use the following command:</p>
-<p>``<code>bash<br>curl -sfL https://ocm.software/install-cli.sh | bash<br></code>`<code></p>
-<p>(For more installation options, check out our <a href="https://ocm.software/docs/getting-started/install-the-ocm-cli/">installation guide</a>.)</p>
-<p>You can also use our container to run OCM without installing it:</p>
-<p></code>`<code>bash<br>docker run -t ghcr.io/open-component-model/cli:latest --help<br></code>``</p>
-<p>Check out our <a href="https://ocm.software/docs/how-to/how-to-use-the-ocm-cli-container-image/">guide</a> on how to use the<br>OCM CLI container image for more details.</p>
-<h3>Community &amp; Contributors</h3>
-<p>This release we had a total of <strong>4</strong> contributors!<br>If you want to engage with us, check our <a href="https://ocm.software/community/engagement/">community page</a>!</p>]]></description>
-        </item>
-<item>
             <title>cloudoperators/juno - @cloudoperators/juno-messages-provider@0.2.35</title>
             <link>https://github.com/cloudoperators/juno</link>
             <guid>https://github.com/cloudoperators/juno/releases/tag/@cloudoperators/juno-messages-provider@0.2.35</guid>
             <pubDate>Wed, 15 Apr 2026 14:47:11 +0000</pubDate>
             <description><![CDATA[<h3>Patch Changes</h3>
 <ul><li>c4a3574: Moved to trusted publishing</li></ul>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/platform-mesh-operator - v0.70.0</title>
-            <link>https://github.com/platform-mesh/platform-mesh-operator</link>
-            <guid>https://github.com/platform-mesh/platform-mesh-operator/releases/tag/v0.70.0</guid>
-            <pubDate>Wed, 15 Apr 2026 13:23:34 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>add AGENTS.md  by @makdeniss in https://github.com/platform-mesh/platform-mesh-operator/pull/570</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/platform-mesh-operator/compare/0.69.7...v0.70.0</p>]]></description>
         </item>
 <item>
             <title>ironcore-dev/metalbond - v0.4.2</title>
@@ -1008,14 +1097,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
             <description><![CDATA[<h2>Helm Charts</h2>
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/etcd-druid:v0.36.2</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>etcd-druid: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/etcd-druid:v0.36.2</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-runc - runc_1.4.2-1gl0</title>
-            <link>https://github.com/gardenlinux/package-runc</link>
-            <guid>https://github.com/gardenlinux/package-runc/releases/tag/runc_1.4.2-1gl0</guid>
-            <pubDate>Mon, 13 Apr 2026 10:36:03 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-runc/actions/runs/24338845622">24338845622</a></p>
-<p>Files in this release:<br>``<code><br>6c870c570956d986b869eab55c21f147834fb8690eb2943589e215b0af28f36e  ./runc-dbgsym_1.4.2-1gl0_amd64.deb<br>08ca637844c8d39e3d1a59cceabf6215383512898c7cc17fe4237f9ef07f74b0  ./runc-dbgsym_1.4.2-1gl0_arm64.deb<br>a01ce16898f67a5b23b246ff2b09318d68bb901b221fa4013d52c1a62f1be5ef  ./runc_1.4.2-1gl0.debian.tar.xz<br>7d1de3c83bfbcb3e492836b129976e9efce4dec966cf6712d10df6eb6f974b1a  ./runc_1.4.2.orig.tar.xz<br>03caf8b6f0b228491119360bb1fa9ebbd409eb9d98b99d6161f6ccec1de08f34  ./runc_1.4.2-1gl0_amd64.changes<br>271dd3b453b9a6788fede9a412e1bc2449041fb5c36f33e0581421fa3b31e59c  ./runc_1.4.2-1gl0_arm64.changes<br>947a7683e89fbb1f4e84ebfb70b8a04771a95b4e234e1beae1e40d925dc3c3ad  ./runc_1.4.2-1gl0.dsc<br>7f67737ffbe011c9cfdff0623313111d031e20ba8f40a5c9b3c6c299d8a780e1  ./runc_1.4.2-1gl0_amd64.deb<br>72048836412bd08483cc0c76b7fd3d986f02e4fb42d0558affaec6cbe5ad04ce  ./runc_1.4.2-1gl0_arm64.buildinfo<br>4325b45751583117d44f41489c8d2bc0d4c048530f95c6ef3dcb462bfa07ae5a  ./runc_1.4.2-1gl0_arm64.deb<br>aeb41eefd0df04f0bdcb188d3e52c545f346b594071e0a62628fd701c07af1e0  ./golang-github-opencontainers-runc-dev_1.4.2-1gl0_all.deb<br>9b6ae05f0f31c01e138f14b8b72e910a99112fcd8a1d93d3f839bd6b5ea3967d  ./runc_1.4.2-1gl0_amd64.buildinfo<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/oidc-apps-controller - v0.26.0</title>
@@ -1429,18 +1510,6 @@ europe-docker.pkg.dev/gardener-project/releases/hyperkube:v1.35.4]]></descriptio
 
 #### [USER]
 <ul><li>Release for v0.1.0 <strong>(#64, @Skarlso)</strong></li><li>Add ocm component to the release. <strong>(#59, @Skarlso)</strong></li><li>Update README.md and test version <strong>(#22, @frewilhelm)</strong></li><li>Update the README with important information about naming. <strong>(#20, @Skarlso)</strong></li><li><strong>(#19, @Skarlso)</strong></li><li>Fix the chart url for the ocm controller. <strong>(#18, @Skarlso)</strong></li><li><strong>(#17, @Skarlso)</strong></li><li>Add provider config for Helm Upgrades and Helm installs with sensible defaults. <strong>(#13, @Skarlso)</strong></li><li><strong>(#12, @Skarlso)</strong></li><li><strong>(#11, @Skarlso)</strong></li><li><strong>(#10, @Skarlso)</strong></li><li><strong>(#9, @Skarlso)</strong></li><li><strong>(#8, @Skarlso)</strong></li><li><strong>(#7, @Skarlso)</strong></li><li><strong>(#6, @Skarlso)</strong></li><li><strong>(#5, @Skarlso)</strong></li><li>Release and publish flow for the controller <strong>(#4, @Skarlso)</strong></li><li><strong>(#3, @Skarlso)</strong></li><li><strong>(#2, @Skarlso)</strong></li><li><strong>(#1, @Skarlso)</strong></li></ul>]]></description>
-        </item>
-<item>
-            <title>openmcp-project/observability-stack - Release v0.0.7</title>
-            <link>https://github.com/openmcp-project/observability-stack</link>
-            <guid>https://github.com/openmcp-project/observability-stack/releases/tag/Release v0.0.7</guid>
-            <pubDate>Thu, 02 Apr 2026 11:36:16 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-
-<h3>📦 Dependency Updates</h3>
-<ul><li>chore(deps): update opentelemetry (#42) @app/renovate</li><li>chore(deps): update prometheus to v0.90.1 (#43) @app/renovate</li><li>chore(deps): update dependency cert-manager/cert-manager to v1.20.1 (#44) @app/renovate</li><li>chore(deps): update kro to v0.9.0 (#46) @app/renovate</li><li>chore(deps): update ocm-k8s-toolkit to v0.3.0 (#47) @app/renovate</li></ul>
-
-<strong>Full Changelog</strong>: https://github.com/openmcp-project/observability-stack/compare/v0.0.6...v0.0.7]]></description>
         </item>
 <item>
             <title>gardener/gardener-metrics-exporter - 0.44.0</title>
@@ -2859,13 +2928,6 @@ ghcr.io/gardenlinux/gardenlinux/kmodbuild:2150.1.0
 <ul><li>gardener-extension-auditing-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/auditing-admission:v0.3.0</code></li><li>gardener-extension-auditing: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/auditing:v0.3.0</code></li></ul>]]></description>
         </item>
 <item>
-            <title>gardenlinux/package-containerd - containerd_2.2.2-0gl3</title>
-            <link>https://github.com/gardenlinux/package-containerd</link>
-            <guid>https://github.com/gardenlinux/package-containerd/releases/tag/containerd_2.2.2-0gl3</guid>
-            <pubDate>Tue, 24 Mar 2026 08:35:45 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-containerd/actions/runs/23480342445">23480342445</a><br><br>Files in this release:<br>``<code><br>0ffe2bdfaccde7648b7e3851c19c2d25de9072eb29febeefdf3c73b27d7f8ec1  ./containerd_2.2.2-0gl3.dsc<br>640dc97663ba563b8968de86319a25467385dbbb38e9d6766829c29ae662679d  ./containerd_2.2.2-0gl3_arm64.buildinfo<br>1b0bb1f5ae7c3ed62cc5aeaba311aeee6848f047429f25cc858b27d487f77e1e  ./containerd_2.2.2-0gl3_arm64.deb<br>cb7662f956d20f353d3e78a76679dc08ef9724020d8ac109d6d158292b59df58  ./containerd-dbgsym_2.2.2-0gl3_amd64.deb<br>9ec378ea6bf0afa75d4f2845f2d6af57cb04499c2503ab5b864168b963d2632b  ./containerd_2.2.2.orig.tar.xz<br>ac73e32fd10d0dc66dd4a786746993f93efecef02be4b3f0a7dd4c9311b14f0e  ./containerd-dbgsym_2.2.2-0gl3_arm64.deb<br>e89d7e113a268cc94aeefd2b4d8e559d9c8a39b2e58a57313ef84308492cdcd4  ./containerd_2.2.2-0gl3_amd64.buildinfo<br>a9ddefb8e3a63ea68238e569d7819a94e7eac10a046c248fa7e608296b741f28  ./containerd_2.2.2-0gl3_amd64.changes<br>502aec7771c1241b7000a15f65eded23d9823869918a649d1a600506654ca349  ./containerd_2.2.2-0gl3_arm64.changes<br>019ac7fb4b007f8d709d53d8fef163643245ac6a2f73d961ba09fd3718f56555  ./golang-github-containerd-containerd-dev_2.2.2-0gl3_all.deb<br>19674141b93b4bae8201d1922e4f0466341e183c96aa837b8f7d673e0396dc04  ./containerd_2.2.2-0gl3.debian.tar.xz<br>601127dea363fa45243a1550eebb02c2b0dcd11f6449e3cc40d7f0e8d54e8fcd  ./containerd_2.2.2-0gl3_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
             <title>openmcp-project/metrics-operator - Release v0.10.1</title>
             <link>https://github.com/openmcp-project/metrics-operator</link>
             <guid>https://github.com/openmcp-project/metrics-operator/releases/tag/Release v0.10.1</guid>
@@ -3583,14 +3645,6 @@ Initial implementation.]]></description>
 <h2>Helm Charts</h2>
 <ul><li>shoot-rsyslog-relp-admission-application: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-rsyslog-relp-admission-application:v0.12.0</code></li><li>shoot-rsyslog-relp-admission-runtime: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-rsyslog-relp-admission-runtime:v0.12.0</code></li><li>shoot-rsyslog-relp: <code>europe-docker.pkg.dev/gardener-project/releases/charts/gardener/extensions/shoot-rsyslog-relp:v0.12.0</code></li></ul><h2>Container (OCI) Images</h2>
 <ul><li>gardener-extension-shoot-rsyslog-relp-admission: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-rsyslog-relp-admission:v0.12.0</code></li><li>gardener-extension-shoot-rsyslog-relp: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/extensions/shoot-rsyslog-relp:v0.12.0</code></li></ul>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/package-openssh - openssh_10.2p1-5gl0</title>
-            <link>https://github.com/gardenlinux/package-openssh</link>
-            <guid>https://github.com/gardenlinux/package-openssh/releases/tag/openssh_10.2p1-5gl0</guid>
-            <pubDate>Sun, 22 Feb 2026 00:35:27 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-openssh/actions/runs/22267331832">22267331832</a></p>
-<p>Files in this release:<br>``<code><br>2ce831ba5d8bd70002c794684fd5a5ee312a290170c524eeb9ebdb0bd42f5b7f  ./openssh_10.2p1-5gl0_amd64.changes<br>60ed42d44418b77974f114e808a9623852612978048b6b7d0ee381909a5a2921  ./openssh-tests-dbgsym_10.2p1-5gl0_arm64.deb<br>fedd3e98d28e092fc53bc7d6737899d3cc0b2b09a7c028d5f9fdeef5f4476c7c  ./ssh-askpass-gnome-dbgsym_10.2p1-5gl0_arm64.deb<br>468d12f65951257b18900b4bd007887463cf430954270bf0cd533862f13152ac  ./openssh-server-gssapi_10.2p1-5gl0_all.deb<br>673a5f9a192a4c24ab01df8c1d0a7626d8b48ccb05f324d300c687f889b4e423  ./openssh-server-dbgsym_10.2p1-5gl0_amd64.deb<br>ecf344b432c9a4d9b22094df9df10087992d91d606c183d0cb78a3073cd814ef  ./openssh-sftp-server-dbgsym_10.2p1-5gl0_amd64.deb<br>e073486c8f42c72c4e249431d241b2bd24f411c385217e7da00f31a8d62e1769  ./openssh-sftp-server-dbgsym_10.2p1-5gl0_arm64.deb<br>fa4b1725d3fb7ef4d77570fe562a60c65a7fd0c37522512689a34b3a8acd96d9  ./openssh-client-dbgsym_10.2p1-5gl0_amd64.deb<br>1d29f138fc43b023de36cf14abcc86dd75043bd18746fdcb1b51321aa76d6346  ./openssh_10.2p1-5gl0.debian.tar.xz<br>39618cd5a0f71ba9027fec7a5eeb60dcf775c04d31488a55ccf0fda86913855b  ./openssh_10.2p1-5gl0.dsc<br>f09f3c915b9e3e94cc30adbba05a4a5f6a18de8970a13eb6fd13be56fc8949e6  ./openssh-client-gssapi_10.2p1-5gl0_all.deb<br>8b427c06460c87a73571db420ad4ab932e13836cf47acde38975b890e622b7d9  ./ssh-askpass-gnome-dbgsym_10.2p1-5gl0_amd64.deb<br>7340f808f2a40251da21863b6f2420b489224d6e404654a611bad147c03b205e  ./openssh-server_10.2p1-5gl0_amd64.deb<br>ef90c810fbbe934ec35518d16173bd5de0a747a5d1f25e67a0084c57d1382876  ./openssh_10.2p1.orig.tar.xz<br>e9f7d3c03a47e29e3db652971e3b11d2ce2d09810858810f191010fd41e6b1db  ./openssh-tests_10.2p1-5gl0_amd64.deb<br>408e02db53177e7e478e8b0fe6d7069af2d06869056d73a4281768c67d1d2480  ./ssh_10.2p1-5gl0_all.deb<br>b6355a580f5b4b57115cdea1e2134acbe7f0d061f105496cf319183c4fd074eb  ./openssh-client_10.2p1-5gl0_arm64.deb<br>4602c5c54a6fecf1d99325febaad6ed0b4c68e96b1ddc025e40b88c389fd03b1  ./openssh-sftp-server_10.2p1-5gl0_amd64.deb<br>787ca5a465a73ed42075083df13e51bb1f76d6ebd4a9c0e8e22a668cf1c53b73  ./openssh-tests_10.2p1-5gl0_arm64.deb<br>943426fdaea1f3fb4c1bbb6a35e78293ab58fc9cb08e3ca559eed384fa9b1bb9  ./ssh-askpass-gnome_10.2p1-5gl0_arm64.deb<br>9f811c8966fda7797df8d37c7d485ea449ffff428c605edb22bcef658c520971  ./openssh-tests-dbgsym_10.2p1-5gl0_amd64.deb<br>d76053aaf1aedb0dcf9c024a58dd41b585c74bdb1b048d912ee111e9a5b1754a  ./openssh-client-dbgsym_10.2p1-5gl0_arm64.deb<br>b576ac2cb5b78cb6904550bbef033bed646bcdf5d615f852903633ae2b0e100d  ./openssh-client_10.2p1-5gl0_amd64.deb<br>4a3c5eb176b03a15b504125bf1bd1223f7033df55ef755b300e0be180576e9e1  ./openssh_10.2p1-5gl0_amd64.buildinfo<br>afb2a7868383262f1d72e763df812346cc479a765fe17a7e68aea5da7e5e8da4  ./openssh_10.2p1-5gl0_arm64.changes<br>3c750effccde15be59c95a7725fbd4518fc49bbfc6d5c138cca70a6f063b323d  ./openssh_10.2p1-5gl0_arm64.buildinfo<br>ee57ab30d7ac1aeba16899641c6c08e1771554e45ba9f0e43cdd4519b3d3c0d3  ./openssh-server-dbgsym_10.2p1-5gl0_arm64.deb<br>dcafddce44f80c2328da2488e33e3cf6983e1ac0d1bbff71c729bb2b4e65f8d4  ./openssh-sftp-server_10.2p1-5gl0_arm64.deb<br>185b1267a038f0dae1e273d8a3cc7da9f0aec44d812d7040a3fff7601de5ab9c  ./ssh-askpass-gnome_10.2p1-5gl0_amd64.deb<br>7356f28f8d7af3e47a5f14b481e5e9a1febfc3686c138893c03681252b28bcbd  ./openssh-server_10.2p1-5gl0_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardenlinux/website - v1.0.4</title>
@@ -4322,25 +4376,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 <p>Files in this release:<br>``<code><br>51eb89f0977fa6289768da532841426165eae54c7b95687e403845f30a2b68a0  ./pcr-oracle-dbgsym_0.5.4-1gl0_arm64.deb<br>5742e516e2887753518e3b40226d55c7e1ec8203a0b7bd041bc3ac038379fa66  ./pcr-oracle-dbgsym_0.5.4-1gl0_amd64.deb<br>7e6c7bceef83165d1b8fcca65f342549d355b038b0da2a6a1afb21d73465089d  ./pcr-oracle_0.5.4-1gl0.dsc<br>328dfe88e5a59486fb915958e819d3249d4a5a8cf9c5eb3e322bd5d3942b6edf  ./pcr-oracle_0.5.4-1gl0_arm64.deb<br>fca39b4fc200a4ac34cf971944135def5ed187f8f5cc07527b29347ae4f57bd0  ./pcr-oracle_0.5.4-1gl0_amd64.deb<br>982e4ca27b36c3dd97f37c5e29f54ad12d8ea6e086f3b60e3fcd4b690c60f91c  ./pcr-oracle_0.5.4-1gl0_arm64.buildinfo<br>edca690877efa262f39a962fd75df5d491dbd00059e2beeabf55f2b8fb0415b6  ./pcr-oracle_0.5.4-1gl0_amd64.buildinfo<br>f2889a3553031cb7b8a57cdf248e9c3d7ab74c5d0bf1fb19faf2b0c964cd4a35  ./pcr-oracle_0.5.4-1gl0_arm64.changes<br>4fcf225a2319b6e249a9f510e986376c994d351f816024204aeeb3da9efcf8cf  ./pcr-oracle_0.5.4-1gl0_amd64.changes<br>fcc6777e10059331d7f73c3eb36a4d018a8a768dfb1d7d7f61b624efe68a1399  ./pcr-oracle_0.5.4.orig.tar.xz<br>f999934f82c4bf8a0066d76ceec93fc19333fbdf0a99d7e40424d397262b1d6d  ./pcr-oracle_0.5.4-1gl0.debian.tar.xz<br></code>``</p>]]></description>
         </item>
 <item>
-            <title>openmcp-project/openmcp-operator - Release v0.18.1</title>
-            <link>https://github.com/openmcp-project/openmcp-operator</link>
-            <guid>https://github.com/openmcp-project/openmcp-operator/releases/tag/Release v0.18.1</guid>
-            <pubDate>Wed, 28 Jan 2026 09:15:27 +0000</pubDate>
-            <description><![CDATA[<h1>Changes included in v0.18.1:</h1>
-
-<h1>Changelog</h1>
-
-
-<h2>🐛 Bugfixes</h2>
-
-#### [OPERATOR]
-<ul><li>Fixed a bug that could lead to AccessRequests being stuck in deletion, because responsibility was with the generic controller, but that one ignored AccessRequests with a non-zero DeletionTimestamp. <strong>(#240, @Diaphteiros)</strong></li></ul>
-<h2>➕ Other</h2>
-
-#### [DEVELOPER]
-<ul><li>Added tests for the <code>IsClusterProviderResponsibleForAccessRequest</code> function. <strong>(#240, @Diaphteiros)</strong></li></ul>]]></description>
-        </item>
-<item>
             <title>gardener/aws-custom-route-controller - v0.15.0</title>
             <link>https://github.com/gardener/aws-custom-route-controller</link>
             <guid>https://github.com/gardener/aws-custom-route-controller/releases/tag/v0.15.0</guid>
@@ -4368,14 +4403,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
             <pubDate>Tue, 27 Jan 2026 08:30:38 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-open-vm-tools/actions/runs/21390089358">21390089358</a></p>
 <p>Files in this release:<br>``<code><br>cedf3682394dfffe57ca2dd5923de5e672af40d4a15b4ce27760e4630daf675b  ./open-vm-tools-sdmp_13.0.5-1gl0+bp1877_arm64.deb<br>df4fea1be5ae099f2d6e1715a58a46d77a86c7c9f0732279061eaf7d6eaa8734  ./open-vm-tools-sdmp-dbgsym_13.0.5-1gl0+bp1877_arm64.deb<br>c0fcaadbbe1bedb215ffb6d6673d758058127caaa4d262b00303345af60e4b24  ./open-vm-tools_13.0.5-1gl0+bp1877_arm64.buildinfo<br>fd44cb850fa59a2bc1aea09d169e01c016076609e39ae9412e553813714b2082  ./open-vm-tools-desktop_13.0.5-1gl0+bp1877_arm64.deb<br>17f911445eb15e4dc9f5a9cd18e987067b8dadd47d93109c89e98401ba0c180b  ./open-vm-tools-salt-minion_13.0.5-1gl0+bp1877_amd64.deb<br>efefedf716025cbd8674f0a43583f8148072b1334306d998b83736cdfa95a2a5  ./open-vm-tools-containerinfo-dbgsym_13.0.5-1gl0+bp1877_arm64.deb<br>4828f098b2100104cc6afb94cc4757aeca4e4cd6a048cda56370ac021a90ed49  ./open-vm-tools_13.0.5-1gl0+bp1877_arm64.changes<br>bf643cae6e9186f8f52b5208cbdb7ae951a6ceaca10b3e2f281df800550250a3  ./open-vm-tools_13.0.5-1gl0+bp1877.dsc<br>9a530c9036d579425f2e1aee51d39fce4b5f8de13593b46d21a93ce771c90234  ./open-vm-tools-sdmp_13.0.5-1gl0+bp1877_amd64.deb<br>9b57440934be7952b5f7f2c7acd227f0829367d2afe652c2a06a61dfadac5cc0  ./open-vm-tools_13.0.5-1gl0+bp1877_arm64.deb<br>4eabc3fa6e590ce6f108894f7ded7972f782b14acadb4a0075a1407c66914eb0  ./open-vm-tools-dbgsym_13.0.5-1gl0+bp1877_arm64.deb<br>4f96bb970ed073871046e3d073d3ef52bbbea504eb22b4e2222df3ad1b2f7600  ./open-vm-tools_13.0.5-1gl0+bp1877.debian.tar.xz<br>671676c8af74ea4ab9c0a3a3d1a3f0ee2eb9bc42bdfdb7d2077796bddf62ac9f  ./open-vm-tools-dev_13.0.5-1gl0+bp1877_arm64.deb<br>5f48a7004c1f2d790ac53721e32a6d2a23d6969ca22f5d30eb921d2d3c1ef3a8  ./open-vm-tools-dev_13.0.5-1gl0+bp1877_amd64.deb<br>1ef64701129d6c3971200a943e967cedf1a6076f91b73796e3047344e58ac1ef  ./open-vm-tools_13.0.5-1gl0+bp1877_amd64.buildinfo<br>cb1c9f420f1da6a6a2daf831f665e8816b6ccee79257c5dbfc3667990268d6cf  ./open-vm-tools-containerinfo_13.0.5-1gl0+bp1877_amd64.deb<br>df0e73a14bb5a90631c55b0474f28eff7ed8f368da2535f9bd13d1d6290985b6  ./open-vm-tools-desktop_13.0.5-1gl0+bp1877_amd64.deb<br>40b32b7e1c421a285961693b993864f08075de69a10b0c612314bf9e9b19a607  ./open-vm-tools_13.0.5-1gl0+bp1877_amd64.changes<br>d66fde27abaca0d593544ad13f7af27627c5c353d11966fdc1217b66d1d3a1ae  ./open-vm-tools_13.0.5-1gl0+bp1877_amd64.deb<br>c25c88d3455a26c96b9c7fc80c51436c16983a7c9174bfe9cddc6db1728b7c89  ./open-vm-tools_13.0.5.orig.tar.xz<br>57f51d5e726b4fe8f213fbb7ac27186ab19115987745d2c08c611fbd1411bd23  ./open-vm-tools-containerinfo-dbgsym_13.0.5-1gl0+bp1877_amd64.deb<br>76d2dabc2c6f3218a83a294eb7169070442b50c942a778ec236d8ac7511c852e  ./open-vm-tools-containerinfo_13.0.5-1gl0+bp1877_arm64.deb<br>e8cb73a3a02c67f0e049cacf647aa1c9d4fa967b23e340a34b525cd2828a9163  ./open-vm-tools-desktop-dbgsym_13.0.5-1gl0+bp1877_amd64.deb<br>0c2316c426e641f9eaaea3d583926f6d82144689280eeefca82dc70b9d172543  ./open-vm-tools-desktop-dbgsym_13.0.5-1gl0+bp1877_arm64.deb<br>807dcce73dda6bc9fff8104b597623838c988990d9f182722f55b45e192049da  ./open-vm-tools-sdmp-dbgsym_13.0.5-1gl0+bp1877_amd64.deb<br>b0dda40eed8275b0a2ae0f603ad14d2bd27f33dd4916c2474c2d0bb9a63dc11c  ./open-vm-tools-dbgsym_13.0.5-1gl0+bp1877_amd64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardener/inventory - unnamed-release</title>
-            <link>https://github.com/gardener/inventory</link>
-            <guid>https://github.com/gardener/inventory/releases/tag/unnamed-release</guid>
-            <pubDate>Mon, 26 Jan 2026 09:31:24 +0000</pubDate>
-            <description><![CDATA[<h2>Container (OCI) Images</h2>
-<ul><li>inventory: <code>europe-docker.pkg.dev/gardener-project/releases/gardener/inventory:v0.1.24</code></li></ul>]]></description>
         </item>
 <item>
             <title>gardener/terminal-controller-manager - v0.35.0</title>
@@ -4421,14 +4448,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
             <pubDate>Thu, 22 Jan 2026 13:13:04 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-nghttp3/actions/runs/21250190156">21250190156</a></p>
 <p>Files in this release:<br>``<code><br>338712ad36416340c20bda3f13e3b65802c8fc15e8821d9c7ec01ece861ff531  ./nghttp3_1.11.0-1gl0~bp1877.dsc<br>626e1cc882c5af28b248097a105962b76be529f9adde7867f0538f110e79a7c6  ./nghttp3_1.11.0-1gl0~bp1877_arm64.changes<br>88412a397640c9ad3376c164e8018498c35c6a49c0d1702e5e5369cd8d8cf5b9  ./libnghttp3-9_1.11.0-1gl0~bp1877_amd64.deb<br>e28ac48a0cd2b8a22910a696bd886f96bd66f5c38d1761f4af3cce268d5b2161  ./nghttp3_1.11.0-1gl0~bp1877_amd64.changes<br>043d6bd305a1620dcbc06eee8b93a694bbac86f3b054e03f5b3a7687b6a968d9  ./libnghttp3-dev_1.11.0-1gl0~bp1877_amd64.deb<br>12f23b6254ce2e5749f0570b5fec825400242cacb773ba617eb096c7994395f6  ./nghttp3_1.11.0.orig.tar.xz<br>e6eb8a20243152e6e45d3b16f75a3f0f59f37d3148041d2f3814ad9a1a915ab0  ./nghttp3_1.11.0-1gl0~bp1877.debian.tar.xz<br>01c721824926124a2ff543a6a9a0237bd905e1f9738c1433d4e9464953b274a3  ./nghttp3_1.11.0-1gl0~bp1877_arm64.buildinfo<br>e3cd21ef4f6aba866817fda1d973b05c060c9fc48accb5026f2decfa0dae59cf  ./libnghttp3-9-dbgsym_1.11.0-1gl0~bp1877_amd64.deb<br>c4ee58859cc8364672be9ae9084cb290632e4242d612e911edd257a90770faeb  ./libnghttp3-dev_1.11.0-1gl0~bp1877_arm64.deb<br>4ae457e7e4aa14081f0fc6760ddbdc7ef6e049e62fd21eca08a7afb63338e4c6  ./libnghttp3-9-dbgsym_1.11.0-1gl0~bp1877_arm64.deb<br>712f46914b5ca9c1fd14d7e1a54a63d8e6f52d7990ea420a75d39a993452f101  ./nghttp3_1.11.0-1gl0~bp1877_amd64.buildinfo<br>8d11231b7bab5d769ad4c8c14d460dbbe2b8c4d1af41d73c7d8c715790510fd1  ./libnghttp3-9_1.11.0-1gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>gardenlinux/bp-package-glibc - glibc_2.41-12+deb13u1gl0+bp1877</title>
-            <link>https://github.com/gardenlinux/bp-package-glibc</link>
-            <guid>https://github.com/gardenlinux/bp-package-glibc/releases/tag/glibc_2.41-12+deb13u1gl0+bp1877</guid>
-            <pubDate>Thu, 22 Jan 2026 10:29:31 +0000</pubDate>
-            <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-glibc/actions/runs/21245040845">21245040845</a></p>
-<p>Files in this release:<br>``<code><br>0563b21a054a3755c0af0d34f9600b555b182ace1ec36138b11cf6aba8543755  ./libc-bin_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>918f8fbaf5b754b55a6f2b7ba93a80792f15434aa170c66c4e1499316c5e320c  ./locales-all_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>3be2b234cf638d4950902b527283447ea44e0cccfe5bfd46d33d8494e75d4696  ./libc6-dev-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>47d64f4d95d5a91a24cec65085b845a409bade1ef008fde3644159a5429421e2  ./glibc_2.41-12+deb13u1gl0~bp1877.dsc<br>b274060b834f8bcc6384c26b25f607771eace0d2ebe28284718090e97b074318  ./glibc-doc_2.41-12+deb13u1gl0~bp1877_all.deb<br>d5451fcc176ec2b85f35dfef5d7d27d4ed1651794ca12c1596a870f547af0b18  ./libc-dev-bin_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>c96eeb85e344c32bc805a08959d29d62ab9b24a08cd7bcc0c167480d6abe2922  ./glibc_2.41-12+deb13u1gl0~bp1877_arm64.buildinfo<br>d02231cc58d1f3620fb5497c0570442fc1bb2c20ad5f7074cfb6cd1d70b719d6  ./glibc_2.41-12+deb13u1gl0~bp1877_amd64.buildinfo<br>bde3303cc63a50890567be9cafa446fbb5a24d34cf9081e8064811e3504a1bf0  ./libc-bin-dbgsym_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>e22d547a49232c4b53072fc46ed39c5569174cc07e3a9650be56b653c9c2a790  ./libc6-dbg_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>07d985ccc3e3c807660245a65d6ff7d59b78e0de39dd108e05fdaba693cf8c96  ./libc-dev-bin-dbgsym_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>0959c21f0f0d02cd93e0b1d2b868cc7cd3a643b26a0db43384d14c9aea514f05  ./libc6-x32-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>ae22f6dc93cff98c2d57f9bb5d1e4d178c21e5bf1ec4f2110da9c675d1885aa3  ./libc6-dev-i386_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>033348ceaff6c808b908c313cf1603a6eb9a6e2b13c5eeb9ae5668f010a002dd  ./glibc_2.41-12+deb13u1gl0~bp1877_amd64.changes<br>df82e0b045585970d23a5d52caf9590813d1157af48476342339bfec0f189467  ./nscd_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>f24aa441021121a79266f0d75242706cab8843a47901fefe74527491807f1998  ./glibc_2.41.orig.tar.xz<br>1205cd54627c7b6d5b99ad32ef019b0398dc3cd5fad17a5e56b90d2072fca189  ./libc6-i386-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>bad78db0d6b234f801b4693974e9b0911110b13a015ac89f5caea10eee6df4aa  ./libc-dev-bin-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>97622818616518ee1b70b5ad95100bb5d2122103f7b5648cbb5ca87f670bc1ef  ./libc6_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>01d3d2516db580cd42ec1faf62b981d3cf368ca61a6849537dfd15457ea0d301  ./libc-devtools-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>a43ca2d00f133183717dacd6197e669c24a903bc6761621e71a59d2772921339  ./libc-devtools_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>b5be326a6be5af6498750c143483d6c58b23c6d508d5c74630a31af66be3876a  ./libc6_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>5b3f5884deea4c68307356c797a572dd7565102c2b9a80f4f2cf90afd18036a8  ./libc6-i386_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>2923bc305b1667b53c1c1ab34bbc58f17f15539d6d1408878aec1480c0f21836  ./nscd-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>ed17d5b65f14eb53fb1fabaab14a2087b01a1f23b7bc1bec7a64350bb4e9846d  ./locales-all_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>e22a5e85e4bd5a4915258631e1dca9aaf5e8aca95751811daaa63f0ec02d0ec1  ./libc6-x32_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>f4be13d061c8821a7763feadf9f976021c42532250427ed538796c5a78d24ae4  ./nscd-dbgsym_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>f7714c297184b9d5e632fad436c926fd482041270e819bd6d81404d2671741b0  ./libc-devtools-dbgsym_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>53ffc66625d41dad8a20938598f5c69344752660e66c8c4c34fb3b10376a5e74  ./libc6-dev_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>ac7a8117e66db18e04b94278eb8182522f3068433f9a945111a79e3f5e07e81a  ./libc-dev-bin_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>be5063f57edf58acbff33b59147cce75ed748d018c95fe0583534ac6776c47cf  ./libc6-dbg_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>c8ca50873a68f756b50e82171868a8b2614a119cca358f81c9a96348afea8843  ./libc-bin_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>62cabf3da198f86976aea413ddfb64760152544e2d6cb08c5839bf0ccf75d512  ./libc6-dev_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>96e84841a42f87313ac45f420c6ec975d09a642120936e7dc2f7266c9851f77d  ./glibc_2.41-12+deb13u1gl0~bp1877.debian.tar.xz<br>e3bf2efa9b64a1b5c3cbddd8575385ac89503427c79b3fe2030c5a2787129d84  ./locales_2.41-12+deb13u1gl0~bp1877_all.deb<br>01ebccdd21e115cb5c46579c96311cea9da0a35348f15992923b39060c951ce8  ./glibc_2.41-12+deb13u1gl0~bp1877_arm64.changes<br>c0bd4fdb9f7fda059dec886583cd018e8536d8a2b521fc2008e56743833696f0  ./libc6-dev-x32_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>53400a201dc4463551d390464061e05fda6b1dd1498334d4c72ed2a5c53b0f09  ./glibc-source_2.41-12+deb13u1gl0~bp1877_all.deb<br>c5cf0ce0df642b5b67930dea4c60d1e054bc95cc162dae4cf44e1fa750086a0f  ./libc-l10n_2.41-12+deb13u1gl0~bp1877_all.deb<br>bbc063869ae1edf0af71f9b5b6c5898b474615862020d3f851aa63bea645f198  ./libc-devtools_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>d1784bbb2114e309e1bb9c9e195cd60d9b6ec986995a458f9a73317f2834339e  ./libc-bin-dbgsym_2.41-12+deb13u1gl0~bp1877_amd64.deb<br>037acb38ba52a82a79a27a599f0c3b42c8164c7d0927da4025d28dc5139c110b  ./libc6-dev-dbgsym_2.41-12+deb13u1gl0~bp1877_arm64.deb<br>cdf989a33af7ac1e5d61351b1f92f5a7bb97bbb024a370a71ad5794f700ef584  ./nscd_2.41-12+deb13u1gl0~bp1877_arm64.deb<br></code>``</p>]]></description>
         </item>
 <item>
             <title>gardener/machine-controller-manager-provider-alicloud - v0.14.1</title>
@@ -4547,28 +4566,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
             <pubDate>Tue, 13 Jan 2026 00:32:43 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/bp-package-libcares2/actions/runs/20940050603">20940050603</a></p>
 <p>Files in this release:<br>``<code><br>53fe976c692b7608b192e05f68f1fc5e0da5c372d669db108b19e9c5cbe4f594  ./libc-ares-dev_1.34.6-1gl0_arm64.deb<br>a44dfd52d10ed0a2d87f019f612457e9b45e36ca96e0cc80b77157987a2aaef7  ./libcares2-dbgsym_1.34.6-1gl0_amd64.deb<br>de8c5e6220298b876a56e76fd25819f5c0c1f284a8780f384d916e7373154b56  ./libc-ares-dev_1.34.6-1gl0_amd64.deb<br>c0e3ca497e9dde4b0865178b97ba50e557ede3349fa0e11c7a218464ec2a1ef3  ./c-ares_1.34.6-1gl0_amd64.changes<br>83fa635889d3ad9ccd671c1631f5c9d562af9a3c9818325e81115be4c075ebaa  ./c-ares_1.34.6.orig.tar.xz<br>bb1be21dbb23b8313fbfc41ba35308ae2564acb9c2c2d3eed7cb760259ac54db  ./c-ares_1.34.6-1gl0_amd64.buildinfo<br>4753689b79b880ee425663c5e8d1c6f66f43891bfd0f19e17668874c92e40b22  ./libcares2_1.34.6-1gl0_arm64.deb<br>df1ae72e1d2c44b90f2077c033d52511a8d6d14942d522b398cb93eb296f44f4  ./c-ares_1.34.6-1gl0_arm64.changes<br>dff29d71155e9dc14b92da18be5599a06e76aa445c1054b337821fc27a83d5e3  ./c-ares_1.34.6-1gl0_arm64.buildinfo<br>498aff15b89f4b4e19dfd05c3af30e0ea3db76c8fb558e8f53d59680376bba66  ./c-ares_1.34.6-1gl0.dsc<br>88f7e51d89c6278f87625c518f9b07eb3c2a1cf00cafd5a09eb6fb1ebff7fd10  ./libcares2_1.34.6-1gl0_amd64.deb<br>d152542fbd6749c9a88b09069d9ecdf9cb62dc1db2d4377ed52c956ead72723f  ./c-ares_1.34.6-1gl0.debian.tar.xz<br>3d0b75c45f0317f1d9f715f7d2b8edd4ec954da8cb0164bd52b3c76520a845a9  ./libcares2-dbgsym_1.34.6-1gl0_arm64.deb<br>cec4a145faec644d8a8ef8903b49b4625906d6f563f473600a761b3b28338904  ./libc-ares2_1.34.6-1gl0_all.deb<br></code>``</p>]]></description>
-        </item>
-<item>
-            <title>open-resource-discovery/provider-server - v1.0.1</title>
-            <link>https://github.com/open-resource-discovery/provider-server</link>
-            <guid>https://github.com/open-resource-discovery/provider-server/releases/tag/v1.0.1</guid>
-            <pubDate>Mon, 12 Jan 2026 16:43:16 +0000</pubDate>
-            <description><![CDATA[<h3>Changed</h3>
-<ul><li>Add <code>system-type</code> perspective to the filter section in <code>README.md</code> and use the original <code>Perspective</code> type</li><li>Updated dependencies</li></ul>
-<h3>Commits</h3>
-<ul><li><a href="https://github.com/open-resource-discovery/provider-server/commit/5e4c0e412c09ba31fed7187a3a1c74e4ba8dd5e0">5e4c0e4</a> chore: use perspective type from spec (#209) (Juri J.)</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/66473622c8bdd8f30b93cf0cce7f12789d786f51">6647362</a> chore(deps): update dependency @open-resource-discovery/specification to v1.13.0 (#206) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/22154563c7fadacc1bf0ed2bab32098e6d12fa29">2215456</a> chore(deps): replace typescript build tools (#205) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/9898cc606fb6df4f6bc14bfa894285241745a57b">9898cc6</a> chore(deps): pin dependency test-exclude to 7.0.1 (#196) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/d6df01a2d27a6a0adb22f7c83b671406cf03c51a">d6df01a</a> chore(deps): update dependency glob to v13 (#202) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/499e14da9711b9513b8800664e570fd131b116c2">499e14d</a> chore(deps): update dependency pino to v10.1.1 (#211) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/acbf6c48ca69f7fa7617933a05a227b84c8f259a">acbf6c4</a> chore(deps): update dependency @sap/eslint-config to v0.4.1 (#210) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/0d5a50b6bb630a9eac89fe90d32c1694c0fe2059">0d5a50b</a> Enable trust publishing for NPM package (#208) (Pavel Kornev)</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/b9a4d5d3bdbe5c0da0272d38db3a8e4c994544f3">b9a4d5d</a> chore(deps): update dependency @fastify/static to v9 (#207) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/af018b1268a0fcffaf2c34a1d780cff34cfef0f1">af018b1</a> chore(deps): update dependency isomorphic-git to v1.36.1 (#204) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/de64fdc73cb9117ea5dab333c57a8da17989308a">de64fdc</a> chore(deps): update dependency @types/node to v24.10.4 (#203) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/dfe38314c516a3b6eb5a50908eb115b5974a7ae0">dfe3831</a> chore(deps): update dependency isomorphic-git to v1.36.0 (#200) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/7a33344e8128acf04167a79f12365264a5586fa4">7a33344</a> chore(deps): update node.js to v24.12.0 (#201) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/d7bbbf414acf0f566483c0970e691f194f448efb">d7bbbf4</a> chore(deps): update dependency @fastify/cors to v11.2.0 (#199) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/1ee5be1f84f2213d1b6d0e6f1441b94811b7b90e">1ee5be1</a> chore(deps): update linting tools to v9.39.2 (#198) (renovate[bot])</li><li><a href="https://github.com/open-resource-discovery/provider-server/commit/66209eba3ce630eb81486722e93f99d24d5225af">66209eb</a> chore(deps): update dependency @types/node to v24.10.3 (#197) (renovate[bot])</li></ul>
-<h3>Contributors</h3>
-&lt;table&gt;&lt;tr&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/jurijat&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/105035926?v=4&#x27; alt=&#x27;Juri J.&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Juri J.&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;td align=&#x27;center&#x27;&gt;
-      &lt;a href=&#x27;https://github.com/pavelkornev&#x27;&gt;
-        &lt;img src=&#x27;https://avatars.githubusercontent.com/u/748043?v=4&#x27; alt=&#x27;Pavel Kornev&#x27; width=&#x27;50&#x27; height=&#x27;50&#x27; style=&#x27;border-radius: 50%;&#x27;&gt;&lt;br&gt;
-        &lt;span&gt;Pavel Kornev&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;]]></description>
         </item>
 <item>
             <title>gardenlinux/package-checkbox-provider-tpm2 - checkbox-provider-tpm2_2.8gl0</title>
