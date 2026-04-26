@@ -4,34 +4,43 @@
     <title>NeoNephos GitHub Releases</title>
     <link>https://github.com</link>
     <description>Latest NeoNephos GitHub releases</description>
-    <lastBuildDate>Sat, 25 Apr 2026 12:09:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 12:12:07 +0000</lastBuildDate>
 
     <item>
-            <title>platform-mesh/portal - v0.21.30</title>
-            <link>https://github.com/platform-mesh/portal</link>
-            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.30</guid>
-            <pubDate>Sat, 25 Apr 2026 06:34:58 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/561</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.29...v0.21.30</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/iam-service - v0.16.13</title>
-            <link>https://github.com/platform-mesh/iam-service</link>
-            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.16.13</guid>
-            <pubDate>Sat, 25 Apr 2026 02:02:42 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.16.1 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/479</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.16.12...v0.16.13</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/extension-manager-operator - v0.8.21</title>
+            <title>platform-mesh/extension-manager-operator - v0.8.22</title>
             <link>https://github.com/platform-mesh/extension-manager-operator</link>
-            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.21</guid>
-            <pubDate>Sat, 25 Apr 2026 01:41:22 +0000</pubDate>
+            <guid>https://github.com/platform-mesh/extension-manager-operator/releases/tag/v0.8.22</guid>
+            <pubDate>Sun, 26 Apr 2026 10:14:59 +0000</pubDate>
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.16.1 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/819</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.20...v0.8.21</p>]]></description>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.16.2 by @renovate[bot] in https://github.com/platform-mesh/extension-manager-operator/pull/820</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/extension-manager-operator/compare/0.8.21...v0.8.22</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/security-operator - v0.30.33</title>
+            <link>https://github.com/platform-mesh/security-operator</link>
+            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.33</guid>
+            <pubDate>Sun, 26 Apr 2026 09:58:21 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.16.2 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/514</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.32...v0.30.33</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/portal - v0.21.31</title>
+            <link>https://github.com/platform-mesh/portal</link>
+            <guid>https://github.com/platform-mesh/portal/releases/tag/v0.21.31</guid>
+            <pubDate>Sun, 26 Apr 2026 01:01:04 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>chore(deps): lock file maintenance by @renovate[bot] in https://github.com/platform-mesh/portal/pull/562</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/portal/compare/0.21.30...v0.21.31</p>]]></description>
+        </item>
+<item>
+            <title>platform-mesh/iam-service - v0.16.14</title>
+            <link>https://github.com/platform-mesh/iam-service</link>
+            <guid>https://github.com/platform-mesh/iam-service/releases/tag/v0.16.14</guid>
+            <pubDate>Sat, 25 Apr 2026 14:14:01 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>fix(deps): update module github.com/platform-mesh/security-operator to v0.30.13 by @renovate[bot] in https://github.com/platform-mesh/iam-service/pull/483</li></ul>
+<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/iam-service/compare/0.16.13...v0.16.14</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/account-operator - v0.14.20</title>
@@ -41,15 +50,6 @@
             <description><![CDATA[<h2>What&#x27;s Changed</h2>
 <ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.16.1 by @renovate[bot] in https://github.com/platform-mesh/account-operator/pull/231</li></ul>
 <p><strong>Full Changelog</strong>: https://github.com/platform-mesh/account-operator/compare/0.14.19...v0.14.20</p>]]></description>
-        </item>
-<item>
-            <title>platform-mesh/security-operator - v0.30.32</title>
-            <link>https://github.com/platform-mesh/security-operator</link>
-            <guid>https://github.com/platform-mesh/security-operator/releases/tag/v0.30.32</guid>
-            <pubDate>Fri, 24 Apr 2026 22:21:02 +0000</pubDate>
-            <description><![CDATA[<h2>What&#x27;s Changed</h2>
-<ul><li>fix(deps): update module github.com/platform-mesh/golang-commons to v0.16.1 by @renovate[bot] in https://github.com/platform-mesh/security-operator/pull/513</li></ul>
-<p><strong>Full Changelog</strong>: https://github.com/platform-mesh/security-operator/compare/0.30.31...v0.30.32</p>]]></description>
         </item>
 <item>
             <title>platform-mesh/platform-mesh-operator - v0.72.6</title>
@@ -4430,16 +4430,6 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
 </code>``]]></description>
         </item>
 <item>
-            <title>gardenlinux/python-gardenlinux-lib - python-gardenlinux-lib v1.0.0-pre1</title>
-            <link>https://github.com/gardenlinux/python-gardenlinux-lib</link>
-            <guid>https://github.com/gardenlinux/python-gardenlinux-lib/releases/tag/python-gardenlinux-lib v1.0.0-pre1</guid>
-            <pubDate>Tue, 03 Feb 2026 13:54:19 +0000</pubDate>
-            <description><![CDATA[<p># Changelog<br>All notable changes since last release will be documented below.</p>
-<h3>Added</h3>
-<ul><li>Add support to create pre-releases with a generated changelog</li></ul>
-&lt;!-- generated by git-cliff --&gt;]]></description>
-        </item>
-<item>
             <title>gardener/aws-ipam-controller - v0.10.0</title>
             <link>https://github.com/gardener/aws-ipam-controller</link>
             <guid>https://github.com/gardener/aws-ipam-controller/releases/tag/v0.10.0</guid>
@@ -4995,6 +4985,16 @@ ocm get component github.com/platform-mesh/platform-mesh:0.2.0 --repo ghcr.io/pl
             <pubDate>Tue, 18 Nov 2025 00:22:32 +0000</pubDate>
             <description><![CDATA[<p>created by GitHub actions run <a href="https://github.com/gardenlinux/package-krb5/actions/runs/19449281613">19449281613</a></p>
 <p>Files in this release:<br>``<code><br>8c5870f02f1b790d5c90ed3fc6d172ff9740115c19b41c866108a564bedb096d  ./krb5-kdc-ldap-dbgsym_1.22.1-2gl0_amd64.deb<br>9665ccb74408a04cb3bd5153f090951daad6a5f8448ec0c2df472e41658c28e6  ./libkadm5clnt-mit12_1.22.1-2gl0_arm64.deb<br>cb3c4d68483943aa5438c29d542b2660ebbb77a7e99757af89db6fd81677e9cb  ./krb5-otp_1.22.1-2gl0_amd64.deb<br>bf35dea70ec94282315f7c60c5089c6db21445c27d0a78d9f05e9363e304108c  ./krb5-k5tls_1.22.1-2gl0_arm64.deb<br>570dc7042205ed75f018485f00a99756b04f1da48d8fa7f376f7f0bcba55b7cc  ./libkrb5support0_1.22.1-2gl0_amd64.deb<br>085c1498cff3301f917d60cc7894d682cf8ddd3cf2a727731190a2e57ef53e18  ./krb5-gss-samples_1.22.1-2gl0_amd64.deb<br>0719d39a055d53a84bfbe0b8c8fcfefe9eb0f5aa3f73c0421b28d95043e8a963  ./libkrb5-3_1.22.1-2gl0_amd64.deb<br>f4565386e31aedeb7dc4c9172e063af994b55c9fdcd266e8a589ab580bae8edb  ./krb5_1.22.1-2gl0_arm64.changes<br>75f519ffef78146ec518fd7d2d2ef68c31642293f77970ca5d85092ba2c5cf0f  ./krb5-pkinit-dbgsym_1.22.1-2gl0_arm64.deb<br>2106c2f76109a1ef98cdaa7b515c0f8a00adc7edcb3a1bf5930d04d411ea35d8  ./libkrad-dev_1.22.1-2gl0_arm64.deb<br>d64d2924b731be25257890ef750afd6ec0050871ffdba0c7a2cf4da8af4416e3  ./krb5-multidev_1.22.1-2gl0_amd64.deb<br>b7ba21f19555efea6cb521f175aec808a590fe440bd34984735ca656c81a8831  ./libkrb5-dev_1.22.1-2gl0_arm64.deb<br>340b07269ff607a83b10d76ca193f4fb1ac7ae12c931a095959d897ddb359556  ./krb5-kdc_1.22.1-2gl0_amd64.deb<br>361ffb1d5bcf01a41ef0deb812fb7ce1ea94d704bebe5fd7e75005147078f15f  ./krb5_1.22.1-2gl0_amd64.buildinfo<br>6e330a5c13bbbb64fc71d57038c92bdcd066dd1a6a2e8c3a5af86ccb158b86c6  ./krb5-kdc_1.22.1-2gl0_arm64.deb<br>f193fa383315aaace5edb7eb3fdc83d54ab22f424ff31a9dd3500ed82014e520  ./krb5_1.22.1-2gl0_amd64.changes<br>ee32d51ed3c44623adede456fb09f0dbb59dcf04ad5c9c3ba824673b48715f4c  ./krb5-kdc-ldap_1.22.1-2gl0_amd64.deb<br>5534798315a10548415a31fb5ef1543c9e1107a8207c19cbf57b4768af5b6be9  ./krb5-kpropd-dbgsym_1.22.1-2gl0_arm64.deb<br>6850dd1cf3f41bb23e5f686556bb8a8ac3b875436eca3f32faaf415b1ebee62b  ./krb5-kpropd-dbgsym_1.22.1-2gl0_amd64.deb<br>231518e81afe7b5cea387ad1cd7586a5152f409bed10e5d6001336c64fdcad84  ./krb5-kdc-dbgsym_1.22.1-2gl0_amd64.deb<br>2573c2dd638dd4b69fdcb309904fc2801c2b97139ff09ee27b1b5cc241117608  ./libgssrpc4t64_1.22.1-2gl0_arm64.deb<br>d45f8a6ec40657c7714fd01ba17fbe1b71bf0685e06bd3ddb64d099269ee8422  ./libgssrpc4t64_1.22.1-2gl0_amd64.deb<br>c783754cfdec2bf6c6d3d093f87752d35b306e347ee440ca78ba9113ae30a8f9  ./krb5_1.22.1-2gl0_arm64.buildinfo<br>17eea9610b12fe70748d62fb95621b48403f197badb596924a3545be91e841a0  ./libkrad-dev_1.22.1-2gl0_amd64.deb<br>9b89af9550fa07977a1197a4a3f75ec755bda484e87c0bdeb2b3ffdc4fd899e7  ./krb5-multidev_1.22.1-2gl0_arm64.deb<br>585f68cb3af2ff907b9bbd70b9e7bbcfa3ab45caa2d1caa266d286ccb53066e7  ./krb5_1.22.1-2gl0.dsc<br>c3d342d368aa69eab5b848301804e833b47f96de0d8ea8da1ec7dd359048a88e  ./libkrb5-dev_1.22.1-2gl0_amd64.deb<br>f8671a73cec6787198832728d11adfea7591151773ab9d85e3dad7f593731e3b  ./libk5crypto3_1.22.1-2gl0_amd64.deb<br>867cfe77e2761102b9ffb4cecc598b0e1197d98cc0e36bcc587e13bd5fb0b3c3  ./libkrb5-dbg_1.22.1-2gl0_amd64.deb<br>1b5d5ff22222180dfb86e06c4808f8c8633e5bc1487c25ebcea4965bd557f484  ./krb5-kdc-dbgsym_1.22.1-2gl0_arm64.deb<br>8d18085f9874116b275a98fb0fe3a216b8530609e3e36c79504027e5ac8e0c75  ./libkadm5clnt-mit12_1.22.1-2gl0_amd64.deb<br>66b33da6044268f88f5a6d4093bd0339740cc372bb7130b5944e8b102e7bdcbb  ./krb5-k5tls-dbgsym_1.22.1-2gl0_amd64.deb<br>67ad04159f9f9e263fd442fad8cd8e9273961c0a2889e767e140b2ad89c884ee  ./libgssapi-krb5-2_1.22.1-2gl0_amd64.deb<br>614450190e8b93d486d589cf0f5eaf2a2cb29a41116346c78933a893b75bf1aa  ./krb5-gss-samples-dbgsym_1.22.1-2gl0_amd64.deb<br>4520e69287c1798e258e34741a52dda119946b4272f7a4c096fc62bd72d8cdfa  ./krb5-user-dbgsym_1.22.1-2gl0_amd64.deb<br>16b7a09bc60c4166151d59e5bf3f873dbfcdfd62bcca2bfa08ad652b2f15decf  ./krb5_1.22.1.orig.tar.xz<br>3412cc04f92b06113b95d8e4608553d163a7ee8b3d93ff981e81ee0d0be8f5e2  ./krb5-admin-server_1.22.1-2gl0_amd64.deb<br>78e5be8da868d224173b47c7ae23fb8f11f2d2427940e2bb2e33da266f813712  ./krb5-otp-dbgsym_1.22.1-2gl0_amd64.deb<br>5091d9c80ab4e9da320052a4b142610b2719060295190a473a7b28f497bc282b  ./libkrad0_1.22.1-2gl0_amd64.deb<br>0a8989d73d11f6df0fc7ff3246f1b5e4e66b76ef0b9fd4f83f3f392f16818154  ./krb5-admin-server-dbgsym_1.22.1-2gl0_arm64.deb<br>e83612b5bfac1e79f25c4ea5a96eda0c88762a0ceda57ddc5983bb58754e4588  ./libkadm5srv-mit12_1.22.1-2gl0_amd64.deb<br>c6988b4fb9a4ac7175c128907d889d671d95ac9d86b1cef41cab5e6099306f71  ./libkrad0_1.22.1-2gl0_arm64.deb<br>cf0ba9d215f0ad014d7f14ea3c11468f63d79d0cba391405369fa2cc47386f1b  ./libkdb5-10t64_1.22.1-2gl0_amd64.deb<br>ae7706e3d9e765b51910efc1f4ba95a4f826e29d932fa78278dc1a2a4a7f8663  ./libkrb5-3_1.22.1-2gl0_arm64.deb<br>9ec90535d0097c837a8ed97c23e564fdb6d9d0617002208b901f4ffec5ef45ff  ./libkadm5srv-mit12_1.22.1-2gl0_arm64.deb<br>879f00d5ecf742dfe432fb7020304b7b2fd8615f8ce7b3daf9220345de1f74c0  ./krb5-k5tls-dbgsym_1.22.1-2gl0_arm64.deb<br>6bf19b3326079b24672941f53dba1a7695caad65281cce86c0ced52204ab2c58  ./krb5-kdc-ldap-dbgsym_1.22.1-2gl0_arm64.deb<br>118e6eeaa6f909e6515428a76dbec1de94c5313e0a2f32b262e4f2b1ef6f0e1a  ./krb5-pkinit-dbgsym_1.22.1-2gl0_amd64.deb<br>5c81d42440ef2afe75ccb833ceef4e2b8b8109769f058fd90cb1a8c78d840a22  ./krb5-k5tls_1.22.1-2gl0_amd64.deb<br>ccb05a6ed121e9396b01cc5f37e994402773324c5afef262a11a7d7ef1a8246b  ./krb5-doc_1.22.1-2gl0_all.deb<br>de36a1fc4751eeb4f6ef9c738e144e777e8c12a7124300ba307d5624cb618d76  ./krb5-kpropd_1.22.1-2gl0_arm64.deb<br>8985fcd4a0f217aa7caac54e1d6ccb5e03ccba7b15b5d7968cb4def9fbdc8122  ./krb5-gss-samples-dbgsym_1.22.1-2gl0_arm64.deb<br>71ab55366c120a0c4af5159a0e1239ebf7ca7c5eef4e8ac083c278be3e37e3a7  ./krb5-pkinit_1.22.1-2gl0_arm64.deb<br>23040b70b104317ecacc3cd450ca3af9943da6c85351066108cf9e7ef3dbd6b5  ./krb5-admin-server_1.22.1-2gl0_arm64.deb<br>f03f34e21411df626f9d336990134e95b25b6b3bd9c6b54a388e5e69676aed8b  ./libkrb5support0_1.22.1-2gl0_arm64.deb<br>49b8d39cac43c4a759f54f52b384bd272ffcd480619f2df62194afeea8ad02fa  ./krb5-user_1.22.1-2gl0_amd64.deb<br>bf11fee007aed15bbb9889010ee19c9a16c7c49c88274ab8583747e8c3cf5483  ./libkrb5-dbg_1.22.1-2gl0_arm64.deb<br>c0c98964b194bccbd059310e9dbfec459020df13115ccfa41057fc13d2016089  ./krb5-admin-server-dbgsym_1.22.1-2gl0_amd64.deb<br>7186f1d847a8d018b0024128a43809d207a583d120c317109ff2821f7a71f35f  ./krb5-user-dbgsym_1.22.1-2gl0_arm64.deb<br>41dd7c52c203bc4bab3ecca88818c098a3b46107227bdce9ca5282f5d498c2f0  ./krb5-kdc-ldap_1.22.1-2gl0_arm64.deb<br>5a334e3c7df152085b5cc6d2921705d7a7e959e7053ec59b0818156561a4c9d3  ./krb5-user_1.22.1-2gl0_arm64.deb<br>fa0173f0d3284d5c2982bb85c29c0c726c335ff5b2cd881479b75ceab83a00d5  ./libk5crypto3_1.22.1-2gl0_arm64.deb<br>ccbb10515920d6fd2152a881496e003b909d296cdb7f61f3040e96cb9bb02241  ./libgssapi-krb5-2_1.22.1-2gl0_arm64.deb<br>d269e72eba23630c19971eb110b9c8a04663af2f5a3b19df192c5826ef67cca7  ./krb5-kpropd_1.22.1-2gl0_amd64.deb<br>6772a9d33a88932058ecb932ef90a2466d98f435cccff94711b4ecfef67ffd71  ./krb5-pkinit_1.22.1-2gl0_amd64.deb<br>8ff28277852067c04cc36882a0dd0ec468618dc99b7c0a974a7be46a71bfe1fa  ./krb5-gss-samples_1.22.1-2gl0_arm64.deb<br>20261630740a9b459cc6acc4edf06e239d15ea5dd65e4ebe402a6ecb93b5bca0  ./krb5-otp_1.22.1-2gl0_arm64.deb<br>60fc6989d9f305671b3565b83ef794407ab91e8204f30244edcd69e2420144e5  ./krb5-locales_1.22.1-2gl0_all.deb<br>624dc3b78479331d8f97c0f2b5a51a1296e94b127e2c861e31b1cc1920d06914  ./krb5_1.22.1-2gl0.debian.tar.xz<br>8e10eeaac81ba0a5d8ef96629b5b691b6b8d3656e21851765b4dc9dce090cac7  ./libkdb5-10t64_1.22.1-2gl0_arm64.deb<br>89364c05586cf5ead3008b9134e81fbbd43d523876f22523829be6bcccd21dfe  ./krb5-otp-dbgsym_1.22.1-2gl0_arm64.deb<br></code>``</p>]]></description>
+        </item>
+<item>
+            <title>gardenlinux/python-gardenlinux-lib - 0.10.5</title>
+            <link>https://github.com/gardenlinux/python-gardenlinux-lib</link>
+            <guid>https://github.com/gardenlinux/python-gardenlinux-lib/releases/tag/0.10.5</guid>
+            <pubDate>Wed, 05 Nov 2025 15:33:17 +0000</pubDate>
+            <description><![CDATA[<h2>What&#x27;s Changed</h2>
+<ul><li>build(deps): bump boto3 from 1.40.57 to 1.40.59 by @dependabot[bot] in https://github.com/gardenlinux/python-gardenlinux-lib/pull/239</li><li>build(deps-dev): bump pyright from 1.1.406 to 1.1.407 by @dependabot[bot] in https://github.com/gardenlinux/python-gardenlinux-lib/pull/242</li><li>build(deps-dev): bump python-dotenv from 1.1.1 to 1.2.1 by @dependabot[bot] in https://github.com/gardenlinux/python-gardenlinux-lib/pull/240</li><li>build(deps): bump actions/upload-artifact from 4 to 5 by @dependabot[bot] in https://github.com/gardenlinux/python-gardenlinux-lib/pull/241</li><li>Add support to generate container names and tags by @NotTheEvilOne in https://github.com/gardenlinux/python-gardenlinux-lib/pull/243</li><li>fix: add media type for cmdline by @nkraetzschmar in https://github.com/gardenlinux/python-gardenlinux-lib/pull/247</li></ul>
+
+<strong>Full Changelog</strong>: https://github.com/gardenlinux/python-gardenlinux-lib/compare/0.10.4...0.10.5]]></description>
         </item>
 <item>
             <title>openmcp-project/control-plane-operator - Release v0.1.19</title>
