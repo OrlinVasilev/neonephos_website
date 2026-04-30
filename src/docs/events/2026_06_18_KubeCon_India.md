@@ -26,12 +26,13 @@ Vasu Chandrasekhara NeoNephos
 
 **Summary**:
 
-    We first trace the evolution of the "aerodynamics" of the K8s data, control, and work planes. As we dissect the architectural building blocks and controller archetypes of K8s, we discover the kubelet controller pattern as an universal design principle, with which we easily explain the unfolding of K8s Inception with Hosted Control Planes (HCP), where any control plane becomes a recursive workload in K8s itself.
+We first trace the evolution of the "aerodynamics" of the K8s data, control, and work planes. As we dissect the architectural building blocks and controller archetypes of K8s, we discover the kubelet controller pattern as an universal design principle, with which we easily explain the unfolding of K8s Inception with Hosted Control Planes (HCP), where any control plane becomes a recursive workload in K8s itself.
     
-    Armed with these concepts we come to the ultimate, supersonic plane: KCP, the pure data and API plane.
-    Learn how to mentally decouple K8s from its underlying infrastructure and move toward a truly scalable, declarative API-first future. The next evolution in cloud-native. With KCP, and by treating KRM as a universal interface, we will show how you can benefit from the same pattern used to manage a single pod, to engineer global-scale platforms.
+Armed with these concepts we come to the ultimate, supersonic plane: KCP, the pure data and API plane.
+Learn how to mentally decouple K8s from its underlying infrastructure and move toward a truly scalable, declarative API-first future. The next evolution in cloud-native.
+With KCP, and by treating KRM as a universal interface, we will show how you can benefit from the same pattern used to manage a single pod, to engineer global-scale platforms.
     
-    At each architecture evolution step, we accompany a demo and use case: from single clusters, vClusters, clusters with HCP, and KCP.
+At each architecture evolution step, we accompany a demo and use case: from single clusters, vClusters, clusters with HCP, and KCP.
 
 ---
 
