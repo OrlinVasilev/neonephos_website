@@ -22,7 +22,7 @@ Let's dive throug all the points in order.
 ### Onboard First NeoNephos Ambassador
 
 While applications to the ambassador program are still private as of the time of this writing, behind the scenes the first ambassadors are evaluated. This first set of people have already proven their value to the NeoNephos Foundation in the past and serve as good first candidates to start the ambassador program.
-We hope to officially announce the onboarding of the first Ambassador in Q2 2026.
+We expect to officially announce the onboarding of the first Ambassador in Q2 2026.
 
 ### Finalize Project Lifecycle
 
@@ -31,7 +31,7 @@ The development of this document is public and you can contribute [here](https:/
 
 ### Introduce New NeoNephos Logomark
 
-NeoNephos lacks a clear logomark yet. Several designs are in the pipeline and we are confident to introduce one soon.
+NeoNephos lacks a clear logomark yet. Several designs are in the pipeline. The new logomark will be introduced in the coming weeks.
 
 ### Participate at KubeCon+CloudNativeCon India
 
