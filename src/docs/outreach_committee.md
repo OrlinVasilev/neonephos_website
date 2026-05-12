@@ -11,7 +11,7 @@ members:
   - name: "Annika Opitz"
     email: "annika.opitz@stackit.cloud"
     imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
-    role: "Schwarz Digits Cloud GmbH & Co. KG Premier Rep."
+    role: "Chairperson and Schwarz Digits Cloud GmbH & Co. KG Premier Rep."
     details: ""
     link: ""
   - name: "Jürgen Bolz"
