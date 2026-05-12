@@ -55,6 +55,10 @@ members:
 
 tilesHeading: Learn more!
 tiles:
+  - title: "Election Policy"
+    details: "Learn about election periods and more."
+    linkText: "Election Policy"
+    linkUrl: "/election_policy"
   - title: Us on Zulip
     details: We are available on Zulip. Let's chat!
     linkText: Zulip Channel
