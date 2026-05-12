@@ -48,9 +48,14 @@ console.log(rawPosts);
     </div>
 
     <div class="role-item">
-      <h3>TAC Vice Chairperson</h3>
+      <h3>TAC Chairperson</h3>
       <span class="period">Reviewed annually in October</span>
       <p><strong>Who votes:</strong> Voting TAC representatives</p>
+    </div>
+    <div class="role-item">
+      <h3>Outreach Committee Chairperson</h3>
+      <span class="period">Reviewed annually in October. (*) Current term May 26 to September 26.</span>
+      <p><strong>Who votes:</strong> Voting Outreach Committee representatives</p>
     </div>
   </div>
 
