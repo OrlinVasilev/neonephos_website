@@ -10,7 +10,7 @@ hero:
 members:
   - name: "Annika Opitz"
     email: "annika.opitz@stackit.cloud"
-    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/kube3anni.png?v=1775136552975"
     role: "Chairperson and Schwarz Digits Cloud GmbH & Co. KG Premier Rep."
     details: ""
     link: ""
@@ -40,7 +40,7 @@ members:
     link: ""
   - name: "Roberto Vanoni"
     email: ""
-    imgsrc: "https://htmlcolorcodes.com/assets/images/colors/steel-gray-color-solid-background-1920x1080.png"
+    imgsrc: "https://platform-logos-myprofile-api-prod.s3.us-east-2.amazonaws.com/robva74.png?v=1769430213120"
     role: "Clyso General Rep."
     details: ""
     link: ""      
