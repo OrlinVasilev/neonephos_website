@@ -12,7 +12,7 @@ published: true
 
 # NeoNephos April Community Call
 
-On May 5th we again bring together the NeoNephos community in our Community Call! We will present general foundation updates and hold an exhaustive Q&A.
+On May 5th we again bring together the NeoNephos community in our Community Call! We will present general foundation updates and hold an exhaustive Q&A. Additionally, John Mertic from the Linux Foundation joins to give their perspective on the role of the Linux Foundation for NeoNephos.
 
 **Zoom Session Link**
 
