@@ -19,7 +19,13 @@ const { frontmatter } = useData()
     </section>
       <section>
         <CommitteeTilesThemeComponent :features="frontmatter.members" />
+
+        <CommitteeTilesThemeComponent
+          v-if="frontmatter.alternates"
+          :features="frontmatter.alternates"
+        />
       </section>
+
       <br>
       <br>
     </template>
