@@ -19,7 +19,11 @@ const { frontmatter } = useData()
     </section>
       <section>
         <CommitteeTilesThemeComponent :features="frontmatter.members" />
-
+        <br>
+        <br>
+        <p class="neonephos-home-hero-subtitle">
+        Governing Board Alternates
+        </p>
         <CommitteeTilesThemeComponent
           v-if="frontmatter.alternates"
           :features="frontmatter.alternates"
