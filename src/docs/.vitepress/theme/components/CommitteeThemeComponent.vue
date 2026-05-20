@@ -22,7 +22,7 @@ const { frontmatter } = useData()
         <br>
         <br>
         <p class="neonephos-home-hero-subtitle">
-        Governing Board Alternates
+        Alternates
         </p>
         <CommitteeTilesThemeComponent
           v-if="frontmatter.alternates"
